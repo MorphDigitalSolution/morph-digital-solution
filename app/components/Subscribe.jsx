@@ -5,7 +5,7 @@ import React from "react";
 function Subscribe() {
   return (
     <div className="bg-zinc-100/50">
-      <div className="max-w-6xl mx-auto grid lg:grid-cols-2 pb-10 lg:py-20">
+      <div className="max-w-6xl mx-auto grid lg:grid-cols-2 py-5 lg:py-20">
         <div className="px-5">
           <BoxReveal boxColor={"#b45309"} duration={0.5}>
             <div className="pb-2">
