@@ -15,7 +15,7 @@ function Review() {
                 </div>
               </BoxReveal>
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
-                <div className="text-4xl lg:text-5xl font-extrabold lg:py-2 capitalize">
+                <div className="text-4xl lg:text-5xl font-extrabold pt-2 lg:py-2 capitalize">
                   <span className="text-amber-700">Review's</span> of Clients
                 </div>
               </BoxReveal>
@@ -30,7 +30,7 @@ function Review() {
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
               <a
                 href=""
-                className="bg-white block rounded-full py-3 px-6 text-black text-[0.9rem] font-semibold uppercase"
+                className="bg-white hover:bg-amber-700 hover:text-white duration-300 rounded-full py-3 px-6 text-black text-[0.9rem] flex text-center font-semibold uppercase"
               >
                 View More
               </a>

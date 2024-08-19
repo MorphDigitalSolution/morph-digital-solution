@@ -109,7 +109,7 @@ function About() {
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
               <a
                 href=""
-                className="bg-amber-700 text-white uppercase py-3 px-6 block rounded-full mt-5"
+                className="bg-amber-700 hover:bg-amber-800 duration-300 text-white uppercase py-3 px-6 block rounded-full mt-5"
               >
                 More About Us
               </a>

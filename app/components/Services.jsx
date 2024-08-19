@@ -15,7 +15,7 @@ function Services() {
               </div>
             </BoxReveal>
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
-              <div className="text-3xl lg:text-5xl font-extrabold p-5">
+              <div className="text-3xl lg:text-5xl font-extrabold py-3 px-5">
                 <span className="text-amber-700">Services </span>
                 we can help you with!
               </div>

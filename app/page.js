@@ -7,6 +7,10 @@ import Goal from "./components/Goal";
 import Portfolio from "./components/Portfolio";
 import Team from "./components/Team";
 import Review from "./components/Review";
+import Contact from "./components/Contact";
+import Blog from "./components/Blog";
+import Subscribe from "./components/Subscribe";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -20,7 +24,10 @@ export default function Home() {
         <Portfolio />
         <Team />
         <Review />
-        <div className="h-screen"></div>
+        <Contact />
+        <Blog />
+        <Subscribe />
+        <Footer />
       </main>
     </>
   );
