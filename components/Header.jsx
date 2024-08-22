@@ -141,28 +141,31 @@ function Header() {
         }`}
       >
         <div className="w-full h-full relative flex flex-col items-center justify-center text-center gap-5 font-semibold uppercase">
-          <button onClick={toggleMenu} className="absolute top-8 right-8 text-3xl">
+          <button
+            onClick={toggleMenu}
+            className="absolute top-8 right-8 text-3xl"
+          >
             <BiMenuAltRight />
           </button>
           <img src="img/logo.png" alt="" className="h-24" />
-          <a href="" className="">
+          <Link href="/" className="">
             Home
-          </a>
-          <a href="" className="">
+          </Link>
+          <Link href="/about" className="">
             About
-          </a>
-          <a href="" className="">
+          </Link>
+          <Link href="/services" className="">
             Services
-          </a>
-          <a href="" className="">
+          </Link>
+          <Link href="/portfolio" className="">
             Portfolio
-          </a>
-          <a href="" className="">
+          </Link>
+          <Link href="/blogs" className="">
             Blogs
-          </a>
-          <a href="" className="">
+          </Link>
+          <Link href="/contact" className="">
             Contact
-          </a>
+          </Link>
         </div>
       </div>
     </>
