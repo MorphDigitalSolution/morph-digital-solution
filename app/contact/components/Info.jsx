@@ -28,8 +28,8 @@ function ContactInfo() {
             </div>
           </BoxReveal>
         </div>
-        <div className="grid lg:grid-cols-4 gap-8 py-10">
-            <div className="shadow-xl shadow-black/10 rounded-3xl border border-zinc-100 p-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 py-10 items-center justify-center">
+            <div className="h-full shadow-xl shadow-black/10 rounded-3xl border border-zinc-100 p-6">
                 <div className="flex gap-3 pb-3">
                     <div className="">
                         <BiCurrentLocation className="text-5xl" />
@@ -42,7 +42,7 @@ function ContactInfo() {
                 <div className="text-blue-950/70">lorem weao wrgo qr wethr</div>
                 <div className="text-blue-950/70">lorem weao wrgo qr wethr</div>
             </div>
-            <div className="shadow-xl shadow-black/10 rounded-3xl border border-zinc-100 p-6">
+            <div className="h-full shadow-xl shadow-black/10 rounded-3xl border border-zinc-100 p-6">
                 <div className="flex gap-3 pb-3">
                     <div className="">
                         <BiSolidPhoneCall className="text-5xl" />
@@ -55,7 +55,7 @@ function ContactInfo() {
                 <div className="text-blue-950/70">Tel: 09 786 063 014</div>
                 <div className="text-blue-950/70">Mob: 09 786 063 014</div>
             </div>
-            <div className="shadow-xl shadow-black/10 rounded-3xl border border-zinc-100 p-6">
+            <div className="h-full shadow-xl shadow-black/10 rounded-3xl border border-zinc-100 p-6">
                 <div className="flex gap-3 pb-3">
                     <div className="">
                         <BiMailSend className="text-5xl" />
@@ -68,7 +68,7 @@ function ContactInfo() {
                 <div className="text-blue-950/70">morphwebsite@gmail.com</div>
                 <div className="text-blue-950/70">domain@company.com</div>
             </div>
-            <div className="shadow-xl shadow-black/10 rounded-3xl border border-zinc-100 p-6">
+            <div className="h-full shadow-xl shadow-black/10 rounded-3xl border border-zinc-100 p-6">
                 <div className="flex gap-3 pb-3">
                     <div className="">
                         <FaClock className="text-5xl p-1" />

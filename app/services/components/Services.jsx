@@ -1,32 +1,12 @@
-import BoxReveal from "@/components/magicui/box-reveal";
-import TitlePillow from "@/components/TitlePillow";
-import React from "react";
-import { FaPhone } from "react-icons/fa";
+import React from 'react'
+import { FaPhone } from 'react-icons/fa'
 
 function Services() {
   return (
     <>
-      <div className="lg:h-[820px] relative bg-blend-difference bg-left bg-repeat-x bg-[url(https://demo.bosathemes.com/agence/wp-content/uploads/sites/35/2022/11/agency-img3.png)] bg-neutral-800">
-        <div className="w-full h-full bg-neutral-800/90 pt-20 lg:py-28">
-          <div className="max-w-6xl flex flex-col text-center items-center justify-center mx-auto text-white">
-            <BoxReveal boxColor={"#b45309"} duration={0.5}>
-              <div className="">
-                <TitlePillow>Service List</TitlePillow>
-              </div>
-            </BoxReveal>
-            <BoxReveal boxColor={"#b45309"} duration={0.5}>
-              <div className="text-3xl lg:text-5xl font-extrabold py-3 px-5">
-                <span className="text-amber-700">Services </span>
-                we can help you with!
-              </div>
-            </BoxReveal>
-            <BoxReveal boxColor={"#b45309"} duration={0.5}>
-              <div className="max-w-4xl px-4">
-                Lorem ipsum dolor sit amet consecte wtoh erthp eryj yukru oseh
-                eryutk wtur itate illum id quisquam, placeat fuga mollitia sunt
-                eos esse velit. Quisquam non aspernatur sequi quam.
-              </div>
-            </BoxReveal>
+      <div className="lg:h-[460px] relative bg-blend-difference bg-left bg-repeat-x bg-[url(https://demo.bosathemes.com/agence/wp-content/uploads/sites/35/2022/11/agency-img3.png)] bg-neutral-800">
+        <div className="w-full h-full bg-neutral-800/90 flex pb-10">
+          <div className="max-w-6xl w-full flex flex-col text-center items-center justify-center mx-auto text-white">
             <div className="grid lg:grid-cols-3 w-full p-10 mt-5 gap-8">
               <a
                 href=""
@@ -100,9 +80,9 @@ function Services() {
           </div>
         </div>
       </div>
-      <div className="lg:h-32"></div>
+      <div className="lg:h-32 bg-slate-100/50"></div>
     </>
-  );
+  )
 }
 
-export default Services;
+export default Services

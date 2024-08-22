@@ -12,7 +12,7 @@ import {
 
 function Footer() {
   return (
-    <div className="relative bg-blend-difference bg-left bg-repeat-x bg-[url(https://demo.bosathemes.com/agence/wp-content/uploads/sites/35/2022/11/agency-img3.png)] bg-neutral-800">
+    <div className="relative overflow-hidden bg-blend-difference bg-left bg-repeat-x bg-[url(https://demo.bosathemes.com/agence/wp-content/uploads/sites/35/2022/11/agency-img3.png)] bg-neutral-800">
       <div className="w-full h-full bg-neutral-800/80 pt-20 text-white">
         <div className="max-w-7xl mx-auto ">
           <div className="grid lg:grid-cols-9 px-5 pb-10 lg:gap-x-10 gap-y-5">
