@@ -19,18 +19,25 @@ function Portfolio() {
               </div>
             </BoxReveal>
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
-              <div className="text-center max-w-xl mx-auto text-blue-950/70">
+              <div className="text-center max-w-xl mx-auto text-neutral-500/80">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
                 vel dolor oribus alias praesentium error sunt aut pariatur
                 veniam digni.
               </div>
             </BoxReveal>
           </div>
-          <div className="grid lg:grid-cols-3 gap-8 py-8 w-full">
-            <div className="bg-slate-200 relative rounded-3xl aspect-square overflow-hidden">
+          <div className="grid lg:grid-cols-3 gap-8 lg:pt-16 py-8 w-full">
+            <div className="relative rounded-3xl aspect-square overflow-hidden group">
+              <BoxReveal boxColor={"#b4530900"} duration={0.5}>
+                <img
+                  src="img/p6.png"
+                  alt=""
+                  className="w-full group-hover:scale-105 duration-700 h-full object-cover"
+                />
+              </BoxReveal>
               <a
                 href="#"
-                className="absolute top-0 left-0 w-full h-full text-white bg-black/40 duration-300 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
+                className="absolute top-0 left-0 w-full h-full text-white bg-black/40 duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
               >
                 <div className="font-semibold text-xl">Digital Marketing</div>
                 <div className="">
@@ -39,10 +46,17 @@ function Portfolio() {
                 </div>
               </a>
             </div>
-            <div className="bg-slate-200 relative rounded-3xl aspect-square overflow-hidden">
+            <div className="relative rounded-3xl aspect-square overflow-hidden group">
+              <BoxReveal boxColor={"#b4530900"} duration={0.5}>
+                <img
+                  src="img/p5.png"
+                  alt=""
+                  className="w-full group-hover:scale-105 duration-700 h-full object-cover"
+                />
+              </BoxReveal>
               <a
                 href="#"
-                className="absolute top-0 left-0 w-full h-full text-white bg-black/40 duration-300 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
+                className="absolute top-0 left-0 w-full h-full text-white bg-black/40 duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
               >
                 <div className="font-semibold text-xl">Digital Marketing</div>
                 <div className="">
@@ -51,10 +65,17 @@ function Portfolio() {
                 </div>
               </a>
             </div>
-            <div className="bg-slate-200 relative rounded-3xl aspect-square overflow-hidden">
+            <div className="relative rounded-3xl aspect-square overflow-hidden group">
+              <BoxReveal boxColor={"#b4530900"} duration={0.5}>
+                <img
+                  src="img/p4.png"
+                  alt=""
+                  className="w-full group-hover:scale-105 duration-700 h-full object-cover"
+                />
+              </BoxReveal>
               <a
                 href="#"
-                className="absolute top-0 left-0 w-full h-full text-white bg-black/40 duration-300 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
+                className="absolute top-0 left-0 w-full h-full text-white bg-black/40 duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
               >
                 <div className="font-semibold text-xl">Digital Marketing</div>
                 <div className="">
@@ -63,10 +84,17 @@ function Portfolio() {
                 </div>
               </a>
             </div>
-            <div className="bg-slate-200 relative rounded-3xl aspect-square overflow-hidden">
+            <div className="relative rounded-3xl aspect-square overflow-hidden group">
+              <BoxReveal boxColor={"#b4005309"} duration={0.5}>
+                <img
+                  src="img/p3.png"
+                  alt=""
+                  className="w-full group-hover:scale-105 duration-700 h-full object-cover"
+                />
+              </BoxReveal>
               <a
                 href="#"
-                className="absolute top-0 left-0 w-full h-full text-white bg-black/40 duration-300 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
+                className="absolute top-0 left-0 w-full h-full text-white bg-black/40 duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
               >
                 <div className="font-semibold text-xl">Digital Marketing</div>
                 <div className="">
@@ -75,10 +103,17 @@ function Portfolio() {
                 </div>
               </a>
             </div>
-            <div className="bg-slate-200 relative rounded-3xl aspect-square overflow-hidden">
+            <div className="relative rounded-3xl aspect-square overflow-hidden group">
+              <BoxReveal boxColor={"#b4005309"} duration={0.5}>
+                <img
+                  src="img/p2.png"
+                  alt=""
+                  className="w-full group-hover:scale-105 duration-700 h-full object-cover"
+                />
+              </BoxReveal>
               <a
                 href="#"
-                className="absolute top-0 left-0 w-full h-full text-white bg-black/40 duration-300 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
+                className="absolute top-0 left-0 w-full h-full text-white bg-black/40 duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
               >
                 <div className="font-semibold text-xl">Digital Marketing</div>
                 <div className="">
@@ -87,10 +122,17 @@ function Portfolio() {
                 </div>
               </a>
             </div>
-            <div className="bg-slate-200 relative rounded-3xl aspect-square overflow-hidden">
+            <div className="relative rounded-3xl aspect-square overflow-hidden group">
+              <BoxReveal boxColor={"#b4005309"} duration={0.5}>
+                <img
+                  src="img/p1.png"
+                  alt=""
+                  className="w-full group-hover:scale-105 duration-700 h-full object-cover"
+                />
+              </BoxReveal>
               <a
                 href="#"
-                className="absolute top-0 left-0 w-full h-full text-white bg-black/40 duration-300 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
+                className="absolute top-0 left-0 w-full h-full text-white bg-black/40 duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
               >
                 <div className="font-semibold text-xl">Digital Marketing</div>
                 <div className="">

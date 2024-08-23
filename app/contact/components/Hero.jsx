@@ -1,4 +1,4 @@
-import { Fader } from "@/components/magicui/Fader";
+import BoxReveal from "@/components/magicui/box-reveal";
 import TitlePillow from "@/components/TitlePillow";
 
 function Hero() {
@@ -11,11 +11,11 @@ function Hero() {
       />
       <div className="absolute top-0 left-0 w-full h-full text-white bg-neutral-800/5 flex items-center justify-center">
         <div className="max-w-4xl flex flex-col items-center text-center pt-24">
-          <Fader boxColor={"#b45309"} duration={0.5}>
+          <BoxReveal boxColor={"#b4530900"} duration={0.5}>
             <div className="text-4xl lg:text-[4.6rem] leading-[1.1] font-extrabold pt-3 lg:py-2">
               Contact
             </div>
-          </Fader>
+          </BoxReveal>
         </div>
       </div>
     </div>

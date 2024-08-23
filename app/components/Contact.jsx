@@ -6,6 +6,7 @@ import { SlPeople } from "react-icons/sl";
 import { LiaAwardSolid } from "react-icons/lia";
 import { MdReviews } from "react-icons/md";
 import NumberTicker from "@/components/magicui/number-ticker";
+import MessageForm from "@/components/MessageForm";
 
 function Contact() {
   return (
@@ -13,10 +14,10 @@ function Contact() {
       <img
         src="img/whiteOffice.png"
         alt=""
-        className="absolute top-0 left-0 w-full h-full object-cover"
+        className="absolute top-0 left-0 w-full h-full object-cover object-right"
       />
-      <div className="relative w-full h-full z-10 bg-white/50 py-10 lg:pt-28 lg:pb-48">
-        <div className="grid lg:grid-cols-2 max-w-6xl mx-auto h-full p-8">
+      <div className="relative w-full h-full bg-white/50 py-10 lg:pt-28 lg:pb-48">
+        <div className="grid lg:grid-cols-2 max-w-7xl lg:px-20 mx-auto h-full p-8">
           <div className="">
             <div className="max-w-md">
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
@@ -31,7 +32,7 @@ function Contact() {
                 </div>
               </BoxReveal>
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
-                <div className="max-w-sm mx-auto text-blue-950/70 py-2">
+                <div className="max-w-sm mx-auto text-neutral-500/80 py-2">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Tempora vel dolor oribus alias praesentium error sunt aut
                   pariatur veniam.
@@ -94,7 +95,9 @@ function Contact() {
               alt=""
               className="w-full pt-4 px-2 lg:hidden"
             />
-            <div className="w-full lg:w-[420px] h-[580px] bg-white rounded-3xl shadow-2xl shadow-black/10"></div>
+            <div className="w-full lg:w-[390px] h-[580px] bg-white rounded-3xl shadow-2xl shadow-black/10">
+              <MessageForm className="w-full h-full p-10" />
+            </div>
             <div className="p-10 mt-20 bg-amber-700 rounded-3xl lg:hidden space-y-5">
               <div className="flex items-center text-white gap-2 justify-center flex-col">
                 <RiPagesLine className="text-7xl p-1" />
@@ -130,7 +133,7 @@ function Contact() {
           </div>
         </div>
       </div>
-      <div className="absolute hidden lg:block z-20 top-20 left-0 w-full h-full p-5">
+      <div className="absolute pointer-events-none hidden lg:block z-10 top-20 left-0 w-full h-full p-5">
         <div className="max-w-6xl mx-auto h-full flex flex-col">
           <img
             src="img/woman.png"

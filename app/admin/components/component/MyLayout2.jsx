@@ -14,36 +14,29 @@ import { cn } from "@/lib/utils";
 import BlogForm from "./BlogForm";
 import BlogList from "./BlogList";
 import axios from "axios";
+import MessageList from "./MessageList";
 
-export function MyLayout() {
+export function MyLayout2() {
   const links = [
     {
       label: "Dashboard",
       href: "/admin/dashboard",
-      icon: (
-        <IconBrandTabler className="h-5 w-5 flex-shrink-0" />
-      ),
+      icon: <IconBrandTabler className="h-5 w-5 flex-shrink-0" />,
     },
     {
       label: "Blogs",
       href: "/admin/blog",
-      icon: (
-        <IconUserBolt className="h-5 w-5 flex-shrink-0" />
-      ),
+      icon: <IconUserBolt className="h-5 w-5 flex-shrink-0" />,
     },
     {
       label: "Settings",
       href: "#",
-      icon: (
-        <IconSettings className="h-5 w-5 flex-shrink-0" />
-      ),
+      icon: <IconSettings className="h-5 w-5 flex-shrink-0" />,
     },
     {
       label: "Logout",
       href: "#",
-      icon: (
-        <IconArrowLeft className="h-5 w-5 flex-shrink-0" />
-      ),
+      icon: <IconArrowLeft className="h-5 w-5 flex-shrink-0" />,
     },
   ];
 
@@ -120,28 +113,40 @@ export const LogoIcon = () => {
 };
 
 // Dummy dashboard component with content
-// Dummy dashboard component with content
 const Dashboard = () => {
   const [blogs, setBlogs] = useState([]);
+  const [messages, setMessages] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const res = await axios.get(
-          "https://morph-api-server.vercel.app/api/blogs"
-        );
+        const res = await axios.get("https://morph-api-server.vercel.app/api/blogs");
         setBlogs(res.data);
       } catch (err) {
-        setError("Connection Time out. Please try again later.");
+        setError("Failed to load blogs. Please try again later.");
         console.error(err.message);
-      } finally {
-        setLoading(false);
       }
     };
 
-    fetchBlogs();
+    const fetchMessages = async () => {
+      try {
+        const res = await axios.get("https://morph-api-server.vercel.app/api/messages");
+        setMessages(res.data);
+      } catch (err) {
+        setError("Failed to load messages. Please try again later.");
+        console.error(err.message);
+      }
+    };
+
+    // Fetch blogs and messages concurrently
+    const fetchData = async () => {
+      await Promise.all([fetchBlogs(), fetchMessages()]);
+      setLoading(false);
+    };
+
+    fetchData();
   }, []);
 
   const addBlog = (newBlog) => {
@@ -158,13 +163,21 @@ const Dashboard = () => {
           <div className="h-20 w-full rounded-lg bg-neutral-200"></div>
         </div>
         <div className="grid lg:grid-cols-2 gap-2">
-          <div className="w-full rounded-lg bg-neutral-200 shadow-lg p-8 h-fit">
-            <BlogForm addBlog={addBlog} />
-          </div>
-          <div className="h-full w-full rounded-lg bg-neutral-200 shadow-lg border p-8  ">
+          <div className="w-full rounded-lg bg-neutral-200 shadow-lg p-8">
+            <div className="bg-white rounded-3xl p-8 mb-10">
+              <BlogForm addBlog={addBlog} />
+            </div>
             <BlogList
               blogs={blogs}
               setBlogs={setBlogs}
+              loading={loading}
+              error={error}
+            />
+          </div>
+          <div className="h-full w-full rounded-lg bg-neutral-200 shadow-lg border p-8">
+            <MessageList
+              messages={messages}
+              setMessages={setMessages}
               loading={loading}
               error={error}
             />

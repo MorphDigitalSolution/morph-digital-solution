@@ -36,7 +36,7 @@ function About() {
               digital agency
             </div>
           </BoxReveal>
-          <div className="text-blue-950/70">
+          <div className="text-neutral-500/80">
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
               Lorem ipsum dolor sit amet consectetur adipisic ditiis praesentium
               eos deserunt expedita enim?

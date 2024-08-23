@@ -1,4 +1,7 @@
 "use client";
+import React, { useEffect, useState } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation"; // Import usePathname
 import {
   FaClosedCaptioning,
   FaFacebook,
@@ -8,15 +11,13 @@ import {
   FaTelegram,
   FaViber,
 } from "react-icons/fa";
-import { HiLockClosed, HiMenuAlt3 } from "react-icons/hi";
+import { HiMenuAlt3 } from "react-icons/hi";
 import { BiLogoGmail, BiMenuAltRight } from "react-icons/bi";
-import React, { useEffect, useState } from "react";
-import Link from "next/link";
-import { MdBlindsClosed } from "react-icons/md";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const pathname = usePathname(); // Use usePathname to get the current path
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -36,6 +37,7 @@ function Header() {
       window.removeEventListener("scroll", handleScroll);
     };
   });
+
   return (
     <>
       <div
@@ -44,7 +46,7 @@ function Header() {
         }`}
       >
         <div className="max-w-7xl px-5 lg:px-8 mx-auto text-[0.9rem] flex gap-8 py-5 items-center justify-between">
-          <a
+          <Link
             href=""
             className="flex items-center text-xl lg:text-2xl font-semibold uppercase"
           >
@@ -57,62 +59,44 @@ function Header() {
             />
             <div className="ps-1">MORPH</div>
             <div className="font-bold text-amber-700 text-4xl pb-2">.</div>
-          </a>
+          </Link>
           <div className="hidden lg:flex gap-8">
-            <a
-              href="/"
-              className="uppercase font-semibold opacity-80 hover:text-amber-700"
-            >
-              Home
-            </a>
-            <a
-              href="/about"
-              className="uppercase font-semibold opacity-80 hover:text-amber-700"
-            >
-              About
-            </a>
-            <Link
-              href="/services"
-              className="uppercase font-semibold opacity-80 hover:text-amber-700"
-            >
-              Services
-            </Link>
-            <a
-              href="/portfolio"
-              className="uppercase font-semibold opacity-80 hover:text-amber-700"
-            >
-              Portfolio
-            </a>
-            <a
-              href="/blogs"
-              className="uppercase font-semibold opacity-80 hover:text-amber-700"
-            >
-              Blog
-            </a>
-            <Link
-              href="/contact"
-              className="uppercase font-semibold opacity-80 hover:text-amber-700"
-            >
-              Contact
-            </Link>
+            {[
+              "/",
+              "/about",
+              "/services",
+              "/portfolio",
+              "/blogs",
+              "/contact",
+            ].map((path, index) => (
+              <Link
+                key={index}
+                href={path}
+                className={`uppercase font-semibold hover:text-amber-700 border-b-4 duration-200 opacity-80 ${
+                  pathname === path ? "border-amber-700" : "border-transparent"
+                }`}
+              >
+                {path === "/" ? "Home" : path.substring(1)}
+              </Link>
+            ))}
           </div>
           <div className="hidden lg:flex gap-8 items-center">
             <div className="flex gap-5 items-center">
-              <a href="" className="">
+              <Link href="" className="">
                 <FaFacebook className="text-lg hover:text-amber-700" />
-              </a>
-              <a href="" className="">
+              </Link>
+              <Link href="" className="">
                 <FaTelegram className="text-lg hover:text-amber-700" />
-              </a>
-              <a href="" className="">
+              </Link>
+              <Link href="" className="">
                 <BiLogoGmail className="text-lg hover:text-amber-700" />
-              </a>
-              <a href="" className="">
+              </Link>
+              <Link href="" className="">
                 <FaLinkedin className="text-lg hover:text-amber-700" />
-              </a>
-              <a href="" className="">
+              </Link>
+              <Link href="" className="">
                 <FaViber className="text-lg hover:text-amber-700" />
-              </a>
+              </Link>
             </div>
             <a
               href=""
@@ -122,12 +106,12 @@ function Header() {
             </a>
           </div>
           <div className="lg:hidden flex items-center gap-2">
-            <a
+            <Link
               href=""
               className="py-2 text-xs px-4 rounded-full bg-amber-700 text-white"
             >
               Let's Talk
-            </a>
+            </Link>
             <button className="p-2" id="menuBtn" onClick={toggleMenu}>
               <HiMenuAlt3 className="text-2xl" />
             </button>
@@ -148,24 +132,19 @@ function Header() {
             <BiMenuAltRight />
           </button>
           <img src="img/logo.png" alt="" className="h-24" />
-          <Link href="/" className="">
-            Home
-          </Link>
-          <Link href="/about" className="">
-            About
-          </Link>
-          <Link href="/services" className="">
-            Services
-          </Link>
-          <Link href="/portfolio" className="">
-            Portfolio
-          </Link>
-          <Link href="/blogs" className="">
-            Blogs
-          </Link>
-          <Link href="/contact" className="">
-            Contact
-          </Link>
+          {["/", "/about", "/services", "/portfolio", "/blogs", "/contact"].map(
+            (path, index) => (
+              <Link
+                key={index}
+                href={path}
+                className={`border-b-2 ${
+                  pathname === path ? "border-white" : "border-transparent"
+                }`}
+              >
+                {path === "/" ? "Home" : path.substring(1)}
+              </Link>
+            )
+          )}
         </div>
       </div>
     </>

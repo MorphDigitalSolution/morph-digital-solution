@@ -15,6 +15,8 @@ export default function AdminLayout({ children }) {
 
     const validUsername = process.env.NEXT_PUBLIC_ADMIN_USERNAME;
     const validPassword = process.env.NEXT_PUBLIC_ADMIN_PASSWORD;
+    // const validUsername = "admin@morph";
+    // const validPassword = "morph2024#";
 
     if (username === validUsername && password === validPassword) {
       setIsAuthenticated(true);
@@ -25,38 +27,47 @@ export default function AdminLayout({ children }) {
 
   if (!isAuthenticated) {
     return (
-      <div className="h-screen flex items-center justify-center">
-        <div className="rounded-3xl max-w-5xl mx-auto my-20 text-center w-fit p-5 border border-slate-500">
-          <div className="text-xl font-semibold">Admin Login</div>
-          <form onSubmit={handleLogin} className="space-y-3 pt-4">
-            <div>
-              <input
-                type="text"
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
-                placeholder="Enter admin username"
-                className="border border-slate-600 p-2 rounded-xl"
-                required
-              />
-            </div>
-            <div>
-              <input
-                type="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                placeholder="Enter admin password"
-                className="border border-slate-600 p-2 rounded-xl"
-                required
-              />
-            </div>
-            <button
-              type="submit"
-              className="p-2 block w-full rounded-xl bg-slate-700 text-white"
-            >
-              Login
-            </button>
-          </form>
-          {error && <p style={{ color: "red" }}>{error}</p>}
+      <div className="h-screen grid lg:grid-cols-5 items-center justify-center">
+        <div className="h-full lg:col-span-3">
+          <img
+            src="https://morph-digital-mm.vercel.app/img/hero.png"
+            alt=""
+            className="w-full h-full object-cover brightness-75"
+          />
+        </div>
+        <div className="flex items-center justify-center lg:col-span-2">
+          <div className="w-full px-20 mx-auto my-20 text-center p-5">
+            <div className="text-3xl font-semibold pb-5">Admin Login</div>
+            <form onSubmit={handleLogin} className="space-y-5 pt-4">
+              <div>
+                <input
+                  type="text"
+                  value={username}
+                  onChange={(e) => setUsername(e.target.value)}
+                  placeholder="Enter admin username"
+                  className="border border-neutral-600 w-full p-3 rounded-xl"
+                  required
+                />
+              </div>
+              <div>
+                <input
+                  type="password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  placeholder="Enter admin password"
+                  className="border border-neutral-600 w-full p-3 rounded-xl"
+                  required
+                />
+              </div>
+              <button
+                type="submit"
+                className="p-3 block w-full rounded-xl bg-neutral-700 text-white"
+              >
+                Login
+              </button>
+            </form>
+            {error && <p style={{ color: "red" }}>{error}</p>}
+          </div>
         </div>
       </div>
     );

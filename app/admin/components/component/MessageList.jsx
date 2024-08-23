@@ -9,16 +9,18 @@ import { FaEdit } from "react-icons/fa";
 const MessageList = ({ messages, setMessages, loading, error }) => {
   const [editingMessage, setEditingMessage] = useState(null);
 
-  if (loading)
+  if (loading) {
     return (
-      <div className="w-full h-full grid gap-5">
-        <div className="bg-primary rounded-lg animate-pulse h-16"></div>
-        <div className="bg-primary rounded-lg animate-pulse h-16"></div>
-        <div className="bg-primary rounded-lg animate-pulse h-16"></div>
+      <div className="w-full h-full flex flex-col gap-5 text-black">
+        <h2 className="text-2xl font-semibold mb-4">Messages</h2>
+        <div className="bg-neutral-400 rounded-lg animate-pulse h-32"></div>
+        <div className="bg-neutral-400 rounded-lg animate-pulse h-32"></div>
+        <div className="bg-neutral-400 rounded-lg animate-pulse h-32"></div>
       </div>
     );
+  }
 
-  if (error)
+  if (error) {
     return (
       <div className="w-full h-full flex flex-col gap-4 items-center justify-center">
         <div className="text-5xl border-2 w-16 h-16 flex items-center justify-center rounded-full">
@@ -27,11 +29,14 @@ const MessageList = ({ messages, setMessages, loading, error }) => {
         {error}
       </div>
     );
+  }
 
-  // Sort messages by createdAt date in descending order
-  const sortedMessages = [...messages].sort(
-    (a, b) => new Date(b.createdAt) - new Date(a.createdAt)
-  );
+  // Ensure messages is an array
+  const sortedMessages = Array.isArray(messages)
+    ? [...messages].sort(
+        (a, b) => new Date(b.sentAt) - new Date(a.sentAt)
+      )
+    : [];
 
   // Handle message deletion
   const handleDelete = async (id) => {
@@ -43,7 +48,8 @@ const MessageList = ({ messages, setMessages, loading, error }) => {
         prevMessages.filter((message) => message._id !== id)
       );
     } catch (err) {
-      console.error("Error deleting message:", err);
+      console.error("Error deleting message:", err.message);
+      alert("Failed to delete the message. Please try again.");
     }
   };
 
@@ -59,7 +65,7 @@ const MessageList = ({ messages, setMessages, loading, error }) => {
   const handleEditSubmit = async (updatedMessage) => {
     try {
       const response = await axios.put(
-        `https://morph-api-server.vercel.app/api/message/${updatedMessage._id}`,
+        `https://morph-api-server.vercel.app/api/messages/${updatedMessage._id}`,
         updatedMessage
       );
       setMessages((prevMessages) =>
@@ -69,45 +75,41 @@ const MessageList = ({ messages, setMessages, loading, error }) => {
       );
       setEditingMessage(null);
     } catch (err) {
-      console.error("Error updating message:", err);
+      console.error("Error updating message:", err.message);
+      alert("Failed to update the message. Please try again.");
     }
   };
 
   return (
-    <div className="max-w-2xl mx-auto">
+    <div className="max-w-2xl text-black mx-auto">
       <h2 className="text-2xl font-semibold mb-4">Messages</h2>
       {sortedMessages.map((message) => (
         <div
           key={message._id}
-          className="bg-primary-foreground p-6 rounded-lg shadow-md mb-4"
+          className="bg-white p-6 rounded-lg shadow-md mb-4"
         >
           {editingMessage && editingMessage._id === message._id ? (
-            // <EditBlogForm
-            //   message={editingMessage}
-            //   onCancel={handleEditCancel}
-            //   onSubmit={handleEditSubmit}
-            // />
             <div>Edit form goes here</div>
           ) : (
             <>
-              <h3 className="font-semibold mb-2">Name : {message.name}</h3>
-              <h3 className="font-semibold mb-2">Email : {message.email}</h3>
-              <h3 className="font-semibold mb-2">Phone : {message.phone}</h3>
-              <p className="text-neutral-500 mb-2 whitespace-pre-wrap">
+              <h3 className="font-semibold mb-2">Name: {message.name}</h3>
+              <h3 className="font-semibold mb-2">Email: {message.email}</h3>
+              <h3 className="font-semibold mb-2">Phone: {message.phone}</h3>
+              <p className="text-neutral-500/80 mb-2 whitespace-pre-wrap">
                 {message.message.substring(0, 100)}...
               </p>
-              <p className="text-neutral-500 text-sm">
-                {new Date(message.createdAt).toLocaleDateString()}
+              <p className="text-neutral-500/80 text-sm">
+                {new Date(message.sentAt).toLocaleDateString()}
               </p>
               <div className="flex pt-3">
-                <button
+                {/* <button
                   onClick={() => handleEditClick(message)}
                   className="bg-[#e1c769] rounded-lg text-white text-sm px-3 py-1 mr-2 flex items-center gap-1"
                 >
                   Edit <FaEdit className="text-base" />
-                </button>
+                </button> */}
                 <button
-                  className="bg-[#ff7b7b] text-white text-sm px-3 py-1 rounded-lg flex items-center gap-1"
+                  className="bg-red-500 hover:shadow-lg hover:shadow-red-500 duration-300 hover:scale-105 active:scale-90 text-white text-sm px-3 py-1 rounded-lg flex items-center gap-1"
                   onClick={() => handleDelete(message._id)}
                 >
                   Delete <MdDelete className="text-base" />

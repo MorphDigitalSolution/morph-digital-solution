@@ -28,10 +28,10 @@ function Process() {
           </div>
         </div>
       </div>
-      <div className="h-[450px] relative flex items-end justify-center pb-10">
+      <div className="lg:h-[450px] relative flex flex-col items-center justify-end pb-10">
         <img src="img/arrow.png" alt="" className="w-full" />
-        <div className="absolute top-0 left-0 w-full h-full">
-          <div className="max-w-6xl mx-auto grid lg:grid-cols-3 h-full py-10 lg:pt-16">
+        <div className="lg:absolute top-0 left-0 w-full h-full">
+          <div className="max-w-6xl mx-auto grid gap-y-10 lg:grid-cols-3 h-full py-10 lg:pt-16">
             <div className="flex items-center justify-center">
               <div className="size-[260px] flex items-center justify-center text-center p-6 relative rounded-full border-[6px] border-neutral-300 hover:border-amber-700 duration-500 bg-white ring-[18px] ring-white">
                 <div className="absolute top-0 right-0 size-16 bg-amber-700 rounded-full text-3xl font-bold text-white flex items-center justify-center">01</div>

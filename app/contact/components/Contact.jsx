@@ -27,7 +27,7 @@ function Contact() {
                   </div>
                 </BoxReveal>
                 <BoxReveal boxColor={"#b45309"} duration={0.5}>
-                  <div className="max-w-sm mx-auto text-blue-950/70 py-2">
+                  <div className="max-w-sm mx-auto text-neutral-500/80 py-2">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Tempora vel dolor oribus alias praesentium error sunt aut
                     pariatur veniam.

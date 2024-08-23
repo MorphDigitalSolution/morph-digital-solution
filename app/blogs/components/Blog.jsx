@@ -39,27 +39,8 @@ function Blog() {
   }, [blogsInView]);
 
   return (
-    <div className="lg:pt-20">
+    <div className="">
       <div className="max-w-6xl mx-auto pt-20">
-        <div className="flex flex-col items-center justify-center px-5">
-          <BoxReveal boxColor={"#b45309"} duration={0.5}>
-            <div className="pb-2">
-              <TitlePillow>Our Blogs</TitlePillow>
-            </div>
-          </BoxReveal>
-          <BoxReveal boxColor={"#b45309"} duration={0.5}>
-            <div className="text-3xl lg:text-5xl font-extrabold py-1 lg:py-2 text-blue-950">
-              <span className="text-amber-700">Blog</span> & News From Us
-            </div>
-          </BoxReveal>
-          <BoxReveal boxColor={"#b45309"} duration={0.5}>
-            <div className="text-center text-sm lg:text-base max-w-xl mx-auto text-neutral-500/80">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-              vel dolor oribus alias praesentium error sunt aut pariatur veniam
-              digni.
-            </div>
-          </BoxReveal>
-        </div>
         <div className="grid lg:grid-cols-3 gap-10 py-16 px-5">
           {loading && blogs.length === 0 ? (
             <div className="col-span-3 grid lg:grid-cols-3 gap-10">
@@ -96,7 +77,7 @@ function Blog() {
               <div className="text-sm">{error}</div>
             </div>
           ) : (
-            blogs.slice(0, 3).map((blog, index) => (
+            blogs.map((blog, index) => (
               <Fader key={index}>
                 <a
                   href=""

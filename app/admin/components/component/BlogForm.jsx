@@ -27,9 +27,11 @@ const BlogForm = ({ addBlog }) => {
 
   return (
     <form onSubmit={handleSubmit} className="mx-auto mb-8">
-      <h2 className="text-xl font-bold mb-4 text-neutral-900">Create New Blog</h2>
+      <h2 className="text-xl font-bold mb-4 text-neutral-900">
+        Create New Blog
+      </h2>
       <div className="mb-4">
-        <label className="block text-neutral-500">Title</label>
+        <label className="block text-neutral-500/80">Title</label>
         <input
           type="text"
           value={title}
@@ -39,7 +41,7 @@ const BlogForm = ({ addBlog }) => {
         />
       </div>
       <div className="mb-4">
-        <label className="block text-neutral-500">Content</label>
+        <label className="block text-neutral-500/80">Content</label>
         <textarea
           value={content}
           onChange={(e) => setContent(e.target.value)}
@@ -48,7 +50,7 @@ const BlogForm = ({ addBlog }) => {
         />
       </div>
       <div className="mb-4">
-        <label className="block text-neutral-500">Author</label>
+        <label className="block text-neutral-500/80">Author</label>
         <input
           type="text"
           value={author}
@@ -59,7 +61,7 @@ const BlogForm = ({ addBlog }) => {
       </div>
       <button
         type="submit"
-        className="bg-[#75b7f5] text-white py-2 px-4 rounded-lg hover:bg-blue-600"
+        className="bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700"
       >
         Add Blog
       </button>

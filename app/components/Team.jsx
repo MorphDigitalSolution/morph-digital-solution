@@ -4,7 +4,7 @@ import React from "react";
 
 function Team() {
   return (
-    <div className="p-8 py-20 bg-zinc-100/50">
+    <div className="p-8 lg:py-20 bg-zinc-100/50">
       <div className="max-w-6xl mx-auto">
         <div className="flex items-center justify-center flex-col">
           <BoxReveal boxColor={"#b45309"} duration={0.5}>
@@ -18,7 +18,7 @@ function Team() {
             </div>
           </BoxReveal>
           <BoxReveal boxColor={"#b45309"} duration={0.5}>
-            <div className="text-center max-w-xl mx-auto text-blue-950/70">
+            <div className="text-center max-w-xl mx-auto text-neutral-500/80">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
               vel dolor oribus alias praesentium error sunt aut pariatur veniam
               digni.

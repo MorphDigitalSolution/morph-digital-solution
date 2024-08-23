@@ -21,7 +21,7 @@ function Subscribe() {
         </div>
         <div className="p-5 lg:p-10">
           <BoxReveal boxColor={"#b45309"} duration={0.5}>
-            <div className="text-sm text-blue-950/70">
+            <div className="text-sm text-neutral-500/80">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
               architecto non sedwq ertru ylut agowwe atwewer suscipi.
             </div>

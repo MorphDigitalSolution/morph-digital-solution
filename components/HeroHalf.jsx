@@ -1,7 +1,7 @@
-import { Fader } from "@/components/magicui/Fader";
 import TitlePillow from "@/components/TitlePillow";
+import BoxReveal from "./magicui/box-reveal";
 
-function Hero() {
+function HeroHalf({children}) {
   return (
     <div className="h-[480px] relative overflow-hidden">
       <img
@@ -11,15 +11,15 @@ function Hero() {
       />
       <div className="absolute top-0 left-0 w-full h-full text-white bg-neutral-800/5 flex items-center justify-center">
         <div className="max-w-4xl flex flex-col items-center text-center pt-24">
-          <Fader boxColor={"#b45309"} duration={0.5}>
+          <BoxReveal  boxColor={"#b4530900"} duration={0.5}>
             <div className="text-4xl lg:text-[4.6rem] leading-[1.1] font-extrabold pt-3 lg:py-2">
-              Services
+              {children}
             </div>
-          </Fader>
+          </BoxReveal>
         </div>
       </div>
     </div>
   );
 }
 
-export default Hero;
+export default HeroHalf;

@@ -46,7 +46,7 @@ export default function RootLayout({ children }) {
           content="digital marketing, SEO, SEM, content marketing, social media marketing"
         />
         <meta name="author" content="Your Name" />
-        <link rel="icon" href="https://i.imgur.com/crtpq5D.png" />
+        <link rel="icon" href="img/logo-sm.png" />
         <title>Morph - Digital Marketing</title>
         {/* Add any other meta tags or links here */}
       </head>

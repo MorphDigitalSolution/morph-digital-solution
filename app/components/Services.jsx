@@ -6,7 +6,7 @@ import { FaPhone } from "react-icons/fa";
 function Services() {
   return (
     <>
-      <div className="lg:h-[820px] relative bg-blend-difference bg-left bg-repeat-x bg-[url(https://demo.bosathemes.com/agence/wp-content/uploads/sites/35/2022/11/agency-img3.png)] bg-neutral-800">
+      <div className="lg:h-[780px] relative bg-blend-difference bg-left bg-repeat-x bg-[url(https://demo.bosathemes.com/agence/wp-content/uploads/sites/35/2022/11/agency-img3.png)] bg-neutral-800">
         <div className="w-full h-full bg-neutral-800/90 pt-20 lg:py-28">
           <div className="max-w-6xl flex flex-col text-center items-center justify-center mx-auto text-white">
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
@@ -15,7 +15,7 @@ function Services() {
               </div>
             </BoxReveal>
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
-              <div className="text-3xl lg:text-5xl font-extrabold py-3 px-5">
+              <div className="text-3xl lg:text-5xl font-extrabold p-5">
                 <span className="text-amber-700">Services </span>
                 we can help you with!
               </div>
@@ -27,51 +27,57 @@ function Services() {
                 eos esse velit. Quisquam non aspernatur sequi quam.
               </div>
             </BoxReveal>
-            <div className="grid lg:grid-cols-3 w-full p-10 mt-5 gap-8">
-              <a
-                href=""
-                className="relative group rounded-3xl overflow-hidden h-64"
-              >
-                <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-600"></div>
-                <div className="absolute w-full h-full top-0 left-0 bg-black/30 flex flex-col items-center justify-center">
-                  <img src="img/chart.svg" alt="" className="size-24" />
-                  <div className="text-2xl group-hover:text-amber-700 font-semibold">
-                    Website Development
+            <div className="flex flex-col lg:flex-row w-full p-10 lg:pt-14 mt-5 gap-8 xl:gap-10 items-center justify-center">
+              <BoxReveal boxColor={"#b4530900"} duration={0.5}>
+                <a
+                  href=""
+                  className="relative group rounded-3xl overflow-hidden h-64 w-72 md:w-[500px] lg:w-72 xl:w-80 block"
+                >
+                  <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-600"></div>
+                  <div className="absolute w-full h-full top-0 left-0 bg-black/30 flex flex-col items-center justify-center">
+                    <img src="img/chart.svg" alt="" className="size-24" />
+                    <div className="text-2xl group-hover:text-amber-700 font-semibold">
+                      Website Development
+                    </div>
                   </div>
-                </div>
-              </a>
-              <a
-                href=""
-                className="relative group rounded-3xl overflow-hidden h-64"
-              >
-                <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-600"></div>
-                <div className="absolute w-full h-full top-0 left-0 bg-black/30 flex flex-col items-center justify-center">
-                  <img
-                    src="img/marketing.svg"
-                    alt=""
-                    className="size-32 -mt-3"
-                  />
-                  <div className="text-2xl group-hover:text-amber-700 font-semibold -mt-5">
-                    Digital Marketing
+                </a>
+              </BoxReveal>
+              <BoxReveal boxColor={"#b4530900"} duration={0.5}>
+                <a
+                  href=""
+                  className="relative group rounded-3xl overflow-hidden h-64 w-72 md:w-[500px] lg:w-72 xl:w-80 block"
+                >
+                  <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-600"></div>
+                  <div className="absolute w-full h-full top-0 left-0 bg-black/30 flex flex-col items-center justify-center">
+                    <img
+                      src="img/marketing.svg"
+                      alt=""
+                      className="size-32 -mt-3"
+                    />
+                    <div className="text-2xl group-hover:text-amber-700 font-semibold -mt-5">
+                      Digital Marketing
+                    </div>
                   </div>
-                </div>
-              </a>
-              <a
-                href=""
-                className="relative group rounded-3xl overflow-hidden h-64"
-              >
-                <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-600"></div>
-                <div className="absolute w-full h-full top-0 left-0 bg-black/30 flex flex-col items-center justify-center">
-                  <img
-                    src="img/business.svg"
-                    alt=""
-                    className="size-32 -mt-3"
-                  />
-                  <div className="text-2xl group-hover:text-amber-700 font-semibold -mt-5">
-                    Business Registration
+                </a>
+              </BoxReveal>
+              <BoxReveal boxColor={"#b4530900"} duration={0.5}>
+                <a
+                  href=""
+                  className="relative group rounded-3xl overflow-hidden h-64 w-72 md:w-[500px] lg:w-72 xl:w-80 block"
+                >
+                  <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-600"></div>
+                  <div className="absolute w-full h-full top-0 left-0 bg-black/30 flex flex-col items-center justify-center">
+                    <img
+                      src="img/business.svg"
+                      alt=""
+                      className="size-32 -mt-3"
+                    />
+                    <div className="text-2xl group-hover:text-amber-700 font-semibold -mt-5">
+                      Business Registration
+                    </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </BoxReveal>
             </div>
           </div>
         </div>

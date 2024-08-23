@@ -1,11 +1,18 @@
 import Header from '@/components/Header'
 import React from 'react'
+import HeroHalf from '@/components/HeroHalf'
+import AboutUs from './components/AboutUs'
+import Footer from '@/components/Footer'
+import Team from '../components/Team'
 
 function page() {
   return (
     <div>
         <Header />
-        <div className="h-screen flex items-center justify-center text-4xl font-semibold">About Us</div>
+        <HeroHalf>About Us</HeroHalf>
+        <AboutUs />
+        <Team />
+        <Footer />
     </div>
   )
 }

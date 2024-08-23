@@ -43,8 +43,8 @@ const BlogDetail = () => {
           <p className="text-neutral-600 mb-2 whitespace-pre-wrap leading-[1.5]">
             {blog.content}
           </p>
-          <p className="text-neutral-500 text-sm">By {blog.author}</p>
-          <p className="text-neutral-500 text-sm">
+          <p className="text-neutral-500/80 text-sm">By {blog.author}</p>
+          <p className="text-neutral-500/80 text-sm">
             {new Date(blog.createdAt).toLocaleDateString()}
           </p>
         </>
