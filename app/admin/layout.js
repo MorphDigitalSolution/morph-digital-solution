@@ -13,10 +13,10 @@ export default function AdminLayout({ children }) {
     e.preventDefault();
     setError(""); // Clear any previous errors
 
-    const validUsername = process.env.NEXT_PUBLIC_ADMIN_USERNAME;
-    const validPassword = process.env.NEXT_PUBLIC_ADMIN_PASSWORD;
-    // const validUsername = "admin@morph";
-    // const validPassword = "morph2024#";
+    // const validUsername = process.env.NEXT_PUBLIC_ADMIN_USERNAME;
+    // const validPassword = process.env.NEXT_PUBLIC_ADMIN_PASSWORD;
+    const validUsername = "admin@morph";
+    const validPassword = "morph2024#";
 
     if (username === validUsername && password === validPassword) {
       setIsAuthenticated(true);
