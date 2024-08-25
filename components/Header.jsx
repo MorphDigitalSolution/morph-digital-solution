@@ -2,15 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation"; // Import usePathname
-import {
-  FaClosedCaptioning,
-  FaFacebook,
-  FaFacebookMessenger,
-  FaLinkedin,
-  FaMailBulk,
-  FaTelegram,
-  FaViber,
-} from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaTelegram, FaViber } from "react-icons/fa";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { BiLogoGmail, BiMenuAltRight } from "react-icons/bi";
 
@@ -51,7 +43,7 @@ function Header() {
             className="flex items-center text-xl lg:text-2xl font-semibold uppercase"
           >
             <img
-              src="img/logo-sm.png"
+              src="https://morph-digital-mm.vercel.app/img/logo-sm.png"
               alt=""
               className={`h-8 lg:h-10 duration-300 ${
                 isScrolled ? "invert" : "invert-0"
@@ -82,36 +74,45 @@ function Header() {
           </div>
           <div className="hidden lg:flex gap-8 items-center">
             <div className="flex gap-5 items-center">
-              <Link href="" className="">
+              <a
+                href="https://www.facebook.com/morphwebsiteanddigitalmarketing?mibextid=LQQJ4d"
+                className=""
+              >
                 <FaFacebook className="text-lg hover:text-amber-700" />
-              </Link>
-              <Link href="" className="">
+              </a>
+              <a href="https://t.me/myanmardigitalmarketing" className="">
                 <FaTelegram className="text-lg hover:text-amber-700" />
-              </Link>
-              <Link href="" className="">
+              </a>
+              <a href="mailto:morphwebsite.digitalmarketing@gmail.com" className="">
                 <BiLogoGmail className="text-lg hover:text-amber-700" />
-              </Link>
-              <Link href="" className="">
+              </a>
+              <a
+                href="https://www.linkedin.com/company/morphwebsiteanddigitalmarketing/"
+                className=""
+              >
                 <FaLinkedin className="text-lg hover:text-amber-700" />
-              </Link>
-              <Link href="" className="">
+              </a>
+              <a
+                href="https://invite.viber.com/?g2=AQAgAG9pwjGLolMltWVlDjneT1ei5C0j6vSIc0NBjm%2FTxaO4nZQM1jJVi3jBPHmy"
+                className=""
+              >
                 <FaViber className="text-lg hover:text-amber-700" />
-              </Link>
+              </a>
             </div>
             <a
-              href=""
+              href="tel:+959786063014"
               className="bg-amber-700 text-center hover:bg-amber-800 duration-300 text-white py-3 text-sm px-7 font-semibold rounded-full uppercase"
             >
               Let's talk
             </a>
           </div>
           <div className="lg:hidden flex items-center gap-2">
-            <Link
-              href=""
+            <a
+              href="tel:+959786063014"
               className="py-2 text-xs px-4 rounded-full bg-amber-700 text-white"
             >
               Let's Talk
-            </Link>
+            </a>
             <button className="p-2" id="menuBtn" onClick={toggleMenu}>
               <HiMenuAlt3 className="text-2xl" />
             </button>

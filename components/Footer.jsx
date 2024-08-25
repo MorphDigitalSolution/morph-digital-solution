@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { BiCurrentLocation, BiLogoGmail } from "react-icons/bi";
 import {
@@ -19,7 +20,7 @@ function Footer() {
             <div className="lg:col-span-2">
               <div className="flex items-center text-2xl lg:text-2xl font-semibold uppercase">
                 <img
-                  src="img/logo-sm.png"
+                  src="https://morph-digital-mm.vercel.app/img/logo-sm.png"
                   alt=""
                   className={`h-8 lg:h-10 duration-300`}
                 />
@@ -60,35 +61,35 @@ function Footer() {
             <div className="lg:col-span-2">
               <div className="pb-4 text-xl font-semibold">Usefull Links</div>
               <div className="flex gap-3 flex-col">
-                <a href="" className="hover:text-amber-700">
+                <Link href="/about" className="hover:text-amber-700">
                   About us
-                </a>
-                <a href="" className="hover:text-amber-700">
+                </Link>
+                <Link href="/services" className="hover:text-amber-700">
                   Services
-                </a>
-                <a href="" className="hover:text-amber-700">
-                  News & Articles
-                </a>
-                <a href="" className="hover:text-amber-700">
+                </Link>
+                <Link href="/blogs" className="hover:text-amber-700">
+                  Blogs & Articles
+                </Link>
+                <Link href="/about" className="hover:text-amber-700">
                   Legal & Policy
-                </a>
+                </Link>
               </div>
             </div>
             <div className="lg:col-span-2">
               <div className="pb-4 text-xl font-semibold">Support</div>
               <div className="flex gap-3 flex-col">
-                <a href="" className="hover:text-amber-700">
+                <Link href="" className="hover:text-amber-700">
                   Help Center
-                </a>
-                <a href="" className="hover:text-amber-700">
+                </Link>
+                <Link href="/contact" className="hover:text-amber-700">
                   Contact Us
-                </a>
-                <a href="" className="hover:text-amber-700">
+                </Link>
+                <Link href="" className="hover:text-amber-700">
                   FAQs
-                </a>
-                <a href="" className="hover:text-amber-700">
+                </Link>
+                <Link href="" className="hover:text-amber-700">
                   Parent & Community
-                </a>
+                </Link>
               </div>
             </div>
             <div className="lg:col-span-3">
@@ -99,11 +100,11 @@ function Footer() {
                   <BiCurrentLocation className="text-amber-700 border border-amber-700 p-1 text-2xl rounded-full" />
                   969th Street, Mandalay, Myanmar
                 </div>
-                <a href="" className="flex gap-2">
+                <a href="tel:+959786063014" className="flex gap-2">
                   <FaPhone className="text-amber-700 border border-amber-700 p-1 text-2xl rounded-full" />
                   +959 786 063 014
                 </a>
-                <a href="" className="flex gap-2">
+                <a href="mailto:morphwebsite.digitalmarketing@gmail.com" className="flex gap-2">
                   <BiLogoGmail className="text-amber-700 border border-amber-700 p-1 text-2xl rounded-full" />
                   morphwebsite.digitalmarketing@gmail.com
                 </a>

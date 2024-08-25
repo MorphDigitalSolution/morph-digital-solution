@@ -66,7 +66,7 @@ const MessageForm = ({ className }) => {
         <div className="mb-4">
           <input
             placeholder="Your phone*"
-            type="text"
+            type="tel"
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
             className="w-full p-3 rounded-3xl text-neutral-800 border-neutral-300 border outline-none"
@@ -79,7 +79,6 @@ const MessageForm = ({ className }) => {
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             className="w-full p-3 rounded-3xl text-neutral-800 border-neutral-300 border outline-none h-32 resize-none"
-            required
           />
         </div>
         <button

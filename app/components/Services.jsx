@@ -22,9 +22,9 @@ function Services() {
             </BoxReveal>
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
               <div className="max-w-4xl px-4">
-                Lorem ipsum dolor sit amet consecte wtoh erthp eryj yukru oseh
-                eryutk wtur itate illum id quisquam, placeat fuga mollitia sunt
-                eos esse velit. Quisquam non aspernatur sequi quam.
+                Explore a range of tailored services designed to meet your
+                needs. From innovative digital strategies to comprehensive
+                support, we’re here to help you succeed.
               </div>
             </BoxReveal>
             <div className="flex flex-col lg:flex-row w-full p-10 lg:pt-14 mt-5 gap-8 xl:gap-10 items-center justify-center">
@@ -91,9 +91,9 @@ function Services() {
               <div className="font-semibold text-xl">09 786 063 014</div>
             </div>
             <div className="border-s lg:col-span-5 border-white ps-12">
-              Lorem ipsum dolor sit amet consectetur adipisars error doloremque
-              vitae harum? Animius incidunt vero consectetur debitis accusantium
-              porro!
+              Ready to elevate your digital presence? Schedule a consultation to
+              explore customized strategies and solutions designed to bring your
+              vision to life.
             </div>
             <div className="col-span-3 flex justify-end">
               <a

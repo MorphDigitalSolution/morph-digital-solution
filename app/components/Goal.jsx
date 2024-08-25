@@ -20,25 +20,34 @@ function Goal() {
                   <span className="text-amber-700">Missions </span>
                   we aim for you!
                 </div>
-                <div className="text-white px-12">Lorem ipsum dolor sit amet, consectetur atque aut expqw rterit aspernatur.</div>
+                <div className="text-white px-12">
+                  We are dedicated to achieving your goals and exceeding
+                  expectations through effective strategies.
+                </div>
               </div>
             </div>
           </div>
           <div className="grid lg:grid-cols-3 gap-8 p-8 items-center text-white text-center">
             <div className="flex flex-col gap-2 justify-center items-center">
-                <CircularProgress currentCount={95} size={130}/>
-                <div className="font-semibold text-xl">Marketing</div>
-                <div className="text-sm">Lorem ipsum dolor si tecamet consectetur</div>
+              <CircularProgress currentCount={95} size={130} />
+              <div className="font-semibold text-xl">Marketing</div>
+              <div className="text-sm">
+                Driving growth through strategic campaigns.
+              </div>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
-                <CircularProgress currentCount={90} size={130}/>
-                <div className="font-semibold text-xl">Solution</div>
-                <div className="text-sm">Lorem ipsum dolor si tecamet consectetur</div>
+              <CircularProgress currentCount={90} size={130} />
+              <div className="font-semibold text-xl">Solution</div>
+              <div className="text-sm">
+                Tailored strategies for effective, on-time outcomes.
+              </div>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
-                <CircularProgress currentCount={96} size={130}/>
-                <div className="font-semibold text-xl">Success</div>
-                <div className="text-sm">Lorem ipsum dolor si tecamet consectetur</div>
+              <CircularProgress currentCount={96} size={130} />
+              <div className="font-semibold text-xl">Success</div>
+              <div className="text-sm">
+                Achieving top-notch results and client satisfaction.
+              </div>
             </div>
           </div>
         </div>

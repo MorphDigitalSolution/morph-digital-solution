@@ -26,7 +26,7 @@ function AboutUs() {
                 Morph is a leading digital marketing agency specializing in SEO,
                 SEM, content marketing, and social media strategies to grow your
                 online presence and drive business success. Our expert team
-                works closely with clients to deliver tailored solutions that
+                works closely with clients to deliver solutions that
                 enhance brand visibility, attract qualified leads, and foster
                 customer engagement.
               </div>

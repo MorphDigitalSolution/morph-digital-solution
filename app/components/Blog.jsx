@@ -5,6 +5,7 @@ import React, { useState, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import axios from "axios";
 import Fader from "@/components/magicui/Fader";
+import Link from "next/link";
 
 function Blog() {
   const [blogs, setBlogs] = useState([]);
@@ -98,9 +99,9 @@ function Blog() {
           ) : (
             blogs.slice(0, 3).map((blog, index) => (
               <Fader key={index}>
-                <a
-                  href=""
-                  className="shadow-md hover:shadow-xl block h-full duration-300 rounded-3xl overflow-hidden"
+                <Link
+                  href={`/blogs/${blog._id}`}
+                  className="shadow-md hover:shadow-2xl block h-full duration-300 rounded-3xl overflow-hidden"
                 >
                   <img
                     src="img/about1.png"
@@ -131,7 +132,7 @@ function Blog() {
                       {blog.content}
                     </div>
                   </div>
-                </a>
+                </Link>
               </Fader>
             ))
           )}

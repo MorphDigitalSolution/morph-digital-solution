@@ -7,6 +7,8 @@ import { LiaAwardSolid } from "react-icons/lia";
 import { MdReviews } from "react-icons/md";
 import NumberTicker from "@/components/magicui/number-ticker";
 import MessageForm from "@/components/MessageForm";
+import { FiPhoneCall } from "react-icons/fi";
+import { LucideMailOpen } from "lucide-react";
 
 function Contact() {
   return (
@@ -45,7 +47,7 @@ function Contact() {
                       <IoLocationOutline className="text-3xl" />
                     </div>
                   </div>
-                  <div className="col-span-2">
+                  <div className="">
                     <div className="font-semibold text-lg">
                       Office Address :
                     </div>
@@ -59,10 +61,10 @@ function Contact() {
                 <div className="flex gap-4 w-72 py-4">
                   <div className="">
                     <div className="flex items-center justify-center p-5 aspect-square bg-black rounded-3xl text-white">
-                      <IoLocationOutline className="text-3xl" />
+                      <FiPhoneCall className="text-3xl pt-1" />
                     </div>
                   </div>
-                  <div className="col-span-2">
+                  <div className="">
                     <div className="font-semibold text-lg">Phone Number :</div>
                     <div className="text-zinc-600/80">
                       lqwei erw qer wehwt hrtw rhww rjwrh ehwrj ljerm.
@@ -73,13 +75,13 @@ function Contact() {
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
                 <div className="flex gap-4 w-72 py-4">
                   <div className="">
-                    <div className="flex items-center justify-center p-5 aspect-square bg-black rounded-3xl text-white">
-                      <IoLocationOutline className="text-3xl" />
+                    <div className="flex items-center justify-center p-[1.4rem] aspect-square bg-black rounded-3xl text-white">
+                      <LucideMailOpen className="text-3xl" />
                     </div>
                   </div>
-                  <div className="col-span-2">
+                  <div className="">
                     <div className="font-semibold text-lg">
-                      Office Address :
+                      Mail Address :
                     </div>
                     <div className="text-zinc-600/80">
                       lqwei erw qer wehwt hrtw rhww rjwrh ehwrj ljerm.

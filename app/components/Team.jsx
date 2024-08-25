@@ -19,9 +19,8 @@ function Team() {
           </BoxReveal>
           <BoxReveal boxColor={"#b45309"} duration={0.5}>
             <div className="text-center max-w-xl mx-auto text-neutral-500/80">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-              vel dolor oribus alias praesentium error sunt aut pariatur veniam
-              digni.
+              Get to know the talented individuals who drive our projects with
+              expertise, creativity, and dedication.
             </div>
           </BoxReveal>
           <div className="grid lg:grid-cols-4 gap-8 p-16 w-full">

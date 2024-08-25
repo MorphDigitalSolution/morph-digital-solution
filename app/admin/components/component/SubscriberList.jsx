@@ -70,7 +70,7 @@ const SubscriberList = ({ subscribers, setSubscribers, loading, error }) => {
             >
               Delete <MdDelete className="text-base" />
             </button>
-          </div>x
+          </div>
         </div>
       ))}
     </div>

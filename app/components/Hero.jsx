@@ -1,6 +1,7 @@
 // import BoxReveal from "@/components/magicui/box-reveal";
 import BoxReveal from "@/components/magicui/box-reveal";
 import TitlePillow from "@/components/TitlePillow";
+import Link from "next/link";
 import React from "react";
 
 function Hero() {
@@ -24,27 +25,27 @@ function Hero() {
           </BoxReveal>
           <div className="lg:px-24 p-4">
             <BoxReveal boxColor={"#b4530900"} duration={0.2}>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Assumenda anditiis autem quis officiis doloremque unde! At facilis
-              est magni labore nisi, debitis eligendi.
+              We deliver innovative digital strategies to drive your success.
+              From expert insights to tailored solutions, we ensure reliable and
+              impactful results.
             </BoxReveal>
           </div>
           <div className="flex gap-5">
             <BoxReveal boxColor={"#b4530900"} duration={0.2}>
-              <a
-                href=""
+              <Link
+                href="/services"
                 className="bg-amber-700 block uppercase text-sm font-semibold py-3 px-7 rounded-full hover:bg-amber-800 hover:text-white duration-300"
               >
                 See Services
-              </a>
+              </Link>
             </BoxReveal>
             <BoxReveal boxColor={"#b4530900"} duration={0.2}>
-              <a
-                href=""
+              <Link
+                href="/contact"
                 className="bg-white text-black block uppercase text-sm font-semibold py-3 px-7 rounded-full hover:bg-amber-800 hover:text-white duration-300"
               >
                 Contact Us
-              </a>
+              </Link>
             </BoxReveal>
           </div>
         </div>

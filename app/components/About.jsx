@@ -2,6 +2,7 @@ import TitlePillow from "@/components/TitlePillow";
 import { FiCheckCircle } from "react-icons/fi";
 import React from "react";
 import BoxReveal from "@/components/magicui/box-reveal";
+import Link from "next/link";
 
 function About() {
   return (
@@ -38,8 +39,8 @@ function About() {
           </BoxReveal>
           <div className="text-neutral-500/80">
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
-              Lorem ipsum dolor sit amet consectetur adipisic ditiis praesentium
-              eos deserunt expedita enim?
+              We transform your ideas into powerful digital experiences that
+              make a lasting impact.
             </BoxReveal>
           </div>
           <div className="grid lg:grid-cols-7 pt-8 gap-y-5">
@@ -48,7 +49,7 @@ function About() {
                 <div className="flex items-center gap-2">
                   <FiCheckCircle className="text-2xl text-amber-700" />
                   <div className="text- font-semibold">
-                    Lorem ipsum dolor sit elit.
+                    Proven Success with Results
                   </div>
                 </div>
               </BoxReveal>
@@ -56,7 +57,7 @@ function About() {
                 <div className="flex items-center gap-2">
                   <FiCheckCircle className="text-2xl text-amber-700" />
                   <div className="text- font-semibold">
-                    Lorem ipsum dolor sit elit.
+                    Expert Team of Specialists
                   </div>
                 </div>
               </BoxReveal>
@@ -64,7 +65,7 @@ function About() {
                 <div className="flex items-center gap-2">
                   <FiCheckCircle className="text-2xl text-amber-700" />
                   <div className="text- font-semibold">
-                    Lorem ipsum dolor sit elit.
+                    Innovative and Creative Solutions
                   </div>
                 </div>
               </BoxReveal>
@@ -72,7 +73,7 @@ function About() {
                 <div className="flex items-center gap-2">
                   <FiCheckCircle className="text-2xl text-amber-700" />
                   <div className="text- font-semibold">
-                    Lorem ipsum dolor sit elit.
+                    Strategies Backed by Data
                   </div>
                 </div>
               </BoxReveal>
@@ -80,7 +81,7 @@ function About() {
                 <div className="flex items-center gap-2">
                   <FiCheckCircle className="text-2xl text-amber-700" />
                   <div className="text- font-semibold">
-                    Lorem ipsum dolor sit elit.
+                    Quick Turnaround Times
                   </div>
                 </div>
               </BoxReveal>
@@ -88,7 +89,7 @@ function About() {
                 <div className="flex items-center gap-2">
                   <FiCheckCircle className="text-2xl text-amber-700" />
                   <div className="text- font-semibold">
-                    Lorem ipsum dolor sit elit.
+                    Tailored Solutions for Every Need
                   </div>
                 </div>
               </BoxReveal>
@@ -107,12 +108,12 @@ function About() {
           </div>
           <div className="">
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
-              <a
-                href=""
+              <Link
+                href="/about"
                 className="bg-amber-700 hover:bg-amber-800 duration-300 text-white uppercase py-3 px-6 block rounded-full mt-5"
               >
                 More About Us
-              </a>
+              </Link>
             </BoxReveal>
           </div>
         </div>

@@ -22,9 +22,9 @@ function Review() {
             </div>
             <div className="max-w-md">
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Accusantium veritatis rweqda aspernatur fuga consectetur omnis
-                minima tempore ipsa, provident sed esse harum!
+                Hear directly from our clients about their experiences and the
+                impact our services. Their honest reviews reflect our
+                commitment to excellence and client satisfaction.
               </BoxReveal>
             </div>
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
