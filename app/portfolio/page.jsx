@@ -13,8 +13,8 @@ function page() {
       <div className="p-8 lg:py-16">
         <div className="max-w-6xl mx-auto">
           <div className="p-5">
-            <div className="grid lg:grid-cols-3 gap-8 lg:pt-16 py-8 w-full">
-              <div className="relative rounded-3xl aspect-square overflow-hidden group">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-8 md:px-10 lg:pt-16 py-8 w-full">
+              <div className="relative w-fit rounded-3xl aspect-square overflow-hidden group">
                 <BoxReveal boxColor={"#b4530900"} duration={0.5}>
                   <img
                     src="img/p6.png"
@@ -24,7 +24,7 @@ function page() {
                 </BoxReveal>
                 <a
                   href="#"
-                  className="absolute top-0 left-0 w-full h-full text-white bg-black/40 duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
+                  className="absolute top-0 left-0 w-full h-full text-white bg-black/40 rounded-3xl duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
                 >
                   <div className="font-semibold text-xl">Digital Marketing</div>
                   <div className="">
@@ -33,7 +33,7 @@ function page() {
                   </div>
                 </a>
               </div>
-              <div className="relative rounded-3xl aspect-square overflow-hidden group">
+              <div className="relative w-fit rounded-3xl aspect-square overflow-hidden group">
                 <BoxReveal boxColor={"#b4530900"} duration={0.5}>
                   <img
                     src="img/p5.png"
@@ -43,7 +43,7 @@ function page() {
                 </BoxReveal>
                 <a
                   href="#"
-                  className="absolute top-0 left-0 w-full h-full text-white bg-black/40 duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
+                  className="absolute top-0 left-0 w-full h-full text-white bg-black/40 rounded-3xl duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
                 >
                   <div className="font-semibold text-xl">Digital Marketing</div>
                   <div className="">
@@ -52,7 +52,7 @@ function page() {
                   </div>
                 </a>
               </div>
-              <div className="relative rounded-3xl aspect-square overflow-hidden group">
+              <div className="relative w-fit rounded-3xl aspect-square overflow-hidden group">
                 <BoxReveal boxColor={"#b4530900"} duration={0.5}>
                   <img
                     src="img/p4.png"
@@ -62,7 +62,7 @@ function page() {
                 </BoxReveal>
                 <a
                   href="#"
-                  className="absolute top-0 left-0 w-full h-full text-white bg-black/40 duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
+                  className="absolute top-0 left-0 w-full h-full text-white bg-black/40 rounded-3xl duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
                 >
                   <div className="font-semibold text-xl">Digital Marketing</div>
                   <div className="">
@@ -71,7 +71,7 @@ function page() {
                   </div>
                 </a>
               </div>
-              <div className="relative rounded-3xl aspect-square overflow-hidden group">
+              <div className="relative w-fit rounded-3xl aspect-square overflow-hidden group">
                 <BoxReveal boxColor={"#b4005309"} duration={0.5}>
                   <img
                     src="img/p3.png"
@@ -81,7 +81,7 @@ function page() {
                 </BoxReveal>
                 <a
                   href="#"
-                  className="absolute top-0 left-0 w-full h-full text-white bg-black/40 duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
+                  className="absolute top-0 left-0 w-full h-full text-white bg-black/40 rounded-3xl duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
                 >
                   <div className="font-semibold text-xl">Digital Marketing</div>
                   <div className="">
@@ -90,7 +90,7 @@ function page() {
                   </div>
                 </a>
               </div>
-              <div className="relative rounded-3xl aspect-square overflow-hidden group">
+              <div className="relative w-fit rounded-3xl aspect-square overflow-hidden group">
                 <BoxReveal boxColor={"#b4005309"} duration={0.5}>
                   <img
                     src="img/p2.png"
@@ -100,7 +100,7 @@ function page() {
                 </BoxReveal>
                 <a
                   href="#"
-                  className="absolute top-0 left-0 w-full h-full text-white bg-black/40 duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
+                  className="absolute top-0 left-0 w-full h-full text-white bg-black/40 rounded-3xl duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
                 >
                   <div className="font-semibold text-xl">Digital Marketing</div>
                   <div className="">
@@ -109,7 +109,7 @@ function page() {
                   </div>
                 </a>
               </div>
-              <div className="relative rounded-3xl aspect-square overflow-hidden group">
+              <div className="relative w-fit rounded-3xl aspect-square overflow-hidden group">
                 <BoxReveal boxColor={"#b4005309"} duration={0.5}>
                   <img
                     src="img/p1.png"
@@ -119,7 +119,7 @@ function page() {
                 </BoxReveal>
                 <a
                   href="#"
-                  className="absolute top-0 left-0 w-full h-full text-white bg-black/40 duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
+                  className="absolute top-0 left-0 w-full h-full text-white bg-black/40 rounded-3xl duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
                 >
                   <div className="font-semibold text-xl">Digital Marketing</div>
                   <div className="">

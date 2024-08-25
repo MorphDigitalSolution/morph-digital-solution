@@ -15,6 +15,7 @@ import BlogForm from "./BlogForm";
 import BlogList from "./BlogList";
 import axios from "axios";
 import MessageList from "./MessageList";
+import SubscriberList from "./SubscriberList";
 
 export function MyLayout2() {
   const links = [
@@ -116,13 +117,16 @@ export const LogoIcon = () => {
 const Dashboard = () => {
   const [blogs, setBlogs] = useState([]);
   const [messages, setMessages] = useState([]);
+  const [subscribers, setSubscribers] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const res = await axios.get("https://morph-api-server.vercel.app/api/blogs");
+        const res = await axios.get(
+          "https://morph-api-server.vercel.app/api/blogs"
+        );
         setBlogs(res.data);
       } catch (err) {
         setError("Failed to load blogs. Please try again later.");
@@ -132,7 +136,9 @@ const Dashboard = () => {
 
     const fetchMessages = async () => {
       try {
-        const res = await axios.get("https://morph-api-server.vercel.app/api/messages");
+        const res = await axios.get(
+          "https://morph-api-server.vercel.app/api/messages"
+        );
         setMessages(res.data);
       } catch (err) {
         setError("Failed to load messages. Please try again later.");
@@ -140,9 +146,21 @@ const Dashboard = () => {
       }
     };
 
-    // Fetch blogs and messages concurrently
+    const fetchSubscribers = async () => {
+      try {
+        const res = await axios.get(
+          "https://morph-api-server.vercel.app/api/subscribes"
+        );
+        setSubscribers(res.data);
+      } catch (err) {
+        setError("Failed to load subscribers. Please try again later.");
+        console.error(err.message);
+      }
+    };
+
+    // Fetch blogs, messages, and subscribers concurrently
     const fetchData = async () => {
-      await Promise.all([fetchBlogs(), fetchMessages()]);
+      await Promise.all([fetchBlogs(), fetchMessages(), fetchSubscribers()]);
       setLoading(false);
     };
 
@@ -162,7 +180,7 @@ const Dashboard = () => {
           <div className="h-20 w-full rounded-lg bg-neutral-200"></div>
           <div className="h-20 w-full rounded-lg bg-neutral-200"></div>
         </div>
-        <div className="grid lg:grid-cols-2 gap-2">
+        <div className="grid lg:grid-cols-3 gap-2">
           <div className="w-full rounded-lg bg-neutral-200 shadow-lg p-8">
             <div className="bg-white rounded-3xl p-8 mb-10">
               <BlogForm addBlog={addBlog} />
@@ -170,6 +188,14 @@ const Dashboard = () => {
             <BlogList
               blogs={blogs}
               setBlogs={setBlogs}
+              loading={loading}
+              error={error}
+            />
+          </div>
+          <div className="h-full w-full rounded-lg bg-neutral-200 shadow-lg border p-8">
+            <SubscriberList
+              subscribers={subscribers}
+              setSubscribers={setSubscribers}
               loading={loading}
               error={error}
             />

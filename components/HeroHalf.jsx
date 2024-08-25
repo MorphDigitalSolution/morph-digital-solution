@@ -1,4 +1,3 @@
-import TitlePillow from "@/components/TitlePillow";
 import BoxReveal from "./magicui/box-reveal";
 
 function HeroHalf({children}) {

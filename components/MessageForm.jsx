@@ -56,7 +56,7 @@ const MessageForm = ({ className }) => {
         <div className="mb-4">
           <input
             placeholder="Your email*"
-            type="text"
+            type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             className="w-full p-3 rounded-3xl text-neutral-800 border-neutral-300 border outline-none"
