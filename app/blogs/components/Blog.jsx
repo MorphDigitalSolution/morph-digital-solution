@@ -43,8 +43,8 @@ function Blog() {
   return (
     <div className="">
       <div className="max-w-6xl mx-auto pt-20">
-        <div className="grid grid-cols-3 gap-12">
-          <div className="col-span-2 grid lg:grid-cols-2 gap-8 py-10 px-5">
+        <div className="grid lg:grid-cols-3 px-5 gap-12">
+          <div className="lg:col-span-2 grid lg:grid-cols-2 gap-8 py-10">
             {loading && blogs.length === 0 ? (
               <div className="col-span-2 grid lg:grid-cols-2 gap-10">
                 <div className="h-[400px] space-y-5 animate-pulse p-5 bg-slate-300 rounded-3xl">

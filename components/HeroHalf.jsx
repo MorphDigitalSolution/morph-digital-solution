@@ -11,7 +11,7 @@ function HeroHalf({children}) {
       <div className="absolute top-0 left-0 w-full h-full text-white bg-neutral-800/5 flex items-center justify-center">
         <div className="max-w-4xl flex flex-col items-center text-center pt-24">
           <BoxReveal  boxColor={"#b4530900"} duration={0.5}>
-            <div className="text-4xl lg:text-[4.6rem] leading-[1.1] font-extrabold pt-3 lg:py-2">
+            <div className="text-4xl lg:text-[4.6rem] leading-[1.1] font-extrabold py-3 lg:py-2">
               {children}
             </div>
           </BoxReveal>
