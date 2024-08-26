@@ -20,9 +20,9 @@ function Process() {
             </BoxReveal>
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
               <div className="text-center max-w-xl mx-auto text-slate-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-                vel dolor oribus alias praesentium error sunt aut pariatur
-                veniam digni.
+                Explore our streamlined approach to deliver results. From
+                consultation to execution, we focus on meeting your needs
+                effectively.
               </div>
             </BoxReveal>
           </div>
@@ -34,28 +34,47 @@ function Process() {
           <div className="max-w-6xl mx-auto grid gap-y-10 lg:grid-cols-3 h-full py-10 lg:pt-16">
             <div className="flex items-center justify-center">
               <div className="size-[260px] flex items-center justify-center text-center p-6 relative rounded-full border-[6px] border-neutral-300 hover:border-amber-700 duration-500 bg-white ring-[18px] ring-white">
-                <div className="absolute top-0 right-0 size-16 bg-amber-700 rounded-full text-3xl font-bold text-white flex items-center justify-center">01</div>
+                <div className="absolute top-0 right-0 size-16 bg-amber-700 rounded-full text-3xl font-bold text-white flex items-center justify-center">
+                  01
+                </div>
                 <div className="">
-                    <div className="font-semibold text-xl py-3">Research Project</div>
-                    <div className="text-slate-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+                  <div className="font-semibold text-xl py-3">
+                    Research Project
+                  </div>
+                  <div className="text-slate-500">
+                    We thoroughly research your project to understand your
+                    requirements.
+                  </div>
                 </div>
               </div>
             </div>
             <div className="flex items-center justify-center lg:pt-20">
               <div className="size-[260px] flex items-center justify-center text-center p-6 relative rounded-full border-[6px] border-neutral-300 hover:border-amber-700 duration-500 bg-white ring-[18px] ring-white">
-                <div className="absolute top-0 right-0 size-16 bg-amber-700 rounded-full text-3xl font-bold text-white flex items-center justify-center">02</div>
+                <div className="absolute top-0 right-0 size-16 bg-amber-700 rounded-full text-3xl font-bold text-white flex items-center justify-center">
+                  02
+                </div>
                 <div className="">
-                    <div className="font-semibold text-xl py-3">Evaluate Plans</div>
-                    <div className="text-slate-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+                  <div className="font-semibold text-xl py-3">
+                    Evaluate Plans
+                  </div>
+                  <div className="text-slate-500">
+                    We assess and refine our strategies to ensure they align
+                    with your objectives.
+                  </div>
                 </div>
               </div>
             </div>
             <div className="flex items-center justify-center">
               <div className="size-[260px] flex items-center justify-center text-center p-6 relative rounded-full border-[6px] border-neutral-300 hover:border-amber-700 duration-500 bg-white ring-[18px] ring-white">
-                <div className="absolute top-0 right-0 size-16 bg-amber-700 rounded-full text-3xl font-bold text-white flex items-center justify-center">03</div>
+                <div className="absolute top-0 right-0 size-16 bg-amber-700 rounded-full text-3xl font-bold text-white flex items-center justify-center">
+                  03
+                </div>
                 <div className="">
-                    <div className="font-semibold text-xl py-3">Best Results</div>
-                    <div className="text-slate-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+                  <div className="font-semibold text-xl py-3">Best Results</div>
+                  <div className="text-slate-500">
+                    We execute the plan to achieve the best possible outcomes
+                    for your work.
+                  </div>
                 </div>
               </div>
             </div>
