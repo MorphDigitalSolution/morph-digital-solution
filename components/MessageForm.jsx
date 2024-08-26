@@ -41,7 +41,7 @@ const MessageForm = ({ className }) => {
           Get In Touch!
         </div>
         <div className="text-center text-sm pt-2 pb-6 text-neutral-500/80">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        We'd love to hear from you. Please fill out the form below, and we’ll get back to you soon.
         </div>
         <div className="mb-4">
           <input

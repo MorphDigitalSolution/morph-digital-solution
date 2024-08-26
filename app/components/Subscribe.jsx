@@ -55,11 +55,14 @@ function Subscribe() {
         <div className="p-5 lg:p-10">
           <BoxReveal boxColor={"#b45309"} duration={0.5}>
             <div className="text-sm text-neutral-500/80">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
-              architecto non sedwq ertru ylut agowwe atwewer suscipi.
+              Join our mailing list to receive the latest updates, insights, and
+              special offers directly to your inbox.
             </div>
           </BoxReveal>
-          <form onSubmit={handleSubmit} className="grid lg:grid-cols-3 gap-4 pt-8">
+          <form
+            onSubmit={handleSubmit}
+            className="grid lg:grid-cols-3 gap-4 pt-8"
+          >
             <div className="lg:col-span-2">
               <input
                 type="email"

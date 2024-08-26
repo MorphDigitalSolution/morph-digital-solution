@@ -43,7 +43,7 @@ function Services() {
               </BoxReveal>
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
                 <a
-                  href=""
+                  href="/services/business"
                   className="relative group rounded-3xl overflow-hidden h-64 w-72 md:w-[500px] lg:w-72 xl:w-80 block"
                 >
                   <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-600"></div>

@@ -35,9 +35,10 @@ function Contact() {
               </BoxReveal>
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
                 <div className="max-w-sm mx-auto text-neutral-500/80 py-2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Tempora vel dolor oribus alias praesentium error sunt aut
-                  pariatur veniam.
+                  We are here to assist you. Whether you have a question, want
+                  to discuss a project, or simply want to get to know us better,
+                  feel free to reach out. Our team is ready to help and
+                  collaborate with you.
                 </div>
               </BoxReveal>
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
@@ -52,7 +53,7 @@ function Contact() {
                       Office Address :
                     </div>
                     <div className="text-zinc-600/80">
-                      lqwei erw qer wehwt hrtw rhww rjwrh ehwrj ljerm.
+                      Block 6, Unit 6, 96th Street, Mandalay
                     </div>
                   </div>
                 </div>
@@ -67,7 +68,7 @@ function Contact() {
                   <div className="">
                     <div className="font-semibold text-lg">Phone Number :</div>
                     <div className="text-zinc-600/80">
-                      lqwei erw qer wehwt hrtw rhww rjwrh ehwrj ljerm.
+                    09 786 063 014
                     </div>
                   </div>
                 </div>
@@ -80,11 +81,9 @@ function Contact() {
                     </div>
                   </div>
                   <div className="">
-                    <div className="font-semibold text-lg">
-                      Mail Address :
-                    </div>
+                    <div className="font-semibold text-lg">Mail Address :</div>
                     <div className="text-zinc-600/80">
-                      lqwei erw qer wehwt hrtw rhww rjwrh ehwrj ljerm.
+                    morphwebsite.digital- marketing@gmail.com
                     </div>
                   </div>
                 </div>

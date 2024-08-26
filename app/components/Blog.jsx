@@ -55,9 +55,8 @@ function Blog() {
           </BoxReveal>
           <BoxReveal boxColor={"#b45309"} duration={0.5}>
             <div className="text-center text-sm lg:text-base max-w-xl mx-auto text-neutral-500/80">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-              vel dolor oribus alias praesentium error sunt aut pariatur veniam
-              digni.
+              Explore our latest blogs and news updates. Stay connected and
+              informed with insights, tips, and stories from our team.
             </div>
           </BoxReveal>
         </div>

@@ -132,7 +132,7 @@ function Header() {
           >
             <BiMenuAltRight />
           </button>
-          <img src="img/logo.png" alt="" className="h-24" />
+          <img src="https://morph-digital-mm.vercel.app/img/logo.png" alt="" className="h-24" />
           {["/", "/about", "/services", "/portfolio", "/blogs", "/contact"].map(
             (path, index) => (
               <Link

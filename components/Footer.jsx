@@ -28,8 +28,7 @@ function Footer() {
                 <div className="font-bold text-amber-700 text-4xl pb-2">.</div>
               </div>
               <div className="pe-8 py-2 text-sm">
-                Lorem ipsum dolor, sit amet consect metur adipisicing elit.
-                Tempora dolor cimnx minima!
+                Transforming your digital presence with cutting-edge solutions for your business.
               </div>
               <div className="flex gap-3 pt-3">
                 <a
@@ -93,7 +92,9 @@ function Footer() {
               </div>
             </div>
             <div className="lg:col-span-3">
-              <div className="pb-1 text-xl font-semibold">Contact Information</div>
+              <div className="pb-1 text-xl font-semibold">
+                Contact Information
+              </div>
               <div className="pt-3">Feel free to contact & reach us!!</div>
               <div className="flex gap-3 flex-col pt-3">
                 <div className="flex gap-2">
@@ -104,7 +105,10 @@ function Footer() {
                   <FaPhone className="text-amber-700 border border-amber-700 p-1 text-2xl rounded-full" />
                   +959 786 063 014
                 </a>
-                <a href="mailto:morphwebsite.digitalmarketing@gmail.com" className="flex gap-2">
+                <a
+                  href="mailto:morphwebsite.digitalmarketing@gmail.com"
+                  className="flex gap-2"
+                >
                   <BiLogoGmail className="text-amber-700 border border-amber-700 p-1 text-2xl rounded-full" />
                   morphwebsite.digitalmarketing@gmail.com
                 </a>
