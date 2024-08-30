@@ -99,12 +99,12 @@ const BlogList = ({ blogs, setBlogs, loading, error }) => {
               <div className="flex pt-3">
                 <button
                   onClick={() => handleEditClick(blog)}
-                  className="border-indigo-500 hover:bg-indigo-500 hover:shadow-lg hover:shadow-indigo-500 hover:text-white border-2 text-indigo-500 active:scale-90 duration-300 rounded-lg text-sm px-3 py-1 mr-2 flex items-center gap-1"
+                  className="border-indigo-500 hover:bg-indigo-500 hover:shadow-lg hover:shadow-indigo-500 hover:text-neutral-300 border-2 text-indigo-500 active:scale-90 duration-300 rounded-lg text-sm px-3 py-1 mr-2 flex items-center gap-1"
                 >
                   Edit <FaEdit className="text-base" />
                 </button>
                 <button
-                  className="bg-red-500 border-red-500 hover:shadow-lg hover:shadow-red-500 border-2 text-white text-sm px-3 py-1 active:scale-90 duration-300 rounded-lg flex items-center gap-1"
+                  className="bg-red-500 border-red-500 hover:shadow-lg hover:shadow-red-500 border-2 text-neutral-300 text-sm px-3 py-1 active:scale-90 duration-300 rounded-lg flex items-center gap-1"
                   onClick={() => handleDelete(blog._id)}
                 >
                   Delete <MdDelete className="text-base" />

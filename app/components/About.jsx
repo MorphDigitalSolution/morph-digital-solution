@@ -28,75 +28,74 @@ function About() {
         <div className="px-5 lg:px-16 lg:py-20">
           <BoxReveal boxColor={"#b45309"} duration={0.5}>
             <div className="pb-2">
-              <TitlePillow>About Us</TitlePillow>
+              <TitlePillow>Morph's Value</TitlePillow>
             </div>
           </BoxReveal>
           <BoxReveal boxColor={"#b45309"} duration={0.5}>
             <div className="text-2xl lg:text-5xl font-extrabold py-2 lg:py-4 capitalize text-blue-950">
-              <span className="text-amber-700">Introduction</span> to best
-              digital agency
+              <span className="text-amber-900">Values</span> we keep
+              {/* Morph ​၏ တန်ဖိုးထားမှုများ */}
             </div>
           </BoxReveal>
-          <div className="text-neutral-500/80">
+          <div className="text-neutral-600/80">
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
-              We transform your ideas into powerful digital experiences that
-              make a lasting impact.
+              Morph ​၏ တန်ဖိုးထားမှုများ
             </BoxReveal>
           </div>
-          <div className="grid lg:grid-cols-7 pt-8 gap-y-5">
-            <div className="lg:col-span-4 space-y-1">
+          <div className="grid lg:grid- cols-7 pt-8 gap-y-5">
+            <div className="lg:col- span-5 space-y-1 leading-[1.8]">
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
                 <div className="flex items-center gap-2">
-                  <FiCheckCircle className="text-2xl text-amber-700" />
+                  <FiCheckCircle className="text-2xl text-amber-900" />
                   <div className="text- font-semibold">
-                    Proven Success with Results
+                    တီထွင်ဖန်တီးမှု (Innovation)
                   </div>
                 </div>
               </BoxReveal>
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
                 <div className="flex items-center gap-2">
-                  <FiCheckCircle className="text-2xl text-amber-700" />
+                  <FiCheckCircle className="text-2xl text-amber-900" />
                   <div className="text- font-semibold">
-                    Expert Team of Specialists
+                    ရိုးသားမြင်သာမှု (Integrity)
                   </div>
                 </div>
               </BoxReveal>
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
                 <div className="flex items-center gap-2">
-                  <FiCheckCircle className="text-2xl text-amber-700" />
+                  <FiCheckCircle className="text-2xl text-amber-900" />
                   <div className="text- font-semibold">
-                    Innovative and Creative Solutions
+                    ထူးချွန်မှု (Excellence)
                   </div>
                 </div>
               </BoxReveal>
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
                 <div className="flex items-center gap-2">
-                  <FiCheckCircle className="text-2xl text-amber-700" />
+                  <FiCheckCircle className="text-2xl text-amber-900" />
                   <div className="text- font-semibold">
-                    Strategies Backed by Data
+                    ဖောက်သည်အခြေပြုမှု (Customer - Centricity)
                   </div>
                 </div>
               </BoxReveal>
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
                 <div className="flex items-center gap-2">
-                  <FiCheckCircle className="text-2xl text-amber-700" />
+                  <FiCheckCircle className="text-2xl text-amber-900" />
                   <div className="text- font-semibold">
-                    Quick Turnaround Times
+                    ပူးပေါင်းဆောင်ရွက်မှု (Collaboration)
                   </div>
                 </div>
               </BoxReveal>
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
                 <div className="flex items-center gap-2">
-                  <FiCheckCircle className="text-2xl text-amber-700" />
+                  <FiCheckCircle className="text-2xl text-amber-900" />
                   <div className="text- font-semibold">
-                    Tailored Solutions for Every Need
+                    လျင်မြန်စွာပြောင်းလဲနိုင်မှု (Adability)
                   </div>
                 </div>
               </BoxReveal>
             </div>
-            <div className="lg:col-span-3 lg:pb-8 flex lg:justify-center">
+            {/* <div className="lg:col-span-2 lg:ps-3 text-center lg:pb-8 flex lg:justify-center">
               <div className="rounded-3xl aspect-square w-fit py-5 px-6 uppercase border-2 border-neutral-400 flex flex-col items-center justify-center">
-                <div className="text-6xl font-bold text-amber-700">24</div>
+                <div className="text-6xl font-bold text-amber-900">24</div>
                 <div className="text-xl font-bold text-neutral-700/60">
                   Years
                 </div>
@@ -104,13 +103,13 @@ function About() {
                   of experience
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="">
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
               <Link
                 href="/about"
-                className="bg-amber-700 hover:bg-amber-800 duration-300 text-white uppercase py-3 px-6 block rounded-full mt-5"
+                className="bg-amber-900 hover:bg-amber-900 duration-300 text-neutral-300 uppercase py-3 px-6 block rounded-full mt-5"
               >
                 More About Us
               </Link>

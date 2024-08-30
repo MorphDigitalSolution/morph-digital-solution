@@ -16,7 +16,9 @@ const EditBlogForm = ({ blog, onCancel, onSubmit }) => {
   useEffect(() => {
     if (textareaRef.current) {
       textareaRef.current.style.height = "auto";
-      textareaRef.current.style.height = `${textareaRef.current.scrollHeight + 20}px`;
+      textareaRef.current.style.height = `${
+        textareaRef.current.scrollHeight + 20
+      }px`;
     }
   }, [content]);
 
@@ -55,14 +57,14 @@ const EditBlogForm = ({ blog, onCancel, onSubmit }) => {
       <div className="flex">
         <button
           type="submit"
-          className="bg-[#6cf46c] active:scale-90 duration-300 text-white px-4 py-2 rounded-lg mr-2"
+          className="bg-[#6cf46c] active:scale-90 duration-300 text-neutral-300 px-4 py-2 rounded-lg mr-2"
         >
           Save Changes
         </button>
         <button
           type="button"
           onClick={onCancel}
-          className="bg-[#bdbdbd] active:scale-90 duration-300 text-white px-4 py-2 rounded-lg"
+          className="bg-[#bdbdbd] active:scale-90 duration-300 text-neutral-300 px-4 py-2 rounded-lg"
         >
           Cancel
         </button>

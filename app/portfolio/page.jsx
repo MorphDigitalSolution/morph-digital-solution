@@ -4,6 +4,8 @@ import HeroHalf from "@/components/HeroHalf";
 import React from "react";
 import Subscribe from "../components/Subscribe";
 import BoxReveal from "@/components/magicui/box-reveal";
+import GroupClients from "./components/GroupClients";
+import Contact from "../components/Contact";
 
 function page() {
   return (
@@ -24,7 +26,7 @@ function page() {
                 </BoxReveal>
                 <a
                   href="#"
-                  className="absolute top-0 left-0 w-full h-full text-white bg-black/40 rounded-3xl duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
+                  className="absolute top-0 left-0 w-full h-full text-neutral-300 bg-black/40 rounded-3xl duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
                 >
                   <div className="font-semibold text-xl">Digital Marketing</div>
                   <div className="">
@@ -43,7 +45,7 @@ function page() {
                 </BoxReveal>
                 <a
                   href="#"
-                  className="absolute top-0 left-0 w-full h-full text-white bg-black/40 rounded-3xl duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
+                  className="absolute top-0 left-0 w-full h-full text-neutral-300 bg-black/40 rounded-3xl duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
                 >
                   <div className="font-semibold text-xl">Digital Marketing</div>
                   <div className="">
@@ -62,7 +64,7 @@ function page() {
                 </BoxReveal>
                 <a
                   href="#"
-                  className="absolute top-0 left-0 w-full h-full text-white bg-black/40 rounded-3xl duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
+                  className="absolute top-0 left-0 w-full h-full text-neutral-300 bg-black/40 rounded-3xl duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
                 >
                   <div className="font-semibold text-xl">Digital Marketing</div>
                   <div className="">
@@ -81,7 +83,7 @@ function page() {
                 </BoxReveal>
                 <a
                   href="#"
-                  className="absolute top-0 left-0 w-full h-full text-white bg-black/40 rounded-3xl duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
+                  className="absolute top-0 left-0 w-full h-full text-neutral-300 bg-black/40 rounded-3xl duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
                 >
                   <div className="font-semibold text-xl">Digital Marketing</div>
                   <div className="">
@@ -100,7 +102,7 @@ function page() {
                 </BoxReveal>
                 <a
                   href="#"
-                  className="absolute top-0 left-0 w-full h-full text-white bg-black/40 rounded-3xl duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
+                  className="absolute top-0 left-0 w-full h-full text-neutral-300 bg-black/40 rounded-3xl duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
                 >
                   <div className="font-semibold text-xl">Digital Marketing</div>
                   <div className="">
@@ -119,7 +121,7 @@ function page() {
                 </BoxReveal>
                 <a
                   href="#"
-                  className="absolute top-0 left-0 w-full h-full text-white bg-black/40 rounded-3xl duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
+                  className="absolute top-0 left-0 w-full h-full text-neutral-300 bg-black/40 rounded-3xl duration-500 p-5 gap-4 opacity-0 hover:opacity-100 flex items-center justify-center text-center flex-col"
                 >
                   <div className="font-semibold text-xl">Digital Marketing</div>
                   <div className="">
@@ -132,6 +134,9 @@ function page() {
           </div>
         </div>
       </div>
+      <GroupClients />
+      <Contact />
+      <div className="h-20"></div>
       <Subscribe />
       <Footer />
     </div>

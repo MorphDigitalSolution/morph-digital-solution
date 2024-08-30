@@ -61,7 +61,7 @@ const BlogForm = ({ addBlog }) => {
       </div>
       <button
         type="submit"
-        className="bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700"
+        className="bg-green-600 text-neutral-300 py-2 px-4 rounded-lg hover:bg-green-700"
       >
         Add Blog
       </button>

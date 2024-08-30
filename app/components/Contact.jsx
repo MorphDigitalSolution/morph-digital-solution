@@ -16,9 +16,9 @@ function Contact() {
       <img
         src="img/whiteOffice.png"
         alt=""
-        className="absolute top-0 left-0 w-full h-full object-cover object-right"
+        className="absolute invert top-0 left-0 w-full h-full object-cover object-right"
       />
-      <div className="relative w-full h-full bg-white/50 py-10 lg:pt-28 lg:pb-48">
+      <div className="relative w-full h-full bg-neutral-800/80 text-neutral-300 py-10 lg:pt-28 lg:pb-48">
         <div className="grid lg:grid-cols-2 max-w-7xl lg:px-20 mx-auto h-full p-8">
           <div className="">
             <div className="max-w-md">
@@ -28,23 +28,24 @@ function Contact() {
                 </div>
               </BoxReveal>
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
-                <div className="text-4xl lg:text-5xl font-extrabold py-2 text-blue-950">
-                  <span className="text-amber-700">Contact </span> & Join
+                <div className="text-4xl lg:text-5xl font-extrabold py-2 tex t-blue-950">
+                  <span className="text-amber-900">Contact </span> & Join
                   Together
                 </div>
               </BoxReveal>
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
-                <div className="max-w-sm mx-auto text-neutral-500/80 py-2">
-                  We are here to assist you. Whether you have a question, want
-                  to discuss a project, or simply want to get to know us better,
-                  feel free to reach out. Our team is ready to help and
-                  collaborate with you.
+                <div className="max-w-[25rem] mx-auto text-neutral-300/80 py-2">
+                  Morph ​၏ ဝန်ဆောင်မှုများအကြောင်း အချက်အလက်များပိုမိုလိုအပ်ပါက
+                  (သို့မဟုတ်) မေးခွန်းများရှိပါက (သို့မဟုတ်)
+                  အစည်းအဝေးချိန်းဆိုလိုပါက အောက်ပါ ဖောင်ကို
+                  ဖြည့်ပေးနိုင်ပါတယ်ရှင်။ Morph Team မှ
+                  ချက်ချင်းဆက်သွယ်ပေးပါမယ်ရှင့်။
                 </div>
               </BoxReveal>
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
                 <div className="flex gap-4 w-72 py-4">
                   <div className="">
-                    <div className="flex items-center justify-center p-5 aspect-square bg-black rounded-3xl text-white">
+                    <div className="flex items-center justify-center p-5 aspect-square bg-black rounded-3xl text-neutral-300">
                       <IoLocationOutline className="text-3xl" />
                     </div>
                   </div>
@@ -52,8 +53,8 @@ function Contact() {
                     <div className="font-semibold text-lg">
                       Office Address :
                     </div>
-                    <div className="text-zinc-600/80">
-                      Block 6, Unit 6, 96th Street, Mandalay
+                    <div className="text-zinc-400/80">
+                      65 လမ်း၊ 105 x 106 လမ်း၊ ချမ်းမြသာစည်မြို့နယ်၊ မန္တလေး
                     </div>
                   </div>
                 </div>
@@ -61,29 +62,28 @@ function Contact() {
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
                 <div className="flex gap-4 w-72 py-4">
                   <div className="">
-                    <div className="flex items-center justify-center p-5 aspect-square bg-black rounded-3xl text-white">
+                    <div className="flex items-center justify-center p-5 aspect-square bg-black rounded-3xl text-neutral-300">
                       <FiPhoneCall className="text-3xl pt-1" />
                     </div>
                   </div>
                   <div className="">
                     <div className="font-semibold text-lg">Phone Number :</div>
-                    <div className="text-zinc-600/80">
-                    09 786 063 014
-                    </div>
+                    <div className="text-zinc-400/80">09 786 063 014</div>
+                    <div className="text-zinc-400/80">09 940 004 046</div>
                   </div>
                 </div>
               </BoxReveal>
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
                 <div className="flex gap-4 w-72 py-4">
                   <div className="">
-                    <div className="flex items-center justify-center p-[1.4rem] aspect-square bg-black rounded-3xl text-white">
+                    <div className="flex items-center justify-center p-[1.4rem] aspect-square bg-black rounded-3xl text-neutral-300">
                       <LucideMailOpen className="text-3xl" />
                     </div>
                   </div>
                   <div className="">
                     <div className="font-semibold text-lg">Mail Address :</div>
-                    <div className="text-zinc-600/80">
-                    morphwebsite.digital- marketing@gmail.com
+                    <div className="text-zinc-400/80">
+                      morphwebsitemm@gmail .com
                     </div>
                   </div>
                 </div>
@@ -94,39 +94,39 @@ function Contact() {
             <img
               src="img/woman.png"
               alt=""
-              className="w-full pt-4 px-2 lg:hidden"
+              className="w-full pt-4 px-2 lg:hidden brightness-75"
             />
-            <div className="w-full lg:w-[390px] h-[580px] bg-white rounded-3xl shadow-2xl shadow-black/10">
+            <div className="w-full lg:w-[390px] h-[600px] bg-neutral-950/70 rounded-3xl shadow-2xl shadow-black/10">
               <MessageForm className="w-full h-full p-10" />
             </div>
-            <div className="p-10 mt-20 bg-amber-700 rounded-3xl lg:hidden space-y-5">
-              <div className="flex items-center text-white gap-2 justify-center flex-col">
+            <div className="p-10 mt-20 bg-amber-900 rounded-3xl lg:hidden space-y-5">
+              <div className="flex items-center text-neutral-300 gap-2 justify-center flex-col">
                 <RiPagesLine className="text-7xl p-1" />
                 <div className="text-5xl font-bold ps-4">
-                  <NumberTicker className="text-white" value={2} />
+                  <NumberTicker className="text-neutral-300" value={2} />
                   k+
                 </div>
                 <div className="">Completed Projects</div>
               </div>
-              <div className="flex items-center text-white gap-2 justify-center flex-col">
+              <div className="flex items-center text-neutral-300 gap-2 justify-center flex-col">
                 <SlPeople className="text-7xl p-1" />
                 <div className="text-5xl font-bold ps-4">
-                  <NumberTicker className="text-white" value={30} />
+                  <NumberTicker className="text-neutral-300" value={30} />
                   k+
                 </div>
                 <div className="">Happy Customers</div>
               </div>
-              <div className="flex items-center text-white gap-2 justify-center flex-col">
+              <div className="flex items-center text-neutral-300 gap-2 justify-center flex-col">
                 <LiaAwardSolid className="text-7xl" />
                 <div className="text-5xl font-bold ps-4">
-                  <NumberTicker className="text-white" value={12} />+
+                  <NumberTicker className="text-neutral-300" value={12} />+
                 </div>
                 <div className="">Award Winning</div>
               </div>
-              <div className="flex items-center text-white gap-2 justify-center flex-col">
+              <div className="flex items-center text-neutral-300 gap-2 justify-center flex-col">
                 <MdReviews className="text-7xl p-1" />
                 <div className="text-5xl font-bold ps-4">
-                  <NumberTicker className="text-white" value={99} />%
+                  <NumberTicker className="text-neutral-300" value={99} />%
                 </div>
                 <div className="">Satisfication Rate</div>
               </div>
@@ -139,36 +139,35 @@ function Contact() {
           <img
             src="img/woman.png"
             alt=""
-            className="w-full h-[700px] object-contain"
+            className="w-full h-[700px] brightness-75 pt-5 object-contain"
           />
-          <div className="p-10 bg-amber-700 rounded-3xl grid lg:grid-cols-4">
-            <div className="flex items-center text-white gap-2 justify-center flex-col">
+          <div className="p-10 bg-amber-900 rounded-3xl grid lg:grid-cols-4">
+            <div className="flex items-center text-neutral-300 gap-2 justify-center flex-col">
               <RiPagesLine className="text-7xl p-1" />
               <div className="text-5xl font-bold ps-4">
-                <NumberTicker className="text-white" value={2} />
+                <NumberTicker className="text-neutral-300" value={2} />
                 k+
               </div>
               <div className="">Completed Projects</div>
             </div>
-            <div className="flex items-center text-white gap-2 justify-center flex-col">
+            <div className="flex items-center text-neutral-300 gap-2 justify-center flex-col">
               <SlPeople className="text-7xl p-1" />
               <div className="text-5xl font-bold ps-4">
-                <NumberTicker className="text-white" value={30} />
-                k+
+                <NumberTicker className="text-neutral-300" value={120} />+
               </div>
               <div className="">Happy Customers</div>
             </div>
-            <div className="flex items-center text-white gap-2 justify-center flex-col">
+            <div className="flex items-center text-neutral-300 gap-2 justify-center flex-col">
               <LiaAwardSolid className="text-7xl" />
               <div className="text-5xl font-bold ps-4">
-                <NumberTicker className="text-white" value={12} />+
+                <NumberTicker className="text-neutral-300" value={12} />+
               </div>
               <div className="">Award Winning</div>
             </div>
-            <div className="flex items-center text-white gap-2 justify-center flex-col">
+            <div className="flex items-center text-neutral-300 gap-2 justify-center flex-col">
               <MdReviews className="text-7xl p-1" />
               <div className="text-5xl font-bold ps-4">
-                <NumberTicker className="text-white" value={99} />%
+                <NumberTicker className="text-neutral-300" value={99} />%
               </div>
               <div className="">Satisfication Rate</div>
             </div>

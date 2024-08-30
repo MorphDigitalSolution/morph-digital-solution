@@ -33,12 +33,7 @@ export const SidebarProvider = ({
   );
 };
 
-export const Sidebar = ({
-  children,
-  open,
-  setOpen,
-  animate,
-}) => {
+export const Sidebar = ({ children, open, setOpen, animate }) => {
   return (
     <SidebarProvider open={open} setOpen={setOpen} animate={animate}>
       {children}
@@ -55,11 +50,7 @@ export const SidebarBody = (props) => {
   );
 };
 
-export const DesktopSidebar = ({
-  className,
-  children,
-  ...props
-}) => {
+export const DesktopSidebar = ({ className, children, ...props }) => {
   const { open, setOpen, animate } = useSidebar();
   return (
     <motion.div
@@ -79,22 +70,18 @@ export const DesktopSidebar = ({
   );
 };
 
-export const MobileSidebar = ({
-  className,
-  children,
-  ...props
-}) => {
+export const MobileSidebar = ({ className, children, ...props }) => {
   const { open, setOpen } = useSidebar();
   return (
     <div
       className={cn(
-        "h-10 px-4 py-4 flex flex-row md:hidden items-center justify-between bg-neutral-700 text-white w-full"
+        "h-10 px-4 py-4 flex flex-row md:hidden items-center justify-between bg-neutral-700 text-neutral-300 w-full"
       )}
       {...props}
     >
       <div className="flex justify-end z-20 w-full">
         <IconMenu2
-          className="text-white"
+          className="text-neutral-300"
           onClick={() => setOpen(!open)}
         />
       </div>
@@ -114,7 +101,7 @@ export const MobileSidebar = ({
             )}
           >
             <div
-              className="absolute right-10 top-10 z-50 text-white"
+              className="absolute right-10 top-10 z-50 text-neutral-300"
               onClick={() => setOpen(!open)}
             >
               <IconX />
@@ -127,11 +114,7 @@ export const MobileSidebar = ({
   );
 };
 
-export const SidebarLink = ({
-  link,
-  className,
-  ...props
-}) => {
+export const SidebarLink = ({ link, className, ...props }) => {
   const { open, animate } = useSidebar();
   return (
     <Link

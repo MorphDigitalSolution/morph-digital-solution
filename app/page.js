@@ -18,14 +18,15 @@ export default function Home() {
       <Header />
       <main className="bg-white min-h-screen">
         <Hero />
-        <Services />
-        <About />
         <Goal />
-        <Portfolio />
-        <Team />
-        <Review />
-        <Contact />
+        {/* <About /> */}
+        <Services />
+        {/* <Portfolio /> */}
+        {/* <Team /> */}
+        {/* <Review /> */}
         <Blog />
+        <Contact />
+        <div className="h-20 bg-neutral-700"></div>
         <Subscribe />
         <Footer />
       </main>

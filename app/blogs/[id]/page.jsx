@@ -49,7 +49,11 @@ const BlogDetail = () => {
   if (loading)
     return (
       <div className="h-screen w-full flex items-center justify-center gap-2 flex-col">
-        <img src="https://morph-digital-mm.vercel.app/img/logo-sm.png" alt="" className="h-20 invert animate-pulse" />
+        <img
+          src="https://morph-digital-mm.vercel.app/img/logo-sm.png"
+          alt=""
+          className="h-20 invert animate-pulse"
+        />
         <div className="">Loading...</div>
       </div>
     );
@@ -62,11 +66,11 @@ const BlogDetail = () => {
         <>
           <div className="h-[480px] relative overflow-hidden">
             <img
-              src="https://morph-digital-mm.vercel.app/img/hero.png"
+              src="https://morph-digital-mm.vercel.app/img/heroSect.jpg"
               alt="hero image"
               className="w-full h-full object-cover object-top brightness-[0.5]"
             />
-            <div className="absolute top-0 left-0 w-full h-full text-white bg-neutral-800/5 flex items-center justify-center">
+            <div className="absolute top-0 left-0 w-full h-full text-neutral-300 bg-neutral-800/5 flex items-center justify-center">
               <div className="max-w-5xl flex flex-col items-center text-center pt-24">
                 <BoxReveal boxColor={"#b4530900"} duration={0.5}>
                   <div className="text-[2rem] lg:text-[3rem] leading-[1.5] px-8 lg:px-16 font-extrabold pt-3 lg:py-2">
@@ -74,11 +78,11 @@ const BlogDetail = () => {
                   </div>
                   <div className="border-y border-white w-fit mx-auto flex gap-5 p-2 mt-3">
                     <div className="flex gap-2 items-center">
-                      <IoPersonCircle className="text-xl text-amber-700" />
+                      <IoPersonCircle className="text-xl text-amber-900" />
                       {blog.author}
                     </div>
                     <div className="border-s ps-5 flex gap-2 items-center">
-                      <SlCalender className="text-lg text-amber-700" />
+                      <SlCalender className="text-lg text-amber-900" />
                       {new Date(blog.createdAt).toLocaleDateString()}
                     </div>
                   </div>
@@ -113,28 +117,28 @@ const BlogDetail = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
                 laboriosam pariatur, necessitatibus nesciunt dol.
               </div>
-              <div className="flex gap-3 pt-3 pb-5 text-white">
+              <div className="flex gap-3 pt-3 pb-5 text-neutral-300">
                 <a
                   href=""
-                  className="bg-amber-700 hover:bg-amber-800 duration-300 size-8 flex items-center justify-center rounded-full"
+                  className="bg-amber-900 hover:bg-amber-900 duration-300 size-8 flex items-center justify-center rounded-full"
                 >
                   <FaFacebook className="" />
                 </a>
                 <a
                   href=""
-                  className="bg-amber-700 hover:bg-amber-800 duration-300 size-8 flex items-center justify-center rounded-full"
+                  className="bg-amber-900 hover:bg-amber-900 duration-300 size-8 flex items-center justify-center rounded-full"
                 >
                   <FaTwitter className="" />
                 </a>
                 <a
                   href=""
-                  className="bg-amber-700 hover:bg-amber-800 duration-300 size-8 flex items-center justify-center rounded-full"
+                  className="bg-amber-900 hover:bg-amber-900 duration-300 size-8 flex items-center justify-center rounded-full"
                 >
                   <FaTelegram className="" />
                 </a>
                 <a
                   href=""
-                  className="bg-amber-700 hover:bg-amber-800 duration-300 size-8 flex items-center justify-center rounded-full"
+                  className="bg-amber-900 hover:bg-amber-900 duration-300 size-8 flex items-center justify-center rounded-full"
                 >
                   <FaLinkedin className="" />
                 </a>

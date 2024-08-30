@@ -40,7 +40,7 @@ function Blog() {
   }, [blogsInView]);
 
   return (
-    <div className="lg:pt-20">
+    <div className="lg:pt-20 bg-neutral-700">
       <div className="max-w-6xl mx-auto pt-20">
         <div className="flex flex-col items-center justify-center px-5">
           <BoxReveal boxColor={"#b45309"} duration={0.5}>
@@ -49,8 +49,8 @@ function Blog() {
             </div>
           </BoxReveal>
           <BoxReveal boxColor={"#b45309"} duration={0.5}>
-            <div className="text-3xl lg:text-5xl font-extrabold py-1 lg:py-2 text-blue-950">
-              <span className="text-amber-700">Blog</span> & News From Us
+            <div className="text-3xl lg:text-5xl font-extrabold py-1 lg:py-2 text-neutral-300 text -blue-950">
+              <span className="text-amber-900">Blog</span> & News From Us
             </div>
           </BoxReveal>
           <BoxReveal boxColor={"#b45309"} duration={0.5}>
@@ -100,16 +100,16 @@ function Blog() {
               <Fader key={index}>
                 <Link
                   href={`/blogs/${blog._id}`}
-                  className="shadow-md hover:shadow-2xl block h-full duration-300 rounded-3xl overflow-hidden"
+                  className="shadow-md hover:shadow-2xl bg-neutral-950/50 block h-full duration-300 rounded-3xl overflow-hidden"
                 >
                   <img
                     src="img/about1.png"
                     alt=""
-                    className="w-full h-64 object-cover"
+                    className="w-full h-64 object-cover brightness-75"
                   />
                   <div className="p-5">
                     <div
-                      className="text-xl font-semibold text-blue-950 line-clamp-2"
+                      className="text-xl font-semibold text-neutral-300 text -blue-950 line-clamp-2"
                       style={{
                         display: "-webkit-box",
                         WebkitBoxOrient: "vertical",
@@ -120,7 +120,7 @@ function Blog() {
                       {blog.title}
                     </div>
                     <div
-                      className="text-sm pt-2 text-neutral-500/80 line-clamp-2"
+                      className="text-sm pt-2 text-neutral-300/80 line-clamp-2"
                       style={{
                         display: "-webkit-box",
                         WebkitBoxOrient: "vertical",

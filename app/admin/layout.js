@@ -30,7 +30,7 @@ export default function AdminLayout({ children }) {
       <div className="h-screen grid lg:grid-cols-5 items-center justify-center">
         <div className="h-full lg:col-span-3">
           <img
-            src="https://morph-digital-mm.vercel.app/img/hero.png"
+            src="https://morph-digital-mm.vercel.app/img/heroSect.jpg"
             alt=""
             className="w-full h-full object-cover brightness-75"
           />
@@ -61,7 +61,7 @@ export default function AdminLayout({ children }) {
               </div>
               <button
                 type="submit"
-                className="p-3 block w-full rounded-xl bg-neutral-700 text-white"
+                className="p-3 block w-full rounded-xl bg-neutral-700 text-neutral-300"
               >
                 Login
               </button>

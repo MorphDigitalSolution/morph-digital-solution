@@ -37,11 +37,12 @@ const MessageForm = ({ className }) => {
   return (
     <>
       <form onSubmit={handleSubmit} className={className}>
-        <div className="text-center text-2xl lg:text-4xl font-bold text-neutral-900">
+        <div className="text-center text-2xl lg:text-4xl font-bold text-neutral-200">
           Get In Touch!
         </div>
-        <div className="text-center text-sm pt-2 pb-6 text-neutral-500/80">
-        We'd love to hear from you. Please fill out the form below, and we’ll get back to you soon.
+        <div className="text-center text-sm pt-2 pb-6 text-neutral-300/80">
+          သင့်ဆီက ကြားရတာ အရမ်းဝမ်းသာပါတယ်။ အောက်ပါဖောင်ကို ဖြည့်ပေးပါ၊
+          ကျွန်တော်တို့ မကြာခင်မှာပဲ ပြန်လည်ဆက်သွယ်ပါမယ်။
         </div>
         <div className="mb-4">
           <input
@@ -49,7 +50,7 @@ const MessageForm = ({ className }) => {
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            className="w-full p-3 rounded-3xl text-neutral-800 border-neutral-300 border outline-none"
+            className="w-full p-3 rounded-3xl text-neutral-300 placeholder:text-neutral-700 bg-neutral-950 border-neutral-700 border outline-none"
             required
           />
         </div>
@@ -59,7 +60,7 @@ const MessageForm = ({ className }) => {
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full p-3 rounded-3xl text-neutral-800 border-neutral-300 border outline-none"
+            className="w-full p-3 rounded-3xl text-neutral-300 placeholder:text-neutral-700 bg-neutral-950 border-neutral-700 border outline-none"
             required
           />
         </div>
@@ -69,7 +70,7 @@ const MessageForm = ({ className }) => {
             type="tel"
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
-            className="w-full p-3 rounded-3xl text-neutral-800 border-neutral-300 border outline-none"
+            className="w-full p-3 rounded-3xl text-neutral-300 placeholder:text-neutral-700 bg-neutral-950 border-neutral-700 border outline-none"
             required
           />
         </div>
@@ -78,12 +79,12 @@ const MessageForm = ({ className }) => {
             placeholder="Leave a message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            className="w-full p-3 rounded-3xl text-neutral-800 border-neutral-300 border outline-none h-32 resize-none"
+            className="w-full p-3 rounded-3xl text-neutral-300 placeholder:text-neutral-700 bg-neutral-950 border-neutral-700 border outline-none h-32 resize-none"
           />
         </div>
         <button
           type="submit"
-          className="bg-amber-700 font-semibold text-sm uppercase text-white py-3 px-8 rounded-full hover:bg-amber-900 relative z-30"
+          className="bg-amber-900 font-semibold text-sm uppercase text-neutral-300 py-3 px-8 rounded-full hover:bg-amber-900 relative z-30"
         >
           Submit Message
         </button>
@@ -91,7 +92,7 @@ const MessageForm = ({ className }) => {
 
       {/* Success message */}
       {showSuccess && (
-        <div className="fixed z-40 bottom-5 right-5 border-2 bg-white border-amber-700 text-amber-700 px-4 py-2 rounded-lg shadow-lg animate-slide-in-out">
+        <div className="fixed z-40 bottom-5 right-5 border-2 bg-white border-amber-900 text-amber-900 px-4 py-2 rounded-lg shadow-lg animate-slide-in-out">
           Message sent successfully!
         </div>
       )}

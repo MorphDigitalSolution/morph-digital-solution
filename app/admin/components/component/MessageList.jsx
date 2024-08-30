@@ -33,9 +33,7 @@ const MessageList = ({ messages, setMessages, loading, error }) => {
 
   // Ensure messages is an array
   const sortedMessages = Array.isArray(messages)
-    ? [...messages].sort(
-        (a, b) => new Date(b.sentAt) - new Date(a.sentAt)
-      )
+    ? [...messages].sort((a, b) => new Date(b.sentAt) - new Date(a.sentAt))
     : [];
 
   // Handle message deletion
@@ -104,12 +102,12 @@ const MessageList = ({ messages, setMessages, loading, error }) => {
               <div className="flex pt-3">
                 {/* <button
                   onClick={() => handleEditClick(message)}
-                  className="bg-[#e1c769] rounded-lg text-white text-sm px-3 py-1 mr-2 flex items-center gap-1"
+                  className="bg-[#e1c769] rounded-lg text-neutral-300 text-sm px-3 py-1 mr-2 flex items-center gap-1"
                 >
                   Edit <FaEdit className="text-base" />
                 </button> */}
                 <button
-                  className="bg-red-500 hover:shadow-lg hover:shadow-red-500 duration-300 hover:scale-105 active:scale-90 text-white text-sm px-3 py-1 rounded-lg flex items-center gap-1"
+                  className="bg-red-500 hover:shadow-lg hover:shadow-red-500 duration-300 hover:scale-105 active:scale-90 text-neutral-300 text-sm px-3 py-1 rounded-lg flex items-center gap-1"
                   onClick={() => handleDelete(message._id)}
                 >
                   Delete <MdDelete className="text-base" />

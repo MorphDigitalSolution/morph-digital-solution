@@ -5,8 +5,8 @@ import { BiSolidStar } from "react-icons/bi";
 
 function Review() {
   return (
-    <div className="relative bg-blend-difference bg-left bg-repeat-x bg-[url(https://demo.bosathemes.com/agence/wp-content/uploads/sites/35/2022/11/agency-img3.png)] bg-neutral-800">
-      <div className="w-full h-full bg-neutral-800/80 pt-20 lg:py-28 text-white">
+    <div className="relative bg-blend-difference bg-left bg-repeat-x bg- [url(https://demo.bosathemes.com/agence/wp-content/uploads/sites/35/2022/11/agency-img3.png)] bg-neutral-800">
+      <div className="w-full h-full bg-neutral-80 0/80 pt-20 lg:py-28 text-neutral-300">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col lg:flex-row justify-between gap-4 lg:gap-8 p-5 lg:items-center">
             <div className="">
@@ -17,7 +17,7 @@ function Review() {
               </BoxReveal>
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
                 <div className="text-4xl lg:text-5xl font-extrabold pt-2 lg:py-2 capitalize">
-                  <span className="text-amber-700">Review's</span> of Clients
+                  <span className="text-amber-900">Review's</span> of Clients
                 </div>
               </BoxReveal>
             </div>
@@ -31,7 +31,7 @@ function Review() {
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
               <a
                 href=""
-                className="bg-white hover:bg-amber-700 hover:text-white duration-300 rounded-full py-3 px-6 text-black text-[0.9rem] flex text-center font-semibold uppercase"
+                className="bg-white hover:bg-amber-900 hover:text-neutral-300 duration-300 rounded-full py-3 px-6 text-black text-[0.9rem] flex text-center font-semibold uppercase"
               >
                 View More
               </a>
@@ -61,10 +61,10 @@ function Review() {
                       <div className="text-sm">CEO of TechStartup Inc.</div>
                     </div>
                     <div className="col-span-2 flex items-center justify-center">
-                      <BiSolidStar className="text-amber-700" />
-                      <BiSolidStar className="text-amber-700" />
-                      <BiSolidStar className="text-amber-700" />
-                      <BiSolidStar className="text-amber-700" />
+                      <BiSolidStar className="text-amber-900" />
+                      <BiSolidStar className="text-amber-900" />
+                      <BiSolidStar className="text-amber-900" />
+                      <BiSolidStar className="text-amber-900" />
                       <BiSolidStar />
                     </div>
                   </div>
@@ -95,10 +95,10 @@ function Review() {
                       </div>
                     </div>
                     <div className="col-span-2 flex items-center justify-center">
-                      <BiSolidStar className="text-amber-700" />
-                      <BiSolidStar className="text-amber-700" />
-                      <BiSolidStar className="text-amber-700" />
-                      <BiSolidStar className="text-amber-700" />
+                      <BiSolidStar className="text-amber-900" />
+                      <BiSolidStar className="text-amber-900" />
+                      <BiSolidStar className="text-amber-900" />
+                      <BiSolidStar className="text-amber-900" />
                       <BiSolidStar />
                     </div>
                   </div>
@@ -130,11 +130,11 @@ function Review() {
                       </div>
                     </div>
                     <div className="col-span-2 flex items-center justify-center">
-                      <BiSolidStar className="text-amber-700" />
-                      <BiSolidStar className="text-amber-700" />
-                      <BiSolidStar className="text-amber-700" />
-                      <BiSolidStar className="text-amber-700" />
-                      <BiSolidStar className="text-amber-700" />
+                      <BiSolidStar className="text-amber-900" />
+                      <BiSolidStar className="text-amber-900" />
+                      <BiSolidStar className="text-amber-900" />
+                      <BiSolidStar className="text-amber-900" />
+                      <BiSolidStar className="text-amber-900" />
                     </div>
                   </div>
                 </div>

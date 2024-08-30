@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 export default function Component({
   currentCount,
   totalRequests = 100,
-  size = 200
+  size = 200,
 }) {
   const [progress, setProgress] = useState(0);
   const [displayedCount, setDisplayedCount] = useState(0);
@@ -18,7 +18,7 @@ export default function Component({
     const duration = 1000; // Animation duration in milliseconds
     const steps = 60; // Number of steps in the animation
     const stepDuration = duration / steps;
-    
+
     let currentStep = 0;
     const initialCount = displayedCount;
     const countDifference = currentCount - initialCount;
@@ -26,7 +26,9 @@ export default function Component({
     const timer = setInterval(() => {
       currentStep++;
       if (currentStep <= steps) {
-        const newCount = Math.round(initialCount + (countDifference * currentStep / steps));
+        const newCount = Math.round(
+          initialCount + (countDifference * currentStep) / steps
+        );
         setDisplayedCount(newCount);
         const calculatedProgress = Math.min((newCount / totalRequests) * 100);
         setProgress(calculatedProgress);
@@ -64,7 +66,7 @@ export default function Component({
         />
       </svg>
       <div className="absolute w-full top-0 left-0 inset-0 flex items-center justify-center flex-col">
-        <span className="text-2xl font-bold text-white">{`${displayedCount}%`}</span>
+        <span className="text-2xl font-bold text-neutral-300">{`${displayedCount}%`}</span>
       </div>
     </div>
   );

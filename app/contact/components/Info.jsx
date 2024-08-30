@@ -23,96 +23,105 @@ function ContactInfo() {
           </BoxReveal>
           <BoxReveal boxColor={"#b45309"} duration={0.5}>
             <div className="text-4xl lg:text-5xl font-extrabold lg:py-2 text-blue-950">
-              <span className="text-amber-700">Contact</span> & Join Together
+              <span className="text-amber-900">Contact</span> & Join Together
             </div>
           </BoxReveal>
           <BoxReveal boxColor={"#b45309"} duration={0.5}>
-            <div className="text-center max-w-xl mx-auto text-neutral-500/80">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-              vel dolor oribus alias praesentium error sunt aut pariatur veniam
-              digni.
+            <div className="text-center max-w-2xl mx-auto text-neutral-500/80">
+              Morph ​၏ ဝန်ဆောင်မှုများအကြောင်း အချက်အလက်များပိုမိုလိုအပ်ပါက
+              (သို့မဟုတ်) မေးခွန်းများရှိပါက (သို့မဟုတ်)
+              အစည်းအဝေးချိန်းဆိုလိုပါက အောက်ပါ ဖောင်ကို ဖြည့်ပေးနိုင်ပါတယ်ရှင်။
+              Morph Team မှ ချက်ချင်းဆက်သွယ်ပေးပါမယ်ရှင့်။
             </div>
           </BoxReveal>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 py-10 items-center justify-center">
           <div className="h-full shadow-xl shadow-black/10 rounded-3xl border border-zinc-100 p-6">
             <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-              <div className="flex gap-3 pb-3">
-                <div className="">
-                  <BiCurrentLocation className="text-5xl" />
-                </div>
-                <div className="">
-                  <div className="text-sm font-semibold uppercase">
-                    Location
+              <div className="flex flex-col justify-center h-32">
+                <div className="flex gap-3 pb-3">
+                  <div className="">
+                    <BiCurrentLocation className="text-5xl" />
                   </div>
-                  <div className="text-lg text-amber-700 font-semibold">
-                    Visit Us At
+                  <div className="">
+                    <div className="text-sm font-semibold uppercase">
+                      Location
+                    </div>
+                    <div className="text-lg text-amber-900 font-semibold">
+                      Visit Us At
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="text-neutral-500/80">
-                lorem weao wrgo qr wethr
-              </div>
-              <div className="text-neutral-500/80">
-                lorem weao wrgo qr wethr
+                <div className="text-neutral-500/80">
+                  65 လမ်း၊ 105 x 106 လမ်း၊ ချမ်းမြသာစည်မြို့နယ်၊ မန္တလေး
+                </div>
               </div>
             </BoxReveal>
           </div>
           <div className="h-full shadow-xl shadow-black/10 rounded-3xl border border-zinc-100 p-6">
             <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-              <div className="flex gap-3 pb-3">
-                <div className="">
-                  <BiSolidPhoneCall className="text-5xl" />
-                </div>
-                <div className="">
-                  <div className="text-sm font-semibold uppercase">
-                    24*7 service
+              <div className="flex flex-col justify-center h-32">
+                <div className="flex gap-3 pb-3">
+                  <div className="">
+                    <BiSolidPhoneCall className="text-5xl" />
                   </div>
-                  <div className="text-lg text-amber-700 font-semibold">
-                    Call Us On
+                  <div className="">
+                    <div className="text-sm font-semibold uppercase">
+                      24*7 service
+                    </div>
+                    <div className="text-lg text-amber-900 font-semibold">
+                      Call Us On
+                    </div>
                   </div>
                 </div>
+                <div className="text-neutral-500/80">Tel: 09 786 063 014</div>
+                <div className="text-neutral-500/80">Mob: 09 786 063 014</div>
               </div>
-              <div className="text-neutral-500/80">Tel: 09 786 063 014</div>
-              <div className="text-neutral-500/80">Mob: 09 786 063 014</div>
             </BoxReveal>
           </div>
           <div className="h-full shadow-xl shadow-black/10 rounded-3xl border border-zinc-100 p-6">
             <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-              <div className="flex gap-3 pb-3">
-                <div className="">
-                  <BiMailSend className="text-5xl" />
-                </div>
-                <div className="">
-                  <div className="text-sm font-semibold uppercase">
-                    Drop a line
+              <div className="flex flex-col justify-center h-32">
+                <div className="flex gap-3 pb-3">
+                  <div className="">
+                    <BiMailSend className="text-5xl" />
                   </div>
-                  <div className="text-lg text-amber-700 font-semibold">
-                    Mail Address
+                  <div className="">
+                    <div className="text-sm font-semibold uppercase">
+                      Drop a line
+                    </div>
+                    <div className="text-lg text-amber-900 font-semibold">
+                      Mail Address
+                    </div>
                   </div>
                 </div>
+                <div className="text-neutral-500/80">
+                  morphwebsite.mm@gmail.com
+                </div>
+                {/* <div className="text-neutral-500/80">domain@company.com</div> */}
               </div>
-              <div className="text-neutral-500/80">morphwebsite@gmail.com</div>
-              <div className="text-neutral-500/80">domain@company.com</div>
             </BoxReveal>
           </div>
           <div className="h-full shadow-xl shadow-black/10 rounded-3xl border border-zinc-100 p-6">
             <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-              <div className="flex gap-3 pb-3">
-                <div className="">
-                  <FaClock className="text-5xl p-1" />
-                </div>
-                <div className="">
-                  <div className="text-sm font-semibold uppercase">
-                    Office hours
+              <div className="flex flex-col justify-center h-32">
+                <div className="flex gap-3 pb-3">
+                  <div className="">
+                    <FaClock className="text-5xl p-1" />
                   </div>
-                  <div className="text-lg text-amber-700 font-semibold">
-                    Opening Time
+                  <div className="">
+                    <div className="text-sm font-semibold uppercase">
+                      Office hours
+                    </div>
+                    <div className="text-lg text-amber-900 font-semibold">
+                      Opening Time
+                    </div>
                   </div>
                 </div>
+                <div className="text-neutral-500/80">Mon – Fri : 9am – 6pm</div>
+                <div className="text-neutral-500/80">Sat : 10am – 4pm</div>
+                <div className="text-neutral-500/80">Sunday (Closed)</div>
               </div>
-              <div className="text-neutral-500/80">Mon – Fri : 9am – 6pm</div>
-              <div className="text-neutral-500/80">Sunday (Closed)</div>
             </BoxReveal>
           </div>
         </div>

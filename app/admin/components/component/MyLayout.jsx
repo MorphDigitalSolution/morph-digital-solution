@@ -20,30 +20,22 @@ export function MyLayout() {
     {
       label: "Dashboard",
       href: "/admin/dashboard",
-      icon: (
-        <IconBrandTabler className="h-5 w-5 flex-shrink-0" />
-      ),
+      icon: <IconBrandTabler className="h-5 w-5 flex-shrink-0" />,
     },
     {
       label: "Blogs",
       href: "/admin/blog",
-      icon: (
-        <IconUserBolt className="h-5 w-5 flex-shrink-0" />
-      ),
+      icon: <IconUserBolt className="h-5 w-5 flex-shrink-0" />,
     },
     {
       label: "Settings",
       href: "#",
-      icon: (
-        <IconSettings className="h-5 w-5 flex-shrink-0" />
-      ),
+      icon: <IconSettings className="h-5 w-5 flex-shrink-0" />,
     },
     {
       label: "Logout",
       href: "#",
-      icon: (
-        <IconArrowLeft className="h-5 w-5 flex-shrink-0" />
-      ),
+      icon: <IconArrowLeft className="h-5 w-5 flex-shrink-0" />,
     },
   ];
 
@@ -57,7 +49,7 @@ export function MyLayout() {
       )}
     >
       <Sidebar open={open} setOpen={setOpen} animate={true}>
-        <SidebarBody className="justify-between gap-10 fixed left-0 top-0 z-50 bg-neutral-800 text-white">
+        <SidebarBody className="justify-between gap-10 fixed left-0 top-0 z-50 bg-neutral-800 text-neutral-300">
           <div className="flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
             <Logo />
             <div className="mt-8 flex flex-col gap-2">

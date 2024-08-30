@@ -139,28 +139,28 @@ function Blog() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
               laboriosam pariatur, necessitatibus nesciunt dol.
             </div>
-            <div className="flex gap-3 pt-3 text-white">
+            <div className="flex gap-3 pt-3 text-neutral-300">
               <a
                 href=""
-                className="bg-amber-700 hover:bg-amber-800 duration-300 size-8 flex items-center justify-center rounded-full"
+                className="bg-amber-900 hover:bg-amber-900 duration-300 size-8 flex items-center justify-center rounded-full"
               >
                 <FaFacebook className="" />
               </a>
               <a
                 href=""
-                className="bg-amber-700 hover:bg-amber-800 duration-300 size-8 flex items-center justify-center rounded-full"
+                className="bg-amber-900 hover:bg-amber-900 duration-300 size-8 flex items-center justify-center rounded-full"
               >
                 <FaTwitter className="" />
               </a>
               <a
                 href=""
-                className="bg-amber-700 hover:bg-amber-800 duration-300 size-8 flex items-center justify-center rounded-full"
+                className="bg-amber-900 hover:bg-amber-900 duration-300 size-8 flex items-center justify-center rounded-full"
               >
                 <FaTelegram className="" />
               </a>
               <a
                 href=""
-                className="bg-amber-700 hover:bg-amber-800 duration-300 size-8 flex items-center justify-center rounded-full"
+                className="bg-amber-900 hover:bg-amber-900 duration-300 size-8 flex items-center justify-center rounded-full"
               >
                 <FaLinkedin className="" />
               </a>
@@ -168,24 +168,48 @@ function Blog() {
             <TitlePillow>Recent Posts</TitlePillow>
             <div className="grid text-start gap-4">
               <div className="grid grid-cols-3 gap-5">
-                <img src="img/about1.png" alt="" className="aspect-square object-cover rounded-3xl"/>
+                <img
+                  src="img/about1.png"
+                  alt=""
+                  className="aspect-square object-cover rounded-3xl"
+                />
                 <div className="col-span-2 flex flex-col justify-center">
-                  <div className="font-semibold">Thiqwe rrgq qerhtyj ehkurte erth rhqem hwet.</div>
-                  <div className="text-xs text-neutral-500">November 22, 2023</div>
+                  <div className="font-semibold">
+                    Thiqwe rrgq qerhtyj ehkurte erth rhqem hwet.
+                  </div>
+                  <div className="text-xs text-neutral-500">
+                    November 22, 2023
+                  </div>
                 </div>
               </div>
               <div className="grid grid-cols-3 gap-5">
-                <img src="img/about2.png" alt="" className="aspect-square object-cover rounded-3xl"/>
+                <img
+                  src="img/about2.png"
+                  alt=""
+                  className="aspect-square object-cover rounded-3xl"
+                />
                 <div className="col-span-2 flex flex-col justify-center">
-                  <div className="font-semibold">Thiqwe rrgq qerhtyj ehkurte erth rhqem hwet.</div>
-                  <div className="text-xs text-neutral-500">November 22, 2023</div>
+                  <div className="font-semibold">
+                    Thiqwe rrgq qerhtyj ehkurte erth rhqem hwet.
+                  </div>
+                  <div className="text-xs text-neutral-500">
+                    November 22, 2023
+                  </div>
                 </div>
               </div>
               <div className="grid grid-cols-3 gap-5">
-                <img src="img/about3.png" alt="" className="aspect-square object-cover rounded-3xl"/>
+                <img
+                  src="img/about3.png"
+                  alt=""
+                  className="aspect-square object-cover rounded-3xl"
+                />
                 <div className="col-span-2 flex flex-col justify-center">
-                  <div className="font-semibold">Thiqwe rrgq qerhtyj ehkurte erth rhqem hwet.</div>
-                  <div className="text-xs text-neutral-500">November 22, 2023</div>
+                  <div className="font-semibold">
+                    Thiqwe rrgq qerhtyj ehkurte erth rhqem hwet.
+                  </div>
+                  <div className="text-xs text-neutral-500">
+                    November 22, 2023
+                  </div>
                 </div>
               </div>
             </div>
