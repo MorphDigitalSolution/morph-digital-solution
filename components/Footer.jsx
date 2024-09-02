@@ -9,6 +9,7 @@ import {
   FaPhone,
   FaTelegram,
   FaTwitter,
+  FaViber,
 } from "react-icons/fa";
 
 function Footer() {
@@ -33,25 +34,25 @@ function Footer() {
               </div>
               <div className="flex gap-3 pt-3">
                 <a
-                  href=""
+                  href="https://www.facebook.com/morphwebsiteanddigitalmarketing?mibextid=LQQJ4d"
                   className="bg-amber-700 hover:bg-amber-700 duration-300 size-10 flex items-center justify-center rounded-full"
                 >
                   <FaFacebook className="text-lg" />
                 </a>
                 <a
-                  href=""
-                  className="bg-amber-700 hover:bg-amber-700 duration-300 size-10 flex items-center justify-center rounded-full"
-                >
-                  <FaTwitter className="text-lg" />
-                </a>
-                <a
-                  href=""
+                  href="https://t.me/myanmardigitalmarketing"
                   className="bg-amber-700 hover:bg-amber-700 duration-300 size-10 flex items-center justify-center rounded-full"
                 >
                   <FaTelegram className="text-lg" />
                 </a>
                 <a
-                  href=""
+                  href="https://invite.viber.com/?g2=AQAgAG9pwjGLolMltWVlDjneT1ei5C0j6vSIc0NBjm%2FTxaO4nZQM1jJVi3jBPHmy"
+                  className="bg-amber-700 hover:bg-amber-700 duration-300 size-10 flex items-center justify-center rounded-full"
+                >
+                  <FaViber className="text-lg" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/morphwebsiteanddigitalmarketing/"
                   className="bg-amber-700 hover:bg-amber-700 duration-300 size-10 flex items-center justify-center rounded-full"
                 >
                   <FaLinkedin className="text-lg" />
@@ -99,18 +100,18 @@ function Footer() {
               <div className="pt-3">Feel free to contact & reach us!!</div>
               <div className="flex gap-3 flex-col pt-3">
                 <div className="flex gap-2">
-                  <BiCurrentLocation className="text-amber-700 border border-amber-900 p-1 text-2xl rounded-full" />
+                  <BiCurrentLocation className=" border border-neutral-50/20 p-1 text-2xl rounded-full" />
                   65 လမ်း၊ 105 x 106 လမ်း၊ ချမ်းမြသာစည်မြို့နယ်၊ မန္တလေး
                 </div>
                 <a href="tel:+959786063014" className="flex gap-2">
-                  <FaPhone className="text-amber-700 border border-amber-900 p-1 text-2xl rounded-full" />
+                  <FaPhone className=" border border-neutral-50/20 p-1 text-2xl rounded-full" />
                   +959 786 063 014
                 </a>
                 <a
                   href="mailto:morphwebsite.mm@gmail.com"
                   className="flex gap-2"
                 >
-                  <BiLogoGmail className="text-amber-700 border border-amber-900 p-1 text-2xl rounded-full" />
+                  <BiLogoGmail className=" border border-neutral-50/20 p-1 text-2xl rounded-full" />
                   morphwebsite.mm@gmail.com
                 </a>
               </div>

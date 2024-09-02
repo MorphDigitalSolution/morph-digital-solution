@@ -168,7 +168,7 @@ function Team() {
                 </div>
               </div>
               </div> */}
-          <div className="relative bg-neutral-900/60 backdrop-blur-[2px] lg:px-20 text-center py-20 z-10 flex flex-col items-center justify-center">
+          <div className="relative bg-[#6f4e378e] backdrop-blur-[2px] lg:px-20 text-center py-20 z-10 flex flex-col items-center justify-center">
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
               <div className="pb-2">
                 <TitlePillow>Our Team</TitlePillow>

@@ -19,8 +19,8 @@ function page() {
       <HeroHalf>About Us</HeroHalf>
       <AboutUs />
       {/* <About /> */}
-      <div className="bg-amber-700 text-white relative">
-        <div className="absolute w-full h-full top-0 left-0 bg-neutral-800/90"></div>
+      <div className="bg- amber-700 text- white relative">
+        <div className="absolute w-full h-full top-0 left-0"></div>
         <div className="max-w-7xl relative mx-auto grid lg:grid-cols-2 py-10">
           <div className="relative h-full min-h-[500px]">
             <img
@@ -46,12 +46,12 @@ function page() {
               </div>
             </BoxReveal>
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
-              <div className="text-2xl lg:text-5xl font-extrabold py-2 lg:py-4 capitalize text-amber-700">
+              <div className="text-2xl lg:text-5xl font-extrabold py-2 lg:py-4 capitalize text-[#6F4E37]">
                 <span className="text-amber-700">Values</span> we keep
                 {/* Morph ​၏ တန်ဖိုးထားမှုများ */}
               </div>
             </BoxReveal>
-            <div className="text-neutral-400/80">
+            <div className="text-[#6F4E37b1]">
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
                 Morph ​၏ တန်ဖိုးထားမှုများ
               </BoxReveal>
@@ -60,7 +60,7 @@ function page() {
               <div className="lg:col- span-5 space-y-1 leading-[1.8]">
                 <BoxReveal boxColor={"#b45309"} duration={0.5}>
                   <div className="flex items-center gap-2">
-                    <FiCheckCircle className="text-2xl text- amber-900" />
+                    <FiCheckCircle className="text-2xl text-amber-700" />
                     <div className="text- font- semibold">
                       တီထွင်ဖန်တီးမှု (Innovation)
                     </div>
@@ -68,7 +68,7 @@ function page() {
                 </BoxReveal>
                 <BoxReveal boxColor={"#b45309"} duration={0.5}>
                   <div className="flex items-center gap-2">
-                    <FiCheckCircle className="text-2xl text- amber-900" />
+                    <FiCheckCircle className="text-2xl text-amber-700" />
                     <div className="text- font- semibold">
                       ရိုးသားမြင်သာမှု (Integrity)
                     </div>
@@ -76,7 +76,7 @@ function page() {
                 </BoxReveal>
                 <BoxReveal boxColor={"#b45309"} duration={0.5}>
                   <div className="flex items-center gap-2">
-                    <FiCheckCircle className="text-2xl text- amber-900" />
+                    <FiCheckCircle className="text-2xl text-amber-700" />
                     <div className="text- font- semibold">
                       ထူးချွန်မှု (Excellence)
                     </div>
@@ -84,7 +84,7 @@ function page() {
                 </BoxReveal>
                 <BoxReveal boxColor={"#b45309"} duration={0.5}>
                   <div className="flex items-center gap-2">
-                    <FiCheckCircle className="text-2xl text- amber-900" />
+                    <FiCheckCircle className="text-2xl text-amber-700" />
                     <div className="text- font- semibold">
                       ဖောက်သည်အခြေပြုမှု (Customer - Centricity)
                     </div>
@@ -92,7 +92,7 @@ function page() {
                 </BoxReveal>
                 <BoxReveal boxColor={"#b45309"} duration={0.5}>
                   <div className="flex items-center gap-2">
-                    <FiCheckCircle className="text-2xl text- amber-900" />
+                    <FiCheckCircle className="text-2xl text-amber-700" />
                     <div className="text- font- semibold">
                       ပူးပေါင်းဆောင်ရွက်မှု (Collaboration)
                     </div>
@@ -100,7 +100,7 @@ function page() {
                 </BoxReveal>
                 <BoxReveal boxColor={"#b45309"} duration={0.5}>
                   <div className="flex items-center gap-2">
-                    <FiCheckCircle className="text-2xl text- amber-900" />
+                    <FiCheckCircle className="text-2xl text-amber-700" />
                     <div className="text- font- semibold">
                       လျင်မြန်စွာပြောင်းလဲနိုင်မှု (Adability)
                     </div>
@@ -139,11 +139,11 @@ function page() {
               </div>
             </BoxReveal>
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
-              <div className="text-2xl lg:text-5xl font-extrabold py-2 lg:py-4 capitalize text-amber-700">
+              <div className="text-2xl lg:text-5xl font-extrabold py-2 lg:py-4 capitalize text-[#6F4E37]">
                 <span className="text-amber-700">Process</span> we follow
               </div>
             </BoxReveal>
-            <div className="text-neutral-400/80">
+            <div className="text-[#6F4E37b1]">
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
                 Morph ၏ ဒီဂျစ်တယ် Transformation ဆောင်ရွက်မှု လုပ်ငန်းစဉ်
               </BoxReveal>
@@ -152,7 +152,7 @@ function page() {
               <div className="lg:col- span-5 space-y-1 leading-[1.8]">
                 <BoxReveal boxColor={"#b45309"} duration={0.5}>
                   <div className="flex items-center gap-2">
-                    <FiCheckCircle className="text-2xl text- amber-900" />
+                    <FiCheckCircle className="text-2xl text-amber-700" />
                     <div className="text- font- semibold">
                       Step 1. အခြေခံအကြံပြုမှု (Initial Consultation)
                     </div>
@@ -160,7 +160,7 @@ function page() {
                 </BoxReveal>
                 <BoxReveal boxColor={"#b45309"} duration={0.5}>
                   <div className="flex items-center gap-2">
-                    <FiCheckCircle className="text-2xl text- amber-900" />
+                    <FiCheckCircle className="text-2xl text-amber-700" />
                     <div className="text- font- semibold">
                       Step 2. နည်းဗျူဟာ ဖန်တီးခြင်း (Strategy Development)
                     </div>
@@ -168,7 +168,7 @@ function page() {
                 </BoxReveal>
                 <BoxReveal boxColor={"#b45309"} duration={0.5}>
                   <div className="flex items-center gap-2">
-                    <FiCheckCircle className="text-2xl text- amber-900" />
+                    <FiCheckCircle className="text-2xl text-amber-700" />
                     <div className="text- font- semibold">
                       Step 3. ဒီဇိုင်းနှင့် အစီအစဉ် (Design&Planning)
                     </div>
@@ -176,7 +176,7 @@ function page() {
                 </BoxReveal>
                 <BoxReveal boxColor={"#b45309"} duration={0.5}>
                   <div className="flex items-center gap-2">
-                    <FiCheckCircle className="text-2xl text- amber-900" />
+                    <FiCheckCircle className="text-2xl text-amber-700" />
                     <div className="text- font- semibold">
                       Step 4. အကောင်အထည်ဖော်ခြင်း (Implementation)
                     </div>
@@ -184,7 +184,7 @@ function page() {
                 </BoxReveal>
                 <BoxReveal boxColor={"#b45309"} duration={0.5}>
                   <div className="flex items-center gap-2">
-                    <FiCheckCircle className="text-2xl text- amber-900" />
+                    <FiCheckCircle className="text-2xl text-amber-700" />
                     <div className="text- font- semibold">
                       Step 5. စမ်းသပ်ခြင်းနှင့် အရည်အသွေး သတ်မှတ်ခြင်း (Testing
                       & Quality Assurance)
@@ -193,7 +193,7 @@ function page() {
                 </BoxReveal>
                 <BoxReveal boxColor={"#b45309"} duration={0.5}>
                   <div className="flex items-center gap-2">
-                    <FiCheckCircle className="text-2xl text- amber-900" />
+                    <FiCheckCircle className="text-2xl text-amber-700" />
                     <div className="text- font- semibold">
                       Step 6. Final Delivery & Launch
                     </div>
@@ -201,7 +201,7 @@ function page() {
                 </BoxReveal>
                 <BoxReveal boxColor={"#b45309"} duration={0.5}>
                   <div className="flex items-center gap-2">
-                    <FiCheckCircle className="text-2xl text- amber-900" />
+                    <FiCheckCircle className="text-2xl text-amber-700" />
                     <div className="text- font- semibold">
                       Step 7. Post Launch Support & Optimization
                     </div>
@@ -252,7 +252,7 @@ function page() {
       </div>
       <Team />
       <Contact />
-      <div className="h-20 bg-amber-700"></div>
+      <div className="h-20 bg- amber-700"></div>
       <Subscribe />
       <Footer />
     </div>

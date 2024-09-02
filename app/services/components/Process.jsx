@@ -14,12 +14,12 @@ function Process() {
               </div>
             </BoxReveal>
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
-              <div className="text-4xl lg:text-5xl font-extrabold lg:py-2 text-blue-950">
+              <div className="text-4xl lg:text-5xl font-extrabold lg:py-2 text-[#6F4E37]">
                 <span className="text-amber-700">Process</span> We Follow
               </div>
             </BoxReveal>
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
-              <div className="text-center max-w-xl mx-auto text-slate-500">
+              <div className="text-center max-w-xl mx-auto text-[#6F4E37b1]">
                 Explore our streamlined approach to deliver results. From
                 consultation to execution, we focus on meeting your needs
                 effectively.
@@ -38,10 +38,10 @@ function Process() {
                   01
                 </div>
                 <div className="">
-                  <div className="font-semibold text-xl py-3">
+                  <div className="font-semibold text-xl py-3 text-[#6F4E37]">
                     Research Project
                   </div>
-                  <div className="text-slate-500">
+                  <div className="text-neutral-800/40">
                     We thoroughly research your project to understand your
                     requirements.
                   </div>
@@ -54,10 +54,10 @@ function Process() {
                   02
                 </div>
                 <div className="">
-                  <div className="font-semibold text-xl py-3">
+                  <div className="font-semibold text-xl py-3 text-[#6F4E37]">
                     Evaluate Plans
                   </div>
-                  <div className="text-slate-500">
+                  <div className="text-neutral-800/40">
                     We assess and refine our strategies to ensure they align
                     with your objectives.
                   </div>
@@ -70,10 +70,11 @@ function Process() {
                   03
                 </div>
                 <div className="">
-                  <div className="font-semibold text-xl py-3">Best Results</div>
-                  <div className="text-slate-500">
-                    We execute the plan to achieve the best possible outcomes
-                    for your work.
+                  <div className="font-semibold text-xl py-3 text-[#6F4E37]">
+                    Best Results
+                  </div>
+                  <div className="text-neutral-800/40">
+                    We execute the plan to achieve the best possible outcomes.
                   </div>
                 </div>
               </div>
