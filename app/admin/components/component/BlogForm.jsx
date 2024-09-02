@@ -31,7 +31,7 @@ const BlogForm = ({ addBlog }) => {
         Create New Blog
       </h2>
       <div className="mb-4">
-        <label className="block text-neutral-500/80">Title</label>
+        <label className="block text-[#6F4E37b1]">Title</label>
         <input
           type="text"
           value={title}
@@ -41,7 +41,7 @@ const BlogForm = ({ addBlog }) => {
         />
       </div>
       <div className="mb-4">
-        <label className="block text-neutral-500/80">Content</label>
+        <label className="block text-[#6F4E37b1]">Content</label>
         <textarea
           value={content}
           onChange={(e) => setContent(e.target.value)}
@@ -50,7 +50,7 @@ const BlogForm = ({ addBlog }) => {
         />
       </div>
       <div className="mb-4">
-        <label className="block text-neutral-500/80">Author</label>
+        <label className="block text-[#6F4E37b1]">Author</label>
         <input
           type="text"
           value={author}
@@ -61,7 +61,7 @@ const BlogForm = ({ addBlog }) => {
       </div>
       <button
         type="submit"
-        className="bg-green-600 text-neutral-300 py-2 px-4 rounded-lg hover:bg-green-700"
+        className="bg-green-600 text-neutral-100 py-2 px-4 rounded-lg hover:bg-green-700"
       >
         Add Blog
       </button>

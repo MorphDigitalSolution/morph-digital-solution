@@ -23,11 +23,11 @@ function ContactInfo() {
           </BoxReveal>
           <BoxReveal boxColor={"#b45309"} duration={0.5}>
             <div className="text-4xl lg:text-5xl font-extrabold lg:py-2 text-blue-950">
-              <span className="text-amber-900">Contact</span> & Join Together
+              <span className="text-amber-700">Contact</span> & Join Together
             </div>
           </BoxReveal>
           <BoxReveal boxColor={"#b45309"} duration={0.5}>
-            <div className="text-center max-w-2xl mx-auto text-neutral-500/80">
+            <div className="text-center max-w-2xl mx-auto text-[#6F4E37b1]">
               Morph ​၏ ဝန်ဆောင်မှုများအကြောင်း အချက်အလက်များပိုမိုလိုအပ်ပါက
               (သို့မဟုတ်) မေးခွန်းများရှိပါက (သို့မဟုတ်)
               အစည်းအဝေးချိန်းဆိုလိုပါက အောက်ပါ ဖောင်ကို ဖြည့်ပေးနိုင်ပါတယ်ရှင်။
@@ -47,12 +47,12 @@ function ContactInfo() {
                     <div className="text-sm font-semibold uppercase">
                       Location
                     </div>
-                    <div className="text-lg text-amber-900 font-semibold">
+                    <div className="text-lg text-amber-700 font-semibold">
                       Visit Us At
                     </div>
                   </div>
                 </div>
-                <div className="text-neutral-500/80">
+                <div className="text-[#6F4E37b1]">
                   65 လမ်း၊ 105 x 106 လမ်း၊ ချမ်းမြသာစည်မြို့နယ်၊ မန္တလေး
                 </div>
               </div>
@@ -69,13 +69,13 @@ function ContactInfo() {
                     <div className="text-sm font-semibold uppercase">
                       24*7 service
                     </div>
-                    <div className="text-lg text-amber-900 font-semibold">
+                    <div className="text-lg text-amber-700 font-semibold">
                       Call Us On
                     </div>
                   </div>
                 </div>
-                <div className="text-neutral-500/80">Tel: 09 786 063 014</div>
-                <div className="text-neutral-500/80">Mob: 09 786 063 014</div>
+                <div className="text-[#6F4E37b1]">Tel: 09 786 063 014</div>
+                <div className="text-[#6F4E37b1]">Mob: 09 786 063 014</div>
               </div>
             </BoxReveal>
           </div>
@@ -90,15 +90,15 @@ function ContactInfo() {
                     <div className="text-sm font-semibold uppercase">
                       Drop a line
                     </div>
-                    <div className="text-lg text-amber-900 font-semibold">
+                    <div className="text-lg text-amber-700 font-semibold">
                       Mail Address
                     </div>
                   </div>
                 </div>
-                <div className="text-neutral-500/80">
+                <div className="text-[#6F4E37b1]">
                   morphwebsite.mm@gmail.com
                 </div>
-                {/* <div className="text-neutral-500/80">domain@company.com</div> */}
+                {/* <div className="text-[#6F4E37b1]">domain@company.com</div> */}
               </div>
             </BoxReveal>
           </div>
@@ -113,14 +113,14 @@ function ContactInfo() {
                     <div className="text-sm font-semibold uppercase">
                       Office hours
                     </div>
-                    <div className="text-lg text-amber-900 font-semibold">
+                    <div className="text-lg text-amber-700 font-semibold">
                       Opening Time
                     </div>
                   </div>
                 </div>
-                <div className="text-neutral-500/80">Mon – Fri : 9am – 6pm</div>
-                <div className="text-neutral-500/80">Sat : 10am – 4pm</div>
-                <div className="text-neutral-500/80">Sunday (Closed)</div>
+                <div className="text-[#6F4E37b1]">Mon – Fri : 9am – 6pm</div>
+                <div className="text-[#6F4E37b1]">Sat : 10am – 4pm</div>
+                <div className="text-[#6F4E37b1]">Sunday (Closed)</div>
               </div>
             </BoxReveal>
           </div>

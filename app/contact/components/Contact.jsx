@@ -22,12 +22,12 @@ function Contact() {
                 </BoxReveal>
                 <BoxReveal boxColor={"#b45309"} duration={0.5}>
                   <div className="text-4xl lg:text-5xl font-extrabold py-2 text-blue-950">
-                    <span className="text-amber-900">Contact </span> & Join
+                    <span className="text-amber-700">Contact </span> & Join
                     Together
                   </div>
                 </BoxReveal>
                 <BoxReveal boxColor={"#b45309"} duration={0.5}>
-                  <div className="max-w-sm mx-auto text-neutral-500/80 py-2">
+                  <div className="max-w-sm mx-auto text-[#6F4E37b1] py-2">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Tempora vel dolor oribus alias praesentium error sunt aut
                     pariatur veniam.
@@ -36,7 +36,7 @@ function Contact() {
                 <BoxReveal boxColor={"#b45309"} duration={0.5}>
                   <div className="flex gap-4 w-72 py-4">
                     <div className="">
-                      <div className="flex items-center justify-center p-5 aspect-square bg-black rounded-3xl text-neutral-300">
+                      <div className="flex items-center justify-center p-5 aspect-square bg-black rounded-3xl text-neutral-100">
                         <IoLocationOutline className="text-3xl" />
                       </div>
                     </div>
@@ -53,7 +53,7 @@ function Contact() {
                 <BoxReveal boxColor={"#b45309"} duration={0.5}>
                   <div className="flex gap-4 w-72 py-4">
                     <div className="">
-                      <div className="flex items-center justify-center p-5 aspect-square bg-black rounded-3xl text-neutral-300">
+                      <div className="flex items-center justify-center p-5 aspect-square bg-black rounded-3xl text-neutral-100">
                         <IoLocationOutline className="text-3xl" />
                       </div>
                     </div>
@@ -70,7 +70,7 @@ function Contact() {
                 <BoxReveal boxColor={"#b45309"} duration={0.5}>
                   <div className="flex gap-4 w-72 py-4">
                     <div className="">
-                      <div className="flex items-center justify-center p-5 aspect-square bg-black rounded-3xl text-neutral-300">
+                      <div className="flex items-center justify-center p-5 aspect-square bg-black rounded-3xl text-neutral-100">
                         <IoLocationOutline className="text-3xl" />
                       </div>
                     </div>
@@ -93,34 +93,34 @@ function Contact() {
                 className="w-full pt-4 px-2 lg:hidden"
               />
               <div className="w-full lg:w-[420px] h-[580px] bg-white rounded-3xl shadow-2xl shadow-black/10"></div>
-              <div className="p-10 mt-20 bg-amber-900 rounded-3xl lg:hidden space-y-5">
-                <div className="flex items-center text-neutral-300 gap-2 justify-center flex-col">
+              <div className="p-10 mt-20 bg-amber-700 rounded-3xl lg:hidden space-y-5">
+                <div className="flex items-center text-neutral-100 gap-2 justify-center flex-col">
                   <RiPagesLine className="text-7xl p-1" />
                   <div className="text-5xl font-bold ps-4">
-                    <NumberTicker className="text-neutral-300" value={2} />
+                    <NumberTicker className="text-neutral-100" value={2} />
                     k+
                   </div>
                   <div className="">Completed Projects</div>
                 </div>
-                <div className="flex items-center text-neutral-300 gap-2 justify-center flex-col">
+                <div className="flex items-center text-neutral-100 gap-2 justify-center flex-col">
                   <SlPeople className="text-7xl p-1" />
                   <div className="text-5xl font-bold ps-4">
-                    <NumberTicker className="text-neutral-300" value={30} />
+                    <NumberTicker className="text-neutral-100" value={30} />
                     k+
                   </div>
                   <div className="">Happy Customers</div>
                 </div>
-                <div className="flex items-center text-neutral-300 gap-2 justify-center flex-col">
+                <div className="flex items-center text-neutral-100 gap-2 justify-center flex-col">
                   <LiaAwardSolid className="text-7xl" />
                   <div className="text-5xl font-bold ps-4">
-                    <NumberTicker className="text-neutral-300" value={12} />+
+                    <NumberTicker className="text-neutral-100" value={12} />+
                   </div>
                   <div className="">Award Winning</div>
                 </div>
-                <div className="flex items-center text-neutral-300 gap-2 justify-center flex-col">
+                <div className="flex items-center text-neutral-100 gap-2 justify-center flex-col">
                   <MdReviews className="text-7xl p-1" />
                   <div className="text-5xl font-bold ps-4">
-                    <NumberTicker className="text-neutral-300" value={99} />%
+                    <NumberTicker className="text-neutral-100" value={99} />%
                   </div>
                   <div className="">Satisfication Rate</div>
                 </div>
@@ -135,34 +135,34 @@ function Contact() {
               alt=""
               className="w-full h-[700px] object-contain"
             />
-            <div className="p-10 bg-amber-900 rounded-3xl grid lg:grid-cols-4">
-              <div className="flex items-center text-neutral-300 gap-2 justify-center flex-col">
+            <div className="p-10 bg-amber-700 rounded-3xl grid lg:grid-cols-4">
+              <div className="flex items-center text-neutral-100 gap-2 justify-center flex-col">
                 <RiPagesLine className="text-7xl p-1" />
                 <div className="text-5xl font-bold ps-4">
-                  <NumberTicker className="text-neutral-300" value={2} />
+                  <NumberTicker className="text-neutral-100" value={2} />
                   k+
                 </div>
                 <div className="">Completed Projects</div>
               </div>
-              <div className="flex items-center text-neutral-300 gap-2 justify-center flex-col">
+              <div className="flex items-center text-neutral-100 gap-2 justify-center flex-col">
                 <SlPeople className="text-7xl p-1" />
                 <div className="text-5xl font-bold ps-4">
-                  <NumberTicker className="text-neutral-300" value={30} />
+                  <NumberTicker className="text-neutral-100" value={30} />
                   k+
                 </div>
                 <div className="">Happy Customers</div>
               </div>
-              <div className="flex items-center text-neutral-300 gap-2 justify-center flex-col">
+              <div className="flex items-center text-neutral-100 gap-2 justify-center flex-col">
                 <LiaAwardSolid className="text-7xl" />
                 <div className="text-5xl font-bold ps-4">
-                  <NumberTicker className="text-neutral-300" value={12} />+
+                  <NumberTicker className="text-neutral-100" value={12} />+
                 </div>
                 <div className="">Award Winning</div>
               </div>
-              <div className="flex items-center text-neutral-300 gap-2 justify-center flex-col">
+              <div className="flex items-center text-neutral-100 gap-2 justify-center flex-col">
                 <MdReviews className="text-7xl p-1" />
                 <div className="text-5xl font-bold ps-4">
-                  <NumberTicker className="text-neutral-300" value={99} />%
+                  <NumberTicker className="text-neutral-100" value={99} />%
                 </div>
                 <div className="">Satisfication Rate</div>
               </div>

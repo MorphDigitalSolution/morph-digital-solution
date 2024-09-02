@@ -7,7 +7,7 @@ function Services() {
     <>
       <div className="relative bg-blend-difference bg-left bg-repeat-x bg-[url(https://demo.bosathemes.com/agence/wp-content/uploads/sites/35/2022/11/agency-img3.png)] bg-neutral-800">
         <div className="w-full h-full bg-neutral-800/90 flex pb-20">
-          <div className="max-w-7xl w-full flex flex-col text-center items-center justify-center mx-auto text-neutral-300">
+          <div className="max-w-7xl w-full flex flex-col text-center items-center justify-center mx-auto text-neutral-100">
             <div className="flex flex-col lg:flex-row w-full px-10 mt-5 gap-8 xl:gap-0 items-center justify-center">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
                 <div className="py-8 px-4">
@@ -22,7 +22,7 @@ function Services() {
                         alt=""
                         className="size-24 pt-2"
                       />
-                      <div className="text-2xl group-hover:text-amber-900 font-semibold">
+                      <div className="text-2xl group-hover:text-amber-700 font-semibold">
                         Website Development
                       </div>
                       <div className="text-sm pt-5 text-left pb-3">
@@ -48,7 +48,7 @@ function Services() {
                     <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
                     <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center text-center justify-center">
                       <img src="img/marketing.svg" alt="" className="size-24" />
-                      <div className="text-2xl group-hover:text-amber-900 font-semibold">
+                      <div className="text-2xl group-hover:text-amber-700 font-semibold">
                         Digital Marketing
                       </div>
                       <div className="text-sm pt-5 text-left pb-3">
@@ -72,7 +72,7 @@ function Services() {
                     <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
                     <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center text-center justify-center">
                       <img src="img/business.svg" alt="" className="size-24" />
-                      <div className="text-2xl group-hover:text-amber-900 font-semibold">
+                      <div className="text-2xl group-hover:text-amber-700 font-semibold">
                         Business Registration
                       </div>
                       <div className="text-sm pt-5 text-left pb-3">
@@ -94,7 +94,7 @@ function Services() {
           </div>
         </div>
         <div className="lg:absolute -bottom-24 right-1/2 lg:translate-x-1/2 w-full px-5">
-          <div className="text-neutral-300 flex flex-col lg:grid lg:grid-cols-12 gap-4 lg:gap-8 p-8 lg:p-10 lg:items-center max-w-6xl mx-auto bg-amber-900 lg:rounded-3xl">
+          <div className="text-neutral-100 flex flex-col lg:grid lg:grid-cols-12 gap-4 lg:gap-8 p-8 lg:p-10 lg:items-center max-w-6xl mx-auto bg-amber-700 lg:rounded-3xl">
             <FaPhone className="size-16 border border-white p-3 rounded-full" />
             <div className="lg:col-span-3">
               <div className="uppercase text-sm font-semibold">
@@ -110,7 +110,7 @@ function Services() {
             <div className="col-span-3 flex justify-end">
               <a
                 href="tel:+959786063014"
-                className="bg-white text-black rounded-full py-3 px-5 hover:bg-amber-900 hover:text-neutral-300 duration-300"
+                className="bg-white text-black rounded-full py-3 px-5 hover:bg-amber-700 hover:text-neutral-100 duration-300"
               >
                 Make appointment
               </a>

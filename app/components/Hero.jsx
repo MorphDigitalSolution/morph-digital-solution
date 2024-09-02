@@ -12,14 +12,14 @@ function Hero() {
         alt="hero image"
         className="w-full h-full object-cover object-top brightness-[0.4] opacity-95"
       />
-      <div className="absolute top-0 left-0 w-full h-full text-neutral-300 bg-neutral-800/5 flex items-center justify-center">
+      <div className="absolute top-0 left-0 w-full h-full text-neutral-100 bg-neutral-800/5 flex items-center justify-center">
         <div className="max-w-5xl flex flex-col items-center text-center pt-20">
           <BoxReveal boxColor={"#b4530900"} duration={0.2}>
             <TitlePillow>Digital Solution</TitlePillow>
           </BoxReveal>
           <BoxReveal boxColor={"#b4530900"} duration={0.2}>
             <div className="text-4xl lg:text-[4.6rem] leading-[1.1] font-extrabold pt-3 lg:py-2">
-              One Stop <span className="text-amber-900">Digital Solution </span>
+              One Stop <span className="text-amber-700">Digital Solution </span>
               Service Company
             </div>
           </BoxReveal>
@@ -35,7 +35,7 @@ function Hero() {
             <BoxReveal boxColor={"#b4530900"} duration={0.2}>
               <Link
                 href="/services"
-                className="bg-amber-900 block uppercase text-sm font-semibold py-3 px-7 rounded-full hover:bg-amber-900 hover:text-neutral-300 duration-300"
+                className="bg-amber-700 block uppercase text-sm font-semibold py-3 px-7 rounded-full hover:bg-amber-700 hover:text-neutral-100 duration-300"
               >
                 See Services
               </Link>
@@ -43,7 +43,7 @@ function Hero() {
             <BoxReveal boxColor={"#b4530900"} duration={0.2}>
               <Link
                 href="/contact"
-                className="bg-white text-black block uppercase text-sm font-semibold py-3 px-7 rounded-full hover:bg-amber-900 hover:text-neutral-300 duration-300"
+                className="bg-white text-black block uppercase text-sm font-semibold py-3 px-7 rounded-full hover:bg-amber-700 hover:text-neutral-100 duration-300"
               >
                 Contact Us
               </Link>

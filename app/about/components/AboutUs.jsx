@@ -4,7 +4,7 @@ import React from "react";
 
 function AboutUs() {
   return (
-    <div className="bg-neutral-700 text-white">
+    <div className="bg-amber-700 text-white">
       <div className="max-w-6xl mx-auto">
         <div className="grid lg:grid-cols-5 py-5 lg:pt-20 lg:pb-10">
           <div className="px-5 lg:col-span-2">
@@ -16,7 +16,7 @@ function AboutUs() {
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
               <div className="text-3xl lg:text-5xl font-extrabold lg:py-2 text- blue-950">
                 One Stop{" "}
-                <span className="text-amber-900">Digital Solution </span>
+                <span className="text-amber-700">Digital Solution </span>
                 Service Company
               </div>
             </BoxReveal>
@@ -44,7 +44,7 @@ function AboutUs() {
             <div className="pb-12 px-4">
               <div className="p-2 rounded-3xl shadow-2xl shadow-black/15 bg-neutral-950/50 grid items-center grid-cols-3">
                 <div className="p-4">
-                  <div className="aspect-square rounded-full bg-amber-900">
+                  <div className="aspect-square rounded-full bg-amber-700">
                     <img
                       src="img/bestPrice.png"
                       alt=""
@@ -94,7 +94,7 @@ function AboutUs() {
             <div className="pb-12 px-4">
               <div className="p-2 rounded-3xl shadow-2xl shadow-black/15 bg-neutral-950/50 grid items-center grid-cols-3">
                 <div className="p-4">
-                  <div className="aspect-square rounded-full bg-amber-900">
+                  <div className="aspect-square rounded-full bg-amber-700">
                     <img
                       src="img/team.png"
                       alt=""

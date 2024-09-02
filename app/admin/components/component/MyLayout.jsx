@@ -49,7 +49,7 @@ export function MyLayout() {
       )}
     >
       <Sidebar open={open} setOpen={setOpen} animate={true}>
-        <SidebarBody className="justify-between gap-10 fixed left-0 top-0 z-50 bg-neutral-800 text-neutral-300">
+        <SidebarBody className="justify-between gap-10 fixed left-0 top-0 z-50 bg-neutral-800 text-neutral-100">
           <div className="flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
             <Logo />
             <div className="mt-8 flex flex-col gap-2">

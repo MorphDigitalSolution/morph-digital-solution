@@ -93,21 +93,21 @@ const MessageList = ({ messages, setMessages, loading, error }) => {
               <h3 className="font-semibold mb-2">Name: {message.name}</h3>
               <h3 className="font-semibold mb-2">Email: {message.email}</h3>
               <h3 className="font-semibold mb-2">Phone: {message.phone}</h3>
-              <p className="text-neutral-500/80 mb-2 whitespace-pre-wrap">
+              <p className="text-[#6F4E37b1] mb-2 whitespace-pre-wrap">
                 {message.message.substring(0, 100)}...
               </p>
-              <p className="text-neutral-500/80 text-sm">
+              <p className="text-[#6F4E37b1] text-sm">
                 {new Date(message.sentAt).toLocaleDateString()}
               </p>
               <div className="flex pt-3">
                 {/* <button
                   onClick={() => handleEditClick(message)}
-                  className="bg-[#e1c769] rounded-lg text-neutral-300 text-sm px-3 py-1 mr-2 flex items-center gap-1"
+                  className="bg-[#e1c769] rounded-lg text-neutral-100 text-sm px-3 py-1 mr-2 flex items-center gap-1"
                 >
                   Edit <FaEdit className="text-base" />
                 </button> */}
                 <button
-                  className="bg-red-500 hover:shadow-lg hover:shadow-red-500 duration-300 hover:scale-105 active:scale-90 text-neutral-300 text-sm px-3 py-1 rounded-lg flex items-center gap-1"
+                  className="bg-red-500 hover:shadow-lg hover:shadow-red-500 duration-300 hover:scale-105 active:scale-90 text-neutral-100 text-sm px-3 py-1 rounded-lg flex items-center gap-1"
                   onClick={() => handleDelete(message._id)}
                 >
                   Delete <MdDelete className="text-base" />

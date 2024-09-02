@@ -75,13 +75,13 @@ export const MobileSidebar = ({ className, children, ...props }) => {
   return (
     <div
       className={cn(
-        "h-10 px-4 py-4 flex flex-row md:hidden items-center justify-between bg-neutral-700 text-neutral-300 w-full"
+        "h-10 px-4 py-4 flex flex-row md:hidden items-center justify-between bg-amber-700 text-neutral-100 w-full"
       )}
       {...props}
     >
       <div className="flex justify-end z-20 w-full">
         <IconMenu2
-          className="text-neutral-300"
+          className="text-neutral-100"
           onClick={() => setOpen(!open)}
         />
       </div>
@@ -101,7 +101,7 @@ export const MobileSidebar = ({ className, children, ...props }) => {
             )}
           >
             <div
-              className="absolute right-10 top-10 z-50 text-neutral-300"
+              className="absolute right-10 top-10 z-50 text-neutral-100"
               onClick={() => setOpen(!open)}
             >
               <IconX />

@@ -66,7 +66,7 @@ export default function Component({
         />
       </svg>
       <div className="absolute w-full top-0 left-0 inset-0 flex items-center justify-center flex-col">
-        <span className="text-2xl font-bold text-neutral-300">{`${displayedCount}%`}</span>
+        <span className="text-2xl font-bold text-neutral-100">{`${displayedCount}%`}</span>
       </div>
     </div>
   );

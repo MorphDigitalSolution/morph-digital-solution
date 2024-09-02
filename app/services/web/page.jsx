@@ -14,7 +14,7 @@ function page() {
       <HeroHalf>Web Development Services</HeroHalf>
       <div className="relative bg-blend-difference bg-left bg-repeat-x bg-[url(https://demo.bosathemes.com/agence/wp-content/uploads/sites/35/2022/11/agency-img3.png)] bg-neutral-800">
         <div className="w-full h-full bg-neutral-800/90 flex pb-10">
-          <div className="max-w-6xl w-full pt-16 lg:pb-20 text-center mx-auto text-neutral-300">
+          <div className="max-w-6xl w-full pt-16 lg:pb-20 text-center mx-auto text-neutral-100">
             <div className="grid md:grid-cols-2 lg:grid-cols-3 items-center justify-center w-full px-5 gap-10">
               <div className="flex items-center justify-center lg:justify-center md:justify-end">
                 <BoxReveal boxColor={"#b4530900"} duration={0.5}>
@@ -26,7 +26,7 @@ function page() {
                         alt=""
                         className="size-20"
                       />
-                      <div className="text-xl group-hover:text-amber-900">
+                      <div className="text-xl group-hover:text-amber-700">
                         Content Writing Service
                       </div>
                     </div>
@@ -43,7 +43,7 @@ function page() {
                         alt=""
                         className="size-28 -mt-3"
                       />
-                      <div className="text-xl group-hover:text-amber-900 -mt-5">
+                      <div className="text-xl group-hover:text-amber-700 -mt-5">
                         Social Media Management Service
                       </div>
                     </div>
@@ -60,7 +60,7 @@ function page() {
                         alt=""
                         className="size-28 -mt-3"
                       />
-                      <div className="text-xl group-hover:text-amber-900 -mt-5">
+                      <div className="text-xl group-hover:text-amber-700 -mt-5">
                         Online Reputation Management Plan Service
                       </div>
                     </div>
@@ -79,7 +79,7 @@ function page() {
                         alt=""
                         className="size-20"
                       />
-                      <div className="text-xl group-hover:text-amber-900">
+                      <div className="text-xl group-hover:text-amber-700">
                         Crisis Communication Plan Service
                       </div>
                     </div>
@@ -96,7 +96,7 @@ function page() {
                         alt=""
                         className="size-28 -mt-3"
                       />
-                      <div className="text-xl group-hover:text-amber-900 -mt-5">
+                      <div className="text-xl group-hover:text-amber-700 -mt-5">
                         Data Analytics & Reporting Service
                       </div>
                     </div>
@@ -113,7 +113,7 @@ function page() {
                         alt=""
                         className="size-28 -mt-3"
                       />
-                      <div className="text-xl group-hover:text-amber-900 -mt-5">
+                      <div className="text-xl group-hover:text-amber-700 -mt-5">
                         Graphic Design Services
                       </div>
                     </div>
@@ -132,7 +132,7 @@ function page() {
                         alt=""
                         className="size-20"
                       />
-                      <div className="text-xl group-hover:text-amber-900">
+                      <div className="text-xl group-hover:text-amber-700">
                         Boosting Service
                       </div>
                     </div>
@@ -149,7 +149,7 @@ function page() {
                         alt=""
                         className="size-28 -mt-3"
                       />
-                      <div className="text-xl group-hover:text-amber-900 -mt-5">
+                      <div className="text-xl group-hover:text-amber-700 -mt-5">
                         Video Marketing Service
                       </div>
                     </div>
@@ -166,7 +166,7 @@ function page() {
                         alt=""
                         className="size-28 -mt-3"
                       />
-                      <div className="text-xl group-hover:text-amber-900 -mt-5">
+                      <div className="text-xl group-hover:text-amber-700 -mt-5">
                         Script Writing Service
                       </div>
                     </div>
@@ -177,7 +177,7 @@ function page() {
           </div>
         </div>
         <div className="lg:absolute -bottom-24 right-1/2 lg:translate-x-1/2 w-full px-5">
-          <div className="text-neutral-300 flex flex-col lg:grid lg:grid-cols-12 gap-4 lg:gap-8 p-8 lg:p-10 lg:items-center max-w-6xl mx-auto bg-amber-900 lg:rounded-3xl">
+          <div className="text-neutral-100 flex flex-col lg:grid lg:grid-cols-12 gap-4 lg:gap-8 p-8 lg:p-10 lg:items-center max-w-6xl mx-auto bg-amber-700 lg:rounded-3xl">
             <FaPhone className="size-16 border border-white p-3 rounded-full" />
             <div className="lg:col-span-3">
               <div className="uppercase text-sm font-semibold">
@@ -193,7 +193,7 @@ function page() {
             <div className="col-span-3 flex justify-end">
               <a
                 href="tel:+959786063014"
-                className="bg-white text-black rounded-full py-3 px-5 hover:bg-amber-900 hover:text-neutral-300 duration-300"
+                className="bg-white text-black rounded-full py-3 px-5 hover:bg-amber-700 hover:text-neutral-100 duration-300"
               >
                 Make appointment
               </a>

@@ -6,8 +6,8 @@ import { FaPhone } from "react-icons/fa";
 function Services() {
   return (
     <>
-      <div className="lg:h-[780px] relative bg-blend-difference text-neutral-300 bg-left bg- slate-50 bg-repeat-x bg-[url(https://demo.bosathemes.com/agence/wp-content/uploads/sites/35/2022/11/agency-img3.png)] bg-neutral-700">
-        <div className="w-full h-full bg-neutral-800/90 pt-20">
+      <div className="relative text- neutral-300 bg-left bg- slate-50 bg-repeat-x bg-[url(https://demo.bosathemes.com/agence/wp-content/uploads/sites/35/2022/11/agency-img3.png)]">
+        <div className="w-full h-full pb-24 bg-white/80 bg- neutral-800/90">
           <div className="max-w- xl flex flex-col items-center justify-center mx-auto text- white">
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
               <div className="py-2">
@@ -15,8 +15,8 @@ function Services() {
               </div>
             </BoxReveal>
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
-              <div className="text-3xl lg:text-5xl font-extrabold p-5">
-                <span className="text-amber-900">Services </span>
+              <div className="text-3xl lg:text-5xl font-extrabold p-5 text-[#6F4E37]">
+                <span className="text-amber-700">Services </span>
                 we can help you with!
               </div>
             </BoxReveal>
@@ -32,7 +32,7 @@ function Services() {
                 <div className="py-8 px-4">
                   <a
                     href="/services/web"
-                    className="border bg-neutral-950/30 shadow- xl relative group rounded-3xl overflow-hidden h-96 w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
+                    className=" border-[3px] border-[#6F4E37b1] text-[#6F4E37b1] hover:text-white/80 hover:bg-[#6F4E37] duration-300 bg-white bg- neutral-950/30 shadow-xl relative group rounded-3xl overflow-hidden h-96 w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
                   >
                     <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
                     <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center text-center justify-center">
@@ -41,7 +41,7 @@ function Services() {
                         alt=""
                         className="size-24 pt-2"
                       />
-                      <div className="text-2xl group-hover:text-amber-900 font-semibold">
+                      <div className="text-2xl group-hover:text-white text-[#6F4E37] font-semibold">
                         Website Development
                       </div>
                       <div className="text-sm pt-5 text-left pb-3">
@@ -62,12 +62,12 @@ function Services() {
                 <div className="py-8 px-4">
                   <a
                     href="/services/web"
-                    className="border bg-neutral-950/30 shadow- xl relative group rounded-3xl overflow-hidden h-96 w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
+                    className=" border-[3px] border-[#6F4E37b1] text-[#6F4E37b1] hover:text-white/80 hover:bg-[#6F4E37] duration-300 bg-white bg- neutral-950/30 shadow-xl relative group rounded-3xl overflow-hidden h-96 w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
                   >
                     <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
                     <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center text-center justify-center">
                       <img src="img/marketing.svg" alt="" className="size-24" />
-                      <div className="text-2xl group-hover:text-amber-900 font-semibold">
+                      <div className="text-2xl group-hover:text-white text-[#6F4E37] font-semibold">
                         Digital Marketing
                       </div>
                       <div className="text-sm pt-5 text-left pb-3">
@@ -86,12 +86,12 @@ function Services() {
                 <div className="py-8 px-4">
                   <a
                     href="/services/web"
-                    className="border bg-neutral-950/30 shadow- xl relative group rounded-3xl overflow-hidden h-96 w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
+                    className=" border-[3px] border-[#6F4E37b1] text-[#6F4E37b1] hover:text-white/80 hover:bg-[#6F4E37] duration-300 bg-white bg- neutral-950/30 shadow-xl relative group rounded-3xl overflow-hidden h-96 w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
                   >
                     <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
                     <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center text-center justify-center">
                       <img src="img/business.svg" alt="" className="size-24" />
-                      <div className="text-2xl group-hover:text-amber-900 font-semibold">
+                      <div className="text-2xl group-hover:text-white text-[#6F4E37] font-semibold">
                         Business Registration
                       </div>
                       <div className="text-sm pt-5 text-left pb-3">
@@ -121,7 +121,7 @@ function Services() {
                       alt=""
                       className="size-32 -mt-3"
                     />
-                    <div className="text-2xl group-hover:text-amber-900 font-semibold -mt-5">
+                    <div className="text-2xl group-hover:text-white text-[#6F4E37] font-semibold -mt-5">
                       Digital Marketing
                     </div>
                   </div>
@@ -139,7 +139,7 @@ function Services() {
                       alt=""
                       className="size-32 -mt-3"
                     />
-                    <div className="text-2xl group-hover:text-amber-900 font-semibold -mt-5">
+                    <div className="text-2xl group-hover:text-white text-[#6F4E37] font-semibold -mt-5">
                       Business Registration
                     </div>
                   </div>
@@ -149,7 +149,7 @@ function Services() {
           </div>
         </div>
         <div className="lg:absolute z-20 -bottom-24 right-1/2 lg:translate-x-1/2 w-full px-5">
-          <div className="text-neutral-300 flex flex-col lg:grid lg:grid-cols-12 gap-4 lg:gap-8 p-8 lg:p-10 lg:items-center max-w-7xl mx-auto bg-amber-900 lg:rounded-3xl">
+          <div className="text-neutral-100 flex flex-col lg:grid lg:grid-cols-12 gap-4 lg:gap-8 p-8 lg:p-10 lg:items-center max-w-7xl mx-auto bg-amber-700 lg:rounded-3xl">
             <FaPhone className="size-16 border border-white p-3 rounded-full" />
             <div className="lg:col-span-3">
               <div className="uppercase text-sm font-semibold">
@@ -165,7 +165,7 @@ function Services() {
             <div className="col-span-3 flex justify-end">
               <a
                 href="tel:+959786063014"
-                className="bg-white text-black rounded-full py-3 px-5 hover:bg-amber-900 hover:text-neutral-300 duration-300"
+                className="bg-white text-black rounded-full py-3 px-5 hover:bg-amber-800 hover:text-neutral-100 duration-300"
               >
                 Make appointment
               </a>

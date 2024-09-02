@@ -89,22 +89,22 @@ const BlogList = ({ blogs, setBlogs, loading, error }) => {
               <h3 className="text-xl text-neutral-800 font-bold mb-2">
                 {blog.title}
               </h3>
-              <p className="text-neutral-500/80 mb-2 whitespace-pre-wrap">
+              <p className="text-[#6F4E37b1] mb-2 whitespace-pre-wrap">
                 {blog.content.substring(0, 100)}...
               </p>
-              <p className="text-neutral-500/80 text-sm">By {blog.author}</p>
-              <p className="text-neutral-500/80 text-sm">
+              <p className="text-[#6F4E37b1] text-sm">By {blog.author}</p>
+              <p className="text-[#6F4E37b1] text-sm">
                 {new Date(blog.createdAt).toLocaleDateString()}
               </p>
               <div className="flex pt-3">
                 <button
                   onClick={() => handleEditClick(blog)}
-                  className="border-indigo-500 hover:bg-indigo-500 hover:shadow-lg hover:shadow-indigo-500 hover:text-neutral-300 border-2 text-indigo-500 active:scale-90 duration-300 rounded-lg text-sm px-3 py-1 mr-2 flex items-center gap-1"
+                  className="border-indigo-500 hover:bg-indigo-500 hover:shadow-lg hover:shadow-indigo-500 hover:text-neutral-100 border-2 text-indigo-500 active:scale-90 duration-300 rounded-lg text-sm px-3 py-1 mr-2 flex items-center gap-1"
                 >
                   Edit <FaEdit className="text-base" />
                 </button>
                 <button
-                  className="bg-red-500 border-red-500 hover:shadow-lg hover:shadow-red-500 border-2 text-neutral-300 text-sm px-3 py-1 active:scale-90 duration-300 rounded-lg flex items-center gap-1"
+                  className="bg-red-500 border-red-500 hover:shadow-lg hover:shadow-red-500 border-2 text-neutral-100 text-sm px-3 py-1 active:scale-90 duration-300 rounded-lg flex items-center gap-1"
                   onClick={() => handleDelete(blog._id)}
                 >
                   Delete <MdDelete className="text-base" />

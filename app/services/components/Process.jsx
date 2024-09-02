@@ -15,7 +15,7 @@ function Process() {
             </BoxReveal>
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
               <div className="text-4xl lg:text-5xl font-extrabold lg:py-2 text-blue-950">
-                <span className="text-amber-900">Process</span> We Follow
+                <span className="text-amber-700">Process</span> We Follow
               </div>
             </BoxReveal>
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
@@ -34,7 +34,7 @@ function Process() {
           <div className="max-w-6xl mx-auto grid gap-y-10 lg:grid-cols-3 h-full py-10 lg:pt-16">
             <div className="flex items-center justify-center">
               <div className="size-[260px] flex items-center justify-center text-center p-6 relative rounded-full border-[6px] border-neutral-300 hover:border-amber-900 duration-500 bg-white ring-[18px] ring-white">
-                <div className="absolute top-0 right-0 size-16 bg-amber-900 rounded-full text-3xl font-bold text-neutral-300 flex items-center justify-center">
+                <div className="absolute top-0 right-0 size-16 bg-amber-700 rounded-full text-3xl font-bold text-neutral-100 flex items-center justify-center">
                   01
                 </div>
                 <div className="">
@@ -50,7 +50,7 @@ function Process() {
             </div>
             <div className="flex items-center justify-center lg:pt-20">
               <div className="size-[260px] flex items-center justify-center text-center p-6 relative rounded-full border-[6px] border-neutral-300 hover:border-amber-900 duration-500 bg-white ring-[18px] ring-white">
-                <div className="absolute top-0 right-0 size-16 bg-amber-900 rounded-full text-3xl font-bold text-neutral-300 flex items-center justify-center">
+                <div className="absolute top-0 right-0 size-16 bg-amber-700 rounded-full text-3xl font-bold text-neutral-100 flex items-center justify-center">
                   02
                 </div>
                 <div className="">
@@ -66,7 +66,7 @@ function Process() {
             </div>
             <div className="flex items-center justify-center">
               <div className="size-[260px] flex items-center justify-center text-center p-6 relative rounded-full border-[6px] border-neutral-300 hover:border-amber-900 duration-500 bg-white ring-[18px] ring-white">
-                <div className="absolute top-0 right-0 size-16 bg-amber-900 rounded-full text-3xl font-bold text-neutral-300 flex items-center justify-center">
+                <div className="absolute top-0 right-0 size-16 bg-amber-700 rounded-full text-3xl font-bold text-neutral-100 flex items-center justify-center">
                   03
                 </div>
                 <div className="">

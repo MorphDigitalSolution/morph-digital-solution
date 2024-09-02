@@ -60,12 +60,12 @@ const SubscriberList = ({ subscribers, setSubscribers, loading, error }) => {
           className="bg-white p-6 rounded-lg shadow-md mb-4"
         >
           <h3 className="font-semibold mb-2">Email: {subscriber.email}</h3>
-          <p className="text-neutral-500/80 text-sm">
+          <p className="text-[#6F4E37b1] text-sm">
             {new Date(subscriber.sentAt).toLocaleDateString()}
           </p>
           <div className="flex pt-3">
             <button
-              className="bg-red-500 hover:shadow-lg hover:shadow-red-500 duration-300 hover:scale-105 active:scale-90 text-neutral-300 text-sm px-3 py-1 rounded-lg flex items-center gap-1"
+              className="bg-red-500 hover:shadow-lg hover:shadow-red-500 duration-300 hover:scale-105 active:scale-90 text-neutral-100 text-sm px-3 py-1 rounded-lg flex items-center gap-1"
               onClick={() => handleDelete(subscriber._id)}
             >
               Delete <MdDelete className="text-base" />

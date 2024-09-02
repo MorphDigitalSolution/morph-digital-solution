@@ -19,7 +19,7 @@ function page() {
       <HeroHalf>About Us</HeroHalf>
       <AboutUs />
       {/* <About /> */}
-      <div className="bg-neutral-700 text-white relative">
+      <div className="bg-amber-700 text-white relative">
         <div className="absolute w-full h-full top-0 left-0 bg-neutral-800/90"></div>
         <div className="max-w-7xl relative mx-auto grid lg:grid-cols-2 py-10">
           <div className="relative h-full min-h-[500px]">
@@ -46,8 +46,8 @@ function page() {
               </div>
             </BoxReveal>
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
-              <div className="text-2xl lg:text-5xl font-extrabold py-2 lg:py-4 capitalize text -blue-950">
-                <span className="text-amber-900">Values</span> we keep
+              <div className="text-2xl lg:text-5xl font-extrabold py-2 lg:py-4 capitalize text-amber-700">
+                <span className="text-amber-700">Values</span> we keep
                 {/* Morph ​၏ တန်ဖိုးထားမှုများ */}
               </div>
             </BoxReveal>
@@ -109,7 +109,7 @@ function page() {
               </div>
               {/* <div className="lg:col-span-2 lg:ps-3 text-center lg:pb-8 flex lg:justify-center">
               <div className="rounded-3xl aspect-square w-fit py-5 px-6 uppercase border-2 border-neutral-400 flex flex-col items-center justify-center">
-                <div className="text-6xl font-bold text-amber-900">24</div>
+                <div className="text-6xl font-bold text-amber-700">24</div>
                 <div className="text-xl font-bold text-neutral-700/60">
                   Years
                 </div>
@@ -123,7 +123,7 @@ function page() {
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
                 <Link
                   href="/about"
-                  className="bg-amber-900 hover:bg-amber-900 duration-300 text-neutral-300 uppercase py-3 px-6 block rounded-full mt-5"
+                  className="bg-amber-700 hover:bg-amber-700 duration-300 text-neutral-100 uppercase py-3 px-6 block rounded-full mt-5"
                 >
                   More About Us
                 </Link>
@@ -139,8 +139,8 @@ function page() {
               </div>
             </BoxReveal>
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
-              <div className="text-2xl lg:text-5xl font-extrabold py-2 lg:py-4 capitalize text -blue-950">
-                <span className="text-amber-900">Process</span> we follow
+              <div className="text-2xl lg:text-5xl font-extrabold py-2 lg:py-4 capitalize text-amber-700">
+                <span className="text-amber-700">Process</span> we follow
               </div>
             </BoxReveal>
             <div className="text-neutral-400/80">
@@ -210,7 +210,7 @@ function page() {
               </div>
               {/* <div className="lg:col-span-2 lg:ps-3 text-center lg:pb-8 flex lg:justify-center">
               <div className="rounded-3xl aspect-square w-fit py-5 px-6 uppercase border-2 border-neutral-400 flex flex-col items-center justify-center">
-                <div className="text-6xl font-bold text-amber-900">24</div>
+                <div className="text-6xl font-bold text-amber-700">24</div>
                 <div className="text-xl font-bold text-neutral-700/60">
                   Years
                 </div>
@@ -224,7 +224,7 @@ function page() {
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
                 <Link
                   href="/about"
-                  className="bg-amber-900 hover:bg-amber-900 duration-300 text-neutral-300 uppercase py-3 px-6 block rounded-full mt-5"
+                  className="bg-amber-700 hover:bg-amber-700 duration-300 text-neutral-100 uppercase py-3 px-6 block rounded-full mt-5"
                 >
                   More About Us
                 </Link>
@@ -252,7 +252,7 @@ function page() {
       </div>
       <Team />
       <Contact />
-      <div className="h-20 bg-neutral-700"></div>
+      <div className="h-20 bg-amber-700"></div>
       <Subscribe />
       <Footer />
     </div>

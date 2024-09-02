@@ -26,7 +26,7 @@ export default function Home() {
         {/* <Review /> */}
         <Blog />
         <Contact />
-        <div className="h-20 bg-neutral-700"></div>
+        <div className="h-20 bg- neutral-700"></div>
         <Subscribe />
         <Footer />
       </main>

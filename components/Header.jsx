@@ -35,8 +35,8 @@ function Header() {
       <div
         className={`fixed z-40 top-0 left-0 w-full border-b border-b-gray-100/20 duration-300 ${
           isScrolled
-            ? "bg-[#2c2824] text-neutral-300"
-            : "bg-neutral-900/30 text-neutral-300"
+            ? "text-[#6F4E37] bg-white text -neutral-100"
+            : "bg-neutral-900/30 text-neutral-100"
         }`}
       >
         <div className="max-w-7xl px-5 lg:px-8 mx-auto text-[0.9rem] flex gap-8 py-5 items-center justify-between">
@@ -48,11 +48,17 @@ function Header() {
               src="https://morph-digital-mm.vercel.app/img/logo-sm.png"
               alt=""
               className={`h-8 lg:h-10 duration-300 ${
-                isScrolled ? "invert-0" : "invert-0"
+                isScrolled ? "invert" : "invert-0"
               }`}
             />
-            <div className="ps-1">MORPH</div>
-            <div className="font-bold text-amber-950 text-4xl pb-2">.</div>
+            <div
+              className={`ps-1 ${
+                isScrolled ? "text-black" : ""
+              }`}
+            >
+              MORPH
+            </div>
+            <div className="font-bold text-amber-700 text-4xl pb-2">.</div>
           </Link>
           <div className="hidden lg:flex gap-8">
             {[
@@ -66,8 +72,8 @@ function Header() {
               <Link
                 key={index}
                 href={path}
-                className={`uppercase font-semibold hover:text-amber-950 border-b-4 duration-200 opacity-80 ${
-                  pathname === path ? "border-amber-950" : "border-transparent"
+                className={`uppercase font-semibold hover:text-amber-700 border-b-4 duration-200 opacity-80 ${
+                  pathname === path ? "border-amber-700" : "border-transparent"
                 }`}
               >
                 {path === "/" ? "Home" : path.substring(1)}
@@ -103,7 +109,7 @@ function Header() {
             </div>
             <a
               href="tel:+959786063014"
-              className="bg-amber-900 text-center hover:bg-amber-950 duration-300 text-neutral-300 py-3 text-sm px-7 font-semibold rounded-full uppercase"
+              className="bg-amber-700 text-center hover:bg-amber-950 duration-300 text-neutral-100 py-3 text-sm px-7 font-semibold rounded-full uppercase"
             >
               Let's talk
             </a>
@@ -111,7 +117,7 @@ function Header() {
           <div className="lg:hidden flex items-center gap-2">
             <a
               href="tel:+959786063014"
-              className="py-2 text-xs px-4 rounded-full bg-amber-900 text-neutral-300"
+              className="py-2 text-xs px-4 rounded-full bg-amber-700 text-neutral-100"
             >
               Let's Talk
             </a>
@@ -123,7 +129,7 @@ function Header() {
       </div>
       <div
         id="menu"
-        className={`fixed z-50 top-0 left-0 w-full h-full duration-500 ease-out bg-amber-950 text-neutral-300 ${
+        className={`fixed z-50 top-0 left-0 w-full h-full duration-500 ease-out bg-amber-950 text-neutral-100 ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >

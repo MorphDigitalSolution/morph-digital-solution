@@ -8,7 +8,7 @@ function HeroHalf({ children }) {
         alt="hero image"
         className="w-full h-full object-cover object-top brightness-[0.5] bg-neutral-800"
       />
-      <div className="absolute top-0 left-0 w-full h-full text-neutral-300 bg-neutral-800/5 flex items-center justify-center">
+      <div className="absolute top-0 left-0 w-full h-full text-neutral-100 bg-neutral-800/5 flex items-center justify-center">
         <div className="max-w-4xl flex flex-col items-center text-center pt-24">
           <BoxReveal boxColor={"#b4530900"} duration={0.5}>
             <div className="text-4xl lg:text-[4.6rem] leading-[1.1] font-extrabold py-3 px-2 lg:py-2">

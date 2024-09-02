@@ -7,7 +7,7 @@ const BlogCard = ({ blog }) => {
       <p className="text-neutral-600 mb-2 break-words">
         {blog.content.substring(0, 600)}...
       </p>
-      <p className="text-neutral-500/80 text-sm">By {blog.author}</p>
+      <p className="text-[#6F4E37b1] text-sm">By {blog.author}</p>
       <Link href={`/admin/blog/${blog._id}`}>
         <div className="text-blue-500 hover:underline">Read more</div>
       </Link>

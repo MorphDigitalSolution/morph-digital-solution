@@ -5,14 +5,14 @@ import React from "react";
 function GroupClients() {
   return (
     <div className="relative">
-      <div className="flex absolute top-0 left-0 w-full z-10 bg-black/70 text-neutral-300 text-center h-full items-center justify-center flex-col">
+      <div className="flex absolute top-0 left-0 w-full z-10 bg-black/70 text-neutral-100 text-center h-full items-center justify-center flex-col">
         {/* <div className="">Hundreds of satisfied clients</div> */}
         <BoxReveal boxColor={"#b4530900"} duration={0.2}>
           <TitlePillow>Satisfied Customers</TitlePillow>
         </BoxReveal>
         <BoxReveal boxColor={"#b4530900"} duration={0.2}>
           <div className="text-4xl lg:text-[4.6rem] leading-[1.1] font-extrabold pt-3 lg:py-2">
-            Hundreds of <span className="text-amber-900">Happy </span>
+            Hundreds of <span className="text-amber-700">Happy </span>
             Clients
           </div>
         </BoxReveal>

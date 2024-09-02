@@ -4,20 +4,21 @@ import React from "react";
 
 function Goal() {
   return (
-    <div className="min-h-[420px] bg-blend-difference bg-left bg-neutral-700 text-neutral-300 bg-repeat-x bg- [url(https://demo.bosathemes.com/agence/wp-content/uploads/sites/35/2022/11/agency-img3.png)] bg- neutral-800">
+    <div className="min-h-[420px] bg-blend-difference bg-left bg- neutral-700 text- neutral-300 bg-repeat-x bg- [url(https://demo.bosathemes.com/agence/wp-content/uploads/sites/35/2022/11/agency-img3.png)] bg- neutral-800">
       <div className="w-full min-h- [420px] h-full bg- neutral-800/90">
-        <div className="grid lg:grid-cols-2 max-w-6xl mx-auto py-10">
+        <div className="grid lg:grid-cols-2 max-w-6xl mx-auto lg:pt-14 py-10">
           <div className="flex justify-center items-center overflow-hidden">
             <div className="relative">
-              <img
+              {/* <img
                 src="img/circle.png"
                 alt=""
-                className="h-[400px] brightness-0 invert translate-y-2 opacity-10"
-              />
+                className="h-[400px] inv ert translate-y-2 bg-[#6F4E37]"
+              /> */}
+              <div className="size-[400px] bg-[#6f4e3751] rounded-full"></div>
               <div className="absolute w-full h-full top-0 left-0 flex flex-col justify-center items-center text-center">
                 <TitlePillow>Our Goal</TitlePillow>
-                <div className="text-3xl lg:text-5xl font-extrabold py-3 px-5 capitalize text-neutral-300">
-                  <span className="text-amber-900">Missions </span>
+                <div className="text-3xl lg:text-5xl font-extrabold py-3 px-5 capitalize text-[#6F4E37]">
+                  <span className="text-amber-700">Missions </span>
                   we aim for you!
                 </div>
                 {/* <div className=" px-12">

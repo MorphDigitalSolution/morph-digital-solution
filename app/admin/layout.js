@@ -61,7 +61,7 @@ export default function AdminLayout({ children }) {
               </div>
               <button
                 type="submit"
-                className="p-3 block w-full rounded-xl bg-neutral-700 text-neutral-300"
+                className="p-3 block w-full rounded-xl bg-amber-700 text-neutral-100"
               >
                 Login
               </button>

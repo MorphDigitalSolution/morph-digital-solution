@@ -111,7 +111,7 @@ function Blog() {
                         {blog.title}
                       </div>
                       <div
-                        className="text-sm pt-2 text-neutral-500/80 line-clamp-2"
+                        className="text-sm pt-2 text-[#6F4E37b1] line-clamp-2"
                         style={{
                           display: "-webkit-box",
                           WebkitBoxOrient: "vertical",
@@ -139,28 +139,28 @@ function Blog() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
               laboriosam pariatur, necessitatibus nesciunt dol.
             </div>
-            <div className="flex gap-3 pt-3 text-neutral-300">
+            <div className="flex gap-3 pt-3 text-neutral-100">
               <a
                 href=""
-                className="bg-amber-900 hover:bg-amber-900 duration-300 size-8 flex items-center justify-center rounded-full"
+                className="bg-amber-700 hover:bg-amber-700 duration-300 size-8 flex items-center justify-center rounded-full"
               >
                 <FaFacebook className="" />
               </a>
               <a
                 href=""
-                className="bg-amber-900 hover:bg-amber-900 duration-300 size-8 flex items-center justify-center rounded-full"
+                className="bg-amber-700 hover:bg-amber-700 duration-300 size-8 flex items-center justify-center rounded-full"
               >
                 <FaTwitter className="" />
               </a>
               <a
                 href=""
-                className="bg-amber-900 hover:bg-amber-900 duration-300 size-8 flex items-center justify-center rounded-full"
+                className="bg-amber-700 hover:bg-amber-700 duration-300 size-8 flex items-center justify-center rounded-full"
               >
                 <FaTelegram className="" />
               </a>
               <a
                 href=""
-                className="bg-amber-900 hover:bg-amber-900 duration-300 size-8 flex items-center justify-center rounded-full"
+                className="bg-amber-700 hover:bg-amber-700 duration-300 size-8 flex items-center justify-center rounded-full"
               >
                 <FaLinkedin className="" />
               </a>
