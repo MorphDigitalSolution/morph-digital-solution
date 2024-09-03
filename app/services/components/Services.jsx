@@ -42,11 +42,7 @@ function Services() {
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
                 <div className="py-8 px-4">
                   <a
-<<<<<<< HEAD
                     href="/services/digital"
-=======
-                    href="/services/web"
->>>>>>> bafc2d437a18d9c95acca149e3e2901798ff331f
                     className="border shadow-xl relative group rounded-3xl overflow-hidden h-96 w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
                   >
                     <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
@@ -70,11 +66,7 @@ function Services() {
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
                 <div className="py-8 px-4">
                   <a
-<<<<<<< HEAD
                     href="/services/business"
-=======
-                    href="/services/web"
->>>>>>> bafc2d437a18d9c95acca149e3e2901798ff331f
                     className="border shadow-xl relative group rounded-3xl overflow-hidden h-96 w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
                   >
                     <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
