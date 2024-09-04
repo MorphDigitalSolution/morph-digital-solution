@@ -20,9 +20,7 @@ function Process() {
             </BoxReveal>
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
               <div className="text-center max-w-xl mx-auto text-[#6F4E37b1]">
-                Explore our streamlined approach to deliver results. From
-                consultation to execution, we focus on meeting your needs
-                effectively.
+                ကျွန်ုပ်တို့၏ လုပ်ငန်းစဉ်များအရ ပျော်ရွှင်စွာ ထိရောက်စွာ အကောင်အထည်ဖော်ပေးပါသည်။ အကြံပေးစဉ်းစားမှတ်ယူမှစ၍ လုပ်ဆောင်ချက်အထိ ကျွန်ုပ်တို့သည် သင့်လိုအပ်ချက်များကို ထိရောက်စွာဖြည့်ဆည်းပေးပါသည်။
               </div>
             </BoxReveal>
           </div>
@@ -42,8 +40,7 @@ function Process() {
                     Research Project
                   </div>
                   <div className="text-neutral-800/40">
-                    We thoroughly research your project to understand your
-                    requirements.
+                    သင့်လိုအပ်ချက်များကိုနားလည်စေရန် ကျွန်ုပ်တို့၏ စီမံကိန်းကို ထုတ်ဖော်လေ့လာပါသည်။
                   </div>
                 </div>
               </div>
@@ -58,8 +55,7 @@ function Process() {
                     Evaluate Plans
                   </div>
                   <div className="text-neutral-800/40">
-                    We assess and refine our strategies to ensure they align
-                    with your objectives.
+                    သင့်ရဲ့ရည်မှန်းချက်များနှင့် ကိုက်ညီအောင် ကျွန်ုပ်တို့၏ အစီအစဉ်များကို စိစစ်ဆန်းစစ်သည်။
                   </div>
                 </div>
               </div>
@@ -74,7 +70,7 @@ function Process() {
                     Best Results
                   </div>
                   <div className="text-neutral-800/40">
-                    We execute the plan to achieve the best possible outcomes.
+                    အကောင်းဆုံးရလဒ်များရရှိစေရန် စီမံကိန်းကို တိတိကျကျ အကောင်အထည်ဖော်ဆောင်ရွက်သည်။
                   </div>
                 </div>
               </div>
