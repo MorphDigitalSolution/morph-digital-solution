@@ -34,7 +34,7 @@ function page() {
               className="absolute border-[12px] border-white bottom-0 left-12 lg:left-20 h-[200px] lg:h-[280px] rounded-[40px]"
             />
             <img
-              src="img/about3.png"
+              src="img/poster.jpg"
               alt=""
               className="absolute border-[12px] border-white top-28 lg:top-24 left-5 lg:left-10 h-[200px] lg:h-[290px] aspect-square object-cover rounded-full"
             />
@@ -47,7 +47,7 @@ function page() {
             </BoxReveal>
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
               <div className="text-2xl lg:text-5xl font-extrabold py-2 lg:py-4 capitalize text-[#6F4E37]">
-                <span className="text-amber-700">Values</span> we keep
+                <span className="text-amber-600">Values</span> we keep
                 {/* Morph ​၏ တန်ဖိုးထားမှုများ */}
               </div>
             </BoxReveal>
@@ -125,7 +125,7 @@ function page() {
                   href="/about"
                   className="bg-amber-700 hover:bg-amber-700 duration-300 text-neutral-100 uppercase py-3 px-6 block rounded-full mt-5"
                 >
-                  More About Us
+                  View services
                 </Link>
               </BoxReveal>
             </div>
@@ -140,7 +140,7 @@ function page() {
             </BoxReveal>
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
               <div className="text-2xl lg:text-5xl font-extrabold py-2 lg:py-4 capitalize text-[#6F4E37]">
-                <span className="text-amber-700">Process</span> we follow
+                <span className="text-amber-600">Process</span> we follow
               </div>
             </BoxReveal>
             <div className="text-[#6F4E37b1]">
@@ -226,7 +226,7 @@ function page() {
                   href="/about"
                   className="bg-amber-700 hover:bg-amber-700 duration-300 text-neutral-100 uppercase py-3 px-6 block rounded-full mt-5"
                 >
-                  More About Us
+                  View portfolio
                 </Link>
               </BoxReveal>
             </div>
@@ -235,17 +235,17 @@ function page() {
             <img
               src="img/about1.png"
               alt=""
-              className="absolute border-[12px] border-white top-10 left-0 h-[300px] lg:h-[480px] rounded-[40px]"
+              className="absolute border-[12px] border-white top-10 -left-10 h-[300px] lg:h-[480px] rounded-[40px]"
             />
             <img
               src="img/about2.png"
               alt=""
-              className="absolute border-[12px] border-white bottom-10 left-12 lg:left-16 h-[200px] lg:h-[280px] rounded-[40px]"
+              className="absolute border-[12px] border-white bottom-10 left-12 lg:left-0 h-[200px] lg:h-[280px] rounded-[40px]"
             />
             <img
-              src="img/about3.png"
+              src="img/poster.jpg"
               alt=""
-              className="absolute border-[12px] border-white top-28 lg:top-24 right-5 lg:right-0 h-[200px] lg:h-[290px] aspect-square object-cover rounded-full"
+              className="absolute border-[12px] border-white top-28 lg:top-24 right-5 lg:right-8 h-[200px] lg:h-[290px] aspect-square object-cover rounded-full"
             />
           </div>
         </div>

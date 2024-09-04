@@ -86,30 +86,30 @@ function Header() {
                 href="https://www.facebook.com/morphwebsiteanddigitalmarketing?mibextid=LQQJ4d"
                 className=""
               >
-                <FaFacebook className="text-lg hover:text-amber-950" />
+                <FaFacebook className="text-lg hover:text-amber-600" />
               </a>
               <a href="https://t.me/myanmardigitalmarketing" className="">
-                <FaTelegram className="text-lg hover:text-amber-950" />
+                <FaTelegram className="text-lg hover:text-amber-600" />
               </a>
               <a href="mailto:morphwebsite.mm@gmail.com" className="">
-                <BiLogoGmail className="text-lg hover:text-amber-950" />
+                <BiLogoGmail className="text-lg hover:text-amber-600" />
               </a>
               <a
                 href="https://www.linkedin.com/company/morphwebsiteanddigitalmarketing/"
                 className=""
               >
-                <FaLinkedin className="text-lg hover:text-amber-950" />
+                <FaLinkedin className="text-lg hover:text-amber-600" />
               </a>
               <a
                 href="https://invite.viber.com/?g2=AQAgAG9pwjGLolMltWVlDjneT1ei5C0j6vSIc0NBjm%2FTxaO4nZQM1jJVi3jBPHmy"
                 className=""
               >
-                <FaViber className="text-lg hover:text-amber-950" />
+                <FaViber className="text-lg hover:text-amber-600" />
               </a>
             </div>
             <a
               href="tel:+959786063014"
-              className="bg-amber-700 text-center hover:bg-amber-950 duration-300 text-neutral-100 py-3 text-sm px-7 font-semibold rounded-full uppercase"
+              className="bg-amber-600 text-center hover:bg-amber-700 duration-300 text-neutral-100 py-3 text-sm px-7 font-semibold rounded-full uppercase"
             >
               Let's talk
             </a>
@@ -129,7 +129,7 @@ function Header() {
       </div>
       <div
         id="menu"
-        className={`fixed z-50 top-0 left-0 w-full h-full duration-500 ease-out bg-amber-950 text-neutral-100 ${
+        className={`fixed lg:hidden z-50 top-0 left-0 w-full h-full duration-500 ease-out bg-amber-950 text-neutral-100 ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >

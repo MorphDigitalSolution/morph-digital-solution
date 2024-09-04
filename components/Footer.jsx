@@ -16,7 +16,7 @@ function Footer() {
   return (
     <div className="relative overflow-hidden bg-blend-difference bg-left bg-repeat-x bg-[url(https://demo.bosathemes.com/agence/wp-content/uploads/sites/35/2022/11/agency-img3.png)] bg-neutral-900">
       <div className="w-full h-full bg-amber-700 pt-20 text-neutral-100">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto lg:px-16">
           <div className="grid lg:grid-cols-9 px-5 pb-10 lg:gap-x-10 gap-y-5">
             <div className="lg:col-span-2">
               <div className="flex items-center text-2xl lg:text-2xl font-semibold uppercase">
@@ -35,25 +35,25 @@ function Footer() {
               <div className="flex gap-3 pt-3">
                 <a
                   href="https://www.facebook.com/morphwebsiteanddigitalmarketing?mibextid=LQQJ4d"
-                  className="bg-amber-700 hover:bg-amber-700 duration-300 size-10 flex items-center justify-center rounded-full"
+                  className="bg-black/20 hover:bg-amber-700 duration-300 size-10 flex items-center justify-center rounded-full"
                 >
                   <FaFacebook className="text-lg" />
                 </a>
                 <a
                   href="https://t.me/myanmardigitalmarketing"
-                  className="bg-amber-700 hover:bg-amber-700 duration-300 size-10 flex items-center justify-center rounded-full"
+                  className="bg-black/20 hover:bg-amber-700 duration-300 size-10 flex items-center justify-center rounded-full"
                 >
                   <FaTelegram className="text-lg" />
                 </a>
                 <a
                   href="https://invite.viber.com/?g2=AQAgAG9pwjGLolMltWVlDjneT1ei5C0j6vSIc0NBjm%2FTxaO4nZQM1jJVi3jBPHmy"
-                  className="bg-amber-700 hover:bg-amber-700 duration-300 size-10 flex items-center justify-center rounded-full"
+                  className="bg-black/20 hover:bg-amber-700 duration-300 size-10 flex items-center justify-center rounded-full"
                 >
                   <FaViber className="text-lg" />
                 </a>
                 <a
                   href="https://www.linkedin.com/company/morphwebsiteanddigitalmarketing/"
-                  className="bg-amber-700 hover:bg-amber-700 duration-300 size-10 flex items-center justify-center rounded-full"
+                  className="bg-black/20 hover:bg-amber-700 duration-300 size-10 flex items-center justify-center rounded-full"
                 >
                   <FaLinkedin className="text-lg" />
                 </a>

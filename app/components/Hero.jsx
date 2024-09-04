@@ -10,16 +10,16 @@ function Hero() {
       <img
         src="img/heroSect.jpg"
         alt="hero image"
-        className="w-full h-full object-cover object-top brightness-[0.4] opacity-95"
+        className="w-full h-full object-cover object-top brightness-[] opacity-95"
       />
-      <div className="absolute top-0 left-0 w-full h-full text-neutral-100 bg-neutral-800/5 flex items-center justify-center">
+      <div className="absolute top-0 left-0 w-full h-full bg- [#6F4E3790] bg-black/45 text-neutral-100 bg- neutral-800/5 flex items-center justify-center">
         <div className="max-w-5xl flex flex-col items-center text-center pt-20">
           <BoxReveal boxColor={"#b4530900"} duration={0.2}>
             <TitlePillow>Digital Solution</TitlePillow>
           </BoxReveal>
           <BoxReveal boxColor={"#b4530900"} duration={0.2}>
             <div className="text-4xl lg:text-[4.6rem] leading-[1.1] font-extrabold pt-3 lg:py-2">
-              One Stop <span className="text-amber-700">Digital Solution </span>
+              One Stop <span className="text- amber-400">Digital Solution </span>
               Service Company
             </div>
           </BoxReveal>

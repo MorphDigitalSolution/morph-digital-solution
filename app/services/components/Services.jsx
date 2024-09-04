@@ -5,24 +5,24 @@ import { FaPhone } from "react-icons/fa";
 function Services() {
   return (
     <>
-      <div className="relative bg-blend-difference bg-left bg-repeat-x bg-[url(https://demo.bosathemes.com/agence/wp-content/uploads/sites/35/2022/11/agency-img3.png)] bg-neutral-800">
-        <div className="w-full h-full bg-neutral-800/90 flex pb-20">
-          <div className="max-w-7xl w-full flex flex-col text-center items-center justify-center mx-auto text-neutral-100">
+      <div className="relative bg-blend-difference bg-left bg-repeat-x bg-[ url(https://demo.bosathemes.com/agence/wp-content/uploads/sites/35/2022/11/agency-img3.png)] bg- neutral-800">
+        <div className="w-full h-full bg- neutral-800/90 flex pb-20">
+          <div className="max-w-7xl w-full flex flex-col text-center items-center justify-center mx-auto text- neutral-100">
             <div className="flex flex-col lg:flex-row w-full px-10 mt-5 gap-8 xl:gap-0 items-center justify-center">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
                 <div className="py-8 px-4">
                   <a
                     href="/services/web"
-                    className="border shadow-xl relative group rounded-3xl overflow-hidden h-96 w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
+                    className="border-[3px] border-[#6F4E37b1] text-[#6F4E37b1] hover:text-white/80 hover:bg-[#6F4E37] duration-300 bg-white shadow-xl relative group rounded-3xl overflow-hidden h-96 w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
                   >
                     <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
                     <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center text-center justify-center">
                       <img
                         src="img/chart.svg"
                         alt=""
-                        className="size-24 pt-2"
+                        className="size-24 pt-5 group-hover:brightness-0 group-hover:invert"
                       />
-                      <div className="text-2xl group-hover:text-amber-700 font-semibold">
+                      <div className="text-2xl group-hover:text-white text-[#6f4e37] font-semibold">
                         Website Development
                       </div>
                       <div className="text-sm pt-5 text-left pb-3">
@@ -43,12 +43,12 @@ function Services() {
                 <div className="py-8 px-4">
                   <a
                     href="/services/digital"
-                    className="border shadow-xl relative group rounded-3xl overflow-hidden h-96 w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
+                    className="border-[3px] border-[#6F4E37b1] text-[#6F4E37b1] hover:text-white/80 hover:bg-[#6F4E37] duration-300 bg-white shadow-xl relative group rounded-3xl overflow-hidden h-96 w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
                   >
                     <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
                     <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center text-center justify-center">
-                      <img src="img/marketing.svg" alt="" className="size-24" />
-                      <div className="text-2xl group-hover:text-amber-700 font-semibold">
+                      <img src="img/marketing.svg" alt="" className="size-24 group-hover:brightness-0 group-hover:invert" />
+                      <div className="text-2xl group-hover:text-white text-[#6f4e37] font-semibold">
                         Digital Marketing
                       </div>
                       <div className="text-sm pt-5 text-left pb-3">
@@ -67,12 +67,12 @@ function Services() {
                 <div className="py-8 px-4">
                   <a
                     href="/services/business"
-                    className="border shadow-xl relative group rounded-3xl overflow-hidden h-96 w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
+                    className="border-[3px] border-[#6F4E37b1] text-[#6F4E37b1] hover:text-white/80 hover:bg-[#6F4E37] duration-300 bg-white shadow-xl relative group rounded-3xl overflow-hidden h-96 w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
                   >
                     <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
                     <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center text-center justify-center">
-                      <img src="img/business.svg" alt="" className="size-24" />
-                      <div className="text-2xl group-hover:text-amber-700 font-semibold">
+                      <img src="img/business.svg" alt="" className="size-24 group-hover:brightness-0 group-hover:invert" />
+                      <div className="text-2xl group-hover:text-white text-[#6f4e37] font-semibold">
                         Business Registration
                       </div>
                       <div className="text-sm pt-5 text-left pb-3">
@@ -118,7 +118,7 @@ function Services() {
           </div>
         </div>
       </div>
-      <div className="lg:h-32 bg-slate-100/50"></div>
+      <div className="lg:h-32 bg- slate-100/50"></div>
     </>
   );
 }

@@ -18,7 +18,7 @@ function Goal() {
               <div className="absolute w-full h-full top-0 left-0 flex flex-col justify-center items-center text-center">
                 <TitlePillow>Our Goal</TitlePillow>
                 <div className="text-3xl lg:text-5xl font-extrabold py-3 px-5 capitalize text-[#6F4E37]">
-                  <span className="text-amber-700">Missions </span>
+                  <span className="text-amber-600">Missions </span>
                   we aim for you!
                 </div>
                 {/* <div className=" px-12">

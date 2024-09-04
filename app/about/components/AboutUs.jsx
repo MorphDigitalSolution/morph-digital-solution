@@ -15,17 +15,13 @@ function AboutUs() {
             </BoxReveal>
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
               <div className="text-3xl lg:text-5xl font-extrabold lg:py-2 text- blue-950">
-                One Stop{" "}
-                <span className="text-amber-700">Digital Solution </span>
+                One Stop 
+                <span className="text-amber-600"> Digital Solution </span>
                 Service Company
               </div>
             </BoxReveal>
           </div>
-<<<<<<< HEAD
           <div className="lg:col-span-3 flex items-center justify-center lg:pt-2 text-neutral-200/80">
-=======
-          <div className="lg:col-span-3 flex items-center justify-center lg:pt-2 text-neutral-400/80">
->>>>>>> bafc2d437a18d9c95acca149e3e2901798ff331f
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
               <div className="p-5 lg:ps-10 leading-[1.7]">
                 Morph Website & Digital Marketing ကို စတင်ဖွဲ့စည်းခြင်းမှာ

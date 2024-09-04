@@ -12,7 +12,7 @@ function GroupClients() {
         </BoxReveal>
         <BoxReveal boxColor={"#b4530900"} duration={0.2}>
           <div className="text-4xl lg:text-[4.6rem] leading-[1.1] font-extrabold pt-3 lg:py-2">
-            Hundreds of <span className="text-amber-700">Happy </span>
+            Hundreds of <span className="text-amber-600">Happy </span>
             Clients
           </div>
         </BoxReveal>

@@ -33,7 +33,7 @@ function About() {
           </BoxReveal>
           <BoxReveal boxColor={"#b45309"} duration={0.5}>
             <div className="text-2xl lg:text-5xl font-extrabold py-2 lg:py-4 capitalize text-blue-950">
-              <span className="text-amber-700">Values</span> we keep
+              <span className="text-amber-600">Values</span> we keep
               {/* Morph ​၏ တန်ဖိုးထားမှုများ */}
             </div>
           </BoxReveal>

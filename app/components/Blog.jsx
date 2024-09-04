@@ -50,7 +50,7 @@ function Blog() {
           </BoxReveal>
           <BoxReveal boxColor={"#b45309"} duration={0.5}>
             <div className="text-3xl lg:text-5xl font-extrabold py-1 lg:py-2 text-[#6F4E37] ">
-              <span className="text-amber-700">Blog</span> & News From Us
+              <span className="text-amber-600">Blog</span> & News From Us
             </div>
           </BoxReveal>
           <BoxReveal boxColor={"#b45309"} duration={0.5}>
@@ -60,7 +60,7 @@ function Blog() {
             </div>
           </BoxReveal>
         </div>
-        <div className="grid lg:grid-cols-3 gap-10 py-16 px-5">
+        <div className="grid lg:grid-cols-3 gap-8 py-16 px-5">
           {loading && blogs.length === 0 ? (
             <div className="col-span-3 grid lg:grid-cols-3 gap-10">
               <div className="h-[400px] space-y-5 animate-pulse p-5 bg-slate-300 rounded-3xl">
@@ -100,7 +100,7 @@ function Blog() {
               <Fader key={index}>
                 <Link
                   href={`/blogs/${blog._id}`}
-                  className="shadow-md hover:shadow-2xl border-[3px] border-[#6F4E37b1] bg- neutral-950/50 block h-full duration-300 rounded-3xl overflow-hidden"
+                  className="shadow-md hover:shadow-2xl border- [3px] border-[#6F4E37b1] bg- neutral-950/50 block h-full duration-300 rounded-3xl overflow-hidden"
                 >
                   <img
                     src="img/about1.png"

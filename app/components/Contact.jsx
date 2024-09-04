@@ -10,11 +10,11 @@ import MessageForm from "@/components/MessageForm";
 import { FiPhoneCall } from "react-icons/fi";
 import { LucideMailOpen } from "lucide-react";
 
-function Contact() {
+function  Contact() {
   return (
     <div className="relative">
       <img
-        src="img/whiteOffice.png"
+        src="https://morph-digital-mm.vercel.app/img/whiteOffice.png"
         alt=""
         className="absolute in vert top-0 left-0 w-full h-full object-cover object-right"
       />
@@ -29,7 +29,7 @@ function Contact() {
               </BoxReveal>
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
                 <div className="text-4xl lg:text-5xl font-extrabold py-2 text-[#6F4E37]">
-                  <span className="text-amber-700">Contact </span> & Join
+                  <span className="text-amber-600">Contact </span> & Join
                   Together
                 </div>
               </BoxReveal>
@@ -45,15 +45,15 @@ function Contact() {
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
                 <div className="flex gap-4 w-72 py-4">
                   <div className="">
-                    <div className="flex items-center justify-center p-5 aspect-square bg-[#6F4E37] rounded-3xl text-neutral-100">
+                    <div className="flex items-center justify-center bg-neutral-700 p-5 aspect-square rounded-3xl text-neutral-100">
                       <IoLocationOutline className="text-3xl" />
                     </div>
                   </div>
-                  <div className="">
+                  <div className=" text-black">
                     <div className="font-semibold text-lg">
                       Office Address :
                     </div>
-                    <div className="text-[#6F4E37b1]">
+                    <div className="text- neutral-600">
                       65 လမ်း၊ 105 x 106 လမ်း၊ ချမ်းမြသာစည်မြို့နယ်၊ မန္တလေး
                     </div>
                   </div>
@@ -62,27 +62,27 @@ function Contact() {
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
                 <div className="flex gap-4 w-72 py-4">
                   <div className="">
-                    <div className="flex items-center justify-center p-5 aspect-square bg-[#6F4E37] rounded-3xl text-neutral-100">
+                    <div className="flex items-center justify-center bg-neutral-700 p-5 aspect-square rounded-3xl text-neutral-100">
                       <FiPhoneCall className="text-3xl pt-1" />
                     </div>
                   </div>
-                  <div className="">
+                  <div className=" text-black">
                     <div className="font-semibold text-lg">Phone Number :</div>
-                    <div className="text-[#6F4E37b1]">09 786 063 014</div>
-                    <div className="text-[#6F4E37b1]">09 940 004 046</div>
+                    <div className="text- neutral-600">09 786 063 014</div>
+                    <div className="text- neutral-600">09 940 004 046</div>
                   </div>
                 </div>
               </BoxReveal>
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
                 <div className="flex gap-4 w-72 py-4">
                   <div className="">
-                    <div className="flex items-center justify-center p-[1.4rem] aspect-square bg-[#6F4E37] rounded-3xl text-neutral-100">
+                    <div className="flex items-center justify-center bg-neutral-700 p-[1.4rem] aspect-square rounded-3xl text-neutral-100">
                       <LucideMailOpen className="text-3xl" />
                     </div>
                   </div>
-                  <div className="">
+                  <div className=" text-black">
                     <div className="font-semibold text-lg">Mail Address :</div>
-                    <div className="text-[#6F4E37b1]">
+                    <div className="text- neutral-600">
                       morphwebsitemm@gmail .com
                     </div>
                   </div>
@@ -92,7 +92,7 @@ function Contact() {
           </div>
           <div className="flex flex-col lg:items-end">
             <img
-              src="img/woman.png"
+              src="https://morph-digital-mm.vercel.app/img/woman.png"
               alt=""
               className="w-full pt-4 px-2 lg:hidden brightness-75"
             />
@@ -137,7 +137,7 @@ function Contact() {
       <div className="absolute pointer-events-none hidden lg:block z-10 top-20 left-0 w-full h-full p-5">
         <div className="max-w-7xl mx-auto h-full flex flex-col">
           <img
-            src="img/woman.png"
+            src="https://morph-digital-mm.vercel.app/img/woman.png"
             alt=""
             className="w-full h-[700px] brightness- 75 pt-5 object-contain"
           />

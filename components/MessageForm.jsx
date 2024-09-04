@@ -84,7 +84,7 @@ const MessageForm = ({ className }) => {
         </div>
         <button
           type="submit"
-          className="bg-amber-700 font-semibold text-sm uppercase text-neutral-100 py-3 px-8 rounded-full hover:bg-amber-700 relative z-30"
+          className="bg-amber-600 font-semibold text-sm uppercase text-neutral-100 py-3 px-8 rounded-full hover:bg-amber-700 relative z-30"
         >
           Submit Message
         </button>

@@ -5,6 +5,8 @@ import Services from "./components/Services";
 import Process from "./components/Process";
 import Widget from "./components/Widget";
 import HeroHalf from "@/components/HeroHalf";
+import Contact from "../components/Contact";
+import Subscribe from "../components/Subscribe";
 
 function page() {
   return (
@@ -13,6 +15,9 @@ function page() {
       <HeroHalf>Services</HeroHalf>
       <Services />
       <Process />
+      <Contact />
+      <div className="h-10"></div>
+      <Subscribe />
       <Footer />
     </div>
   );

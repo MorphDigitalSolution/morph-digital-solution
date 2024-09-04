@@ -47,7 +47,7 @@ function Subscribe() {
           </BoxReveal>
           <BoxReveal boxColor={"#b45309"} duration={0.5}>
             <div className="text-3xl lg:text-5xl font-extrabold lg:py-2 text-[#6F4E37]">
-              <span className="text-amber-700">Subscribe</span> To Get Latest
+              <span className="text-amber-600">Subscribe</span> To Get Latest
               Update From Us
             </div>
           </BoxReveal>
@@ -77,7 +77,7 @@ function Subscribe() {
             <div className="">
               <button
                 type="submit"
-                className="bg-amber-700 hover:bg-amber-700 duration-300 text-neutral-100 py-3 text-sm px-7 font-semibold rounded-full uppercase"
+                className="bg-amber-600 hover:bg-amber-700 duration-300 text-neutral-100 py-3 text-sm px-7 font-semibold rounded-full uppercase"
               >
                 Sign Up !
               </button>

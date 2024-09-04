@@ -17,15 +17,9 @@
     "clsx": "^2.1.1",
     "framer-motion": "^11.3.28",
     "lucide-react": "^0.428.0",
-<<<<<<< HEAD
     "next": "^14.2.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-=======
-    "next": "14.2.5",
-    "react": "^18",
-    "react-dom": "^18",
->>>>>>> bafc2d437a18d9c95acca149e3e2901798ff331f
     "react-icons": "^5.3.0",
     "react-intersection-observer": "^9.13.0",
     "tailwind-merge": "^2.5.2",
@@ -34,7 +28,6 @@
   "devDependencies": {
     "postcss": "^8",
     "tailwindcss": "^3.4.1"
-<<<<<<< HEAD
   },
   "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
   "main": "tailwind.config.js",
@@ -43,7 +36,4 @@
   },
   "author": "",
   "license": "ISC"
-=======
-  }
->>>>>>> bafc2d437a18d9c95acca149e3e2901798ff331f
 }

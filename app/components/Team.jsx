@@ -176,7 +176,7 @@ function Team() {
             </BoxReveal>
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
               <div className="text-4xl lg:text-5xl font-extrabold py-2 text-neutral-100">
-                <span className="text-amber-700">Team</span> Members
+                <span className="text-amber-600">Team</span> Members
               </div>
             </BoxReveal>
             <BoxReveal boxColor={"#b45309"} duration={0.5}>

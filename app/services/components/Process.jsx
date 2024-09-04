@@ -4,7 +4,7 @@ import React from "react";
 
 function Process() {
   return (
-    <div className="p-8 lg:py-16 bg-slate-100/50">
+    <div className="p-8 lg:py-16 bg- slate-100/50">
       <div className="max-w-6xl mx-auto">
         <div className="p-5">
           <div className="flex gap-2 items-center justify-center flex-col text-center">
@@ -15,7 +15,7 @@ function Process() {
             </BoxReveal>
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
               <div className="text-4xl lg:text-5xl font-extrabold lg:py-2 text-[#6F4E37]">
-                <span className="text-amber-700">Process</span> We Follow
+                <span className="text-amber-600">Process</span> We Follow
               </div>
             </BoxReveal>
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
