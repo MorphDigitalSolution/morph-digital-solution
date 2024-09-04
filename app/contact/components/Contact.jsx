@@ -21,7 +21,7 @@ function Contact() {
                   </div>
                 </BoxReveal>
                 <BoxReveal boxColor={"#b45309"} duration={0.5}>
-                  <div className="text-4xl lg:text-5xl font-extrabold py-2 text-blue-950">
+                  <div className="text-4xl lg:text-5xl font-extrabold py-2 text-[#6F4E37] text- blue-950">
                     <span className="text-amber-600">Contact </span> & Join
                     Together
                   </div>

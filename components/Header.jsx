@@ -41,7 +41,7 @@ function Header() {
       >
         <div className="max-w-7xl px-5 lg:px-8 mx-auto text-[0.9rem] flex gap-8 py-5 items-center justify-between">
           <Link
-            href=""
+            href="/"
             className="flex items-center text-xl lg:text-2xl font-semibold uppercase"
           >
             <img

@@ -94,7 +94,7 @@ function  Contact() {
             <img
               src="https://morph-digital-mm.vercel.app/img/woman.png"
               alt=""
-              className="w-full pt-4 px-2 lg:hidden brightness-75"
+              className="w-full pt-4 px-2 lg:hidden brightness -75"
             />
             <div className="w-full lg:w-[390px] h-[600px] bg-white bg- neutral-950/70 rounded-3xl shadow-2xl shadow-black/10">
               <MessageForm className="w-full h-full p-10" />

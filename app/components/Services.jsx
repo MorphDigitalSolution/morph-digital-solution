@@ -27,12 +27,12 @@ function Services() {
                 support, we’re here to help you succeed.
               </div>
             </BoxReveal> */}
-            <div className="flex flex-col lg:flex-row w-full px-10 mt-5 gap-8 xl:gap-0 items-center justify-center">
+            <div className="flex flex-col lg:flex-row w-full mt-5 gap-8 md:gap-0 xl:gap-0 items-center justify-center">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
                 <div className="py-8 px-4">
                   <a
                     href="/services/web"
-                    className=" border-[3px] border-[#6F4E37b1] text-[#6F4E37b1] hover:text-white/80 hover:bg-[#6F4E37] duration-300 bg-white bg- neutral-950/30 shadow-xl relative group rounded-3xl overflow-hidden h-96 w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
+                    className=" border-[3px] border-[#6F4E37b1] text-[#6F4E37b1] hover:text-white/80 hover:bg-[#6F4E37] duration-300 bg-white bg- neutral-950/30 shadow-xl relative group rounded-3xl overflow-hidden h-[440px] md:h-96 w-96 md:w-[500px] lg:w-80 xl:w-[380px] block"
                   >
                     <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
                     <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center text-center justify-center">
@@ -62,7 +62,7 @@ function Services() {
                 <div className="py-8 px-4">
                   <a
                     href="/services/web"
-                    className=" border-[3px] border-[#6F4E37b1] text-[#6F4E37b1] hover:text-white/80 hover:bg-[#6F4E37] duration-300 bg-white bg- neutral-950/30 shadow-xl relative group rounded-3xl overflow-hidden h-96 w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
+                    className=" border-[3px] border-[#6F4E37b1] text-[#6F4E37b1] hover:text-white/80 hover:bg-[#6F4E37] duration-300 bg-white bg- neutral-950/30 shadow-xl relative group rounded-3xl overflow-hidden h-[440px] md:h-96 w-96 md:w-[500px] lg:w-80 xl:w-[380px] block"
                   >
                     <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
                     <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center text-center justify-center">
@@ -86,7 +86,7 @@ function Services() {
                 <div className="py-8 px-4">
                   <a
                     href="/services/web"
-                    className=" border-[3px] border-[#6F4E37b1] text-[#6F4E37b1] hover:text-white/80 hover:bg-[#6F4E37] duration-300 bg-white bg- neutral-950/30 shadow-xl relative group rounded-3xl overflow-hidden h-96 w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
+                    className=" border-[3px] border-[#6F4E37b1] text-[#6F4E37b1] hover:text-white/80 hover:bg-[#6F4E37] duration-300 bg-white bg- neutral-950/30 shadow-xl relative group rounded-3xl overflow-hidden h-[440px] md:h-96 w-96 md:w-[500px] lg:w-80 xl:w-[380px] block"
                   >
                     <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
                     <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center text-center justify-center">
@@ -112,7 +112,7 @@ function Services() {
               {/* <BoxReveal boxColor={"#b4530900"} duration={0.5}>
                 <a
                   href="/services/digital"
-                  className="relative group rounded-3xl overflow-hidden h-96 w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
+                  className="relative group rounded-3xl overflow-hidden h-[440px] md:h-96 w-96 md:w-[500px] lg:w-80 xl:w-[380px] block"
                 >
                   <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
                   <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center justify-center">
@@ -130,7 +130,7 @@ function Services() {
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
                 <a
                   href="/services/business"
-                  className="relative group rounded-3xl overflow-hidden h-96 w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
+                  className="relative group rounded-3xl overflow-hidden h-[440px] md:h-96 w-96 md:w-[500px] lg:w-80 xl:w-[380px] block"
                 >
                   <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
                   <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center justify-center">
