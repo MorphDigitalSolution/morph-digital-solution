@@ -16,7 +16,7 @@ const Modal = ({ isOpen, onClose, service }) => {
   return (
     <div className="fixed inset-0 z-50 p-5 flex items-center justify-center bg-black bg-opacity-50">
       <div className="bg-white rounded-2xl shadow-lg p-6 max-w-xl">
-        <h2 className="text-2xl font-semibold mb-4">{service.text}</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-[#6F4E37]">{service.text}</h2>
         <ul className="mb-4">
           {service.description.map((desc, index) => (
             <li key={index} className="mb-2">

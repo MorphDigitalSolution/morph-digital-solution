@@ -13,7 +13,7 @@ function Services() {
                 <div className="py-8 px-4">
                   <a
                     href="/services/web"
-                    className="border-[3px] border-[#6F4E37b1] text-[#6F4E37b1] hover:text-white/80 hover:bg-[#6F4E37] duration-300 bg-white shadow-xl relative group rounded-3xl overflow-hidden h-96 w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
+                    className="border-[3px] border-[#6F4E37b1] text-[#6F4E37b1] hover:text-white/80 hover:bg-[#6F4E37] duration-300 bg-white shadow-xl relative group rounded-3xl overflow-hidden h-96 lg:h-[470px] xl:h-[400px] w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
                   >
                     <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
                     <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center text-center justify-center">
@@ -25,7 +25,7 @@ function Services() {
                       <div className="text-2xl group-hover:text-white text-[#6f4e37] font-semibold">
                         Website Development
                       </div>
-                      <div className="text-sm pt-5 text-left pb-3">
+                      <div className="text-sm pt-5 text-left pb-3 leading-[1.9]">
                         သင့် Brand ကို ကိုယ်စားပြုပြီး သင့် Customer တွေကို
                         ဆွဲဆောင်နိုင်မည့် ဝဘ်ဆိုက်များ တည်ဆောက်ပေးပါသည်။ Blog
                         ဝဘ်ဆိုက်များ၊ E Commerce Platform များ၊ Corporate
@@ -43,7 +43,7 @@ function Services() {
                 <div className="py-8 px-4">
                   <a
                     href="/services/digital"
-                    className="border-[3px] border-[#6F4E37b1] text-[#6F4E37b1] hover:text-white/80 hover:bg-[#6F4E37] duration-300 bg-white shadow-xl relative group rounded-3xl overflow-hidden h-96 w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
+                    className="border-[3px] border-[#6F4E37b1] text-[#6F4E37b1] hover:text-white/80 hover:bg-[#6F4E37] duration-300 bg-white shadow-xl relative group rounded-3xl overflow-hidden h-96 lg:h-[470px] xl:h-[400px] w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
                   >
                     <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
                     <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center text-center justify-center">
@@ -51,7 +51,7 @@ function Services() {
                       <div className="text-2xl group-hover:text-white text-[#6f4e37] font-semibold">
                         Digital Marketing
                       </div>
-                      <div className="text-sm pt-5 text-left pb-3">
+                      <div className="text-sm pt-5 text-left pb-3 leading-[1.9]">
                         Morph Strategy ဖြင့် သင့် Brand ကို သုံးစွဲမည့် Customer
                         များထံ သင့် Brand အကြောင်းသိရှိစေရန်နှင့် သင့် Brand
                         တန်ဖိုး မြှင့်တက်စေရန်အတွက် ဒီဂျစ်တယ်မားကက်တင်း
@@ -67,7 +67,7 @@ function Services() {
                 <div className="py-8 px-4">
                   <a
                     href="/services/business"
-                    className="border-[3px] border-[#6F4E37b1] text-[#6F4E37b1] hover:text-white/80 hover:bg-[#6F4E37] duration-300 bg-white shadow-xl relative group rounded-3xl overflow-hidden h-96 w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
+                    className="border-[3px] border-[#6F4E37b1] text-[#6F4E37b1] hover:text-white/80 hover:bg-[#6F4E37] duration-300 bg-white shadow-xl relative group rounded-3xl overflow-hidden h-96 lg:h-[470px] xl:h-[400px] w-72 md:w-[500px] lg:w-72 xl:w-[380px] block"
                   >
                     <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
                     <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center text-center justify-center">
@@ -75,7 +75,7 @@ function Services() {
                       <div className="text-2xl group-hover:text-white text-[#6f4e37] font-semibold">
                         Business Registration
                       </div>
-                      <div className="text-sm pt-5 text-left pb-3">
+                      <div className="text-sm pt-5 text-left pb-3 leading-[1.9]">
                         စီးပွားရေး စတင်ခြင်းနှင့်
                         စီမံခန့်ခွဲခြင်းလုပ်ငန်းစဉ်များ
                         တရားဝင်လည်ပတ်နိုင်ရန်အတွက် Morph ​၏ Business

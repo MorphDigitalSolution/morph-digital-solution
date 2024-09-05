@@ -20,7 +20,8 @@ const services = [
       "✦ Online Reputation Management Plan",
       "✦ Influencer Marketing Plan",
       "✦ Crisis Communication Plan",
-      "✦ Data Analytics & Reporting"
+      "✦ Data Analytics & Reporting",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။"
     ]
   },
   {
@@ -32,7 +33,8 @@ const services = [
       "✦ Written content များ",
       "✦ Visual content များ",
       "✦ Audio content များ",
-      "✦ Script writing များ"
+      "✦ Script writing များ",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။"
     ]
   },
   {
@@ -43,7 +45,8 @@ const services = [
       "✦ သက်သာသော Dollor Rate ဖြင့် ရယူနိုင်ခြင်း",
       "✦ Boosting run ရန် မှန်ကန်သည့် platform ရွေးချယ်ပေးခြင်း",
       "✦ ထိရောက်သည့် Display ကြော်ငြာများ၊ Search ကြော်ငြာများ၊ Video ကြော်ငြာများ ဖန်တီးပေးခြင်း",
-      "✦  Boosting Campign Performance Report ထုတ်ပေးခြင်း"
+      "✦  Boosting Campign Performance Report ထုတ်ပေးခြင်း",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။"
     ]
   },
   {
@@ -56,7 +59,8 @@ const services = [
       "✦ Social Media Post Design",
       "✦ Printing Design (Flyer, Pamphlet (A4), X Stand, Vinyl, Poster, Backdrop)",
       "✦ CV or Resume Form Design",
-      "✦ Presentation Design"
+      "✦ Presentation Design",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။"
     ]
   },
   {
@@ -67,7 +71,8 @@ const services = [
       "✦ Posting",
       "✦ Commenting",
       "✦ Message Replying",
-      "✦ Social Media Analytics & Reporting"
+      "✦ Social Media Analytics & Reporting",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။"
     ]
   },
   {
@@ -76,7 +81,8 @@ const services = [
     description: "မိမိ Brand နဲ့ သင့်လျော်တဲ့ Influencer ကို",
     offerings: [
       "✦ Choosing based on niche, audience demographics, engagement rate, and credibility",
-      "✦ Creating impactful Influencer Campaign Plans"
+      "✦ Creating impactful Influencer Campaign Plans",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။"
     ]
   },
   {
@@ -94,7 +100,8 @@ const services = [
       "✦ Interview video",
       "✦ Case studies video",
       "✦ Script writing, Shooting, Editing, Post-production",
-      "✦ Video campaign performance report"
+      "✦ Video campaign performance report",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။"
     ]
   },
   {
@@ -104,7 +111,8 @@ const services = [
     offerings: [
       "✦ မိမိ Brand ကို Mention ခေါ်ထားသည့် သူများကို monitoring & tracking လုပ်ပြီး အကောင်းဆုံး ကိုင်တွယ်ဖြေရှင်းပေးခြင်း",
       "✦ Negative reviews နှင့် Negative comment များကို အကောင်းဆုံး ကိုင်တွယ်ဖြေရှင်းပေးပြီး brand image ပြန်လည် တည်ဆောက်ပေးခြင်း",
-      "✦ Online ပေါ်တွင် ကောင်းသောဂုဏ်သတင်းနှင့် လူသိများထင်ရှားသည့် Brand အဖြစ် ဖန်တီးပေးခြင်း စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။"
+      "✦ Online ပေါ်တွင် ကောင်းသောဂုဏ်သတင်းနှင့် လူသိများထင်ရှားသည့် Brand အဖြစ် ဖန်တီးပေးခြင်း စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။"
     ]
   },
   {
@@ -114,7 +122,8 @@ const services = [
     offerings: [
       "✦ လုပ်ငန်း ဂုဏ်သိက္ခာ မထိခိုက်အောင်",
       "✦ အနှစ်နှစ်အလလ တည်ဆောက်ထားတဲ့ လုပ်ငန်းအပေါ် ယုံကြည်မှု မပျက်စီးအောင်",
-      "✦ Legal risk တွေကို လျော့ချနိုင်အောင်"
+      "✦ Legal risk တွေကို လျော့ချနိုင်အောင်",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။"
     ]
   },
   {
@@ -135,9 +144,7 @@ const services = [
       "✦ ချမှတ်ထားတဲ့ KPIs တွေကို Hit ဖြစ်ရဲ့လား",
       "✦ စတာတွေကို တိုင်းတာလိုရတဲ့ အချက်အလက်တွေနဲ့ တိုင်းတာပေးပြီး Campaign Performance report ထုတ်ပေးပါတယ်။ ",
       "...",
-      "✦ Campaign Performance report တွင် နောက်တကြိမ် Campaign ကို ယခုထက် ပိုမိုကောင်းမွန်အောင် လုပ်ဆောင်နိုင်မည့် လက်တွေ့အသုံးချနိုင်သော Actionable recommendation plan များလဲ ပါဝင်ပါသည်။",
-      "...",
-      "✦ မိမိ Target Audience တွေက Email အသုံးပြုသူများ ဖြစ်ပါက Email Marketing ပြုလုပ်ခြင်းဖြင့် ကုန်ကျစရိတ် သက်သာစွာ ကြော်ငြာနိုင်ခြင်း",
+      "Campaign Performance report တွင် နောက်တကြိမ် Campaign ကို ယခုထက် ပိုမိုကောင်းမွန်အောင် လုပ်ဆောင်နိုင်မည့် လက်တွေ့အသုံးချနိုင်သော Actionable recommendation plan များလဲ ပါဝင်ပါသည်။ မိမိ Target Audience တွေက Email အသုံးပြုသူများ ဖြစ်ပါက Email Marketing ပြုလုပ်ခြင်းဖြင့် ကုန်ကျစရိတ် သက်သာစွာ ကြော်ငြာနိုင်ခြင်း စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။"
     ]
   },
   {
@@ -148,7 +155,8 @@ const services = [
       "✦ Email List စုပေးခြင်း",
       "✦ Email campaign plan ရေးဆွဲပေးခြင်း",
       "✦ Email campaign ပြုလုပ်ပေးခြင်း",
-      "✦ Email campaign performance report ထုတ်ပေးခြင်း"
+      "✦ Email campaign performance report ထုတ်ပေးခြင်း",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။"
     ]
   },
   {
@@ -159,7 +167,8 @@ const services = [
       "✦ Short Message Service (SMS) List စုပေးခြင်း",
       "✦ SMS campaign plan ရေးဆွဲပေးခြင်း",
       "✦ SMS campaign ပြုလုပ်ပေးခြင်း",
-      "✦ SMS campaign performance report ထုတ်ပေးခြင်း"
+      "✦ SMS campaign performance report ထုတ်ပေးခြင်း",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။"
     ]
   },
   {
@@ -172,7 +181,8 @@ const services = [
       "✦ Conferences များ",
       "✦ Charity events များ စီစဉ်ပေးပြီး",
       "✦ အောင်မြင်တဲ့ Event ပွဲတခုဖြစ်အောင်",
-      "✦ Social media marketing, Email marketing, Influencer partnerships, PR, Collaborate Partner ရှာပေးခြင်း၊ Sponsorship ရှာပေးခြင်း၊ Event Performance Report ထုတ်ပေးခြင်း"
+      "✦ Social media marketing, Email marketing, Influencer partnerships, PR, Collaborate Partner ရှာပေးခြင်း၊ Sponsorship ရှာပေးခြင်း၊ Event Performance Report ထုတ်ပေးခြင်း",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။"
     ]
   },
   {
@@ -182,7 +192,8 @@ const services = [
     offerings: [
       "✦ Digital Marketing In House Team ဖွဲစည်းပေးခြင်း",
       "✦ Digital Marketing Training ပေးခြင်း",
-      "✦ Digital Marketing Latest Trends များအကြောင်း ပုံမှန် Sharing လုပ်ပေးခြင်း"
+      "✦ Digital Marketing Latest Trends များအကြောင်း ပုံမှန် Sharing လုပ်ပေးခြင်း",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။"
     ]
   },
   {
@@ -191,7 +202,8 @@ const services = [
     description: "Designing and writing PowerPoint presentations.",
     offerings: [
       "✦ Power Point Presentation Design ဆွဲပေးခြင်း",
-      "✦ Power Point Presentation ရေးပေးခြင်း"
+      "✦ Power Point Presentation ရေးပေးခြင်း",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။"
     ]
   },
   {
@@ -201,7 +213,8 @@ const services = [
     offerings: [
       "✦ Messenger Chatbot",
       "✦ Telegram Chatbot",
-      "✦ Viber Chatbot"
+      "✦ Viber Chatbot",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။"
     ]
   },
   {
@@ -220,15 +233,14 @@ const Modal = ({ service, onClose }) => {
 
   return (
     <div className="fixed inset-0 bg-black p-5 bg-opacity-50 flex justify-center items-center pt-20">
-      <div className="relative bg-white p-8 rounded-2xl max-w-4xl mx-auto">
-        <h2 className="text-xl font-bold mb-4 text-[#6F4E37]">{service.title}</h2>
+      <div className="relative bg-white p-8 rounded-2xl max-w-5xl mx-auto">
+        <h2 className="text-3xl font-bold mb-4 text-[#6F4E37]">{service.title}</h2>
         <p>{service.description}</p>
         <ul className="mt-4 list -disc list-inside">
           {service.offerings.map((offering, index) => (
             <li className="leading-[1.4rem]" key={index}>{offering}</li>
           ))}
         </ul>
-        <div className="pt-2">စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။</div>
         <button
           className="mt-4 block ms-auto px-4 py-2 bg-[#6f4e37] text-white rounded-full hover:bg-[#8e6e4e] transition"
           onClick={onClose}
