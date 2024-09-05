@@ -15,12 +15,12 @@ const services = [
     imgSrc: "https://morph-digital-mm.vercel.app/img/chart.svg",
     description: "မိမိရဲ့ Target Audience များကို Online ပေါ်မှ တဆင့် Brand Awareness လုပ်ရန်၊ Brand Visibility မြှင့်ရန်၊ Brand Reputation တည်ဆောက်ရန်အတွက် ",
     offerings: [
-      "Content Marketing Plan",
-      "Social Media Management Plan",
-      "Online Reputation Management Plan",
-      "Influencer Marketing Plan",
-      "Crisis Communication Plan",
-      "Data Analytics & Reporting"
+      "✦ Content Marketing Plan",
+      "✦ Social Media Management Plan",
+      "✦ Online Reputation Management Plan",
+      "✦ Influencer Marketing Plan",
+      "✦ Crisis Communication Plan",
+      "✦ Data Analytics & Reporting"
     ]
   },
   {
@@ -28,11 +28,11 @@ const services = [
     imgSrc: "https://morph-digital-mm.vercel.app/img/chart.svg",
     description: "မိမိရဲ့ Target Audience များကို မိမိ Brand အကြောင်း သိရှိရန်၊ Brand credibility တည်ဆောက်ရန်၊ Customer များနှင့် ရင်းနှီးမှု တည်ဆောက်ရန်၊ Search engine ranking တက်ရန်အတွက်",
     offerings: [
-      "Video content များ",
-      "Written content များ",
-      "Visual content များ",
-      "Audio content များ",
-      "Script writing များ"
+      "✦ Video content များ",
+      "✦ Written content များ",
+      "✦ Visual content များ",
+      "✦ Audio content များ",
+      "✦ Script writing များ"
     ]
   },
   {
@@ -40,10 +40,10 @@ const services = [
     imgSrc: "https://morph-digital-mm.vercel.app/img/chart.svg",
     description: "မိမိ brand ကို မိမိကြော်ငြာလိုတဲ့ Target Audience အလိုက် ရွေးချယ်ပြီး Boosting ကြော်ငြာ Run ပေးပါသည်။ Boosting ဝန်ဆောင်မှုကို",
     offerings: [
-      "သက်သာသော Dollor Rate ဖြင့် ရယူနိုင်ခြင်း",
-      "Boosting run ရန် မှန်ကန်သည့် platform ရွေးချယ်ပေးခြင်း",
-      "ထိရောက်သည့် Display ကြော်ငြာများ၊ Search ကြော်ငြာများ၊ Video ကြော်ငြာများ ဖန်တီးပေးခြင်း",
-      " Boosting Campign Performance Report ထုတ်ပေးခြင်း"
+      "✦ သက်သာသော Dollor Rate ဖြင့် ရယူနိုင်ခြင်း",
+      "✦ Boosting run ရန် မှန်ကန်သည့် platform ရွေးချယ်ပေးခြင်း",
+      "✦ ထိရောက်သည့် Display ကြော်ငြာများ၊ Search ကြော်ငြာများ၊ Video ကြော်ငြာများ ဖန်တီးပေးခြင်း",
+      "✦  Boosting Campign Performance Report ထုတ်ပေးခြင်း"
     ]
   },
   {
@@ -51,12 +51,12 @@ const services = [
     imgSrc: "https://morph-digital-mm.vercel.app/img/chart.svg",
     description: "Providing various graphic design services.",
     offerings: [
-      "Logo Design",
-      "Name Card Design",
-      "Social Media Post Design",
-      "Printing Design (Flyer, Pamphlet (A4), X Stand, Vinyl, Poster, Backdrop)",
-      "CV or Resume Form Design",
-      "Presentation Design"
+      "✦ Logo Design",
+      "✦ Name Card Design",
+      "✦ Social Media Post Design",
+      "✦ Printing Design (Flyer, Pamphlet (A4), X Stand, Vinyl, Poster, Backdrop)",
+      "✦ CV or Resume Form Design",
+      "✦ Presentation Design"
     ]
   },
   {
@@ -64,10 +64,10 @@ const services = [
     imgSrc: "https://morph-digital-mm.vercel.app/img/chart.svg",
     description: "Social Media Platforms များ ဖြစ်သည့် Facebook Page, Facebook Acc, Instagram, LinkedIn, Telegram, Viber, Youtube, Tiktok နှင့် Wechat Acc များ ကိုင်ပေးပြီး ",
     offerings: [
-      "Posting",
-      "Commenting",
-      "Message Replying",
-      "Social Media Analytics & Reporting"
+      "✦ Posting",
+      "✦ Commenting",
+      "✦ Message Replying",
+      "✦ Social Media Analytics & Reporting"
     ]
   },
   {
@@ -75,8 +75,8 @@ const services = [
     imgSrc: "https://morph-digital-mm.vercel.app/img/chart.svg",
     description: "မိမိ Brand နဲ့ သင့်လျော်တဲ့ Influencer ကို",
     offerings: [
-      "Choosing based on niche, audience demographics, engagement rate, and credibility",
-      "Creating impactful Influencer Campaign Plans"
+      "✦ Choosing based on niche, audience demographics, engagement rate, and credibility",
+      "✦ Creating impactful Influencer Campaign Plans"
     ]
   },
   {
@@ -84,17 +84,17 @@ const services = [
     imgSrc: "https://morph-digital-mm.vercel.app/img/chart.svg",
     description: "လူကြိုက်များတဲ့ Video ကြော်ငြာပုံစံနဲ့ မိမိ brand အကြောင်းကို သေချာ message ပေးနိုင်တဲ့ Video ကြော်ငြာ Campaign များ ရိုက်ကူးပေးပါသည်။ ",
     offerings: [
-      "Webinars video",
-      "Instructional or how-to video",
-      "Company culture video",
-      "Product demos video",
-      "Testimonials video",
-      "Humorous video",
-      "Behind the scenes video",
-      "Interview video",
-      "Case studies video",
-      "Script writing, Shooting, Editing, Post-production",
-      "Video campaign performance report"
+      "✦ Webinars video",
+      "✦ Instructional or how-to video",
+      "✦ Company culture video",
+      "✦ Product demos video",
+      "✦ Testimonials video",
+      "✦ Humorous video",
+      "✦ Behind the scenes video",
+      "✦ Interview video",
+      "✦ Case studies video",
+      "✦ Script writing, Shooting, Editing, Post-production",
+      "✦ Video campaign performance report"
     ]
   },
   {
@@ -102,9 +102,9 @@ const services = [
     imgSrc: "https://morph-digital-mm.vercel.app/img/chart.svg",
     description: "Monitoring and managing your brand's online reputation.",
     offerings: [
-      "မိမိ Brand ကို Mention ခေါ်ထားသည့် သူများကို monitoring & tracking လုပ်ပြီး အကောင်းဆုံး ကိုင်တွယ်ဖြေရှင်းပေးခြင်း",
-      "Negative reviews နှင့် Negative comment များကို အကောင်းဆုံး ကိုင်တွယ်ဖြေရှင်းပေးပြီး brand image ပြန်လည် တည်ဆောက်ပေးခြင်း",
-      "Online ပေါ်တွင် ကောင်းသောဂုဏ်သတင်းနှင့် လူသိများထင်ရှားသည့် Brand အဖြစ် ဖန်တီးပေးခြင်း စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။"
+      "✦ မိမိ Brand ကို Mention ခေါ်ထားသည့် သူများကို monitoring & tracking လုပ်ပြီး အကောင်းဆုံး ကိုင်တွယ်ဖြေရှင်းပေးခြင်း",
+      "✦ Negative reviews နှင့် Negative comment များကို အကောင်းဆုံး ကိုင်တွယ်ဖြေရှင်းပေးပြီး brand image ပြန်လည် တည်ဆောက်ပေးခြင်း",
+      "✦ Online ပေါ်တွင် ကောင်းသောဂုဏ်သတင်းနှင့် လူသိများထင်ရှားသည့် Brand အဖြစ် ဖန်တီးပေးခြင်း စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။"
     ]
   },
   {
@@ -112,9 +112,9 @@ const services = [
     imgSrc: "https://morph-digital-mm.vercel.app/img/chart.svg",
     description: "ကိုယ့်လုပ်ငန်းမှာ ထင်မှတ်မထားတဲ့ Crisis တခုခုကြုံလာပြီဆိုရင်",
     offerings: [
-      "လုပ်ငန်း ဂုဏ်သိက္ခာ မထိခိုက်အောင်",
-      "အနှစ်နှစ်အလလ တည်ဆောက်ထားတဲ့ လုပ်ငန်းအပေါ် ယုံကြည်မှု မပျက်စီးအောင်",
-      "Legal risk တွေကို လျော့ချနိုင်အောင်"
+      "✦ လုပ်ငန်း ဂုဏ်သိက္ခာ မထိခိုက်အောင်",
+      "✦ အနှစ်နှစ်အလလ တည်ဆောက်ထားတဲ့ လုပ်ငန်းအပေါ် ယုံကြည်မှု မပျက်စီးအောင်",
+      "✦ Legal risk တွေကို လျော့ချနိုင်အောင်"
     ]
   },
   {
@@ -122,22 +122,22 @@ const services = [
     imgSrc: "https://morph-digital-mm.vercel.app/img/chart.svg",
     description: "Digital PR Campaigns လုပ်ဆောင်ရခြင်း ရည်ရွယ်ချက် အမျိုးမျိုး ရှိပါတယ်",
     offerings: [
-      "Brand awareness ရချင်လိုလား",
-      "Organization အပေါ် Online Reputation ကောင်းချင်လိုလား",
-      "Lead generation အတွက်လား",
-      "Industry Thought Leadership ဖြစ်ဖိုလား",
-      "Crisis Management အတွက်လား",
-      "",
-      "Campaign တခုကို ဒီရည်ရွယ်ချက်တွေအတိုင်း လုပ်ဆောင်ပြီးရင် ",
-      "Campaign ရဲ့ Impact က ဘယ်လိုအတိုင်းအတာအထိ အောင်မြင်မှုရှိခဲ့လဲ",
-      "Audience engagement ဘယ်လိုရှိလဲ",
-      "ငွေရင်းလိုက်တာနဲ့ ပြန်ရတာ ကာမိရဲ့လား",
-      "ချမှတ်ထားတဲ့ KPIs တွေကို Hit ဖြစ်ရဲ့လား",
-      "စတာတွေကို တိုင်းတာလိုရတဲ့ အချက်အလက်တွေနဲ့ တိုင်းတာပေးပြီး Campaign Performance report ထုတ်ပေးပါတယ်။ ",
-      "",
-      "Campaign Performance report တွင် နောက်တကြိမ် Campaign ကို ယခုထက် ပိုမိုကောင်းမွန်အောင် လုပ်ဆောင်နိုင်မည့် လက်တွေ့အသုံးချနိုင်သော Actionable recommendation plan များလဲ ပါဝင်ပါသည်။",
-      "",
-      "မိမိ Target Audience တွေက Email အသုံးပြုသူများ ဖြစ်ပါက Email Marketing ပြုလုပ်ခြင်းဖြင့် ကုန်ကျစရိတ် သက်သာစွာ ကြော်ငြာနိုင်ခြင်း",
+      "✦ Brand awareness ရချင်လိုလား",
+      "✦ Organization အပေါ် Online Reputation ကောင်းချင်လိုလား",
+      "✦ Lead generation အတွက်လား",
+      "✦ Industry Thought Leadership ဖြစ်ဖိုလား",
+      "✦ Crisis Management အတွက်လား",
+      "...",
+      "✦ Campaign တခုကို ဒီရည်ရွယ်ချက်တွေအတိုင်း လုပ်ဆောင်ပြီးရင် ",
+      "✦ Campaign ရဲ့ Impact က ဘယ်လိုအတိုင်းအတာအထိ အောင်မြင်မှုရှိခဲ့လဲ",
+      "✦ Audience engagement ဘယ်လိုရှိလဲ",
+      "✦ ငွေရင်းလိုက်တာနဲ့ ပြန်ရတာ ကာမိရဲ့လား",
+      "✦ ချမှတ်ထားတဲ့ KPIs တွေကို Hit ဖြစ်ရဲ့လား",
+      "✦ စတာတွေကို တိုင်းတာလိုရတဲ့ အချက်အလက်တွေနဲ့ တိုင်းတာပေးပြီး Campaign Performance report ထုတ်ပေးပါတယ်။ ",
+      "...",
+      "✦ Campaign Performance report တွင် နောက်တကြိမ် Campaign ကို ယခုထက် ပိုမိုကောင်းမွန်အောင် လုပ်ဆောင်နိုင်မည့် လက်တွေ့အသုံးချနိုင်သော Actionable recommendation plan များလဲ ပါဝင်ပါသည်။",
+      "...",
+      "✦ မိမိ Target Audience တွေက Email အသုံးပြုသူများ ဖြစ်ပါက Email Marketing ပြုလုပ်ခြင်းဖြင့် ကုန်ကျစရိတ် သက်သာစွာ ကြော်ငြာနိုင်ခြင်း",
     ]
   },
   {
@@ -145,10 +145,10 @@ const services = [
     imgSrc: "https://morph-digital-mm.vercel.app/img/chart.svg",
     description: "Email Marketing ဝန်ဆောင်မှုတွင်",
     offerings: [
-      "Email List စုပေးခြင်း",
-      "Email campaign plan ရေးဆွဲပေးခြင်း",
-      "Email campaign ပြုလုပ်ပေးခြင်း",
-      "Email campaign performance report ထုတ်ပေးခြင်း"
+      "✦ Email List စုပေးခြင်း",
+      "✦ Email campaign plan ရေးဆွဲပေးခြင်း",
+      "✦ Email campaign ပြုလုပ်ပေးခြင်း",
+      "✦ Email campaign performance report ထုတ်ပေးခြင်း"
     ]
   },
   {
@@ -156,10 +156,10 @@ const services = [
     imgSrc: "https://morph-digital-mm.vercel.app/img/chart.svg",
     description: "SMS Marketing ဝန်ဆောင်မှုတွင်",
     offerings: [
-      "Short Message Service (SMS) List စုပေးခြင်း",
-      "SMS campaign plan ရေးဆွဲပေးခြင်း",
-      "SMS campaign ပြုလုပ်ပေးခြင်း",
-      "SMS campaign performance report ထုတ်ပေးခြင်း"
+      "✦ Short Message Service (SMS) List စုပေးခြင်း",
+      "✦ SMS campaign plan ရေးဆွဲပေးခြင်း",
+      "✦ SMS campaign ပြုလုပ်ပေးခြင်း",
+      "✦ SMS campaign performance report ထုတ်ပေးခြင်း"
     ]
   },
   {
@@ -167,12 +167,12 @@ const services = [
     imgSrc: "https://morph-digital-mm.vercel.app/img/chart.svg",
     description: "Event ပွဲများမှ တဆင့် Positive brand image တည်ဆောက်လိုပါက၊  Customer relationship တည်ဆောက်လိုပါက၊ Leads generation ပြုလုပ်လိုပါက၊ အရောင်းမြှင့်တင်လိုပါက ဖော်ပြပါ Event ပွဲများ စီစဉ်ပေးပါသည်။",
     offerings: [
-      "Product launches event များ",
-      "Trade show event များ",
-      "Conferences များ",
-      "Charity events များ စီစဉ်ပေးပြီး",
-      "အောင်မြင်တဲ့ Event ပွဲတခုဖြစ်အောင်",
-      "Social media marketing, Email marketing, Influencer partnerships, PR, Collaborate Partner ရှာပေးခြင်း၊ Sponsorship ရှာပေးခြင်း၊ Event Performance Report ထုတ်ပေးခြင်း"
+      "✦ Product launches event များ",
+      "✦ Trade show event များ",
+      "✦ Conferences များ",
+      "✦ Charity events များ စီစဉ်ပေးပြီး",
+      "✦ အောင်မြင်တဲ့ Event ပွဲတခုဖြစ်အောင်",
+      "✦ Social media marketing, Email marketing, Influencer partnerships, PR, Collaborate Partner ရှာပေးခြင်း၊ Sponsorship ရှာပေးခြင်း၊ Event Performance Report ထုတ်ပေးခြင်း"
     ]
   },
   {
@@ -180,9 +180,9 @@ const services = [
     imgSrc: "https://morph-digital-mm.vercel.app/img/chart.svg",
     description: "Digital Marketing Team Development & Training Serviceတွင် ",
     offerings: [
-      "Digital Marketing In House Team ဖွဲစည်းပေးခြင်း",
-      "Digital Marketing Training ပေးခြင်း",
-      "Digital Marketing Latest Trends များအကြောင်း ပုံမှန် Sharing လုပ်ပေးခြင်း"
+      "✦ Digital Marketing In House Team ဖွဲစည်းပေးခြင်း",
+      "✦ Digital Marketing Training ပေးခြင်း",
+      "✦ Digital Marketing Latest Trends များအကြောင်း ပုံမှန် Sharing လုပ်ပေးခြင်း"
     ]
   },
   {
@@ -190,8 +190,8 @@ const services = [
     imgSrc: "https://morph-digital-mm.vercel.app/img/chart.svg",
     description: "Designing and writing PowerPoint presentations.",
     offerings: [
-      "Power Point Presentation Design ဆွဲပေးခြင်း",
-      "Power Point Presentation ရေးပေးခြင်း"
+      "✦ Power Point Presentation Design ဆွဲပေးခြင်း",
+      "✦ Power Point Presentation ရေးပေးခြင်း"
     ]
   },
   {
@@ -199,9 +199,9 @@ const services = [
     imgSrc: "https://morph-digital-mm.vercel.app/img/chart.svg",
     description: "Developing and managing chatbots for various platforms.",
     offerings: [
-      "Messenger Chatbot",
-      "Telegram Chatbot",
-      "Viber Chatbot"
+      "✦ Messenger Chatbot",
+      "✦ Telegram Chatbot",
+      "✦ Viber Chatbot"
     ]
   },
   {
@@ -209,8 +209,8 @@ const services = [
     imgSrc: "https://morph-digital-mm.vercel.app/img/chart.svg",
     description: "Designing and writing company profiles.",
     offerings: [
-      "Company Profile Design ဆွဲပေးခြင်း",
-      "Company Profile ရေးပေးခြင်း"
+      "✦ Company Profile Design ဆွဲပေးခြင်း",
+      "✦ Company Profile ရေးပေးခြင်း"
     ]
   }
 ];
@@ -221,12 +221,6 @@ const Modal = ({ service, onClose }) => {
   return (
     <div className="fixed inset-0 bg-black p-5 bg-opacity-50 flex justify-center items-center pt-20">
       <div className="relative bg-white p-8 rounded-2xl max-w-4xl mx-auto">
-        <button
-          className="absolute top-1 right-4 text-black text-3xl"
-          onClick={onClose}
-        >
-          &times;
-        </button>
         <h2 className="text-xl font-bold mb-4 text-[#6F4E37]">{service.title}</h2>
         <p>{service.description}</p>
         <ul className="mt-4 list -disc list-inside">
@@ -235,6 +229,12 @@ const Modal = ({ service, onClose }) => {
           ))}
         </ul>
         <div className="pt-2">စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။</div>
+        <button
+          className="mt-4 block ms-auto px-4 py-2 bg-[#6f4e37] text-white rounded-full hover:bg-[#8e6e4e] transition"
+          onClick={onClose}
+        >
+          Close
+        </button>
       </div>
     </div>
   );
