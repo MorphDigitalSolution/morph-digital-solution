@@ -13,7 +13,7 @@ function page() {
       <Header />
       <div className="h-[480px] relative overflow-hidden">
         <img
-          src="https://morph-digital-mm.vercel.app/img/clientGroup.png"
+          src="https://morph-digital-mm.vercel.app/img/clientsGroup.png"
           alt="hero image"
           className="w-full h-full object-cover object-top brightness-[0.5] bg-neutral-800"
         />
