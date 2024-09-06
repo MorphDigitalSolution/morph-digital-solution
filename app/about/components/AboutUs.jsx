@@ -6,7 +6,7 @@ function AboutUs() {
   return (
     <div className="bg-amber-700 text-white">
       <div className="max-w-6xl mx-auto">
-        <div className="grid lg:grid-cols-5 py-5 lg:pt-20 lg:pb-10">
+        <div className="grid lg:grid-cols-5 py-10 lg:pt-20 lg:pb-10">
           <div className="px-5 lg:col-span-2">
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
               <div className="pb-2">
@@ -14,7 +14,7 @@ function AboutUs() {
               </div>
             </BoxReveal>
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
-              <div className="text-3xl lg:text-5xl font-extrabold lg:py-2 text- blue-950">
+              <div className="text-3xl lg:text-5xl font-extrabold pt-2 lg:pb-2 text- blue-950">
                 One Stop 
                 <span className="text-amber-600"> Digital Solution </span>
                 Service Company
@@ -115,18 +115,6 @@ function AboutUs() {
             </div>
           </BoxReveal>
         </div>
-        {/* <div className="h-[280px] lg:h-[540px] relative">
-          <img
-            src="img/group.png"
-            alt=""
-            className="absolute top-20 lg:top-1/2 -translate-y-1/2 left-5 lg:left-0 object-cover h-[220px] lg:h-[450px] rounded-[28px]"
-          />
-          <img
-            src="img/about3.png"
-            alt=""
-            className="absolute top-44 lg:top-1/2 -translate-y-1/2 right-0 border-[12px] border-white object-cover h-[180px] lg:h-[370px] rounded-[28px]"
-          />
-        </div> */}
       </div>
     </div>
   );

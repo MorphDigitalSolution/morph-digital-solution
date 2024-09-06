@@ -28,7 +28,7 @@ function Goal() {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-center p-8  text-lg">
+          <div className="flex flex-col justify-center p-8  text-lg">
             {/* <div className="flex flex-col gap-2 justify-center items-center">
               <CircularProgress currentCount={95} size={130} />
               <div className="font-semibold text-xl">Marketing</div>
@@ -50,12 +50,18 @@ function Goal() {
                 Achieving top-notch results and client satisfaction.
               </div>
             </div> */}
-            <div className="leading-[1.8]">
-              Morph ​၏ ရည်ရွယ်ချက်မှာ လုပ်ငန်းရှင်များ တတ်နိုင်သည့်
+            <div className="text-lg pb-1">
+              Morph ​၏ ရည်ရွယ်ချက်မှာ
+            </div>
+            <div className="">✦ လုပ်ငန်းရှင်များ တတ်နိုင်သည့်
               စျေးနှုန်းဖြင့် လုပ်ငန်းတခုချင်းအလိုက် သင့်လျော်သော Customize
-              Digital Services ဝန်ဆောင်မှုများပေးရန်။ ရိုးရှင်းပြီး ထိရောက်သော
+              Digital Services ဝန်ဆောင်မှုများပေးရန်
+            </div>
+            <div className="">✦ ရိုးရှင်းပြီး ထိရောက်သော
               ဒီဂျစ်တယ်ပြောင်းလဲမှု စနစ်များဖြင့် စီးပွားရေးလုပ်ငန်းများ
-              တိုးတက်အောင်မြင်ရန်။ ရေရှည်တည်တံ့ပြီး အောင်မြင်သည့်
+              တိုးတက်အောင်မြင်ရန်
+            </div>
+            <div className="">✦ ရေရှည်တည်တံ့ပြီး အောင်မြင်သည့်
               စီးပွားရေးအဖြစ် ရပ်တည်နိုင်ရန် ဖြစ်သည်။
             </div>
           </div>

@@ -19,9 +19,9 @@ function page() {
       <HeroHalf>About Us</HeroHalf>
       <AboutUs />
       {/* <About /> */}
-      <div className="bg- amber-700 text- white relative">
+      <div className="relative">
         <div className="absolute w-full h-full top-0 left-0"></div>
-        <div className="max-w-7xl relative mx-auto grid lg:grid-cols-2 py-10">
+        <div className="max-w-7xl relative mx-auto lg:grid lg:grid-cols-2 py-10">
           <div className="relative h-full min-h-[500px]">
             <img
               src="img/about1.png"
@@ -40,21 +40,23 @@ function page() {
             />
           </div>
           <div className="px-5 lg:px-16 lg:pt-20 lg:pb-5">
-            <BoxReveal boxColor={"#b45309"} duration={0.5}>
-              <div className="pb-2">
-                <TitlePillow>Morph's Value</TitlePillow>
-              </div>
-            </BoxReveal>
-            <BoxReveal boxColor={"#b45309"} duration={0.5}>
-              <div className="text-2xl lg:text-5xl font-extrabold py-2 lg:py-4 capitalize text-[#6F4E37]">
-                <span className="text-amber-600">Values</span> we keep
-                {/* Morph ​၏ တန်ဖိုးထားမှုများ */}
-              </div>
-            </BoxReveal>
-            <div className="text-[#6F4E37b1]">
+            <div className="">
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
-                Morph ​၏ တန်ဖိုးထားမှုများ
+                <div className="pb-2">
+                  <TitlePillow>Morph's Value</TitlePillow>
+                </div>
               </BoxReveal>
+              <BoxReveal boxColor={"#b45309"} duration={0.5}>
+                <div className="text-2xl lg:text-5xl font-extrabold py-2 lg:py-4 capitalize text-[#6F4E37]">
+                  <span className="text-amber-600">Values</span> we keep
+                  {/* Morph ​၏ တန်ဖိုးထားမှုများ */}
+                </div>
+              </BoxReveal>
+              <div className="text-[#6F4E37b1]">
+                <BoxReveal boxColor={"#b45309"} duration={0.5}>
+                  Morph ​၏ တန်ဖိုးထားမှုများ
+                </BoxReveal>
+              </div>
             </div>
             <div className="grid lg:grid- cols-7 pt-8 gap-y-5">
               <div className="lg:col- span-5 space-y-1 leading-[1.8]">
@@ -131,22 +133,24 @@ function page() {
             </div>
           </div>
         </div>
-        <div className="max-w-7xl relative mx-auto grid lg:grid-cols-5 py-10">
+        <div className="max-w-7xl relative mx-auto lg:grid lg:grid-cols-5 py-10">
           <div className="px-5 lg:px-16 lg:py-20 lg:col-span-3">
-            <BoxReveal boxColor={"#b45309"} duration={0.5}>
-              <div className="pb-2">
-                <TitlePillow>Morph's Strategy</TitlePillow>
-              </div>
-            </BoxReveal>
-            <BoxReveal boxColor={"#b45309"} duration={0.5}>
-              <div className="text-2xl lg:text-5xl font-extrabold py-2 lg:py-4 capitalize text-[#6F4E37]">
-                <span className="text-amber-600">Process</span> we follow
-              </div>
-            </BoxReveal>
-            <div className="text-[#6F4E37b1]">
+            <div className="">
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
-                Morph ၏ ဒီဂျစ်တယ် Transformation ဆောင်ရွက်မှု လုပ်ငန်းစဉ်
+                <div className="pb-2">
+                  <TitlePillow>Morph's Strategy</TitlePillow>
+                </div>
               </BoxReveal>
+              <BoxReveal boxColor={"#b45309"} duration={0.5}>
+                <div className="text-2xl lg:text-5xl font-extrabold py-2 lg:py-4 capitalize text-[#6F4E37]">
+                  <span className="text-amber-600">Process</span> we follow
+                </div>
+              </BoxReveal>
+              <div className="text-[#6F4E37b1]">
+                <BoxReveal boxColor={"#b45309"} duration={0.5}>
+                  Morph ၏ ဒီဂျစ်တယ် Transformation ဆောင်ရွက်မှု လုပ်ငန်းစဉ်
+                </BoxReveal>
+              </div>
             </div>
             <div className="grid lg:grid- cols-7 pt-8 gap-y-5">
               <div className="lg:col- span-5 space-y-1 leading-[1.8]">
@@ -252,7 +256,7 @@ function page() {
       </div>
       <Team />
       <Contact />
-      <div className="h-20 bg- amber-700"></div>
+      <div className="h-20"></div>
       <Subscribe />
       <Footer />
     </div>

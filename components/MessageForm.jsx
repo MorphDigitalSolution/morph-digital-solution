@@ -50,7 +50,7 @@ const MessageForm = ({ className }) => {
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            className="w-full p-3 rounded-3xl text-neutral-100 placeholder:text-neutral-500 bg-neutral -950 border-neutral-400 border outline-none"
+            className="w-full p-3 rounded-3xl placeholder:text-neutral-500 bg-neutral -950 border-neutral-400 border outline-none"
             required
           />
         </div>
@@ -60,7 +60,7 @@ const MessageForm = ({ className }) => {
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full p-3 rounded-3xl text-neutral-100 placeholder:text-neutral-500 bg-neutral -950 border-neutral-400 border outline-none"
+            className="w-full p-3 rounded-3xl placeholder:text-neutral-500 bg-neutral -950 border-neutral-400 border outline-none"
             required
           />
         </div>
@@ -70,7 +70,7 @@ const MessageForm = ({ className }) => {
             type="tel"
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
-            className="w-full p-3 rounded-3xl text-neutral-100 placeholder:text-neutral-500 bg-neutral -950 border-neutral-400 border outline-none"
+            className="w-full p-3 rounded-3xl placeholder:text-neutral-500 bg-neutral -950 border-neutral-400 border outline-none"
             required
           />
         </div>
@@ -79,7 +79,7 @@ const MessageForm = ({ className }) => {
             placeholder="Leave a message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            className="w-full p-3 rounded-3xl text-neutral-100 placeholder:text-neutral-500 bg-neutral -950 border-neutral-400 border outline-none h-32 resize-none"
+            className="w-full p-3 rounded-3xl placeholder:text-neutral-500 bg-neutral -950 border-neutral-400 border outline-none h-32 resize-none"
           />
         </div>
         <button

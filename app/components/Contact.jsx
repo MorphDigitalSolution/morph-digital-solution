@@ -83,7 +83,7 @@ function  Contact() {
                   <div className=" text-black/60">
                     <div className="font-semibold text-[#6f4e37] text-lg">Mail Address :</div>
                     <div className="text- neutral-600">
-                      morphwebsitemm@gmail .com
+                      morphwebsite.mm@gmail .com
                     </div>
                   </div>
                 </div>
@@ -92,9 +92,9 @@ function  Contact() {
           </div>
           <div className="flex flex-col lg:items-end">
             <img
-              src="https://morph-digital-mm.vercel.app/img/woman.png"
+              src="https://morph-digital-mm.vercel.app/img/LinThandar.png"
               alt=""
-              className="w-full pt-4 px-2 lg:hidden brightness -75"
+              className="brightness-110 w-full pt-4 px-2 lg:hidden brightness -75"
             />
             <div className="w-full lg:w-[390px] h-[600px] bg-white bg- neutral-950/70 rounded-3xl shadow-2xl shadow-black/10">
               <MessageForm className="w-full h-full p-10" />
@@ -137,9 +137,9 @@ function  Contact() {
       <div className="absolute pointer-events-none hidden lg:block z-10 top-20 left-0 w-full h-full p-5">
         <div className="max-w-7xl mx-auto h-full flex flex-col">
           <img
-            src="https://morph-digital-mm.vercel.app/img/woman.png"
+            src="https://morph-digital-mm.vercel.app/img/LinThandar.png"
             alt=""
-            className="w-full h-[700px] brightness- 75 pt-5 object-contain"
+            className="brightness-110 w-full h-[700px] brightness- 75 pt-5 object-contain"
           />
           <div className="p-10 bg-amber-700 rounded-3xl grid lg:grid-cols-4">
             <div className="flex items-center text-neutral-100 gap-2 justify-center flex-col">
