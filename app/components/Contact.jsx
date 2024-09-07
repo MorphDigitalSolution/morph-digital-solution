@@ -94,7 +94,7 @@ function  Contact() {
             <img
               src="https://morph-digital-mm.vercel.app/img/LinThandar.png"
               alt=""
-              className=" brightness-110 saturate-150 w-full pt-4 px-2 lg:hidden"
+              className=" brightness-110 saturate-150 w-full max-w-xs mx-auto block pt-4 px-2 lg:hidden object-cover max-h-[600px] object-top"
             />
             <div className="w-full lg:w-[390px] h-[600px] bg-white bg- neutral-950/70 rounded-3xl shadow-2xl shadow-black/10">
               <MessageForm className="w-full h-full p-10" />

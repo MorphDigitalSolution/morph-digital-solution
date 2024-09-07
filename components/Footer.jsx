@@ -29,8 +29,7 @@ function Footer() {
                 <div className="font-bold text-amber-700 text-4xl pb-2">.</div>
               </div>
               <div className="pe-8 py-2 text-sm">
-                Transforming your digital presence with cutting-edge solutions
-                for your business.
+              One Stop Digital Solution Service Company
               </div>
               <div className="flex gap-3 pt-3">
                 <a
@@ -60,36 +59,33 @@ function Footer() {
               </div>
             </div>
             <div className="lg:col-span-2">
-              <div className="pb-4 text-xl font-semibold">Usefull Links</div>
+              <div className="pb-4 text-xl font-semibold">Useful Links</div>
               <div className="flex gap-3 flex-col">
+                <Link href="/" className="hover:text-amber-700">
+                  Home
+                </Link>
                 <Link href="/about" className="hover:text-amber-700">
-                  About us
+                  About
                 </Link>
                 <Link href="/services" className="hover:text-amber-700">
                   Services
                 </Link>
-                <Link href="/blogs" className="hover:text-amber-700">
-                  Blogs & Articles
-                </Link>
-                <Link href="/about" className="hover:text-amber-700">
-                  Legal & Policy
+                <Link href="/portfolio" className="hover:text-amber-700">
+                  Portfolio
                 </Link>
               </div>
             </div>
             <div className="lg:col-span-2">
               <div className="pb-4 text-xl font-semibold">Support</div>
               <div className="flex gap-3 flex-col">
-                <Link href="" className="hover:text-amber-700">
-                  Help Center
-                </Link>
                 <Link href="/contact" className="hover:text-amber-700">
                   Contact Us
                 </Link>
-                <Link href="" className="hover:text-amber-700">
+                <Link href="/" className="hover:text-amber-700">
                   FAQs
                 </Link>
-                <Link href="" className="hover:text-amber-700">
-                  Parent & Community
+                <Link href="/blogs" className="hover:text-amber-700">
+                  Blogs & Articles
                 </Link>
               </div>
             </div>
