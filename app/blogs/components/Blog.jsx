@@ -94,13 +94,13 @@ function Blog() {
                     className="shadow-lg hover:shadow-2xl block h-full duration-300 rounded-3xl overflow-hidden"
                   >
                     <img
-                      src="img/about1.png"
+                      src="img/meeting.png"
                       alt=""
                       className="w-full h-64 object-cover"
                     />
                     <div className="p-5">
                       <div
-                        className="text-xl font-semibold text-blue-950 line-clamp-2"
+                        className="text-xl font-semibold text-[#6F4E37] line-clamp-2"
                         style={{
                           display: "-webkit-box",
                           WebkitBoxOrient: "vertical",
@@ -130,14 +130,13 @@ function Blog() {
           <div className="flex flex-col items-center text-center py-10 gap-5">
             <TitlePillow>About Author</TitlePillow>
             <img
-              src="img/profile.png"
+              src="img/office.jpeg"
               alt=""
-              className="h-28 rounded-full my-2"
+              className="h-28 rounded-full my-2 aspect-square object-cover"
             />
-            <div className="text-xl font-semibold">Marcus Robert</div>
+            <div className="text-xl font-semibold">Lin Thandar Phyo</div>
             <div className="text-neutral-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-              laboriosam pariatur, necessitatibus nesciunt dol.
+              Founder an CEO of Morph - Website and Digital Marketing Company
             </div>
             <div className="flex gap-3 pt-3 text-neutral-100">
               <a
@@ -169,13 +168,13 @@ function Blog() {
             <div className="grid text-start gap-4">
               <div className="grid grid-cols-3 gap-5">
                 <img
-                  src="img/about1.png"
+                  src="img/meeting.png"
                   alt=""
                   className="aspect-square object-cover rounded-3xl"
                 />
                 <div className="col-span-2 flex flex-col justify-center">
                   <div className="font-semibold">
-                    Thiqwe rrgq qerhtyj ehkurte erth rhqem hwet.
+                  Digital Services မှန်သမျှအကုန်ရတဲ့ Morph Website...
                   </div>
                   <div className="text-xs text-neutral-500">
                     November 22, 2023
@@ -184,13 +183,13 @@ function Blog() {
               </div>
               <div className="grid grid-cols-3 gap-5">
                 <img
-                  src="img/about2.png"
+                  src="img/meeting.png"
                   alt=""
                   className="aspect-square object-cover rounded-3xl"
                 />
                 <div className="col-span-2 flex flex-col justify-center">
                   <div className="font-semibold">
-                    Thiqwe rrgq qerhtyj ehkurte erth rhqem hwet.
+                  SME လုပ်ငန်းများအတွက် ထိရောက်သော SEO ‌အလေ့...
                   </div>
                   <div className="text-xs text-neutral-500">
                     November 22, 2023
@@ -199,13 +198,13 @@ function Blog() {
               </div>
               <div className="grid grid-cols-3 gap-5">
                 <img
-                  src="img/about3.png"
+                  src="img/meeting.png"
                   alt=""
                   className="aspect-square object-cover rounded-3xl"
                 />
                 <div className="col-span-2 flex flex-col justify-center">
                   <div className="font-semibold">
-                    Thiqwe rrgq qerhtyj ehkurte erth rhqem hwet.
+                  စီးပွားရေးလုပ်ငန်းမှတ်ပုံတင်ခြင်း - A Step-by-Step...
                   </div>
                   <div className="text-xs text-neutral-500">
                     November 22, 2023
