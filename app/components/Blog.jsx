@@ -55,8 +55,7 @@ function Blog() {
           </BoxReveal>
           <BoxReveal boxColor={"#b45309"} duration={0.5}>
             <div className="text-center text-sm lg:text-base max-w-xl mx-auto text-[#6F4E37b1]">
-              Explore our latest blogs and news updates. Stay connected and
-              informed with insights, tips, and stories from our team.
+            ကျွန်ုပ်တို့၏ နောက်ဆုံးသတင်းများနှင့် ဘလော့ဂ်များကို စူးစမ်းဖတ်ရှုပါ။ အဖွဲ့၏ အကြောင်းအရာများ၊ အကြံဥာဏ်များနှင့် မှတ်စုများဖြင့် လက်တွဲနေကြပါစေ။
             </div>
           </BoxReveal>
         </div>
@@ -103,7 +102,7 @@ function Blog() {
                   className="shadow-md hover:shadow-2xl border- [3px] border-[#6F4E37b1] bg- neutral-950/50 block h-full duration-300 rounded-3xl overflow-hidden"
                 >
                   <img
-                    src="img/about1.png"
+                    src="img/meeting.png"
                     alt=""
                     className="w-full h-64 object-cover brightness- 75"
                   />

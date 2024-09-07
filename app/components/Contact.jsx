@@ -94,7 +94,7 @@ function  Contact() {
             <img
               src="https://morph-digital-mm.vercel.app/img/LinThandar.png"
               alt=""
-              className="brightness-110 w-full pt-4 px-2 lg:hidden brightness -75"
+              className=" brightness-110 saturate-150 w-full pt-4 px-2 lg:hidden"
             />
             <div className="w-full lg:w-[390px] h-[600px] bg-white bg- neutral-950/70 rounded-3xl shadow-2xl shadow-black/10">
               <MessageForm className="w-full h-full p-10" />
@@ -139,7 +139,7 @@ function  Contact() {
           <img
             src="https://morph-digital-mm.vercel.app/img/LinThandar.png"
             alt=""
-            className="brightness-110 w-full h-[700px] brightness- 75 pt-5 object-contain"
+            className=" brightness-110 saturate-150 w-full h-[700px] pt-5 object-contain"
           />
           <div className="p-10 bg-amber-700 rounded-3xl grid lg:grid-cols-4">
             <div className="flex items-center text-neutral-100 gap-2 justify-center flex-col">

@@ -26,12 +26,12 @@ function page() {
             <img
               src="img/about1.png"
               alt=""
-              className="absolute border-[12px] border-white top-5 right-2 h-[300px] lg:h-[480px] rounded-[40px]"
+              className="absolute border-[12px] border-white top-5 right-2 h-[300px] lg:h-[480px] rounded-[40px] aspect-[3/4] object-cover"
             />
             <img
               src="img/about2.png"
               alt=""
-              className="absolute border-[12px] border-white bottom-0 left-12 lg:left-20 h-[200px] lg:h-[280px] rounded-[40px]"
+              className="absolute border-[12px] border-white bottom-10 lg:bottom-0 left-16 lg:left-28 h-[200px] lg:h-[280px] rounded-[40px]"
             />
             <img
               src="img/poster.jpg"
@@ -133,7 +133,7 @@ function page() {
             </div>
           </div>
         </div>
-        <div className="max-w-7xl relative mx-auto lg:grid lg:grid-cols-5 py-10">
+        <div className="max-w-7xl relative mx-auto flex flex-col-reverse lg:grid lg:grid-cols-5 py-10">
           <div className="px-5 lg:px-16 lg:py-20 lg:col-span-3">
             <div className="">
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
@@ -237,17 +237,17 @@ function page() {
           </div>
           <div className="relative h-full min-h-[500px] lg:col-span-2">
             <img
-              src="img/about1.png"
+              src="img/explain.png"
               alt=""
-              className="absolute border-[12px] border-white top-10 -left-10 h-[300px] lg:h-[480px] rounded-[40px]"
+              className="absolute border-[12px] border-white top-10 left-5 lg:-left-10 h-[300px] lg:h-[480px] rounded-[40px] aspect-[3/4] object-cover"
             />
             <img
-              src="img/about2.png"
+              src="img/meeting.png"
               alt=""
-              className="absolute border-[12px] border-white bottom-10 left-12 lg:left-0 h-[200px] lg:h-[280px] rounded-[40px]"
+              className="absolute border-[12px] border-white bottom-10 left-12 h-[200px] lg:h-[280px] rounded-[40px]"
             />
             <img
-              src="img/poster.jpg"
+              src="img/office.jpeg"
               alt=""
               className="absolute border-[12px] border-white top-28 lg:top-24 right-5 lg:right-8 h-[200px] lg:h-[290px] aspect-square object-cover rounded-full"
             />
