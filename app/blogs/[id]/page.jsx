@@ -19,6 +19,7 @@ import {
 } from "react-icons/fa";
 import { IoPersonCircle } from "react-icons/io5";
 import { SlCalender } from "react-icons/sl";
+import AboutAuthor from "../components/AboutAuthor";
 
 const BlogDetail = () => {
   const router = useRouter();
@@ -93,7 +94,7 @@ const BlogDetail = () => {
           <div className="max-w-6xl px-5 mx-auto py-10 lg:py-20 grid lg:grid-cols-3 gap-10">
             <div className="lg:col-span-2">
               <img
-                src="https://morph-digital-mm.vercel.app/img/about2.png"
+                src="https://morph-digital-mm.vercel.app/img/meeting.png"
                 alt=""
                 className="w-full rounded-3xl"
               />
@@ -105,93 +106,7 @@ const BlogDetail = () => {
                 {new Date(blog.createdAt).toLocaleDateString()}
               </p>
             </div>
-            <div className="flex flex-col items-center text-center py-10 gap-5">
-              <TitlePillow>About Author</TitlePillow>
-              <img
-                src="https://morph-digital-mm.vercel.app/img/profile.png"
-                alt=""
-                className="h-28 rounded-full my-2"
-              />
-              <div className="text-xl font-semibold">Marcus Robert</div>
-              <div className="text-neutral-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-                laboriosam pariatur, necessitatibus nesciunt dol.
-              </div>
-              <div className="flex gap-3 pt-3 pb-5 text-neutral-100">
-                <a
-                  href=""
-                  className="bg-amber-700 hover:bg-amber-700 duration-300 size-8 flex items-center justify-center rounded-full"
-                >
-                  <FaFacebook className="" />
-                </a>
-                <a
-                  href=""
-                  className="bg-amber-700 hover:bg-amber-700 duration-300 size-8 flex items-center justify-center rounded-full"
-                >
-                  <FaTwitter className="" />
-                </a>
-                <a
-                  href=""
-                  className="bg-amber-700 hover:bg-amber-700 duration-300 size-8 flex items-center justify-center rounded-full"
-                >
-                  <FaTelegram className="" />
-                </a>
-                <a
-                  href=""
-                  className="bg-amber-700 hover:bg-amber-700 duration-300 size-8 flex items-center justify-center rounded-full"
-                >
-                  <FaLinkedin className="" />
-                </a>
-              </div>
-              <TitlePillow>Recent Posts</TitlePillow>
-              <div className="grid text-start gap-4 py-5">
-                <div className="grid grid-cols-3 gap-5">
-                  <img
-                    src="https://morph-digital-mm.vercel.app/img/about1.png"
-                    alt=""
-                    className="aspect-square object-cover rounded-3xl"
-                  />
-                  <div className="col-span-2 flex flex-col justify-center">
-                    <div className="font-semibold">
-                      Thiqwe rrgq qerhtyj ehkurte erth rhqem hwet.
-                    </div>
-                    <div className="text-xs text-neutral-500">
-                      November 22, 2023
-                    </div>
-                  </div>
-                </div>
-                <div className="grid grid-cols-3 gap-5">
-                  <img
-                    src="https://morph-digital-mm.vercel.app/img/about2.png"
-                    alt=""
-                    className="aspect-square object-cover rounded-3xl"
-                  />
-                  <div className="col-span-2 flex flex-col justify-center">
-                    <div className="font-semibold">
-                      Thiqwe rrgq qerhtyj ehkurte erth rhqem hwet.
-                    </div>
-                    <div className="text-xs text-neutral-500">
-                      November 22, 2023
-                    </div>
-                  </div>
-                </div>
-                <div className="grid grid-cols-3 gap-5">
-                  <img
-                    src="https://morph-digital-mm.vercel.app/img/about3.png"
-                    alt=""
-                    className="aspect-square object-cover rounded-3xl"
-                  />
-                  <div className="col-span-2 flex flex-col justify-center">
-                    <div className="font-semibold">
-                      Thiqwe rrgq qerhtyj ehkurte erth rhqem hwet.
-                    </div>
-                    <div className="text-xs text-neutral-500">
-                      November 22, 2023
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <AboutAuthor />
           </div>
         </>
       ) : (
