@@ -91,7 +91,7 @@ function Header() {
               <a href="https://t.me/myanmardigitalmarketing" className="">
                 <FaTelegram className="text-lg hover:text-amber-600" />
               </a>
-              <a href="mailto:morphwebsite.mm@gmail.com" className="">
+              <a href="mailto:morphdigitalsolution@gmail.com" className="">
                 <BiLogoGmail className="text-lg hover:text-amber-600" />
               </a>
               <a
@@ -108,7 +108,7 @@ function Header() {
               </a>
             </div>
             <a
-              href="tel:+959786063014"
+              href="tel:+959940004046"
               className="bg-amber-600 text-center hover:bg-amber-700 duration-300 text-neutral-100 py-3 text-sm px-7 font-semibold rounded-full uppercase"
             >
               Let's talk
@@ -116,7 +116,7 @@ function Header() {
           </div>
           <div className="lg:hidden flex items-center gap-2">
             <a
-              href="tel:+959786063014"
+              href="tel:+959940004046"
               className="py-2 text-xs px-4 rounded-full bg-amber-700 text-neutral-100"
             >
               Let's Talk

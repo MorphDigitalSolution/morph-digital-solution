@@ -109,7 +109,7 @@ function Services() {
             </div>
             <div className="col-span-3 flex justify-end">
               <a
-                href="tel:+959786063014"
+                href="tel:+959940004046"
                 className="bg-white text-black rounded-full py-3 px-5 hover:bg-amber-700 hover:text-neutral-100 duration-300"
               >
                 Make appointment

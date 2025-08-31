@@ -96,7 +96,7 @@ function ContactInfo() {
                   </div>
                 </div>
                 <div className="text-[#6F4E37b1]">
-                  morphwebsite.mm@gmail.com
+                  morphdigitalsolution@gmail.com
                 </div>
                 {/* <div className="text-[#6F4E37b1]">domain@company.com</div> */}
               </div>

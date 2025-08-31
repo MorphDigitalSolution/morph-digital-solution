@@ -99,16 +99,16 @@ function Footer() {
                   <BiCurrentLocation className=" border border-neutral-50/20 p-1 text-2xl rounded-full" />
                   65 လမ်း၊ 105 x 106 လမ်း၊ ချမ်းမြသာစည်မြို့နယ်၊ မန္တလေး
                 </div>
-                <a href="tel:+959786063014" className="flex gap-2">
+                <a href="tel:+959940004046" className="flex gap-2">
                   <FaPhone className=" border border-neutral-50/20 p-1 text-2xl rounded-full" />
                   +959 786 063 014
                 </a>
                 <a
-                  href="mailto:morphwebsite.mm@gmail.com"
+                  href="mailto:morphdigitalsolution@gmail.com"
                   className="flex gap-2"
                 >
                   <BiLogoGmail className=" border border-neutral-50/20 p-1 text-2xl rounded-full" />
-                  morphwebsite.mm@gmail.com
+                  morphdigitalsolution@gmail.com
                 </a>
               </div>
             </div>
