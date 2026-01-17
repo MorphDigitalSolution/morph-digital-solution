@@ -83,7 +83,7 @@ function  Contact() {
                   <div className=" text-black/60">
                     <div className="font-semibold text-[#6f4e37] text-lg">Mail Address :</div>
                     <div className="text- neutral-600">
-                      morphwebsite.mm@gmail .com
+                      morphdigitalsolution@gmail.com
                     </div>
                   </div>
                 </div>
