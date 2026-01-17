@@ -101,7 +101,7 @@ function Footer() {
                 </div>
                 <a href="tel:+959940004046" className="flex gap-2">
                   <FaPhone className=" border border-neutral-50/20 p-1 text-2xl rounded-full" />
-                  +959 786 063 014
+                  +959 940 004 046
                 </a>
                 <a
                   href="mailto:morphdigitalsolution@gmail.com"
