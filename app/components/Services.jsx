@@ -155,7 +155,7 @@ function Services() {
               <div className="uppercase text-sm font-semibold">
                 Get a free consultation
               </div>
-              <div className="font-semibold text-xl">09 786 063 014</div>
+              <div className="font-semibold text-xl">09 940 004 046</div>
             </div>
             <div className="border-s lg:col-span-5 border-white ps-12">
               Ready to elevate your digital presence? Schedule a consultation to

@@ -68,7 +68,7 @@ function  Contact() {
                   </div>
                   <div className=" text-black/60">
                     <div className="font-semibold text-[#6f4e37] text-lg">Phone Number :</div>
-                    <div className="text- neutral-600">09 786 063 014</div>
+                    <div className="text- neutral-600">09 940 004 046</div>
                     <div className="text- neutral-600">09 940 004 046</div>
                   </div>
                 </div>

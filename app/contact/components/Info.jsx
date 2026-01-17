@@ -74,8 +74,8 @@ function ContactInfo() {
                     </div>
                   </div>
                 </div>
-                <div className="text-[#6F4E37b1]">Tel: 09 786 063 014</div>
-                <div className="text-[#6F4E37b1]">Mob: 09 786 063 014</div>
+                <div className="text-[#6F4E37b1]">Tel: 09 940 004 046</div>
+                <div className="text-[#6F4E37b1]">Mob: 09 940 004 046</div>
               </div>
             </BoxReveal>
           </div>
