@@ -69,7 +69,6 @@ function  Contact() {
                   <div className=" text-black/60">
                     <div className="font-semibold text-[#6f4e37] text-lg">Phone Number :</div>
                     <div className="text- neutral-600">09 940 004 046</div>
-                    <div className="text- neutral-600">09 940 004 046</div>
                   </div>
                 </div>
               </BoxReveal>
@@ -83,7 +82,7 @@ function  Contact() {
                   <div className=" text-black/60">
                     <div className="font-semibold text-[#6f4e37] text-lg">Mail Address :</div>
                     <div className="text- neutral-600">
-                      morphdigitalsolution@gmail.com
+                      morphdigitalsolution@ gmail.com
                     </div>
                   </div>
                 </div>
