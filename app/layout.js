@@ -1,9 +1,11 @@
 "use client";
+import Script from "next/script";
 import { useEffect, useRef } from "react";
 import Lenis from "@studio-freight/lenis";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
+import ClientScripts from "./components/ClientScript";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -51,6 +53,7 @@ export default function RootLayout({ children }) {
         {/* Add any other meta tags or links here */}
       </head>
       <body className={inter.className}>
+        <ClientScripts />
         {children}
         <Analytics />
       </body>
