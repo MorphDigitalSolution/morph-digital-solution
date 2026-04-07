@@ -4,12 +4,13 @@ import ContactInfo from "./components/Info";
 import Contact from "../components/Contact";
 import Footer from "@/components/Footer";
 import Subscribe from "../components/Subscribe";
+import HeroHalf from "@/components/HeroHalf";
 
 export default function Home() {
   return (
     <>
       <Header />
-      <Hero />
+       <HeroHalf>Contact</HeroHalf>
       <ContactInfo />
       <Contact />
       <div className="h-20"></div>

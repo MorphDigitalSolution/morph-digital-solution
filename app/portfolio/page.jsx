@@ -13,15 +13,16 @@ function page() {
     <div>
       <Header />
       <div className="h-[480px] relative overflow-hidden">
-        <img loading="lazy" 
+        <img
+          loading="lazy"
           src="https://morph-digital-mm.vercel.app/img/clientsGroup.png"
           alt="hero image"
-          className="w-full h-full object-cover object-center brightness-[0.5] bg-neutral-800"
+          className="w-full h-full object-cover object-top brightness-[0.5] bg-neutral-800"
         />
-        <div className="absolute top-0 left-0 w-full h-full text-neutral-100 bg-neutral-800/5 flex items-center justify-center">
+        <div className="absolute top-0 left-0 w-full h-full text-neutral-100 bg-[#422e20]/60 flex items-center justify-center">
           <div className="max-w-4xl flex flex-col items-center text-center pt-24">
             <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-              <div className="text-4xl lg:text-[4.6rem] leading-[1.1] font-extrabold pt-20">
+              <div className="text-4xl lg:text-[4.6rem] leading-[1.1] font-extrabold py-3 px-2 lg:py-2">
                 Portfolio
               </div>
             </BoxReveal>
@@ -43,7 +44,8 @@ function page() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-8 md:px-10 lg:pt-16 py-8 w-full">
             <div className="group">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/web1.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
@@ -53,7 +55,8 @@ function page() {
             </div>
             <div className="group">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/web2.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
@@ -65,7 +68,8 @@ function page() {
             </div>
             <div className="group">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/web3.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
@@ -77,7 +81,8 @@ function page() {
             </div>
             <div className="group">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/web4.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
@@ -87,7 +92,8 @@ function page() {
             </div>
             <div className="group">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/web5.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
@@ -99,7 +105,8 @@ function page() {
             </div>
             <div className="group">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/web6.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
@@ -111,7 +118,8 @@ function page() {
             </div>
             <div className="group">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/web7.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
@@ -121,7 +129,8 @@ function page() {
             </div>
             <div className="group">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/web8.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
@@ -133,7 +142,8 @@ function page() {
             </div>
             <div className="group">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/web9.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
@@ -145,7 +155,8 @@ function page() {
             </div>
             <div className="group">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/web10.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
@@ -157,7 +168,8 @@ function page() {
             </div>
             <div className="group">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/web11.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
@@ -169,7 +181,8 @@ function page() {
             </div>
             <div className="group">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/web12.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
@@ -181,7 +194,8 @@ function page() {
             </div>
             <div className="group">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/web13.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
@@ -193,7 +207,8 @@ function page() {
             </div>
             <div className="group">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/web14.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
@@ -205,7 +220,8 @@ function page() {
             </div>
             <div className="group">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/web15.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
@@ -232,7 +248,8 @@ function page() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-5 items-center justify-center gap-8 md:px-10 lg:pt-16 py-8 w-full">
             <div className="group relative pb-10">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/certi1.jpeg"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2"
@@ -244,7 +261,8 @@ function page() {
             </div>
             <div className="group relative pb-10">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/certi2.jpeg"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2"
@@ -256,7 +274,8 @@ function page() {
             </div>
             <div className="group relative pb-10">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/certi3.jpeg"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2"
@@ -268,7 +287,8 @@ function page() {
             </div>
             <div className="group relative pb-10">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/certi4.jpeg"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2"
@@ -280,7 +300,8 @@ function page() {
             </div>
             <div className="group relative pb-10">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/certi5.jpeg"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2"
@@ -292,7 +313,8 @@ function page() {
             </div>
             <div className="group relative pb-10">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/certi6.jpeg"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2"
@@ -304,7 +326,8 @@ function page() {
             </div>
             <div className="group relative pb-10">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/certi7.jpeg"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2"
@@ -316,7 +339,8 @@ function page() {
             </div>
             <div className="group relative pb-10">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/certi8.jpeg"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2"
@@ -328,7 +352,8 @@ function page() {
             </div>
             <div className="group relative pb-10">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/certi9.jpeg"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2"
@@ -341,7 +366,8 @@ function page() {
             </div>
             <div className="group relative pb-10">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/certi10.jpeg"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2"
@@ -355,7 +381,8 @@ function page() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-5 items-center justify-center gap-8 md:px-10 lg:pt-16 pt-8 w-full">
             <div className="group realtive pb-10">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/regi1.jpeg"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2"
@@ -367,7 +394,8 @@ function page() {
             </div>
             <div className="group realtive pb-10">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/regi2.jpeg"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2"
@@ -379,7 +407,8 @@ function page() {
             </div>
             <div className="group realtive pb-10">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/regi3.jpeg"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2"
@@ -391,7 +420,8 @@ function page() {
             </div>
             <div className="group realtive pb-10">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/regi4.jpeg"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2"
@@ -403,7 +433,8 @@ function page() {
             </div>
             <div className="group realtive pb-10">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/regi5.jpeg"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2"
@@ -415,7 +446,8 @@ function page() {
             </div>
             <div className="group realtive pb-10">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/regi6.jpeg"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2"
@@ -427,7 +459,8 @@ function page() {
             </div>
             <div className="group realtive pb-10">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/regi7.jpeg"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2"
@@ -439,7 +472,8 @@ function page() {
             </div>
             <div className="group realtive pb-10">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/regi8.jpeg"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2"
@@ -451,7 +485,8 @@ function page() {
             </div>
             <div className="group realtive pb-10">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/regi9.jpeg"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2"
@@ -465,7 +500,8 @@ function page() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 items-center justify-center md:px-10 w-full">
             <div className="group realtive pb-10">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/sme1.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 aspect-[4/3] object-cover"
@@ -477,7 +513,8 @@ function page() {
             </div>
             <div className="group realtive pb-10">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/sme2.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 aspect-[4/3] object-cover"
@@ -489,7 +526,8 @@ function page() {
             </div>
             <div className="group realtive pb-10">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/sme3.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 aspect-[4/3] object-cover"
@@ -501,7 +539,8 @@ function page() {
             </div>
             <div className="group realtive pb-10">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/sme4.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 aspect-[4/3] object-cover scale-105 pt-3"
@@ -528,7 +567,8 @@ function page() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 items-center justify-center gap-8 md:px-10 lg:pt-16 py-8 w-full">
             <div className="group relative pb-10">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/digi1.jpeg"
                   alt=""
                   className="w-full group-hover:scale-105 border aspect-square object-cover duration-300 p-2"
@@ -540,7 +580,8 @@ function page() {
             </div>
             <div className="group relative pb-10">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/digi2.jpeg"
                   alt=""
                   className="w-full group-hover:scale-105 border aspect-square object-cover duration-300 p-2"
@@ -552,7 +593,8 @@ function page() {
             </div>
             <div className="group relative pb-10">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/digi3.jpeg"
                   alt=""
                   className="w-full group-hover:scale-105 border aspect-square object-cover duration-300 p-2"
@@ -564,7 +606,8 @@ function page() {
             </div>
             <div className="group relative pb-10">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/digi4.jpg"
                   alt=""
                   className="w-full group-hover:scale-105 border aspect-square object-cover duration-300 p-2"
@@ -576,7 +619,8 @@ function page() {
             </div>
             <div className="group relative pb-10">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/digi5.jpg"
                   alt=""
                   className="w-full group-hover:scale-105 border aspect-square object-cover duration-300 p-2"
@@ -588,7 +632,8 @@ function page() {
             </div>
             <div className="group relative pb-10">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/digi6.jpg"
                   alt=""
                   className="w-full group-hover:scale-105 border aspect-square object-cover duration-300 p-2"
@@ -600,7 +645,8 @@ function page() {
             </div>
             <div className="group relative pb-10">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/digi7.jpg"
                   alt=""
                   className="w-full group-hover:scale-105 border aspect-square object-cover duration-300 p-2"
@@ -612,7 +658,8 @@ function page() {
             </div>
             <div className="group relative pb-10">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/digi8.png"
                   alt=""
                   className="w-full group-hover:scale-105 border aspect-square object-cover duration-300 p-2"
@@ -624,7 +671,8 @@ function page() {
             </div>
             <div className="group relative pb-10">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/digi9.jpg"
                   alt=""
                   className="w-full group-hover:scale-105 border aspect-square object-cover duration-300 p-2"
@@ -636,7 +684,8 @@ function page() {
             </div>
             <div className="group relative pb-10">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/digi10.png"
                   alt=""
                   className="w-full group-hover:scale-105 border aspect-square object-cover duration-300 p-2"
@@ -648,7 +697,8 @@ function page() {
             </div>
             <div className="group relative pb-10">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/digi11.png"
                   alt=""
                   className="w-full group-hover:scale-105 border aspect-square object-cover duration-300 p-2"
@@ -660,7 +710,8 @@ function page() {
             </div>
             <div className="group relative pb-10">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="img/digi12.png"
                   alt=""
                   className="w-full group-hover:scale-105 border aspect-square object-cover duration-300 p-2"
