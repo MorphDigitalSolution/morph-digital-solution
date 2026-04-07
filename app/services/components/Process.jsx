@@ -27,7 +27,7 @@ function Process() {
         </div>
       </div>
       <div className="lg:h-[450px] relative flex flex-col items-center justify-end pb-10">
-        <img src="img/arrow.png" alt="" className="w-full" />
+        <img loading="lazy"  src="img/arrow.png" alt="" className="w-full" />
         <div className="lg:absolute top-0 left-0 w-full h-full">
           <div className="max-w-6xl mx-auto grid gap-y-10 lg:grid-cols-3 h-full py-10 lg:pt-16">
             <div className="flex items-center justify-center">

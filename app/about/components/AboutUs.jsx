@@ -45,7 +45,7 @@ function AboutUs() {
               <div className="p-2 rounded-3xl shadow-2xl shadow-black/15 bg-neutral-950/50 grid items-center grid-cols-3">
                 <div className="p-4">
                   <div className="aspect-square rounded-full bg-amber-700">
-                    <img
+                    <img loading="lazy" 
                       src="img/bestPrice.png"
                       alt=""
                       className="w-full h-full p-4 invert"
@@ -71,7 +71,7 @@ function AboutUs() {
               <div className="p-2 rounded-3xl shadow-2xl shadow-black/15 bg-neutral-950/50 grid items-center grid-cols-3">
                 <div className="p-4">
                   <div className="aspect-square rounded-full bg-neutral-800">
-                    <img
+                    <img loading="lazy" 
                       src="img/tool.png"
                       alt=""
                       className="w-full h-full p-5 invert"
@@ -95,7 +95,7 @@ function AboutUs() {
               <div className="p-2 rounded-3xl shadow-2xl shadow-black/15 bg-neutral-950/50 grid items-center grid-cols-3">
                 <div className="p-4">
                   <div className="aspect-square rounded-full bg-amber-700">
-                    <img
+                    <img loading="lazy" 
                       src="img/team.png"
                       alt=""
                       className="w-full h-full p-4 invert"

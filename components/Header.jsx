@@ -45,7 +45,7 @@ function Header() {
             href="/"
             className="flex items-center text-xl lg:text-2xl font-semibold uppercase"
           >
-            <img
+            <img loading="lazy" 
               src="https://morph-digital-mm.vercel.app/img/logo-sm.png"
               alt=""
               className={`h-8 lg:h-10 duration-300 ${
@@ -141,7 +141,7 @@ function Header() {
           >
             <RiCloseLargeLine />
           </button>
-          <img
+          <img loading="lazy" 
             src="https://morph-digital-mm.vercel.app/img/logo.png"
             alt=""
             className="h-24"

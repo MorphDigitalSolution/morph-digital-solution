@@ -5,7 +5,7 @@ function AboutAuthor() {
     return (
         <div className="flex flex-col items-center text-center py-10 gap-5">
         <TitlePillow>About Author</TitlePillow>
-        <img
+        <img loading="lazy" 
           src="https://morph-digital-mm.vercel.app/img/office.jpeg"
           alt=""
           className="h-28 rounded-full my-2 aspect-square object-cover"
@@ -43,7 +43,7 @@ function AboutAuthor() {
         <TitlePillow>Recent Posts</TitlePillow>
         <div className="grid text-start gap-4">
           <div className="grid grid-cols-3 gap-5">
-            <img
+            <img loading="lazy" 
               src="https://morph-digital-mm.vercel.app/img/meeting.png"
               alt=""
               className="aspect-square object-cover rounded-3xl"
@@ -58,7 +58,7 @@ function AboutAuthor() {
             </div>
           </div>
           <div className="grid grid-cols-3 gap-5">
-            <img
+            <img loading="lazy" 
               src="https://morph-digital-mm.vercel.app/img/meeting.png"
               alt=""
               className="aspect-square object-cover rounded-3xl"
@@ -73,7 +73,7 @@ function AboutAuthor() {
             </div>
           </div>
           <div className="grid grid-cols-3 gap-5">
-            <img
+            <img loading="lazy" 
               src="https://morph-digital-mm.vercel.app/img/meeting.png"
               alt=""
               className="aspect-square object-cover rounded-3xl"

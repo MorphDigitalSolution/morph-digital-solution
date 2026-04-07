@@ -28,7 +28,7 @@ function Portfolio() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-8 md:px-10 lg:pt-16 py-8 w-full">
             <div className="group">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img
+                <img loading="lazy" 
                   src="img/web1.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
@@ -38,7 +38,7 @@ function Portfolio() {
             </div>
             <div className="group">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img
+                <img loading="lazy" 
                   src="img/web2.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
@@ -50,7 +50,7 @@ function Portfolio() {
             </div>
             <div className="group">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img
+                <img loading="lazy" 
                   src="img/web3.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
@@ -62,7 +62,7 @@ function Portfolio() {
             </div>
             <div className="group">
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img
+                <img loading="lazy" 
                   src="img/web4.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
@@ -72,7 +72,7 @@ function Portfolio() {
             </div>
             <div className="group">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img
+                <img loading="lazy" 
                   src="img/web5.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
@@ -84,7 +84,7 @@ function Portfolio() {
             </div>
             <div className="group">
               <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img
+                <img loading="lazy" 
                   src="img/web6.png"
                   alt=""
                   className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"

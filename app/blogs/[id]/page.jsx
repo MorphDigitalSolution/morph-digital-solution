@@ -50,7 +50,7 @@ const BlogDetail = () => {
   if (loading)
     return (
       <div className="h-screen w-full flex items-center justify-center gap-2 flex-col">
-        <img
+        <img loading="lazy" 
           src="https://morph-digital-mm.vercel.app/img/logo-sm.png"
           alt=""
           className="h-20 invert animate-pulse"
@@ -66,7 +66,7 @@ const BlogDetail = () => {
       {blog ? (
         <>
           <div className="h-[480px] relative overflow-hidden">
-            <img
+            <img loading="lazy" 
               src="https://morph-digital-mm.vercel.app/img/heroSect.jpg"
               alt="hero image"
               className="w-full h-full object-cover object-top brightness-[0.5]"
@@ -93,7 +93,7 @@ const BlogDetail = () => {
           </div>
           <div className="max-w-6xl px-5 mx-auto py-10 lg:py-20 grid lg:grid-cols-3 gap-10">
             <div className="lg:col-span-2">
-              <img
+              <img loading="lazy" 
                 src="https://morph-digital-mm.vercel.app/img/meeting.png"
                 alt=""
                 className="w-full rounded-3xl"

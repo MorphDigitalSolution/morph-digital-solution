@@ -34,7 +34,7 @@ function Team() {
             </BoxReveal>
           </div>
           <div className="absolute w-full z-0 h-full top-0 left-0">
-            <img
+            <img loading="lazy" 
               src="img/morphTeam.png"
               alt=""
               className="object-cover w-full h-full brightness-50"

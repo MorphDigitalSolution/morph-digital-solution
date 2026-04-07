@@ -101,7 +101,7 @@ function Blog() {
                   href={`/blogs/${blog._id}`}
                   className="shadow-md hover:shadow-2xl border- [3px] border-[#6F4E37b1] bg- neutral-950/50 block h-full duration-300 rounded-3xl overflow-hidden"
                 >
-                  <img
+                  <img loading="lazy" 
                     src="img/meeting.png"
                     alt=""
                     className="w-full h-64 object-cover brightness- 75"

@@ -87,7 +87,7 @@ function Contact() {
               </div>
             </div>
             <div className="flex flex-col lg:items-end">
-              <img
+              <img loading="lazy" 
                 src="img/woman.png"
                 alt=""
                 className="w-full pt-4 px-2 lg:hidden"
@@ -130,7 +130,7 @@ function Contact() {
         </div>
         <div className="absolute hidden lg:block z-20 top-8 left-0 w-full h-full p-5">
           <div className="max-w-6xl mx-auto h-full flex flex-col">
-            <img
+            <img loading="lazy" 
               src="img/woman.png"
               alt=""
               className="w-full h-[700px] object-contain"

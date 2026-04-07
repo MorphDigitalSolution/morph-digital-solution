@@ -20,7 +20,7 @@ function Footer() {
           <div className="grid lg:grid-cols-9 px-5 pb-10 lg:gap-x-10 gap-y-5">
             <div className="lg:col-span-2">
               <div className="flex items-center text-2xl lg:text-2xl font-semibold uppercase">
-                <img
+                <img loading="lazy" 
                   src="https://morph-digital-mm.vercel.app/img/logo-sm.png"
                   alt=""
                   className={`h-8 lg:h-10 duration-300`}

@@ -25,7 +25,7 @@ function GroupClients() {
           </BoxReveal>
         </div>
       </div>
-      <img src="img/clientsGroup.png" alt="" className="" />
+      <img loading="lazy"  src="img/clientsGroup.png" alt="" className="" />
     </div>
   );
 }

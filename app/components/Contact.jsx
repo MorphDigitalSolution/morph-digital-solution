@@ -13,7 +13,7 @@ import { LucideMailOpen } from "lucide-react";
 function  Contact() {
   return (
     <div className="relative">
-      <img
+      <img loading="lazy" 
         src="https://morph-digital-mm.vercel.app/img/whiteOffice.png"
         alt=""
         className="absolute in vert top-0 left-0 w-full h-full object-cover object-right"
@@ -90,7 +90,7 @@ function  Contact() {
             </div>
           </div>
           <div className="flex flex-col lg:items-end">
-            <img
+            <img loading="lazy" 
               src="https://morph-digital-mm.vercel.app/img/LinThandar.png"
               alt=""
               className=" brightness-110 saturate-150 w-full max-w-xs mx-auto block pt-4 px-2 lg:hidden object-cover max-h-[600px] object-top"
@@ -135,7 +135,7 @@ function  Contact() {
       </div>
       <div className="absolute pointer-events-none hidden lg:block z-10 top-20 left-0 w-full h-full p-5">
         <div className="max-w-7xl mx-auto h-full flex flex-col">
-          <img
+          <img loading="lazy" 
             src="https://morph-digital-mm.vercel.app/img/LinThandar.png"
             alt=""
             className=" brightness-110 saturate-150 w-full h-[700px] pt-5 object-contain"

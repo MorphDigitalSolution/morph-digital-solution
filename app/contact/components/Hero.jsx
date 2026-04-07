@@ -4,7 +4,7 @@ import TitlePillow from "@/components/TitlePillow";
 function Hero() {
   return (
     <div className="h-[480px] relative overflow-hidden">
-      <img
+      <img loading="lazy" 
         src="img/heroSect.jpg"
         alt="hero image"
         className="w-full h-full object-cover object-top brightness-[0.5]"

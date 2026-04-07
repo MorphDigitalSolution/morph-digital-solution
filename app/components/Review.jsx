@@ -41,7 +41,7 @@ function Review() {
             <div className="pt-20 lg:pt-24">
               <div className="bg-neutral-900 w-full rounded-3xl relative">
                 <div className="absolute -top-10 left-12 size-20 border-[7px] border-neutral-800 overflow-hidden rounded-full bg-neutral-600">
-                  <img
+                  <img loading="lazy" 
                     src="img/client3.png"
                     alt=""
                     className="w-full h-full object-cover"
@@ -74,7 +74,7 @@ function Review() {
             <div className="pt-20 lg:pt-24">
               <div className="bg-neutral-900 w-full rounded-3xl relative">
                 <div className="absolute -top-10 left-12 size-20 border-[7px] border-neutral-800 overflow-hidden rounded-full bg-neutral-600">
-                  <img
+                  <img loading="lazy" 
                     src="img/client2.png"
                     alt=""
                     className="w-full h-full object-cover"
@@ -108,7 +108,7 @@ function Review() {
             <div className="pt-20 lg:pt-24">
               <div className="bg-neutral-900 w-full rounded-3xl relative">
                 <div className="absolute -top-10 left-12 size-20 border-[7px] border-neutral-800 overflow-hidden rounded-full bg-neutral-600">
-                  <img
+                  <img loading="lazy" 
                     src="img/client1.png"
                     alt=""
                     className="w-full h-full object-cover"

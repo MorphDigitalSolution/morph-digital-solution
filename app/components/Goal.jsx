@@ -9,7 +9,7 @@ function Goal() {
         <div className="grid lg:grid-cols-2 max-w-6xl mx-auto lg:pt-14 py-10">
           <div className="flex justify-center items-center overflow-hidden">
             <div className="relative">
-              {/* <img
+              {/* <img loading="lazy" 
                 src="img/circle.png"
                 alt=""
                 className="h-[400px] inv ert translate-y-2 bg-[#6F4E37]"

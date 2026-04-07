@@ -3,7 +3,7 @@ import BoxReveal from "./magicui/box-reveal";
 function HeroHalf({ children }) {
   return (
     <div className="h-[480px] relative overflow-hidden">
-      <img
+      <img loading="lazy" 
         src="https://morph-digital-mm.vercel.app/img/heroSect.jpg"
         alt="hero image"
         className="w-full h-full object-cover object-top brightness-[0.5] bg-neutral-800"

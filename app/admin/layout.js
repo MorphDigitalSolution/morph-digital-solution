@@ -29,7 +29,7 @@ export default function AdminLayout({ children }) {
     return (
       <div className="h-screen grid lg:grid-cols-5 items-center justify-center">
         <div className="h-full lg:col-span-3">
-          <img
+          <img loading="lazy" 
             src="https://morph-digital-mm.vercel.app/img/heroSect.jpg"
             alt=""
             className="w-full h-full object-cover brightness-75"

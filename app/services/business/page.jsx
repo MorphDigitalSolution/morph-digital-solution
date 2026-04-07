@@ -154,7 +154,7 @@ function Page() {
                       onClick={() => handleServiceClick(service)}
                     >
                       <div className="absolute cursor-pointer w-full h-full top-0 left-0 p-2 flex flex-col items-center justify-center">
-                        <img
+                        <img loading="lazy" 
                           src={service.imgSrc}
                           alt=""
                           className="group-hover:brightness-0 group-hover:invert size-28 -mt-3"
@@ -187,7 +187,7 @@ function Page() {
         >
           <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
           <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center text-center justify-center">
-            <img
+            <img loading="lazy" 
               src="https://morph-digital-mm.vercel.app/img/chart.svg"
               alt=""
               className="size-24 group-hover:brightness-0 group-hover:invert"
@@ -212,7 +212,7 @@ function Page() {
         >
           <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
           <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center text-center justify-center">
-            <img
+            <img loading="lazy" 
               src="https://morph-digital-mm.vercel.app/img/marketing.svg"
               alt=""
               className="size-24 group-hover:brightness-0 group-hover:invert"
