@@ -6,29 +6,51 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="h-[850px] relative overflow-hidden">
+    <div className="min-h-screen relative overflow-hidden">
       <img
         src="img/heroSect.jpg"
         alt="hero image"
-        className="w-full h-full object-cover object-top brightness-[] opacity-95"
+        className="w-full min-h-screen object-cover object-top brightness-[] opacity-95"
       />
-      <div className="absolute top-0 left-0 w-full h-full bg- [#6F4E3790] bg-black/45 text-neutral-100 bg- neutral-800/5 flex items-center justify-center">
-        <div className="max-w-5xl flex flex-col items-center text-center pt-20">
+      <div className="absolute top-0 left-0 w-full h-full bg-[#422e20]/90 text-neutral-100 flex items-center justify-center">
+        <div className="max-w-6xl flex flex-col items-center text-center pt-20 pb-10">
           <BoxReveal boxColor={"#b4530900"} duration={0.2}>
             <TitlePillow>Digital Solution</TitlePillow>
           </BoxReveal>
           <BoxReveal boxColor={"#b4530900"} duration={0.2}>
-            <div className="text-4xl lg:text-[4.6rem] leading-[1.1] font-extrabold pt-3 lg:py-2">
-              One Stop <span className="text- amber-400">Digital Solution </span>
-              Service Company
+            <div className="text-4xl lg:text-[4.6rem] leading-[1.1] font-extrabold pt-6 pb-5 lg:py-4">
+              One Stop{" "}
+              <span className="text- amber-400">Digital Solution </span>
+              <span className="text-3xl lg:text-[4rem]">
+                Services Product Agency
+              </span>
             </div>
           </BoxReveal>
+          <div className="grid lg:grid-cols-2">
+            <div className="px-5 py-3 leading-8 lg:px-10 lg:border-r-2">
+              <BoxReveal className={'text-start'} boxColor={"#b4530900"} duration={0.2}>
+                ကိုယ်ပိုင်စီးပွားရေး စလုပ်မယ့် လုပ်ငန်းသစ် (Startup) လုပ်ငန်း‌
+                တွေ ၊ SME လုပ်ငန်းတွေနဲ့ Healthcare Business လုပ်ငန်းတွေရဲ့
+                Digital လိုအပ်ချက်‌တွေအားလုံးကို
+                တစ်နေရာတည်းကနေ One Stop Services ပေးနေတဲ့ Website Development
+                Services, AI Powered Digital Marketing Services, Business
+                Registration Services, AI Agent Services နဲ့ AI Chatbot Services
+                ပေးတဲ့  Company တစ်ခုပါရှင့်။
+              </BoxReveal>
+            </div>
+            <div className="px-5 py-3 leading-8 lg:px-10">
+              <BoxReveal className={'text-start'} boxColor={"#b4530900"} duration={0.2}>
+                Morph Digital Solution က မြန်မာနိုင်ငံတွင်
+                တရားဝင်လုပ်ငန်းလည်ပတ်နေတဲ့ DICA Registered Company, SME
+                Certified Company, Online Sales Certified ရရှိထားတဲ့ Company
+                တစ်ခုပါရှင့်။
+              </BoxReveal>
+            </div>
+          </div>
           <div className="lg:px-24 p-4">
             <BoxReveal boxColor={"#b4530900"} duration={0.2}>
-              အသေးစား၊အလတ်စား စီးပွားရေးလုပ်ငန်းရှင်များ (MSMEs) များ​၏
-              ဒီဂျစ်တယ်လိုအပ်ချက်များအားလုံးကို တစ်နေရာတည်းမှဖြေရှင်းနိုင်သော
-              ဝန်ဆောင်မှုပေးသည့် Website, Digital Marketing နှင့် Business
-              Registration Services Company တခုဖြစ်သည်။
+              Your Strategic Digital Transformation Growth Partner for Startup,
+              SME & Healthcare Businesses.
             </BoxReveal>
           </div>
           <div className="flex gap-5">

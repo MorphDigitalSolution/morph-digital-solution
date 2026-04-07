@@ -2,9 +2,10 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation"; // Import usePathname
-import { FaFacebook, FaLinkedin, FaTelegram, FaViber } from "react-icons/fa";
+import { FaCross, FaFacebook, FaLinkedin, FaTelegram, FaViber } from "react-icons/fa";
 import { HiMenuAlt3 } from "react-icons/hi";
-import { BiLogoGmail, BiMenuAltRight } from "react-icons/bi";
+import { BiCross, BiCrosshair, BiLogoGmail, BiMenuAltRight } from "react-icons/bi";
+import { RiCloseLargeLine } from "react-icons/ri";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -129,7 +130,7 @@ function Header() {
       </div>
       <div
         id="menu"
-        className={`fixed lg:hidden z-50 top-0 left-0 w-full h-full duration-500 ease-out bg-amber-950 text-neutral-100 ${
+        className={`fixed lg:hidden z-50 top-0 left-0 w-full h-full duration-500 ease-out bg-[#422e20] text-neutral-100 ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -138,7 +139,7 @@ function Header() {
             onClick={toggleMenu}
             className="absolute top-8 right-8 text-3xl"
           >
-            <BiMenuAltRight />
+            <RiCloseLargeLine />
           </button>
           <img
             src="https://morph-digital-mm.vercel.app/img/logo.png"
