@@ -10,9 +10,10 @@ function Hero() {
       <img
         src="img/heroSect.jpg"
         alt="hero image"
-        className="w-full min-h-screen object-cover object-top brightness-[] opacity-95"
+        loading="lazy"
+        className="w-full h-full absolute z-10 object-cover object-top brightness-[] opacity-95"
       />
-      <div className="absolute top-0 left-0 w-full h-full bg-[#422e20]/90 text-neutral-100 flex items-center justify-center">
+      <div className="min-h-screen relative z-20 py-20 abso lute top-0 left-0 w-full h-full bg-[#422e20]/95 text-neutral-100 flex items-center justify-center">
         <div className="max-w-6xl flex flex-col items-center text-center pt-20 pb-10">
           <BoxReveal boxColor={"#b4530900"} duration={0.2}>
             <TitlePillow>Digital Solution</TitlePillow>
@@ -28,7 +29,7 @@ function Hero() {
           </BoxReveal>
           <div className="grid lg:grid-cols-2">
             <div className="px-5 py-3 leading-8 lg:px-10 lg:border-r-2">
-              <BoxReveal className={'text-start'} boxColor={"#b4530900"} duration={0.2}>
+              <BoxReveal className={'text-center lg:text-start'} boxColor={"#b4530900"} duration={0.2}>
                 ကိုယ်ပိုင်စီးပွားရေး စလုပ်မယ့် လုပ်ငန်းသစ် (Startup) လုပ်ငန်း‌
                 တွေ ၊ SME လုပ်ငန်းတွေနဲ့ Healthcare Business လုပ်ငန်းတွေရဲ့
                 Digital လိုအပ်ချက်‌တွေအားလုံးကို
@@ -39,7 +40,7 @@ function Hero() {
               </BoxReveal>
             </div>
             <div className="px-5 py-3 leading-8 lg:px-10">
-              <BoxReveal className={'text-start'} boxColor={"#b4530900"} duration={0.2}>
+              <BoxReveal className={'text-center lg:text-start'} boxColor={"#b4530900"} duration={0.2}>
                 Morph Digital Solution က မြန်မာနိုင်ငံတွင်
                 တရားဝင်လုပ်ငန်းလည်ပတ်နေတဲ့ DICA Registered Company, SME
                 Certified Company, Online Sales Certified ရရှိထားတဲ့ Company
