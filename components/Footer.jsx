@@ -17,8 +17,8 @@ function Footer() {
     <div className="relative overflow-hidden bg-blend-difference bg-left bg-repeat-x bg-[url(https://demo.bosathemes.com/agence/wp-content/uploads/sites/35/2022/11/agency-img3.png)] bg-neutral-900">
       <div className="w-full h-full bg-amber-700 pt-20 text-neutral-100">
         <div className="max-w-7xl mx-auto lg:px-16">
-          <div className="grid lg:grid-cols-9 px-5 pb-10 lg:gap-x-10 gap-y-5">
-            <div className="lg:col-span-2">
+          <div className="grid grid-cols-2 lg:grid-cols-9 px-5 pb-10 lg:gap-x-10 gap-y-5">
+            <div className="col-span-2 lg:col-span-2">
               <div className="flex items-center text-2xl lg:text-2xl font-semibold uppercase">
                 <img loading="lazy" 
                   src="https://morph-digital-mm.vercel.app/img/logo-sm.png"
@@ -75,7 +75,7 @@ function Footer() {
                 </Link>
               </div>
             </div>
-            <div className="lg:col-span-2">
+            <div className="lg:col-span-2 ps-10 lg:ps-0">
               <div className="pb-4 text-xl font-semibold">Support</div>
               <div className="flex gap-3 flex-col">
                 <Link href="/contact" className="hover:text-amber-700">
@@ -89,7 +89,7 @@ function Footer() {
                 </Link>
               </div>
             </div>
-            <div className="lg:col-span-3">
+            <div className="col-span-2 lg:col-span-3">
               <div className="pb-1 text-xl font-semibold">
                 Contact Information
               </div>

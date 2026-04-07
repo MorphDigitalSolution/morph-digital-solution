@@ -34,7 +34,7 @@ function Header() {
   return (
     <>
       <div
-        className={`fixed z-40 top-0 left-0 w-full border-b border-b-gray-100/20 duration-300 ${
+        className={`fixed z-40 top-0 left-0 w-full border-b border-b-gray-100/20 duration-300 shadow ${
           isScrolled
             ? "text-[#6F4E37] bg-white text -neutral-100"
             : "bg-neutral-900/30 text-neutral-100"
@@ -130,21 +130,21 @@ function Header() {
       </div>
       <div
         id="menu"
-        className={`fixed lg:hidden z-50 top-0 left-0 w-full h-full duration-500 ease-out bg-[#422e20] text-neutral-100 ${
+        className={`fixed lg:hidden z-50 top-0 left-0 w-full h-full duration-500 ease-out text-[#422e20] bg-white/90 backdrop-blur-md ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
         <div className="w-full h-full relative flex flex-col items-center justify-center text-center gap-5 font-semibold uppercase">
           <button
             onClick={toggleMenu}
-            className="absolute top-8 right-8 text-3xl"
+            className="absolute top-8 right-8 text-xl"
           >
             <RiCloseLargeLine />
           </button>
           <img loading="lazy" 
             src="https://morph-digital-mm.vercel.app/img/logo.png"
             alt=""
-            className="h-24"
+            className="h-24 brightness-0"
           />
           {["/", "/about", "/services", "/portfolio", "/blogs", "/contact"].map(
             (path, index) => (
@@ -152,7 +152,7 @@ function Header() {
                 key={index}
                 href={path}
                 className={`border-b-2 ${
-                  pathname === path ? "border-white" : "border-transparent"
+                  pathname === path ? "border-amber-600" : "border-transparent"
                 }`}
               >
                 {path === "/" ? "Home" : path.substring(1)}

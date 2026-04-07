@@ -5,7 +5,7 @@ import React from "react";
 function GroupClients() {
   return (
     <div className="relative">
-      <div className="flex absolute top-0 left-0 w-full z-10 bg-black/70 text-neutral-100 text-center h-full items-center justify-center flex-col">
+      <div className="flex absolute top-0 left-0 w-full z-10 bg-[#422e20]/80 text-neutral-100 text-center h-full items-center justify-center flex-col">
         {/* <div className="">Hundreds of satisfied clients</div> */}
         <BoxReveal boxColor={"#b4530900"} duration={0.2}>
           <TitlePillow>Satisfied Customers</TitlePillow>

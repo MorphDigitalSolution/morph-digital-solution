@@ -39,7 +39,7 @@ function page() {
               className="absolute border-[12px] border-white top-28 lg:top-24 left-5 lg:left-10 h-[200px] lg:h-[290px] aspect-square object-cover rounded-full"
             />
           </div>
-          <div className="px-5 lg:px-16 lg:pt-20 lg:pb-5">
+          <div className="px-8 lg:px-16 lg:pt-20 lg:pb-5">
             <div className="">
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
                 <div className="pb-2">
@@ -134,7 +134,7 @@ function page() {
           </div>
         </div>
         <div className="max-w-7xl relative mx-auto flex flex-col-reverse lg:grid lg:grid-cols-5 py-10">
-          <div className="px-5 lg:px-16 lg:py-20 lg:col-span-3">
+          <div className="px-8 lg:px-16 lg:py-20 lg:col-span-3">
             <div className="">
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
                 <div className="pb-2">

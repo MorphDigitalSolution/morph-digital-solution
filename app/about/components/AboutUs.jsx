@@ -7,7 +7,7 @@ function AboutUs() {
     <div className="bg-amber-700 text-white">
       <div className="max-w-6xl mx-auto">
         <div className="grid lg:grid-cols-5 py-10 lg:pt-20 lg:pb-10">
-          <div className="px-5 lg:col-span-2">
+          <div className="px-8 lg:col-span-2">
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
               <div className="pb-2">
                 <TitlePillow>About Us</TitlePillow>
@@ -23,11 +23,11 @@ function AboutUs() {
           </div>
           <div className="lg:col-span-3 flex items-center justify-center lg:pt-2 text-neutral-200/80">
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
-              <div className="p-5 lg:ps-10 leading-[1.7]">
+              <div className="py-5 px-8 lg:ps-10 leading-[1.7]">
                 Morph Website & Digital Marketing ကို စတင်ဖွဲ့စည်းခြင်းမှာ
                 ရည်မှန်းချက်တစ်ခုသာ ရှိပါတယ်။ အဆိုပါရည်မှန်းချက်မှာ (Startup)
                 စီးပွားရေး လုပ်ငန်းများနှင့် အသေးစား၊ အလတ်စား (MSMEs)
-                စီးပွားရေးလုပ်ငန်းများ​၏ ရည်မှန်းချက်များအောင်မြင်စေရန်အတွက်
+                စီးပွားရေးလုပ်ငန်းများ​၏ ရည်မှန်းချက်များ အောင်မြင်စေရန်အတွက်
                 Digital နည်းပညာဖြင့် ပေါင်းကူးတံတားသဖွယ် ဆောင်ရွက်ပေးရန်ဖြစ်ပါတယ်။
                 Morph သည် ဒီဂျစ်တယ်လိုအပ်ချက်များအားလုံးအတွက်
                 တစ်နေရာတည်းမှဖြေရှင်းနိုင်သော ဝန်ဆောင်မှု (One Stop Digital

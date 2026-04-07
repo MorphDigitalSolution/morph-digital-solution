@@ -8,6 +8,24 @@ import GroupClients from "./components/GroupClients";
 import Contact from "../components/Contact";
 import TitlePillow from "@/components/TitlePillow";
 
+const webClients = [
+  { img: "img/web1.png", name: "Regan Travel" },
+  { img: "img/web2.png", name: "Rocket Plastic Factory" },
+  { img: "img/web3.png", name: "Miss Shwebo Group Co.,Ltd" },
+  { img: "img/web4.png", name: "DivaGlobalize" },
+  { img: "img/web5.png", name: "Global Food Safety Academy Myanmar" },
+  { img: "img/web6.png", name: "Morph Website & Digital Marketing" },
+  { img: "img/web7.png", name: "Amara NanDaw" },
+  { img: "img/web8.png", name: "Parami Phyae Phat Co., Ltd" },
+  { img: "img/web9.png", name: "Nyi Mya Chin Real Estate" },
+  { img: "img/web10.png", name: "Shae Soung Plastic Factory" },
+  { img: "img/web11.png", name: "Kyauk Thin Pone Education Tools & Toys" },
+  { img: "img/web12.png", name: "YUME NIPPON Oversea Employment Agency" },
+  { img: "img/web13.png", name: "Global Food Safety Academy" },
+  { img: "img/web14.png", name: "HYDRO TECH Water & Waste Water Engineering Co.,Ltd" },
+  { img: "img/web15.png", name: "Yamin Ghee ထောပတ်" },
+];
+
 function page() {
   return (
     <div>
@@ -41,196 +59,22 @@ function page() {
           <div className="text-3xl lg:text-4xl text-center py-5 font-semibold text-[#6F4E37]">
             Website Development Service
           </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-8 md:px-10 lg:pt-16 py-8 w-full">
-            <div className="group">
-              <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img
-                  loading="lazy"
-                  src="img/web1.png"
-                  alt=""
-                  className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
-                />
-                <div className="text-center pt-1 text-sm">Regan Travel</div>
-              </BoxReveal>
-            </div>
-            <div className="group">
-              <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img
-                  loading="lazy"
-                  src="img/web2.png"
-                  alt=""
-                  className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
-                />
-                <div className="text-center pt-1 text-sm">
-                  Rocket Plastic Factory
-                </div>
-              </BoxReveal>
-            </div>
-            <div className="group">
-              <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img
-                  loading="lazy"
-                  src="img/web3.png"
-                  alt=""
-                  className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
-                />
-                <div className="text-center pt-1 text-sm">
-                  Miss Shwebo Group Co.,Ltd
-                </div>
-              </BoxReveal>
-            </div>
-            <div className="group">
-              <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img
-                  loading="lazy"
-                  src="img/web4.png"
-                  alt=""
-                  className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
-                />
-                <div className="text-center pt-1 text-sm">DivaGlobalize</div>
-              </BoxReveal>
-            </div>
-            <div className="group">
-              <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img
-                  loading="lazy"
-                  src="img/web5.png"
-                  alt=""
-                  className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
-                />
-                <div className="text-center pt-1 text-sm">
-                  Global Food Safety Academy Myanmar
-                </div>
-              </BoxReveal>
-            </div>
-            <div className="group">
-              <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img
-                  loading="lazy"
-                  src="img/web6.png"
-                  alt=""
-                  className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
-                />
-                <div className="text-center pt-1 text-sm">
-                  Morph Website & Digital Marketing
-                </div>
-              </BoxReveal>
-            </div>
-            <div className="group">
-              <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img
-                  loading="lazy"
-                  src="img/web7.png"
-                  alt=""
-                  className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
-                />
-                <div className="text-center pt-1 text-sm">Amara NanDaw</div>
-              </BoxReveal>
-            </div>
-            <div className="group">
-              <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <img
-                  loading="lazy"
-                  src="img/web8.png"
-                  alt=""
-                  className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
-                />
-                <div className="text-center pt-1 text-sm">
-                  Parami Phyae Phat Co., Ltd
-                </div>
-              </BoxReveal>
-            </div>
-            <div className="group">
-              <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img
-                  loading="lazy"
-                  src="img/web9.png"
-                  alt=""
-                  className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
-                />
-                <div className="text-center pt-1 text-sm">
-                  Nyi Mya Chin Real Estate
-                </div>
-              </BoxReveal>
-            </div>
-            <div className="group">
-              <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img
-                  loading="lazy"
-                  src="img/web10.png"
-                  alt=""
-                  className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
-                />
-                <div className="text-center pt-1 text-sm">
-                  Shae Soung Plastic Factory
-                </div>
-              </BoxReveal>
-            </div>
-            <div className="group">
-              <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img
-                  loading="lazy"
-                  src="img/web11.png"
-                  alt=""
-                  className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
-                />
-                <div className="text-center pt-1 text-sm">
-                  Kyauk Thin Pone Education Tools & Toys
-                </div>
-              </BoxReveal>
-            </div>
-            <div className="group">
-              <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img
-                  loading="lazy"
-                  src="img/web12.png"
-                  alt=""
-                  className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
-                />
-                <div className="text-center pt-1 text-sm">
-                  YUME NIPPON Oversea Employment Agency
-                </div>
-              </BoxReveal>
-            </div>
-            <div className="group">
-              <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img
-                  loading="lazy"
-                  src="img/web13.png"
-                  alt=""
-                  className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
-                />
-                <div className="text-center pt-1 text-sm">
-                  Global Food Safety Academy
-                </div>
-              </BoxReveal>
-            </div>
-            <div className="group">
-              <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img
-                  loading="lazy"
-                  src="img/web14.png"
-                  alt=""
-                  className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
-                />
-                <div className="text-center pt-1 text-sm">
-                  HYDRO TECH Water & Waste Water Engineering Co.,Ltd
-                </div>
-              </BoxReveal>
-            </div>
-            <div className="group">
-              <BoxReveal boxColor={"#b4005309"} duration={0.5}>
-                <img
-                  loading="lazy"
-                  src="img/web15.png"
-                  alt=""
-                  className="w-full group-hover:scale-105 duration-300 p-2 rounded-3xl"
-                />
-                <div className="text-center pt-1 text-sm">
-                  Yamin Ghee ထောပတ်
-                </div>
-              </BoxReveal>
-            </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-y-5 items-center justify-center md:px-10 lg:pt-16 py-8 w-full">
+            {webClients.map((client, index) => (
+              <div key={index} className="group lg:p-4">
+                <BoxReveal boxColor={"#b4530900"} duration={0.5} className={'p-5'}>
+                  <img
+                    loading="lazy"
+                    src={client.img}
+                    alt={client.name}
+                    className="w-full group-hover:scale-100 duration-300 scale-90 rounded-3xl aspect-square bg-[#422e20]/20"
+                  />
+                  <div className="text-center pt-1 text-sm">
+                    {client.name}
+                  </div>
+                </BoxReveal>
+              </div>
+            ))}
           </div>
         </div>
 

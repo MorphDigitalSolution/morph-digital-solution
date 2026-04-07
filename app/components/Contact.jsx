@@ -140,7 +140,7 @@ function  Contact() {
             alt=""
             className=" brightness-110 saturate-150 w-full h-[700px] pt-5 object-contain"
           />
-          <div className="p-10 bg-amber-700 rounded-3xl grid lg:grid-cols-4">
+          <div className="p-10 bg-amber-700 rounded-[2rem] grid lg:grid-cols-4">
             <div className="flex items-center text-neutral-100 gap-2 justify-center flex-col">
               <RiPagesLine className="text-7xl p-1" />
               <div className="text-5xl font-bold ps-4">

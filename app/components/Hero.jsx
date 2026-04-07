@@ -13,7 +13,7 @@ function Hero() {
         loading="lazy"
         className="w-full h-full absolute z-10 object-cover object-top brightness-[] opacity-95"
       />
-      <div className="min-h-screen relative z-20 py-32 abso lute top-0 left-0 w-full h-full bg-[#422e20]/95 text-neutral-100 flex items-center justify-center">
+      <div className="min-h-screen relative z-20 py-12 lg:py-20 abso lute top-0 left-0 w-full h-full bg-[#422e20]/95 text-neutral-100 flex items-center justify-center">
         <div className="max-w-6xl flex flex-col items-center text-center pt-20 pb-10">
           <BoxReveal boxColor={"#b4530900"} duration={0.2}>
             <TitlePillow>Digital Solution</TitlePillow>
