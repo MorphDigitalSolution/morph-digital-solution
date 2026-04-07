@@ -22,7 +22,7 @@ const services = [
       "✦ Influencer Marketing Plan",
       "✦ Crisis Communication Plan",
       "✦ Data Analytics & Reporting",
-      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါတယ်။",
     ],
   },
   {
@@ -36,20 +36,20 @@ const services = [
       "✦ Visual content များ",
       "✦ Audio content များ",
       "✦ Script writing များ",
-      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါတယ်။",
     ],
   },
   {
     title: "Boosting Service",
     imgSrc: "https://morph-digital-mm.vercel.app/img/chart.svg",
     description:
-      "မိမိ brand ကို မိမိကြော်ငြာလိုတဲ့ Target Audience အလိုက် ရွေးချယ်ပြီး Boosting ကြော်ငြာ Run ပေးပါသည်။ Boosting ဝန်ဆောင်မှုကို",
+      "မိမိ brand ကို မိမိကြော်ငြာလိုတဲ့ Target Audience အလိုက် ရွေးချယ်ပြီး Boosting ကြော်ငြာ Run ပေးပါတယ်။ Boosting ဝန်ဆောင်မှုကို",
     offerings: [
       "✦ သက်သာသော Dollor Rate ဖြင့် ရယူနိုင်ခြင်း",
       "✦ Boosting run ရန် မှန်ကန်သည့် platform ရွေးချယ်ပေးခြင်း",
       "✦ ထိရောက်သည့် Display ကြော်ငြာများ၊ Search ကြော်ငြာများ၊ Video ကြော်ငြာများ ဖန်တီးပေးခြင်း",
       "✦  Boosting Campign Performance Report ထုတ်ပေးခြင်း",
-      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါတယ်။",
     ],
   },
   {
@@ -63,7 +63,7 @@ const services = [
       "✦ Printing Design (Flyer, Pamphlet (A4), X Stand, Vinyl, Poster, Backdrop)",
       "✦ CV or Resume Form Design",
       "✦ Presentation Design",
-      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါတယ်။",
     ],
   },
   {
@@ -76,7 +76,7 @@ const services = [
       "✦ Commenting",
       "✦ Message Replying",
       "✦ Social Media Analytics & Reporting",
-      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါတယ်။",
     ],
   },
   {
@@ -86,14 +86,14 @@ const services = [
     offerings: [
       "✦ Choosing based on niche, audience demographics, engagement rate, and credibility",
       "✦ Creating impactful Influencer Campaign Plans",
-      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါတယ်။",
     ],
   },
   {
     title: "Video Marketing Service",
     imgSrc: "https://morph-digital-mm.vercel.app/img/chart.svg",
     description:
-      "လူကြိုက်များတဲ့ Video ကြော်ငြာပုံစံနဲ့ မိမိ brand အကြောင်းကို သေချာ message ပေးနိုင်တဲ့ Video ကြော်ငြာ Campaign များ ရိုက်ကူးပေးပါသည်။ ",
+      "လူကြိုက်များတဲ့ Video ကြော်ငြာပုံစံနဲ့ မိမိ brand အကြောင်းကို သေချာ message ပေးနိုင်တဲ့ Video ကြော်ငြာ Campaign များ ရိုက်ကူးပေးပါတယ်။ ",
     offerings: [
       "✦ Webinars video",
       "✦ Instructional or how-to video",
@@ -106,7 +106,7 @@ const services = [
       "✦ Case studies video",
       "✦ Script writing, Shooting, Editing, Post-production",
       "✦ Video campaign performance report",
-      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါတယ်။",
     ],
   },
   {
@@ -116,8 +116,8 @@ const services = [
     offerings: [
       "✦ မိမိ Brand ကို Mention ခေါ်ထားသည့် သူများကို monitoring & tracking လုပ်ပြီး အကောင်းဆုံး ကိုင်တွယ်ဖြေရှင်းပေးခြင်း",
       "✦ Negative reviews နှင့် Negative comment များကို အကောင်းဆုံး ကိုင်တွယ်ဖြေရှင်းပေးပြီး brand image ပြန်လည် တည်ဆောက်ပေးခြင်း",
-      "✦ Online ပေါ်တွင် ကောင်းသောဂုဏ်သတင်းနှင့် လူသိများထင်ရှားသည့် Brand အဖြစ် ဖန်တီးပေးခြင်း စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။",
-      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။",
+      "✦ Online ပေါ်တွင် ကောင်းသောဂုဏ်သတင်းနှင့် လူသိများထင်ရှားသည့် Brand အဖြစ် ဖန်တီးပေးခြင်း စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါတယ်။",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါတယ်။",
     ],
   },
   {
@@ -128,7 +128,7 @@ const services = [
       "✦ လုပ်ငန်း ဂုဏ်သိက္ခာ မထိခိုက်အောင်",
       "✦ အနှစ်နှစ်အလလ တည်ဆောက်ထားတဲ့ လုပ်ငန်းအပေါ် ယုံကြည်မှု မပျက်စီးအောင်",
       "✦ Legal risk တွေကို လျော့ချနိုင်အောင်",
-      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါတယ်။",
     ],
   },
   {
@@ -150,7 +150,7 @@ const services = [
       "✦ ချမှတ်ထားတဲ့ KPIs တွေကို Hit ဖြစ်ရဲ့လား",
       "✦ စတာတွေကို တိုင်းတာလိုရတဲ့ အချက်အလက်တွေနဲ့ တိုင်းတာပေးပြီး Campaign Performance report ထုတ်ပေးပါတယ်။ ",
       "...",
-      "Campaign Performance report တွင် နောက်တကြိမ် Campaign ကို ယခုထက် ပိုမိုကောင်းမွန်အောင် လုပ်ဆောင်နိုင်မည့် လက်တွေ့အသုံးချနိုင်သော Actionable recommendation plan များလဲ ပါဝင်ပါသည်။ မိမိ Target Audience တွေက Email အသုံးပြုသူများ ဖြစ်ပါက Email Marketing ပြုလုပ်ခြင်းဖြင့် ကုန်ကျစရိတ် သက်သာစွာ ကြော်ငြာနိုင်ခြင်း စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။",
+      "Campaign Performance report တွင် နောက်တကြိမ် Campaign ကို ယခုထက် ပိုမိုကောင်းမွန်အောင် လုပ်ဆောင်နိုင်မည့် လက်တွေ့အသုံးချနိုင်သော Actionable recommendation plan များလဲ ပါဝင်ပါတယ်။ မိမိ Target Audience တွေက Email အသုံးပြုသူများ ဖြစ်ပါက Email Marketing ပြုလုပ်ခြင်းဖြင့် ကုန်ကျစရိတ် သက်သာစွာ ကြော်ငြာနိုင်ခြင်း စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါတယ်။",
     ],
   },
   {
@@ -162,7 +162,7 @@ const services = [
       "✦ Email campaign plan ရေးဆွဲပေးခြင်း",
       "✦ Email campaign ပြုလုပ်ပေးခြင်း",
       "✦ Email campaign performance report ထုတ်ပေးခြင်း",
-      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါတယ်။",
     ],
   },
   {
@@ -174,14 +174,14 @@ const services = [
       "✦ SMS campaign plan ရေးဆွဲပေးခြင်း",
       "✦ SMS campaign ပြုလုပ်ပေးခြင်း",
       "✦ SMS campaign performance report ထုတ်ပေးခြင်း",
-      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါတယ်။",
     ],
   },
   {
     title: "Event Planning & Promotion Service",
     imgSrc: "https://morph-digital-mm.vercel.app/img/chart.svg",
     description:
-      "Event ပွဲများမှ တဆင့် Positive brand image တည်ဆောက်လိုပါက၊  Customer relationship တည်ဆောက်လိုပါက၊ Leads generation ပြုလုပ်လိုပါက၊ အရောင်းမြှင့်တင်လိုပါက ဖော်ပြပါ Event ပွဲများ စီစဉ်ပေးပါသည်။",
+      "Event ပွဲများမှ တဆင့် Positive brand image တည်ဆောက်လိုပါက၊  Customer relationship တည်ဆောက်လိုပါက၊ Leads generation ပြုလုပ်လိုပါက၊ အရောင်းမြှင့်တင်လိုပါက ဖော်ပြပါ Event ပွဲများ စီစဉ်ပေးပါတယ်။",
     offerings: [
       "✦ Product launches event များ",
       "✦ Trade show event များ",
@@ -189,7 +189,7 @@ const services = [
       "✦ Charity events များ စီစဉ်ပေးပြီး",
       "✦ အောင်မြင်တဲ့ Event ပွဲတခုဖြစ်အောင်",
       "✦ Social media marketing, Email marketing, Influencer partnerships, PR, Collaborate Partner ရှာပေးခြင်း၊ Sponsorship ရှာပေးခြင်း၊ Event Performance Report ထုတ်ပေးခြင်း",
-      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါတယ်။",
     ],
   },
   {
@@ -200,7 +200,7 @@ const services = [
       "✦ Digital Marketing In House Team ဖွဲစည်းပေးခြင်း",
       "✦ Digital Marketing Training ပေးခြင်း",
       "✦ Digital Marketing Latest Trends များအကြောင်း ပုံမှန် Sharing လုပ်ပေးခြင်း",
-      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါတယ်။",
     ],
   },
   {
@@ -210,7 +210,7 @@ const services = [
     offerings: [
       "✦ Power Point Presentation Design ဆွဲပေးခြင်း",
       "✦ Power Point Presentation ရေးပေးခြင်း",
-      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါတယ်။",
     ],
   },
   {
@@ -221,7 +221,7 @@ const services = [
       "✦ Messenger Chatbot",
       "✦ Telegram Chatbot",
       "✦ Viber Chatbot",
-      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါသည်။",
+      "စသည့် ဝန်ဆောင်မှုများ ရယူနိုင်ပါတယ်။",
     ],
   },
   {
@@ -331,12 +331,12 @@ function Page() {
             </div>
             <div className="text-sm pt-5 text-left pb-3 leading-[1.9]">
               သင့် Brand ကို ကိုယ်စားပြုပြီး သင့် Customer တွေကို
-              ဆွဲဆောင်နိုင်မည့် ဝဘ်ဆိုက်များ တည်ဆောက်ပေးပါသည်။ Blog
+              ဆွဲဆောင်နိုင်မည့် ဝဘ်ဆိုက်များ တည်ဆောက်ပေးပါတယ်။ Blog
               ဝဘ်ဆိုက်များ၊ E Commerce Platform များ၊ Corporate
               ဝဘ်ဆိုက်များနှင့် Web Application များအထိ အသုံးပြုရလွယ်ကူပြီး
               ဖုန်းနှင့်ကြည့်ကြည့်၊ Tablet နှင့်ကြည့်ကြည့်၊ Computer
               နှင့်ကြည့်ကြည့် ကြည့်ရလွယ်ကူသည့်၊ ဆွဲဆောင်မှုရှိသည့်
-              ဝဘ်ဆိုက်များကို ဖန်တီးပေးပါသည်။
+              ဝဘ်ဆိုက်များကို ဖန်တီးပေးပါတယ်။
             </div>
           </div>
         </a>
@@ -357,11 +357,11 @@ function Page() {
             <div className="text-sm pt-5 text-left pb-3 leading-[1.9]">
               စီးပွားရေး စတင်ခြင်းနှင့် စီမံခန့်ခွဲခြင်းလုပ်ငန်းစဉ်များ
               တရားဝင်လည်ပတ်နိုင်ရန်အတွက် Morph ​၏ Business Registration
-              Specialist နှင့်အခမဲ့ တိုင်ပင်ဆွေးနွေးနိုင်ပါသည်။
+              Specialist နှင့်အခမဲ့ တိုင်ပင်ဆွေးနွေးနိုင်ပါတယ်။
               ကုမ္ပဏီဖွဲ့စည်းခြင်း၊ လိုင်စင်လျှောက်ထားမှုများ၊
               အခွန်ပြန်လည်ပေးဆောင်မှု၊ မူပိုင်ခွင့်မှတ်ပုံတင်မှုများနှင့်
               အခြားသောစီးပွားရေးမှတ်ပုံတင်ခြင်း ဝန်ဆောင်မှုများကို ကျွန်ုပ်တို့
-              ဆောင်ရွက်ပေးပါသည်။
+              ဆောင်ရွက်ပေးပါတယ်။
             </div>
           </div>
         </a>

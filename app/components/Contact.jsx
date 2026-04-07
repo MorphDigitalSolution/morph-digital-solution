@@ -98,33 +98,33 @@ function  Contact() {
             <div className="w-full lg:w-[390px] h-[600px] bg-white bg- neutral-950/70 rounded-3xl shadow-2xl shadow-black/10">
               <MessageForm className="w-full h-full p-10" />
             </div>
-            <div className="p-10 mt-20 bg-amber-700 rounded-3xl lg:hidden space-y-5">
-              <div className="flex items-center text-neutral-100 gap-2 justify-center flex-col">
-                <RiPagesLine className="text-7xl p-1" />
-                <div className="text-5xl font-bold ps-4">
+            <div className="p-10 mt-10 bg-amber-700 rounded-3xl lg:hidden gap-6 grid grid-cols-2">
+              <div className="flex items-center text-center h-full text-neutral-100 gap-2 justify-center flex-col">
+                <RiPagesLine className="text-6xl p-1" />
+                <div className="text-3xl font-bold ps-4">
                   <NumberTicker className="text-neutral-100" value={2} />
                   k+
                 </div>
                 <div className="">Completed Projects</div>
               </div>
-              <div className="flex items-center text-neutral-100 gap-2 justify-center flex-col">
-                <SlPeople className="text-7xl p-1" />
-                <div className="text-5xl font-bold ps-4">
+              <div className="flex items-center text-center h-full text-neutral-100 gap-2 justify-center flex-col">
+                <SlPeople className="text-6xl p-1" />
+                <div className="text-3xl font-bold ps-4">
                   <NumberTicker className="text-neutral-100" value={30} />
                   k+
                 </div>
                 <div className="">Happy Customers</div>
               </div>
-              <div className="flex items-center text-neutral-100 gap-2 justify-center flex-col">
-                <LiaAwardSolid className="text-7xl" />
-                <div className="text-5xl font-bold ps-4">
+              <div className="flex items-center text-center h-full text-neutral-100 gap-2 justify-center flex-col">
+                <LiaAwardSolid className="text-6xl" />
+                <div className="text-3xl font-bold ps-4">
                   <NumberTicker className="text-neutral-100" value={12} />+
                 </div>
                 <div className="">Award Winning</div>
               </div>
-              <div className="flex items-center text-neutral-100 gap-2 justify-center flex-col">
-                <MdReviews className="text-7xl p-1" />
-                <div className="text-5xl font-bold ps-4">
+              <div className="flex items-center text-center h-full text-neutral-100 gap-2 justify-center flex-col">
+                <MdReviews className="text-6xl p-1" />
+                <div className="text-3xl font-bold ps-4">
                   <NumberTicker className="text-neutral-100" value={99} />%
                 </div>
                 <div className="">Satisfication Rate</div>

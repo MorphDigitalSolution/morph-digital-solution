@@ -121,7 +121,7 @@ function page() {
               </div>
             </div> */}
             </div>
-            <div className="">
+            <div className="flex">
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
                 <Link
                   href="/about"
@@ -224,7 +224,7 @@ function page() {
               </div>
             </div> */}
             </div>
-            <div className="">
+            <div className="flex">
               <BoxReveal boxColor={"#b45309"} duration={0.5}>
                 <Link
                   href="/about"

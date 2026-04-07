@@ -25,14 +25,14 @@ function AboutUs() {
             <BoxReveal boxColor={"#b45309"} duration={0.5}>
               <div className="p-5 lg:ps-10 leading-[1.7]">
                 Morph Website & Digital Marketing ကို စတင်ဖွဲ့စည်းခြင်းမှာ
-                ရည်မှန်းချက်တစ်ခုသာ ရှိပါသည်။ အဆိုပါရည်မှန်းချက်မှာ (Startup)
+                ရည်မှန်းချက်တစ်ခုသာ ရှိပါတယ်။ အဆိုပါရည်မှန်းချက်မှာ (Startup)
                 စီးပွားရေး လုပ်ငန်းများနှင့် အသေးစား၊ အလတ်စား (MSMEs)
                 စီးပွားရေးလုပ်ငန်းများ​၏ ရည်မှန်းချက်များအောင်မြင်စေရန်အတွက်
-                Digital နည်းပညာဖြင့် ပေါင်းကူးတံတားသဖွယ် ဆောင်ရွက်ပေးရန်ဖြစ်သည်။
+                Digital နည်းပညာဖြင့် ပေါင်းကူးတံတားသဖွယ် ဆောင်ရွက်ပေးရန်ဖြစ်ပါတယ်။
                 Morph သည် ဒီဂျစ်တယ်လိုအပ်ချက်များအားလုံးအတွက်
                 တစ်နေရာတည်းမှဖြေရှင်းနိုင်သော ဝန်ဆောင်မှု (One Stop Digital
                 Solution Services) ပေးသည့် Website, Digital Marketing နှင့်
-                Business Registration Services Company တခုဖြစ်သည်။
+                Business Registration Services Company တခုဖြစ်ပါတယ်။
                 သင့်လုပ်ငန်းကို Digital Transformation ပြုလုပ်လိုပါက Morph ကိုသာ
                 ဆက်သွယ်လိုက်ပါ။
               </div>

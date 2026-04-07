@@ -1,13 +1,9 @@
 "use client";
-import Script from "next/script";
 import { useEffect, useRef } from "react";
 import Lenis from "@studio-freight/lenis";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import ClientScripts from "./components/ClientScript";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({ children }) {
   const lenisRef = useRef(null);
@@ -47,12 +43,16 @@ export default function RootLayout({ children }) {
           name="keywords"
           content="digital marketing, SEO, SEM, content marketing, social media marketing"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+          rel="stylesheet"
+        ></link>
         <meta name="author" content="Your Name" />
         <link rel="icon" href="img/logo-sm.png" />
         <title>Morph - Digital Marketing</title>
         {/* Add any other meta tags or links here */}
       </head>
-      <body className={inter.className}>
+      <body>
         <ClientScripts />
         {children}
         <Analytics />

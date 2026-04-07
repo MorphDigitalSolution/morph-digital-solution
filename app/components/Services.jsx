@@ -27,12 +27,12 @@ function Services() {
                 support, we’re here to help you succeed.
               </div>
             </BoxReveal> */}
-            <div className="flex flex-col lg:flex-row w-full mt-5 gap-8 md:gap-0 xl:gap-0 items-center justify-center">
-              <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <div className="py-8 px-4">
+            <div className="flex flex-col lg:flex-row w-full mt-5 md:gap-0 xl:gap-0 items-center justify-center">
+              <BoxReveal className={'w-full'} boxColor={"#b4530900"} duration={0.5}>
+                <div className="py-8 px-4 w-full">
                   <a
                     href="/services/web"
-                    className=" border-[3px] border-[#6F4E37b1] text-[#6F4E37b1] hover:text-white/80 hover:bg-[#6F4E37] duration-300 bg-white bg- neutral-950/30 shadow-xl relative group rounded-3xl overflow-hidden h-[440px] md:h-96 w-96 md:w-[500px] lg:w-80 xl:w-[380px] block"
+                    className=" border-[3px] border-[#6F4E37b1] text-[#6F4E37b1] hover:text-white/80 hover:bg-[#6F4E37] duration-300 bg-white bg- neutral-950/30 shadow-xl relative group rounded-3xl overflow-hidden h-[440px] md:h-96 w-full block"
                   >
                     <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
                     <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center text-center justify-center">
@@ -46,23 +46,23 @@ function Services() {
                       </div>
                       <div className="text-sm pt-5 text-left pb-3">
                         သင့် Brand ကို ကိုယ်စားပြုပြီး သင့် Customer တွေကို
-                        ဆွဲဆောင်နိုင်မည့် ဝဘ်ဆိုက်များ တည်ဆောက်ပေးပါသည်။ Blog
+                        ဆွဲဆောင်နိုင်မည့် ဝဘ်ဆိုက်များ တည်ဆောက်ပေးပါတယ်။ Blog
                         ဝဘ်ဆိုက်များ၊ E Commerce Platform များ၊ Corporate
                         ဝဘ်ဆိုက်များနှင့် Web Application များအထိ
                         အသုံးပြုရလွယ်ကူပြီး ဖုန်းနှင့်ကြည့်ကြည့်၊ Tablet
                         နှင့်ကြည့်ကြည့်၊ Computer နှင့်ကြည့်ကြည့်
                         ကြည့်ရလွယ်ကူသည့်၊ ဆွဲဆောင်မှုရှိသည့် ဝဘ်ဆိုက်များကို
-                        ဖန်တီးပေးပါသည်။
+                        ဖန်တီးပေးပါတယ်။
                       </div>
                     </div>
                   </a>
                 </div>
               </BoxReveal>
-              <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <div className="py-8 px-4">
+              <BoxReveal className={'w-full'} boxColor={"#b4530900"} duration={0.5}>
+                <div className="py-8 px-4 w-full">
                   <a
                     href="/services/digital"
-                    className=" border-[3px] border-[#6F4E37b1] text-[#6F4E37b1] hover:text-white/80 hover:bg-[#6F4E37] duration-300 bg-white bg- neutral-950/30 shadow-xl relative group rounded-3xl overflow-hidden h-[440px] md:h-96 w-96 md:w-[500px] lg:w-80 xl:w-[380px] block"
+                    className=" border-[3px] border-[#6F4E37b1] text-[#6F4E37b1] hover:text-white/80 hover:bg-[#6F4E37] duration-300 bg-white bg- neutral-950/30 shadow-xl relative group rounded-3xl overflow-hidden h-[440px] md:h-96 w-full block"
                   >
                     <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
                     <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center text-center justify-center">
@@ -74,19 +74,19 @@ function Services() {
                         Morph Strategy ဖြင့် သင့် Brand ကို သုံးစွဲမည့် Customer
                         များထံ သင့် Brand အကြောင်းသိရှိစေရန်နှင့် သင့် Brand
                         တန်ဖိုး မြှင့်တက်စေရန်အတွက် ဒီဂျစ်တယ်မားကက်တင်း
-                        ဝန်ဆောင်မှုများရယူနိုင်ပါသည်။ Content ဖန်တီးခြင်း၊
+                        ဝန်ဆောင်မှုများရယူနိုင်ပါတယ်။ Content ဖန်တီးခြင်း၊
                         Social Media စီမံခန့်ခွဲမှု၊ Email Marketing နှင့် Data
-                        Analytics များအထိ ဝန်ဆောင်မှုပေးပါသည်။
+                        Analytics များအထိ ဝန်ဆောင်မှုပေးပါတယ်။
                       </div>
                     </div>
                   </a>
                 </div>
               </BoxReveal>
-              <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-                <div className="py-8 px-4">
+              <BoxReveal className={'w-full'} boxColor={"#b4530900"} duration={0.5}>
+                <div className="py-8 px-4 w-full">
                   <a
                     href="/services/business"
-                    className=" border-[3px] border-[#6F4E37b1] text-[#6F4E37b1] hover:text-white/80 hover:bg-[#6F4E37] duration-300 bg-white bg- neutral-950/30 shadow-xl relative group rounded-3xl overflow-hidden h-[440px] md:h-96 w-96 md:w-[500px] lg:w-80 xl:w-[380px] block"
+                    className=" border-[3px] border-[#6F4E37b1] text-[#6F4E37b1] hover:text-white/80 hover:bg-[#6F4E37] duration-300 bg-white bg- neutral-950/30 shadow-xl relative group rounded-3xl overflow-hidden h-[440px] md:h-96 w-full block"
                   >
                     <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
                     <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center text-center justify-center">
@@ -99,11 +99,11 @@ function Services() {
                         စီမံခန့်ခွဲခြင်းလုပ်ငန်းစဉ်များ
                         တရားဝင်လည်ပတ်နိုင်ရန်အတွက် Morph ​၏ Business
                         Registration Specialist နှင့်အခမဲ့
-                        တိုင်ပင်ဆွေးနွေးနိုင်ပါသည်။ ကုမ္ပဏီဖွဲ့စည်းခြင်း၊
+                        တိုင်ပင်ဆွေးနွေးနိုင်ပါတယ်။ ကုမ္ပဏီဖွဲ့စည်းခြင်း၊
                         လိုင်စင်လျှောက်ထားမှုများ၊ အခွန်ပြန်လည်ပေးဆောင်မှု၊
                         မူပိုင်ခွင့်မှတ်ပုံတင်မှုများနှင့်
                         အခြားသောစီးပွားရေးမှတ်ပုံတင်ခြင်း ဝန်ဆောင်မှုများကို
-                        ကျွန်ုပ်တို့ ဆောင်ရွက်ပေးပါသည်။
+                        ကျွန်ုပ်တို့ ဆောင်ရွက်ပေးပါတယ်။
                       </div>
                     </div>
                   </a>
@@ -112,7 +112,7 @@ function Services() {
               {/* <BoxReveal boxColor={"#b4530900"} duration={0.5}>
                 <a
                   href="/services/digital"
-                  className="relative group rounded-3xl overflow-hidden h-[440px] md:h-96 w-96 md:w-[500px] lg:w-80 xl:w-[380px] block"
+                  className="relative group rounded-3xl overflow-hidden h-[440px] md:h-96 w-full block"
                 >
                   <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
                   <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center justify-center">
@@ -130,7 +130,7 @@ function Services() {
               <BoxReveal boxColor={"#b4530900"} duration={0.5}>
                 <a
                   href="/services/business"
-                  className="relative group rounded-3xl overflow-hidden h-[440px] md:h-96 w-96 md:w-[500px] lg:w-80 xl:w-[380px] block"
+                  className="relative group rounded-3xl overflow-hidden h-[440px] md:h-96 w-full block"
                 >
                   <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
                   <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center justify-center">

@@ -21,7 +21,7 @@ function GroupClients() {
             အသေးစား၊အလတ်စား စီးပွားရေးလုပ်ငန်းရှင်များ (MSMEs) များ​၏
             ဒီဂျစ်တယ်လိုအပ်ချက်များအားလုံးကို တစ်နေရာတည်းမှဖြေရှင်းနိုင်သော
             ဝန်ဆောင်မှုပေးသည့် Website, Digital Marketing နှင့် Business
-            Registration Services Company တခုဖြစ်သည်။
+            Registration Services Company တခုဖြစ်ပါတယ်။
           </BoxReveal>
         </div>
       </div>

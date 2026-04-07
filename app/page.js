@@ -14,7 +14,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <>
+    <div className="w-full overflow-hidden">
       <Header />
       <main className="bg-white min-h-screen">
         <Hero />
@@ -30,6 +30,6 @@ export default function Home() {
         <Subscribe />
         <Footer />
       </main>
-    </>
+    </div>
   );
 }
