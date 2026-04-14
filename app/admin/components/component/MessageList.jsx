@@ -3,11 +3,9 @@
 import axios from "axios";
 import { useState } from "react";
 import { MdDelete } from "react-icons/md";
-import { FaEdit } from "react-icons/fa";
-// import EditBlogForm from "./EditBlogForm";
 
 const MessageList = ({ messages, setMessages, loading, error }) => {
-  const [editingMessage, setEditingMessage] = useState(null);
+  const [isDeleting, setIsDeleting] = useState(false);
 
   if (loading) {
     return (
@@ -31,90 +29,64 @@ const MessageList = ({ messages, setMessages, loading, error }) => {
     );
   }
 
-  // Ensure messages is an array
   const sortedMessages = Array.isArray(messages)
-    ? [...messages].sort((a, b) => new Date(b.sentAt) - new Date(a.sentAt))
+    ? [...messages].sort(
+        (a, b) =>
+          new Date(b.sentAt || b.createdAt) - new Date(a.sentAt || a.createdAt)
+      )
     : [];
 
   // Handle message deletion
   const handleDelete = async (id) => {
+    if (isDeleting) return;
+    setIsDeleting(true);
     try {
-      await axios.delete(
-        `https://morph-api-server.vercel.app/api/messages/${id}`
-      );
+      await axios.delete(`/api/messages/${id}`);
       setMessages((prevMessages) =>
         prevMessages.filter((message) => message._id !== id)
       );
     } catch (err) {
       console.error("Error deleting message:", err.message);
       alert("Failed to delete the message. Please try again.");
+    } finally {
+      setIsDeleting(false);
     }
   };
 
-  // Edit message
-  const handleEditClick = (message) => {
-    setEditingMessage(message);
-  };
-
-  const handleEditCancel = () => {
-    setEditingMessage(null);
-  };
-
-  const handleEditSubmit = async (updatedMessage) => {
-    try {
-      const response = await axios.put(
-        `https://morph-api-server.vercel.app/api/messages/${updatedMessage._id}`,
-        updatedMessage
-      );
-      setMessages((prevMessages) =>
-        prevMessages.map((message) =>
-          message._id === updatedMessage._id ? response.data : message
-        )
-      );
-      setEditingMessage(null);
-    } catch (err) {
-      console.error("Error updating message:", err.message);
-      alert("Failed to update the message. Please try again.");
-    }
-  };
+  if (!sortedMessages.length) {
+    return (
+      <div className="rounded-3xl border border-slate-200 bg-slate-50 p-8 text-center text-slate-600">
+        <p className="text-lg font-medium text-slate-900 mb-2">No messages yet</p>
+        <p>Messages will appear here after users contact you through the website.</p>
+      </div>
+    );
+  }
 
   return (
-    <div className="max-w-2xl text-black mx-auto">
-      <h2 className="text-2xl font-semibold mb-4">Messages</h2>
+    <div className="space-y-4">
       {sortedMessages.map((message) => (
         <div
           key={message._id}
-          className="bg-white p-6 rounded-lg shadow-md mb-4"
+          className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm"
         >
-          {editingMessage && editingMessage._id === message._id ? (
-            <div>Edit form goes here</div>
-          ) : (
-            <>
-              <h3 className="font-semibold mb-2">Name: {message.name}</h3>
-              <h3 className="font-semibold mb-2">Email: {message.email}</h3>
-              <h3 className="font-semibold mb-2">Phone: {message.phone}</h3>
-              <p className="text-[#6F4E37b1] mb-2 whitespace-pre-wrap">
-                {message.message.substring(0, 100)}...
-              </p>
-              <p className="text-[#6F4E37b1] text-sm">
-                {new Date(message.sentAt).toLocaleDateString()}
-              </p>
-              <div className="flex pt-3">
-                {/* <button
-                  onClick={() => handleEditClick(message)}
-                  className="bg-[#e1c769] rounded-lg text-neutral-100 text-sm px-3 py-1 mr-2 flex items-center gap-1"
-                >
-                  Edit <FaEdit className="text-base" />
-                </button> */}
-                <button
-                  className="bg-red-500 hover:shadow-lg hover:shadow-red-500 duration-300 hover:scale-105 active:scale-90 text-neutral-100 text-sm px-3 py-1 rounded-lg flex items-center gap-1"
-                  onClick={() => handleDelete(message._id)}
-                >
-                  Delete <MdDelete className="text-base" />
-                </button>
-              </div>
-            </>
-          )}
+          <div className="mb-4 space-y-2 text-slate-800">
+            <p className="font-semibold">Name: {message.name}</p>
+            <p className="text-sm text-slate-500">Email: {message.email}</p>
+            {message.phone && <p className="text-sm text-slate-500">Phone: {message.phone}</p>}
+          </div>
+          <p className="text-slate-600 whitespace-pre-wrap">
+            {message.message?.substring(0, 140)}...
+          </p>
+          <div className="mt-4 flex flex-wrap items-center justify-between gap-3 text-sm text-slate-500">
+            <span>{new Date(message.sentAt || message.createdAt).toLocaleDateString()}</span>
+            <button
+              className="inline-flex items-center gap-2 rounded-2xl bg-rose-500 px-4 py-2 text-white transition hover:bg-rose-600 disabled:opacity-70"
+              onClick={() => handleDelete(message._id)}
+              disabled={isDeleting}
+            >
+              <MdDelete className="text-base" /> Delete
+            </button>
+          </div>
         </div>
       ))}
     </div>

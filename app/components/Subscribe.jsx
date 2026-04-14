@@ -1,38 +1,57 @@
 "use client";
 import BoxReveal from "@/components/magicui/box-reveal";
 import TitlePillow from "@/components/TitlePillow";
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import axios from "axios";
 
 function Subscribe() {
   const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-  const [showSuccess, setShowSuccess] = useState(false);
+  const [notice, setNotice] = useState({ message: "", type: "" });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const noticeTimerRef = useRef(null);
+
+  useEffect(() => {
+    return () => {
+      if (noticeTimerRef.current) {
+        clearTimeout(noticeTimerRef.current);
+      }
+    };
+  }, []);
+
+  const showNotice = (message, type) => {
+    setNotice({ message, type });
+
+    if (noticeTimerRef.current) {
+      clearTimeout(noticeTimerRef.current);
+    }
+
+    noticeTimerRef.current = setTimeout(() => {
+      setNotice({ message: "", type: "" });
+    }, 3000);
+  };
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    if (isSubmitting) return;
+
+    const normalizedEmail = email.trim().toLowerCase();
+    if (!normalizedEmail) return;
+
+    setIsSubmitting(true);
 
     try {
-      // Sending POST request to the subscribe API
-      await axios.post("https://morph-api-server.vercel.app/api/subscribes", {
-        email,
+      await axios.post("/api/subscribes", {
+        email: normalizedEmail,
       });
-
-      // Reset form input
       setEmail("");
-
-      // Display success message
-      setMessage("Thank you for subscribing!");
-      setShowSuccess(true);
-      setTimeout(() => {
-        setShowSuccess(false);
-      }, 3000); // Hide after 3 seconds
+      showNotice("Thank you for subscribing!", "success");
     } catch (error) {
-      setMessage("An error occurred. Please try again later.");
-      setShowSuccess(true);
-      setTimeout(() => {
-        setShowSuccess(false);
-      }, 3000); // Hide after 3 seconds
+      const errorMessage =
+        error?.response?.data?.message ||
+        "An error occurred. Please try again later.";
+      showNotice(errorMessage, "error");
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -71,21 +90,30 @@ function Subscribe() {
                 placeholder="Your Email*"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
+                autoComplete="email"
                 className="w-full py-2 px-4 lg:px-5 lg:py-3 outline-none border border-neutral-400 bg- neutral-900 placeholder:text-neutral-400 rounded-full"
               />
             </div>
             <div className="">
               <button
                 type="submit"
+                disabled={isSubmitting}
+                aria-busy={isSubmitting}
                 className="bg-amber-600 hover:bg-amber-700 duration-300 text-neutral-100 py-3 text-sm px-7 font-semibold rounded-full uppercase"
               >
-                Sign Up !
+                {isSubmitting ? "Signing Up..." : "Sign Up !"}
               </button>
             </div>
           </form>
-          {showSuccess && (
-            <div className="fixed z-30 bottom-5 right-5 bg-white border-2 border-amber-900 rounded-lg p-3 text-center text-amber-700 font-bold  animate-slide-in-out">
-              {message}
+          {notice.message && (
+            <div
+              className={`fixed z-30 bottom-5 right-5 bg-white border-2 rounded-lg p-3 text-center font-bold animate-slide-in-out ${
+                notice.type === "success"
+                  ? "border-amber-900 text-amber-700"
+                  : "border-red-700 text-red-700"
+              }`}
+            >
+              {notice.message}
             </div>
           )}
         </div>

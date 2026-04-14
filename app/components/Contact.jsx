@@ -81,9 +81,12 @@ function  Contact() {
                   </div>
                   <div className=" text-black/60">
                     <div className="font-semibold text-[#6f4e37] text-lg">Mail Address :</div>
-                    <div className="text- neutral-600">
-                      morphdigitalsolution@ gmail.com
-                    </div>
+                    <a
+                      href="mailto:morphdigitalsolution@gmail.com"
+                      className="text-neutral-600 hover:text-amber-700 duration-200"
+                    >
+                      morphdigitalsolution@gmail.com
+                    </a>
                   </div>
                 </div>
               </BoxReveal>

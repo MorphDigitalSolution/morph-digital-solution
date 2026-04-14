@@ -21,9 +21,7 @@ function Blog() {
   useEffect(() => {
     async function fetchBlogs() {
       try {
-        const response = await axios.get(
-          "https://morph-api-server.vercel.app/api/blogs"
-        );
+        const response = await axios.get("/api/blogs");
         setBlogs(response.data);
         console.log(blogs);
       } catch (err) {

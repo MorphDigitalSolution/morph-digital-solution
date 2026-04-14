@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import axios from "axios";
 
 const MessageForm = ({ className }) => {
@@ -7,30 +7,60 @@ const MessageForm = ({ className }) => {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
-  const [showSuccess, setShowSuccess] = useState(false); // State to control success message visibility
+  const [notice, setNotice] = useState({ message: "", type: "" });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const noticeTimerRef = useRef(null);
+
+  useEffect(() => {
+    return () => {
+      if (noticeTimerRef.current) {
+        clearTimeout(noticeTimerRef.current);
+      }
+    };
+  }, []);
+
+  const showNotice = (text, type) => {
+    setNotice({ message: text, type });
+    if (noticeTimerRef.current) {
+      clearTimeout(noticeTimerRef.current);
+    }
+    noticeTimerRef.current = setTimeout(() => {
+      setNotice({ message: "", type: "" });
+    }, 3000);
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (isSubmitting) return;
 
-    const newBlog = { name, email, phone, message };
+    const newMessage = {
+      name: name.trim(),
+      email: email.trim().toLowerCase(),
+      phone: phone.trim(),
+      message: message.trim(),
+    };
+
+    if (!newMessage.name || !newMessage.email || !newMessage.phone) {
+      return;
+    }
+
+    setIsSubmitting(true);
 
     try {
-      const res = await axios.post(
-        "https://morph-api-server.vercel.app/api/messages",
-        newBlog
-      );
+      await axios.post("/api/messages", newMessage);
       setName("");
       setEmail("");
       setPhone("");
       setMessage("");
-
-      // Show success message
-      setShowSuccess(true);
-      setTimeout(() => {
-        setShowSuccess(false);
-      }, 3000); // Hide after 3 seconds
+      showNotice("Message sent successfully!", "success");
     } catch (err) {
-      console.error("Error creating blog:", err.message);
+      const errorMessage =
+        err?.response?.data?.message ||
+        "We could not send your message. Please try again.";
+      showNotice(errorMessage, "error");
+      console.error("Error submitting message:", err.message);
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -50,6 +80,7 @@ const MessageForm = ({ className }) => {
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
+            autoComplete="name"
             className="w-full p-3 rounded-3xl placeholder:text-neutral-500 bg-neutral -950 border-neutral-400 border outline-none"
             required
           />
@@ -60,6 +91,7 @@ const MessageForm = ({ className }) => {
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            autoComplete="email"
             className="w-full p-3 rounded-3xl placeholder:text-neutral-500 bg-neutral -950 border-neutral-400 border outline-none"
             required
           />
@@ -70,6 +102,7 @@ const MessageForm = ({ className }) => {
             type="tel"
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
+            autoComplete="tel"
             className="w-full p-3 rounded-3xl placeholder:text-neutral-500 bg-neutral -950 border-neutral-400 border outline-none"
             required
           />
@@ -84,16 +117,23 @@ const MessageForm = ({ className }) => {
         </div>
         <button
           type="submit"
+          disabled={isSubmitting}
+          aria-busy={isSubmitting}
           className="bg-amber-600 font-semibold text-sm uppercase text-neutral-100 py-3 px-8 rounded-full hover:bg-amber-700 relative z-30"
         >
-          Submit Message
+          {isSubmitting ? "Submitting..." : "Submit Message"}
         </button>
       </form>
 
-      {/* Success message */}
-      {showSuccess && (
-        <div className="fixed z-40 bottom-5 right-5 border-2 bg-white border-amber-900 text-amber-700 px-4 py-2 rounded-lg shadow-lg animate-slide-in-out">
-          Message sent successfully!
+      {notice.message && (
+        <div
+          className={`fixed z-40 bottom-5 right-5 border-2 bg-white px-4 py-2 rounded-lg shadow-lg animate-slide-in-out ${
+            notice.type === "success"
+              ? "border-amber-900 text-amber-700"
+              : "border-red-700 text-red-700"
+          }`}
+        >
+          {notice.message}
         </div>
       )}
     </>

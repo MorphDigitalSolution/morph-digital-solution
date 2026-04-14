@@ -1,5 +1,19 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Environment Setup
+
+Create a local env file from `.env.example` and configure:
+
+- `ADMIN_USERNAME` and `ADMIN_PASSWORD` for admin login.
+- `ADMIN_SESSION_SECRET` for signing secure admin session cookies.
+- `FIREBASE_SERVICE_ACCOUNT_JSON` with your Firebase service account JSON.
+
+This app now uses Firebase Firestore via internal Next.js API routes:
+
+- Public writes: `/api/subscribes` and `/api/messages`
+- Public reads: `/api/blogs` and `/api/blogs/[id]`
+- Admin-only: blog create/update/delete, message/subscriber list + delete
+
 ## Getting Started
 
 First, run the development server:

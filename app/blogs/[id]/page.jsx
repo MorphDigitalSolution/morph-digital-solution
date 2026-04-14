@@ -20,6 +20,8 @@ import {
 import { IoPersonCircle } from "react-icons/io5";
 import { SlCalender } from "react-icons/sl";
 import AboutAuthor from "../components/AboutAuthor";
+import Link from "next/link";
+import Fader from "@/components/magicui/Fader";
 
 const BlogDetail = () => {
   const router = useRouter();
@@ -27,15 +29,15 @@ const BlogDetail = () => {
   const [blog, setBlog] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [recentBlogs, setRecentBlogs] = useState([]);
+  const [blogsLoading, setBlogsLoading] = useState(true);
 
   useEffect(() => {
     if (!id) return; // Ensure that id is available before making the request
 
     const fetchBlog = async () => {
       try {
-        const response = await axios.get(
-          `https://morph-api-server.vercel.app/api/blogs/${id}`
-        );
+        const response = await axios.get(`/api/blogs/${id}`);
         setBlog(response.data);
       } catch (err) {
         setError("Failed to load blog");
@@ -44,7 +46,21 @@ const BlogDetail = () => {
       }
     };
 
+    const fetchRecentBlogs = async () => {
+      try {
+        const response = await axios.get("/api/blogs");
+        // Filter out the current blog and take the first 4 recent posts
+        const filteredBlogs = response.data.filter(b => b._id !== id).slice(0, 4);
+        setRecentBlogs(filteredBlogs);
+      } catch (err) {
+        console.error("Failed to load recent blogs:", err);
+      } finally {
+        setBlogsLoading(false);
+      }
+    };
+
     fetchBlog();
+    fetchRecentBlogs();
   }, [id]);
 
   if (loading)
@@ -106,12 +122,75 @@ const BlogDetail = () => {
                 {new Date(blog.createdAt).toLocaleDateString()}
               </p>
             </div>
-            <AboutAuthor />
+            <AboutAuthor blogs={recentBlogs} loading={blogsLoading} />
           </div>
         </>
       ) : (
         <div>No blog found</div>
       )}
+
+      {/* Recent Posts Section */}
+      {recentBlogs.length > 0 && (
+        <div className="bg-gradient-to-b from-slate-50 to-white py-16">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
+                You Might Also Like
+              </h2>
+              <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+                Discover more articles that might interest you
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+              {blogsLoading ? (
+                // Loading skeleton
+                Array.from({ length: 4 }).map((_, index) => (
+                  <div key={index} className="bg-white rounded-2xl shadow-sm overflow-hidden animate-pulse">
+                    <div className="h-48 bg-slate-200"></div>
+                    <div className="p-4 space-y-3">
+                      <div className="h-5 bg-slate-200 rounded"></div>
+                      <div className="h-4 bg-slate-200 rounded w-3/4"></div>
+                    </div>
+                  </div>
+                ))
+              ) : (
+                recentBlogs.map((recentBlog, index) => (
+                  <Fader key={recentBlog._id || index} duration={0.6}>
+                    <Link
+                      href={`/blogs/${recentBlog._id}`}
+                      className="group bg-white rounded-2xl shadow-sm hover:shadow-xl block overflow-hidden transition-all duration-300 hover:-translate-y-1"
+                    >
+                      <div className="relative overflow-hidden">
+                        <img
+                          loading="lazy"
+                          src={recentBlog.image || "https://morph-digital-mm.vercel.app/img/meeting.png"}
+                          alt={recentBlog.title || "Blog post"}
+                          className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                      </div>
+                      <div className="p-4">
+                        <h3 className="text-lg font-semibold text-slate-900 mb-2 line-clamp-2 group-hover:text-amber-600 transition-colors">
+                          {recentBlog.title}
+                        </h3>
+                        <p className="text-slate-600 text-sm leading-relaxed line-clamp-2 mb-3">
+                          {recentBlog.content?.replace(/<[^>]*>/g, '') || 'Read more about this topic...'}
+                        </p>
+                        <div className="flex items-center justify-between text-xs text-slate-500">
+                          <span className="font-medium">{recentBlog.author || 'Morph Digital'}</span>
+                          <span>{recentBlog.createdAt ? new Date(recentBlog.createdAt).toLocaleDateString() : 'Recent'}</span>
+                        </div>
+                      </div>
+                    </Link>
+                  </Fader>
+                ))
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
       <Footer />
     </>
   );

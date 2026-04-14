@@ -29,19 +29,17 @@ const SubscriberList = ({ subscribers, setSubscribers, loading, error }) => {
     );
   }
 
-  // Ensure subscribers is an array
   const sortedSubscribers = Array.isArray(subscribers)
     ? [...subscribers].sort(
-        (a, b) => new Date(b.subscribedAt) - new Date(a.subscribedAt)
+        (a, b) =>
+          new Date(b.subscribedAt || b.createdAt) -
+          new Date(a.subscribedAt || a.createdAt)
       )
     : [];
 
-  // Handle subscriber deletion
   const handleDelete = async (id) => {
     try {
-      await axios.delete(
-        `https://morph-api-server.vercel.app/api/subscribes/${id}`
-      );
+      await axios.delete(`/api/subscribes/${id}`);
       setSubscribers((prevSubscribers) =>
         prevSubscribers.filter((subscriber) => subscriber._id !== id)
       );
@@ -51,26 +49,34 @@ const SubscriberList = ({ subscribers, setSubscribers, loading, error }) => {
     }
   };
 
+  if (!sortedSubscribers.length) {
+    return (
+      <div className="rounded-3xl border border-slate-200 bg-slate-50 p-8 text-center text-slate-600">
+        <p className="text-lg font-medium text-slate-900 mb-2">No subscribers yet</p>
+        <p>Subscribers will appear here once users sign up for updates.</p>
+      </div>
+    );
+  }
+
   return (
-    <div className="max-w-2xl text-black mx-auto">
-      <h2 className="text-2xl font-semibold mb-4">Subscribers</h2>
+    <div className="space-y-4">
       {sortedSubscribers.map((subscriber) => (
         <div
           key={subscriber._id}
-          className="bg-white p-6 rounded-lg shadow-md mb-4"
+          className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm"
         >
-          <h3 className="font-semibold mb-2">Email: {subscriber.email}</h3>
-          <p className="text-[#6F4E37b1] text-sm">
-            {new Date(subscriber.sentAt).toLocaleDateString()}
-          </p>
-          <div className="flex pt-3">
-            <button
-              className="bg-red-500 hover:shadow-lg hover:shadow-red-500 duration-300 hover:scale-105 active:scale-90 text-neutral-100 text-sm px-3 py-1 rounded-lg flex items-center gap-1"
-              onClick={() => handleDelete(subscriber._id)}
-            >
-              Delete <MdDelete className="text-base" />
-            </button>
+          <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+            <p className="text-slate-900 font-semibold">{subscriber.email}</p>
+            <p className="text-sm text-slate-500">
+              {new Date(subscriber.subscribedAt || subscriber.createdAt).toLocaleDateString()}
+            </p>
           </div>
+          <button
+            className="mt-4 inline-flex items-center gap-2 rounded-2xl bg-rose-500 px-4 py-2 text-sm font-medium text-white transition hover:bg-rose-600"
+            onClick={() => handleDelete(subscriber._id)}
+          >
+            <MdDelete className="text-base" /> Delete
+          </button>
         </div>
       ))}
     </div>

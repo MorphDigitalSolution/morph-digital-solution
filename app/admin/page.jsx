@@ -1,6 +1,5 @@
 // app/admin/page.js
 import Link from "next/link";
-import AdminLayout from "./layout";
 
 export default function AdminPage() {
   return (
