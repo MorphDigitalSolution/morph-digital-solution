@@ -2,46 +2,47 @@
 import React, { useEffect, useState } from "react";
 import { SidebarLink } from "../ui/sidebar";
 import {
-  IconArrowLeft,
-  IconBrandTabler,
   IconMenu2,
-  IconSettings,
-  IconUserBolt,
+  IconLayoutDashboard,
   IconX,
+  IconArticle,
+  IconMessage,
+  IconLogout,
 } from "@tabler/icons-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { cn } from "@/lib/utils";
 import BlogForm from "./BlogForm";
 import BlogList from "./BlogList";
 import axios from "axios";
+import { usePathname } from "next/navigation";
 
 export function MyLayout() {
   const links = [
     {
       label: "Dashboard",
       href: "/admin/dashboard",
-      icon: <IconBrandTabler className="h-5 w-5 flex-shrink-0" />,
+      icon: <IconLayoutDashboard className="h-5 w-5 flex-shrink-0" />,
     },
     {
       label: "Blogs",
       href: "/admin/blog",
-      icon: <IconUserBolt className="h-5 w-5 flex-shrink-0" />,
+      icon: <IconArticle className="h-5 w-5 flex-shrink-0" />,
     },
     {
       label: "Messages",
       href: "/admin/message",
-      icon: <IconSettings className="h-5 w-5 flex-shrink-0" />,
+      icon: <IconMessage className="h-5 w-5 flex-shrink-0" />,
     },
     {
       label: "Logout",
       href: "/login?logout=1",
-      icon: <IconArrowLeft className="h-5 w-5 flex-shrink-0" />,
+      icon: <IconLogout className="h-5 w-5 flex-shrink-0" />,
     },
   ];
 
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900">
@@ -50,7 +51,11 @@ export function MyLayout() {
           <Logo />
           <nav className="mt-10 flex-1 space-y-2">
             {links.map((link, idx) => (
-              <SidebarLink key={idx} link={link} />
+              <SidebarLink
+                key={idx}
+                link={link}
+                active={pathname === link.href}
+              />
             ))}
           </nav>
           <div className="mt-auto">
@@ -74,7 +79,9 @@ export function MyLayout() {
 
         <div className="flex flex-1 flex-col">
           <header className="md:hidden flex items-center justify-between bg-white px-4 py-3 border-b border-slate-200">
-            <div className="text-lg font-semibold text-slate-900">Admin panel</div>
+            <div className="text-lg font-semibold text-slate-900">
+              Admin panel
+            </div>
             <button
               className="rounded-full bg-slate-100 p-2 text-slate-700"
               onClick={() => setOpen(!open)}
@@ -174,8 +181,12 @@ const Dashboard = () => {
       <div className="space-y-8">
         <section className="rounded-3xl bg-white border border-slate-200 p-8 shadow-sm">
           <div>
-            <p className="text-sm uppercase tracking-[0.2em] text-slate-500">Blog admin</p>
-            <h1 className="mt-3 text-3xl font-semibold text-slate-900">Blog management</h1>
+            <p className="text-sm uppercase tracking-[0.2em] text-slate-500">
+              Blog admin
+            </p>
+            <h1 className="mt-3 text-3xl font-semibold text-slate-900">
+              Blog management
+            </h1>
             <p className="mt-2 text-sm text-slate-500 max-w-2xl">
               Use this page to publish or update blog content quickly.
             </p>
@@ -190,13 +201,22 @@ const Dashboard = () => {
 
         <section className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl bg-white border border-slate-200 p-6 shadow-sm">
-            <h2 className="text-xl font-semibold text-slate-900 mb-4">Create a new post</h2>
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">
+              Create a new post
+            </h2>
             <BlogForm addBlog={addBlog} />
           </div>
 
           <div className="rounded-3xl bg-white border border-slate-200 p-6 shadow-sm">
-            <h2 className="text-xl font-semibold text-slate-900 mb-4">All posts</h2>
-            <BlogList blogs={blogs} setBlogs={setBlogs} loading={loading} error={error} />
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">
+              All posts
+            </h2>
+            <BlogList
+              blogs={blogs}
+              setBlogs={setBlogs}
+              loading={loading}
+              error={error}
+            />
           </div>
         </section>
       </div>

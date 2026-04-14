@@ -2,48 +2,49 @@
 import React, { useEffect, useState } from "react";
 import { SidebarLink } from "../ui/sidebar";
 import {
-  IconArrowLeft,
-  IconBrandTabler,
-  IconSettings,
   IconMenu2,
-  IconUserBolt,
+  IconLayoutDashboard,
   IconX,
+  IconArticle,
+  IconMessage,
+  IconLogout,
 } from "@tabler/icons-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { cn } from "@/lib/utils";
 import BlogForm from "./BlogForm";
 import BlogList from "./BlogList";
 import axios from "axios";
 import MessageList from "./MessageList";
 import SubscriberList from "./SubscriberList";
+import { usePathname } from "next/navigation";
 
 export function MyLayout2() {
   const links = [
     {
       label: "Dashboard",
       href: "/admin/dashboard",
-      icon: <IconBrandTabler className="h-5 w-5 flex-shrink-0" />,
+      icon: <IconLayoutDashboard className="h-5 w-5 flex-shrink-0" />,
     },
     {
       label: "Blogs",
       href: "/admin/blog",
-      icon: <IconUserBolt className="h-5 w-5 flex-shrink-0" />,
+      icon: <IconArticle className="h-5 w-5 flex-shrink-0" />,
     },
     {
       label: "Messages",
       href: "/admin/message",
-      icon: <IconSettings className="h-5 w-5 flex-shrink-0" />,
+      icon: <IconMessage className="h-5 w-5 flex-shrink-0" />,
     },
     {
       label: "Logout",
       href: "/login?logout=1",
-      icon: <IconArrowLeft className="h-5 w-5 flex-shrink-0" />,
+      icon: <IconLogout className="h-5 w-5 flex-shrink-0" />,
     },
   ];
 
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900">
@@ -52,7 +53,11 @@ export function MyLayout2() {
           <Logo />
           <nav className="mt-10 flex-1 space-y-2">
             {links.map((link, idx) => (
-              <SidebarLink key={idx} link={link} />
+              <SidebarLink
+                key={idx}
+                link={link}
+                active={pathname === link.href}
+              />
             ))}
           </nav>
           <div className="mt-auto">
@@ -327,7 +332,7 @@ const Dashboard = () => {
 
         {/* Modal for creating new blog */}
         {isModalOpen && (
-          <div className="fixed p-10 inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+          <div className="fixed p-2 inset-0 z-50 flex items-center justify-center bg-white bg-opacity-80 backdrop-blur-md -translate-y-3 scale-105">
             <div className="relative max-w-2xl w-full mx-4 bg-white rounded-3xl shadow-xl">
               <div className="p relative">
                 <button

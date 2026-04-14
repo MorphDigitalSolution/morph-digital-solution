@@ -55,7 +55,7 @@ export const DesktopSidebar = ({ className, children, ...props }) => {
     <aside
       className={cn(
         "h-screen px-6 py-6 hidden md:flex md:flex-col bg-white border-r border-slate-200 w-[280px] flex-shrink-0 overflow-y-auto",
-        className
+        className,
       )}
       {...props}
     >
@@ -69,7 +69,7 @@ export const MobileSidebar = ({ className, children, ...props }) => {
   return (
     <div
       className={cn(
-        "h-10 px-4 py-4 flex flex-row md:hidden items-center justify-between bg-amber-700 text-neutral-100 w-full"
+        "h-10 px-4 py-4 flex flex-row md:hidden items-center justify-between bg-amber-700 text-neutral-100 w-full",
       )}
       {...props}
     >
@@ -91,7 +91,7 @@ export const MobileSidebar = ({ className, children, ...props }) => {
             }}
             className={cn(
               "fixed h-full w-full inset-0 bg-slate-200 dark:bg-neutral-900 p-10 z-[100] flex flex-col justify-between",
-              className
+              className,
             )}
           >
             <div
@@ -108,18 +108,19 @@ export const MobileSidebar = ({ className, children, ...props }) => {
   );
 };
 
-export const SidebarLink = ({ link, className, ...props }) => {
+export const SidebarLink = ({ link, active }) => {
   return (
     <Link
       href={link.href}
-      className={cn(
-        "flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-100 transition duration-150",
-        className
-      )}
-      {...props}
+      className={`flex items-center gap-3 px-3 py-2 rounded-lg transition ${
+        active
+          ? "bg-blue-100 text-blue-600 font-semibold"
+          : "text-slate-600 hover:bg-slate-100"
+      }`}
     >
       {link.icon}
       <span>{link.label}</span>
     </Link>
   );
 };
+
