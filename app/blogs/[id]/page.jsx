@@ -110,9 +110,9 @@ const BlogDetail = () => {
           <div className="max-w-6xl px-5 mx-auto py-10 lg:py-20 grid lg:grid-cols-3 gap-10">
             <div className="lg:col-span-2">
               <img loading="lazy" 
-                src="https://morph-digital-mm.vercel.app/img/meeting.png"
+                src={blog.image || "https://morph-digital-mm.vercel.app/img/logo.png"}
                 alt=""
-                className="w-full rounded-3xl"
+                className="w-full rounded-3xl bg-[#6F4E37b1]"
               />
               <p className="text-neutral-600 mb-2 whitespace-pre-wrap leading-[1.5] py-10">
                 {blog.content}
