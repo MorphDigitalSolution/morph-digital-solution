@@ -15,7 +15,7 @@ import Contact from "../components/Contact";
 function page() {
   return (
     <div>
-      <Header />
+      <Header/>
       <HeroHalf>About Us</HeroHalf>
       <AboutUs />
       {/* <About /> */}
