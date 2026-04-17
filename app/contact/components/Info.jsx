@@ -35,10 +35,10 @@ function ContactInfo() {
             </div>
           </BoxReveal>
         </div>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 py-10 items-center justify-center">
-          <div className="h-full shadow-xl shadow-black/10 rounded-3xl border border-zinc-100 p-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 py-10 items-start justify-center">
+          <div className="shadow-xl shadow-black/10 rounded-3xl border border-zinc-100 p-6">
             <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-              <div className="flex flex-col h-32">
+              <div className="flex flex-col min-h-28">
                 <div className="flex gap-3 pb-3">
                   <div className="">
                     <BiCurrentLocation className="text-5xl" />
@@ -53,21 +53,22 @@ function ContactInfo() {
                   </div>
                 </div>
                 <div className="text-[#6F4E37b1]">
-                  65 လမ်း၊ 105 x 106 လမ်း၊ ချမ်းမြသာစည်မြို့နယ်၊ မန္တလေး
+                  (78) လမ်းမကြီး‌ပေါ် အရှေ့ဘက်ခြမ်း၊ ကျွဲဆည်ကန် (1) လမ်း x (2)
+                  လမ်းကြား၊ ပြည်ကြီးတံခွန်မြို့နယ်၊ မန္တလေး
                 </div>
               </div>
             </BoxReveal>
           </div>
-          <div className="h-full shadow-xl shadow-black/10 rounded-3xl border border-zinc-100 p-6">
+          <div className="shadow-xl shadow-black/10 rounded-3xl border border-zinc-100 p-6">
             <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-              <div className="flex flex-col h-32">
+              <div className="flex flex-col min-h-28">
                 <div className="flex gap-3 pb-3">
                   <div className="">
                     <BiSolidPhoneCall className="text-5xl" />
                   </div>
                   <div className="">
                     <div className="text-sm font-semibold uppercase">
-                      Office Hours
+                      Office Phone
                     </div>
                     <div className="text-lg text-amber-700 font-semibold">
                       Call Us On
@@ -75,18 +76,18 @@ function ContactInfo() {
                   </div>
                 </div>
                 <div className="text-[#6F4E37b1]">Tel: 09 940 004 046</div>
-                <div className="text-[#6F4E37b1]">Mob: 09 940 004 046</div>
+                {/* <div className="text-[#6F4E37b1]">Mob: 09 940 004 046</div> */}
               </div>
             </BoxReveal>
           </div>
-          <div className="h-full shadow-xl shadow-black/10 rounded-3xl border border-zinc-100 p-3">
+          <div className="shadow-xl shadow-black/10 rounded-3xl border border-zinc-100 p-3">
             <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-              <div className="flex flex-col h-32">
+              <div className="min-h-28">
                 <div className="flex gap-3 p-3">
-                  <div className="">
+                  <div>
                     <BiMailSend className="text-5xl" />
                   </div>
-                  <div className="">
+                  <div>
                     <div className="text-sm font-semibold uppercase">
                       Drop a line
                     </div>
@@ -96,15 +97,15 @@ function ContactInfo() {
                   </div>
                 </div>
                 <div className="text-[#6F4E37b1]">
-                  morphdigitalsolution@gmail.com
+                  morphdigitalsolution@gmail .com
                 </div>
                 {/* <div className="text-[#6F4E37b1]">domain@company.com</div> */}
               </div>
             </BoxReveal>
           </div>
-          <div className="h-full shadow-xl shadow-black/10 rounded-3xl border border-zinc-100 p-6">
+          <div className="shadow-xl shadow-black/10 rounded-3xl border border-zinc-100 p-6">
             <BoxReveal boxColor={"#b4530900"} duration={0.5}>
-              <div className="flex flex-col h-32">
+              <div className="flex flex-col min-h-28">
                 <div className="flex gap-3 pb-3">
                   <div className="">
                     <FaClock className="text-5xl p-1" />
@@ -118,9 +119,13 @@ function ContactInfo() {
                     </div>
                   </div>
                 </div>
-                <div className="text-[#6F4E37b1]">Mon – Fri : 9am – 6pm</div>
-                <div className="text-[#6F4E37b1]">Sat : 10am – 4pm</div>
-                <div className="text-[#6F4E37b1]">Sunday (Closed)</div>
+
+                <div className="text-[#6F4E37b1]">
+                  Monday to Saturday : 8.30 am - 5.30 am
+                </div>
+                <div className="text-[#6F4E37b1]">
+                  Sunday & Public Holidays ( Closed )
+                </div>
               </div>
             </BoxReveal>
           </div>

@@ -16,7 +16,7 @@ function Hero() {
       <div className="min-h-screen relative z-20 py-12 lg:py-20 abso lute top-0 left-0 w-full h-full bg-[#422e20]/95 text-neutral-100 flex items-center justify-center">
         <div className="max-w-6xl flex flex-col items-center text-center pt-20 pb-10">
           <BoxReveal boxColor={"#b4530900"} duration={0.2}>
-            <TitlePillow>Digital Solution</TitlePillow>
+            <TitlePillow>Morph Digital Solution</TitlePillow>
           </BoxReveal>
           <BoxReveal boxColor={"#b4530900"} duration={0.2}>
             <div className="text-4xl lg:text-6xl font-extrabold pt-6 px-5">
@@ -26,35 +26,29 @@ function Hero() {
               Services Product Agency
             </div>
           </BoxReveal>
-          <div className="grid lg:grid-cols-2 text-white/85">
-            <div className="px-5 py-3 leading-8 lg:px-10 lg:border-r-2">
-              <BoxReveal
-                className={"text-center lg:text-start"}
-                boxColor={"#b4530900"}
-                duration={0.2}
-              >
-                ကိုယ်ပိုင်စီးပွားရေး စလုပ်မယ့် လုပ်ငန်းသစ် (Startup) လုပ်ငန်း‌
-                တွေ ၊ SME လုပ်ငန်းတွေနဲ့ Healthcare Business လုပ်ငန်းတွေရဲ့
-                Digital လိုအပ်ချက်‌ တွေအားလုံးကို သေချာအထူးပြု‌ လေ့လာပြီး
-                တစ်နေရာတည်းကနေ One Stop Services ပေးနေတဲ့ Website Development
-                Services, AI Powered Digital Marketing Services, Business
-                Registration Services, AI Agent Services နဲ့ AI Chatbot Services
-                ပေးတဲ့  Company တစ်ခုပါရှင့်။
-              </BoxReveal>
+          <BoxReveal boxColor={"#b4530900"} duration={0.2}>
+            <div className="grid lg:grid-cols-2 text-white/85">
+              <div className="px-5 py-3 leading-8 lg:px-10 border-r-2">
+                <div className={"text-center lg:text-start"}>
+                  ကိုယ်ပိုင်စီးပွားရေး စလုပ်မယ့် လုပ်ငန်းသစ် (Startup) လုပ်ငန်း‌
+                  တွေ ၊ SME လုပ်ငန်းတွေနဲ့ Healthcare Business လုပ်ငန်းတွေရဲ့
+                  Digital လိုအပ်ချက်‌ တွေအားလုံးကို သေချာအထူးပြု‌ လေ့လာပြီး
+                  တစ်နေရာတည်းကနေ One Stop Services ပေးနေတဲ့ Website Development
+                  Services, AI Powered Digital Marketing Services, Business
+                  Registration Services, AI Agent Services နဲ့ AI Chatbot
+                  Services ပေးတဲ့  Company တစ်ခုပါရှင့်။
+                </div>
+              </div>
+              <div className="px-5 py-3 leading-8 lg:px-10">
+                <div className={"text-center lg:text-start"}>
+                  Morph Digital Solution က မြန်မာနိုင်ငံတွင်
+                  တရားဝင်လုပ်ငန်းလည်ပတ်နေတဲ့ DICA Registered Company, SME
+                  Certified Company, Online Sales Certified ရရှိထားတဲ့ Company
+                  တစ်ခုပါရှင့်။
+                </div>
+              </div>
             </div>
-            <div className="px-5 py-3 leading-8 lg:px-10">
-              <BoxReveal
-                className={"text-center lg:text-start"}
-                boxColor={"#b4530900"}
-                duration={0.2}
-              >
-                Morph Digital Solution က မြန်မာနိုင်ငံတွင်
-                တရားဝင်လုပ်ငန်းလည်ပတ်နေတဲ့ DICA Registered Company, SME
-                Certified Company, Online Sales Certified ရရှိထားတဲ့ Company
-                တစ်ခုပါရှင့်။
-              </BoxReveal>
-            </div>
-          </div>
+          </BoxReveal>
           <div className="lg:px-24 p-4 text-lg lg:text-xl">
             <BoxReveal boxColor={"#b4530900"} duration={0.2}>
               Your Strategic Digital Transformation Growth Partner for Startup,

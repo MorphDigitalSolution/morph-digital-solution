@@ -13,9 +13,9 @@ export async function GET() {
     const blogs = snapshot.docs.map((doc) => {
       const data = doc.data();
       return {
+        ...data,
         id: doc.id,
         _id: doc.id,
-        ...data,
         createdAt:
           data.createdAt?.toDate?.()?.toISOString?.() ?? new Date().toISOString(),
       };
@@ -34,7 +34,7 @@ export async function POST(request) {
   }
 
   try {
-    const { title, content, author } = await request.json();
+    const { title, content, author, image } = await request.json();
     if (!title?.trim() || !content?.trim() || !author?.trim()) {
       return NextResponse.json({ message: "All fields are required." }, { status: 400 });
     }
@@ -44,6 +44,7 @@ export async function POST(request) {
       title: title.trim(),
       content: content.trim(),
       author: author.trim(),
+      image: typeof image === "string" ? image.trim() : "",
       createdAt: admin.firestore.FieldValue.serverTimestamp(),
     };
     const created = await db.collection("blogs").add(payload);
@@ -52,9 +53,9 @@ export async function POST(request) {
 
     return NextResponse.json(
       {
+        ...createdData,
         id: created.id,
         _id: created.id,
-        ...createdData,
         createdAt:
           createdData?.createdAt?.toDate?.()?.toISOString?.() ?? new Date().toISOString(),
       },

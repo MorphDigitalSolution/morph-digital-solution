@@ -2,9 +2,22 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation"; // Import usePathname
-import { FaCross, FaFacebook, FaLinkedin, FaTelegram, FaViber } from "react-icons/fa";
+import {
+  FaCross,
+  FaFacebook,
+  FaFacebookMessenger,
+  FaLinkedin,
+  FaTelegram,
+  FaTiktok,
+  FaViber,
+} from "react-icons/fa";
 import { HiMenuAlt3 } from "react-icons/hi";
-import { BiCross, BiCrosshair, BiLogoGmail, BiMenuAltRight } from "react-icons/bi";
+import {
+  BiCross,
+  BiCrosshair,
+  BiLogoGmail,
+  BiMenuAltRight,
+} from "react-icons/bi";
 import { RiCloseLargeLine } from "react-icons/ri";
 
 function Header() {
@@ -45,18 +58,15 @@ function Header() {
             href="/"
             className="flex items-center text-xl lg:text-2xl font-semibold uppercase"
           >
-            <img loading="lazy" 
+            <img
+              loading="lazy"
               src="https://morph-digital-mm.vercel.app/img/logo-sm.png"
               alt=""
               className={`h-8 lg:h-10 duration-300 ${
                 isScrolled ? "invert" : "invert-0"
               }`}
             />
-            <div
-              className={`ps-1 ${
-                isScrolled ? "text-black" : ""
-              }`}
-            >
+            <div className={`ps-1 ${isScrolled ? "text-black" : ""}`}>
               MORPH
             </div>
             <div className="font-bold text-amber-700 text-4xl pb-2">.</div>
@@ -83,17 +93,14 @@ function Header() {
           </div>
           <div className="hidden lg:flex gap-8 items-center">
             <div className="flex gap-5 items-center">
-              <a
-                href="https://www.facebook.com/morphwebsiteanddigitalmarketing?mibextid=LQQJ4d"
-                className=""
-              >
+              <a href="https://www.facebook.com/share/17BHk5ghBY/" className="">
                 <FaFacebook className="text-lg hover:text-amber-600" />
               </a>
-              <a href="https://t.me/myanmardigitalmarketing" className="">
-                <FaTelegram className="text-lg hover:text-amber-600" />
-              </a>
-              <a href="mailto:morphdigitalsolution@gmail.com" className="">
-                <BiLogoGmail className="text-lg hover:text-amber-600" />
+              <a
+                href="https://www.tiktok.com/@digitalmarketingmyanmar?_r=1&_t=ZS-95aN3p18h6t"
+                className=""
+              >
+                <FaTiktok className="hover:text-amber-600" />
               </a>
               <a
                 href="https://www.linkedin.com/company/morphwebsiteanddigitalmarketing/"
@@ -101,6 +108,15 @@ function Header() {
               >
                 <FaLinkedin className="text-lg hover:text-amber-600" />
               </a>
+              <a href="https://m.me/morphdigitalsolution1" className="">
+                <FaFacebookMessenger className="text-lg hover:text-amber-600" />
+              </a>
+              <a href="https://t.me/myanmardigitalmarketing" className="">
+                <FaTelegram className="text-lg hover:text-amber-600" />
+              </a>
+              {/* <a href="mailto:morphdigitalsolution@gmail.com" className="">
+                <BiLogoGmail className="text-lg hover:text-amber-600" />
+              </a> */}
               <a
                 href="https://invite.viber.com/?g2=AQAgAG9pwjGLolMltWVlDjneT1ei5C0j6vSIc0NBjm%2FTxaO4nZQM1jJVi3jBPHmy"
                 className=""
@@ -141,7 +157,8 @@ function Header() {
           >
             <RiCloseLargeLine />
           </button>
-          <img loading="lazy" 
+          <img
+            loading="lazy"
             src="https://morph-digital-mm.vercel.app/img/logo.png"
             alt=""
             className="h-24 brightness-0"
@@ -157,7 +174,7 @@ function Header() {
               >
                 {path === "/" ? "Home" : path.substring(1)}
               </Link>
-            )
+            ),
           )}
         </div>
       </div>

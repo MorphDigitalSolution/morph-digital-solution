@@ -23,20 +23,23 @@ function page() {
         <div className="absolute w-full h-full top-0 left-0"></div>
         <div className="max-w-7xl relative mx-auto lg:grid lg:grid-cols-2 py-10">
           <div className="relative h-full min-h-[500px]">
-            <img loading="lazy" 
-              src="img/about1.png"
+            <img
+              loading="lazy"
+              src="img/g3.jpg"
               alt=""
-              className="absolute border-[12px] border-white top-5 right-2 h-[300px] lg:h-[480px] rounded-[40px] aspect-[3/4] object-cover"
+              className="absolute z-[1] border-[12px] border-white right-2 h-[300px] lg:h-[480px] rounded-[40px] aspect-[3/4] object-cover"
             />
-            <img loading="lazy" 
-              src="img/about2.png"
+            <img
+              loading="lazy"
+              src="img/g4.jpg"
               alt=""
-              className="absolute border-[12px] border-white bottom-10 lg:bottom-0 left-16 lg:left-28 h-[200px] lg:h-[280px] rounded-[40px]"
+              className="absolute z-[2] border-[12px] border-white bottom-10 lg:bottom-0 left-16 lg:left-28 h-[200px] lg:h-[280px] rounded-[40px]"
             />
-            <img loading="lazy" 
-              src="img/poster.jpg"
+            <img
+              loading="lazy"
+              src="img/g1.jpg"
               alt=""
-              className="absolute border-[12px] border-white top-28 lg:top-24 left-5 lg:left-10 h-[200px] lg:h-[290px] aspect-square object-cover rounded-full"
+              className="absolute z-[3] border-[12px] border-white top-28 lg:top-8 left-5 lg:left-10 h-[200px] lg:h-[290px] aspect-square object-cover rounded-full"
             />
           </div>
           <div className="px-8 lg:px-16 lg:pt-20 lg:pb-5">
@@ -236,20 +239,23 @@ function page() {
             </div>
           </div>
           <div className="relative h-full min-h-[500px] lg:col-span-2">
-            <img loading="lazy" 
-              src="img/explain.png"
+            <img
+              loading="lazy"
+              src="img/g5.jpg"
               alt=""
               className="absolute border-[12px] border-white top-10 left-5 lg:-left-10 h-[300px] lg:h-[480px] rounded-[40px] aspect-[3/4] object-cover"
             />
-            <img loading="lazy" 
-              src="img/meeting.png"
+            <img
+              loading="lazy"
+              src="img/g2.jpg"
               alt=""
-              className="absolute border-[12px] border-white bottom-10 left-12 h-[200px] lg:h-[280px] rounded-[40px]"
+              className="absolute border-[12px] border-white bottom-10 right-5 h-[200px] lg:h-[280px] rounded-[40px]"
             />
-            <img loading="lazy" 
-              src="img/office.jpeg"
+            <img
+              loading="lazy"
+              src="img/g6.jpg"
               alt=""
-              className="absolute border-[12px] border-white top-28 lg:top-24 right-5 lg:right-8 h-[200px] lg:h-[290px] aspect-square object-cover rounded-full"
+              className="absolute border-[12px] border-white top-20 lg:top-16 right-0 lg:-right-5 h-[200px] lg:h-[290px] aspect-square object-cover rounded-full"
             />
           </div>
         </div>

@@ -54,11 +54,11 @@ function Blog() {
                 // Show 4 skeleton cards for loading state
                 Array.from({ length: 4 }).map((_, index) => (
                   <div key={index} className="bg-white rounded-2xl shadow-sm overflow-hidden animate-pulse">
-                    <div className="h-48 bg-slate-200"></div>
+                    <div className="h-48 bg-neutral-200"></div>
                     <div className="p-6 space-y-3">
-                      <div className="h-6 bg-slate-200 rounded"></div>
-                      <div className="h-4 bg-slate-200 rounded"></div>
-                      <div className="h-4 bg-slate-200 rounded w-3/4"></div>
+                      <div className="h-6 bg-neutral-200 rounded"></div>
+                      <div className="h-4 bg-neutral-200 rounded"></div>
+                      <div className="h-4 bg-neutral-200 rounded w-3/4"></div>
                     </div>
                   </div>
                 ))

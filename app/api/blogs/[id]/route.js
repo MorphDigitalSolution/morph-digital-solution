@@ -33,7 +33,7 @@ export async function PUT(request, { params }) {
   }
 
   try {
-    const { title, content, author } = await request.json();
+    const { title, content, author, image } = await request.json();
     if (!title?.trim() || !content?.trim() || !author?.trim()) {
       return NextResponse.json({ message: "All fields are required." }, { status: 400 });
     }
@@ -45,11 +45,17 @@ export async function PUT(request, { params }) {
       return NextResponse.json({ message: "Blog not found." }, { status: 404 });
     }
 
-    await ref.update({
+    const updatePayload = {
       title: title.trim(),
       content: content.trim(),
       author: author.trim(),
-    });
+    };
+
+    if (typeof image === "string") {
+      updatePayload.image = image.trim();
+    }
+
+    await ref.update(updatePayload);
 
     const updated = await ref.get();
     const data = updated.data();

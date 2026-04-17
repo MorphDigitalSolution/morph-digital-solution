@@ -28,7 +28,11 @@ function Services() {
               </div>
             </BoxReveal> */}
             <div className="flex flex-col lg:flex-row w-full mt-5 md:gap-0 xl:gap-0 items-center justify-center">
-              <BoxReveal className={'w-full'} boxColor={"#b4530900"} duration={0.5}>
+              <BoxReveal
+                className={"w-full"}
+                boxColor={"#b4530900"}
+                duration={0.5}
+              >
                 <div className="py-8 px-4 w-full">
                   <a
                     href="/services/web"
@@ -36,7 +40,8 @@ function Services() {
                   >
                     <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
                     <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center text-center justify-center">
-                      <img loading="lazy" 
+                      <img
+                        loading="lazy"
                         src="img/chart.svg"
                         alt=""
                         className="size-24 group-hover:brightness-0 group-hover:invert pt-5"
@@ -58,7 +63,11 @@ function Services() {
                   </a>
                 </div>
               </BoxReveal>
-              <BoxReveal className={'w-full'} boxColor={"#b4530900"} duration={0.5}>
+              <BoxReveal
+                className={"w-full"}
+                boxColor={"#b4530900"}
+                duration={0.5}
+              >
                 <div className="py-8 px-4 w-full">
                   <a
                     href="/services/digital"
@@ -66,7 +75,12 @@ function Services() {
                   >
                     <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
                     <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center text-center justify-center">
-                      <img loading="lazy"  src="img/marketing.svg" alt="" className="size-24 group-hover:brightness-0 group-hover:invert" />
+                      <img
+                        loading="lazy"
+                        src="img/marketing.svg"
+                        alt=""
+                        className="size-24 group-hover:brightness-0 group-hover:invert"
+                      />
                       <div className="text-2xl group-hover:text-white text-[#6F4E37] font-semibold">
                         Digital Marketing
                       </div>
@@ -82,7 +96,11 @@ function Services() {
                   </a>
                 </div>
               </BoxReveal>
-              <BoxReveal className={'w-full'} boxColor={"#b4530900"} duration={0.5}>
+              <BoxReveal
+                className={"w-full"}
+                boxColor={"#b4530900"}
+                duration={0.5}
+              >
                 <div className="py-8 px-4 w-full">
                   <a
                     href="/services/business"
@@ -90,7 +108,12 @@ function Services() {
                   >
                     <div className="absolute z-0 -top-1/3 right-1/2 translate-x-1/2 rounded-full size-48 bg-neutral-800 opacity-0"></div>
                     <div className="absolute w-full h-full top-0 left-0 p-5 bg- black/30 flex flex-col items-center text-center justify-center">
-                      <img loading="lazy"  src="img/business.svg" alt="" className="size-24 group-hover:brightness-0 group-hover:invert" />
+                      <img
+                        loading="lazy"
+                        src="img/business.svg"
+                        alt=""
+                        className="size-24 group-hover:brightness-0 group-hover:invert"
+                      />
                       <div className="text-2xl group-hover:text-white text-[#6F4E37] font-semibold">
                         Business Registration
                       </div>
@@ -98,7 +121,7 @@ function Services() {
                         စီးပွားရေး စတင်ခြင်းနှင့်
                         စီမံခန့်ခွဲခြင်းလုပ်ငန်းစဉ်များ
                         တရားဝင်လည်ပတ်နိုင်ရန်အတွက် Morph ​၏ Business
-                        Registration Specialist နှင့်အခမဲ့
+                        Registration Consultant နှင့်အခမဲ့
                         တိုင်ပင်ဆွေးနွေးနိုင်ပါတယ်။ ကုမ္ပဏီဖွဲ့စည်းခြင်း၊
                         လိုင်စင်လျှောက်ထားမှုများ၊ အခွန်ပြန်လည်ပေးဆောင်မှု၊
                         မူပိုင်ခွင့်မှတ်ပုံတင်မှုများနှင့်

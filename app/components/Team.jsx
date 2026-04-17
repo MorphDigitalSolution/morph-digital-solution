@@ -1,13 +1,6 @@
 import BoxReveal from "@/components/magicui/box-reveal";
 import TitlePillow from "@/components/TitlePillow";
 import React from "react";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
-  FaTelegram,
-  FaTwitter,
-} from "react-icons/fa";
 
 function Team() {
   return (

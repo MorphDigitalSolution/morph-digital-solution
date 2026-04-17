@@ -1,22 +1,27 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-const BlogForm = ({ addBlog }) => {
+const BlogForm = ({ addBlog, onSubmit }) => {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
   const [author, setAuthor] = useState("");
+  const [image, setImage] = useState("");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const newBlog = { title, content, author };
+    const newBlog = { title, content, author, image };
+    const handleSuccess = addBlog || onSubmit;
 
     try {
       const res = await axios.post("/api/blogs", newBlog);
-      addBlog(res.data); // Add new blog to the list
+      if (typeof handleSuccess === "function") {
+        handleSuccess(res.data);
+      }
       setTitle("");
       setContent("");
       setAuthor("");
+      setImage("");
     } catch (err) {
       console.error("Error creating blog:", err.message);
     }
@@ -61,6 +66,17 @@ const BlogForm = ({ addBlog }) => {
             onChange={(e) => setAuthor(e.target.value)}
             className="w-full rounded-3xl border border-slate-200 bg-slate-50 px-4 py-3 text-slate-900 shadow-sm outline-none focus:border-slate-400 focus:ring-2 focus:ring-slate-200"
             required
+          />
+        </div>
+
+        <div className="space-y-4">
+          <label className="text-sm font-medium text-slate-600">Image URL</label>
+          <input
+            type="url"
+            value={image}
+            onChange={(e) => setImage(e.target.value)}
+            className="w-full rounded-3xl border border-slate-200 bg-slate-50 px-4 py-3 text-slate-900 shadow-sm outline-none focus:border-slate-400 focus:ring-2 focus:ring-slate-200"
+            placeholder="https://example.com/image.jpg"
           />
         </div>
 

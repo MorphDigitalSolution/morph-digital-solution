@@ -18,14 +18,17 @@ function GroupClients() {
         </BoxReveal>
         <div className="lg:px-24 p-4 mx-auto max-w-5xl px-5">
           <BoxReveal boxColor={"#b4530900"} duration={0.2}>
-            အသေးစား၊အလတ်စား စီးပွားရေးလုပ်ငန်းရှင်များ (MSMEs) များ​၏
-            ဒီဂျစ်တယ်လိုအပ်ချက်များအားလုံးကို တစ်နေရာတည်းမှဖြေရှင်းနိုင်သော
-            ဝန်ဆောင်မှုပေးသည့် Website, Digital Marketing နှင့် Business
-            Registration Services Company တခုဖြစ်ပါတယ်။
+            ကိုယ်ပိုင်စီးပွားရေး စလုပ်မယ့် လုပ်ငန်းသစ် (Startup) လုပ်ငန်း‌ တွေ ၊
+            SME လုပ်ငန်းတွေနဲ့ Healthcare Business လုပ်ငန်းတွေရဲ့ Digital
+            လိုအပ်ချက်‌ တွေအားလုံးကို သေချာအထူးပြု‌ လေ့လာပြီး တစ်နေရာတည်းကနေ One
+            Stop Services ပေးနေတဲ့ Website Development Services, AI Powered
+            Digital Marketing System Services, Business Registration Services,
+            AI Agent Services နဲ့ AI Chatbot Services ပေး‌နေတဲ့ Company တစ်ခု
+            ဖြစ်ပါတယ်။
           </BoxReveal>
         </div>
       </div>
-      <img loading="lazy"  src="img/clientsGroup.png" alt="" className="" />
+      <img loading="lazy" src="img/clientsGroup.png" alt="" className="" />
     </div>
   );
 }

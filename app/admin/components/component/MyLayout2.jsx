@@ -353,7 +353,7 @@ const Dashboard = () => {
                     />
                   </svg>
                 </button>
-                <BlogForm onSubmit={addBlog} loading={loading} error={error} />
+                <BlogForm addBlog={addBlog} loading={loading} error={error} />
               </div>
             </div>
           </div>

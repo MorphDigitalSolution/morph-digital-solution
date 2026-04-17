@@ -3,11 +3,13 @@ import React from "react";
 import { BiCurrentLocation, BiLogoGmail } from "react-icons/bi";
 import {
   FaFacebook,
+  FaFacebookMessenger,
   FaInstagram,
   FaLinkedin,
   FaMailBulk,
   FaPhone,
   FaTelegram,
+  FaTiktok,
   FaTwitter,
   FaViber,
 } from "react-icons/fa";
@@ -17,10 +19,11 @@ function Footer() {
     <div className="relative overflow-hidden bg-blend-difference bg-left bg-repeat-x bg-[url(https://demo.bosathemes.com/agence/wp-content/uploads/sites/35/2022/11/agency-img3.png)] bg-neutral-900">
       <div className="w-full h-full bg-amber-700 pt-20 text-neutral-100">
         <div className="max-w-7xl mx-auto lg:px-16">
-          <div className="grid grid-cols-2 lg:grid-cols-9 px-5 pb-10 lg:gap-x-10 gap-y-5">
-            <div className="col-span-2 lg:col-span-2">
+          <div className="grid grid-cols-2 lg:grid-cols-12 px-5 pb-10 lg:gap-x-10 gap-y-5">
+            <div className="col-span-2 lg:col-span-4">
               <div className="flex items-center text-2xl lg:text-2xl font-semibold uppercase">
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="https://morph-digital-mm.vercel.app/img/logo-sm.png"
                   alt=""
                   className={`h-8 lg:h-10 duration-300`}
@@ -29,14 +32,32 @@ function Footer() {
                 <div className="font-bold text-amber-700 text-4xl pb-2">.</div>
               </div>
               <div className="pe-8 py-2 text-sm">
-              One Stop Digital Solution Service Company
+                One Stop Digital Solution Services Product Agency
               </div>
               <div className="flex gap-3 pt-3">
                 <a
-                  href="https://www.facebook.com/morphwebsiteanddigitalmarketing?mibextid=LQQJ4d"
+                  href="https://www.facebook.com/share/17BHk5ghBY/"
                   className="bg-black/20 hover:bg-amber-700 duration-300 size-10 flex items-center justify-center rounded-full"
                 >
                   <FaFacebook className="text-lg" />
+                </a>
+                <a
+                  href="https://www.tiktok.com/@digitalmarketingmyanmar?_r=1&_t=ZS-95aN3p18h6t"
+                  className="bg-black/20 hover:bg-amber-700 duration-300 size-10 flex items-center justify-center rounded-full"
+                >
+                  <FaTiktok className="" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/morphwebsiteanddigitalmarketing/"
+                  className="bg-black/20 hover:bg-amber-700 duration-300 size-10 flex items-center justify-center rounded-full"
+                >
+                  <FaLinkedin className="text-lg" />
+                </a>
+                <a
+                  href="https://m.me/morphdigitalsolution1"
+                  className="bg-black/20 hover:bg-amber-700 duration-300 size-10 flex items-center justify-center rounded-full"
+                >
+                  <FaFacebookMessenger className="text-lg" />
                 </a>
                 <a
                   href="https://t.me/myanmardigitalmarketing"
@@ -49,12 +70,6 @@ function Footer() {
                   className="bg-black/20 hover:bg-amber-700 duration-300 size-10 flex items-center justify-center rounded-full"
                 >
                   <FaViber className="text-lg" />
-                </a>
-                <a
-                  href="https://www.linkedin.com/company/morphwebsiteanddigitalmarketing/"
-                  className="bg-black/20 hover:bg-amber-700 duration-300 size-10 flex items-center justify-center rounded-full"
-                >
-                  <FaLinkedin className="text-lg" />
                 </a>
               </div>
             </div>
@@ -89,7 +104,7 @@ function Footer() {
                 </Link>
               </div>
             </div>
-            <div className="col-span-2 lg:col-span-3">
+            <div className="col-span-2 lg:col-span-4">
               <div className="pb-1 text-xl font-semibold">
                 Contact Information
               </div>
@@ -97,7 +112,8 @@ function Footer() {
               <div className="flex gap-3 flex-col pt-3">
                 <div className="flex gap-2">
                   <BiCurrentLocation className=" border border-neutral-50/20 p-1 text-2xl rounded-full" />
-                  65 လမ်း၊ 105 x 106 လမ်း၊ ချမ်းမြသာစည်မြို့နယ်၊ မန္တလေး
+                  (78) လမ်းမကြီး‌ပေါ် အရှေ့ဘက်ခြမ်း၊ ကျွဲဆည်ကန် (1) လမ်း x (2)
+                  လမ်းကြား၊ ပြည်ကြီးတံခွန်မြို့နယ်၊ မန္တလေး
                 </div>
                 <a href="tel:+959940004046" className="flex gap-2">
                   <FaPhone className=" border border-neutral-50/20 p-1 text-2xl rounded-full" />
