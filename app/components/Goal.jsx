@@ -14,9 +14,9 @@ function Goal() {
                 className="h-[400px] inv ert translate-y-2 bg-[#6F4E37]"
               /> */}
               <div className="size-96 bg-[#6f4e3751] rounded-full"></div>
-              <div className="absolute w-full h-full top-0 left-0 flex flex-col justify-center items-center text-center">
+              <div className="absolute w-full h-full top-0 left-0 flex flex-col justify-center items-center text-center lg:pt-12">
                 <TitlePillow>Our Goal</TitlePillow>
-                <div className="text-3xl lg:text-4xl font-extrabold py-3 px-5 capitalize text-[#6F4E37]">
+                <div className="text-3xl lg:text-[2.8rem] lg:leading-[1.2] font-extrabold py-3 px-5 capitalize text-[#6F4E37]">
                   <span className="text-amber-600">Vision & Mission </span>
                   we aim for you!
                 </div>
@@ -24,16 +24,16 @@ function Goal() {
             </div>
           </div>
           <div className="p-8 lg:col-span-4 text-lg">
-            <div className="text-xl lg:text-2xl pt-2 pb-1 font-semibold text-[#6F4E37]">
-              ✅ Our Vision
+            <div className="text-xl lg:text-3xl pt-2 pb-1 font-semibold text-[#6F4E37]">
+              Our Vision
             </div>
             <div className="">
               To become one of Myanmar’s most trusted Strategic Digital
               Transformation Growth Partners for Startup, SME & Healthcare
               Businesses.
             </div>
-            <div className="text-xl lg:text-2xl pt-2 pb-1 font-semibold text-[#6F4E37]">
-              ✅ Our Mission
+            <div className="text-xl lg:text-3xl pt-2 pb-1 font-semibold text-[#6F4E37] mt-6">
+              Our Mission
             </div>
             <div className="">
               To simplify Digital Transformation by delivering Reliable,
@@ -43,8 +43,8 @@ function Goal() {
             </div>
           </div>
           <div className="p-8 lg:col-span-4 text-lg">
-            <div className="text-xl lg:text-2xl pt-2 pb-1 font-semibold text-[#6F4E37]">
-              ✅ Our Values
+            <div className="text-xl lg:text-3xl pt-2 pb-1 font-semibold text-[#6F4E37]">
+              Our Values
             </div>
             <ul className="">
               <li>
