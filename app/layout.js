@@ -2,7 +2,7 @@
 import { useEffect, useRef } from "react";
 import Lenis from "@studio-freight/lenis";
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/next";
 import ClientScripts from "./components/ClientScript";
 
 export default function RootLayout({ children }) {
